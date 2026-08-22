@@ -249,18 +249,18 @@ def show_problem_rows(df):
 
     if len(missing_lv1):
         print("\n--- rows missing level_1_code ---")
-       #print(tabulate(missing_lv1, headers='keys', tablefmt='psql', showindex=False))
-        display(missing_lv1)
+        print(tabulate(missing_lv1, headers='keys', tablefmt='psql', showindex=False))
+        #display(missing_lv1)
 
     if len(missing_lv2):
         print("\n--- rows missing level_2_code ---")
-        #print(tabulate(missing_lv2, headers='keys', tablefmt='psql', showindex=False))
-        display(missing_lv2)
+        print(tabulate(missing_lv2, headers='keys', tablefmt='psql', showindex=False))
+        #display(missing_lv2)
 
     if len(duplicates):
         print("\n--- duplicated level_1_code/level_2_code rows ---")
-        #print(tabulate(duplicates, headers='keys', tablefmt='psql', showindex=False))
-        display(duplicates)
+        print(tabulate(duplicates, headers='keys', tablefmt='psql', showindex=False))
+        #display(duplicates)
     
 
 def save(df):
