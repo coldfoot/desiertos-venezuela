@@ -18,6 +18,8 @@ def apply_naming_pairs(df, code_col, name_col, naming_pairs):
     """
     Overwrite gdf[name_col] with naming_pairs[gdf[code_col]] wherever a match exists.
     Unmatched rows keep their original value, tagged with " <inherited>".
+    TO DO: this was done while the data was still not ready. After all the CSVs are
+    final and done, we can remove the <inherited> tags and trust to have the correct names.
     """
     df_ = df.copy()
     df_[name_col] = df_[code_col].map(naming_pairs).fillna(df_[name_col] + " <inherited>")
