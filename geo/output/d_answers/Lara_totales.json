@@ -1,0 +1,70 @@
+{
+  "formato": {
+    "Canal o grupo de mensajería en Whatsapp": 14,
+    "Canal o grupo de mensajería en Telegram": 10,
+    "Cuenta en Instagram": 20,
+    "Cuenta en Facebook": 15,
+    "Cuenta en TikTok": 12,
+    "Cuenta en X": 18,
+    "Cuenta en Youtube": 14,
+    "Periódico (impreso)": 4,
+    "Periodismo cara a cara": 3,
+    "Podcast": 1,
+    "Portal web de noticias": 16,
+    "Radio (AM o FM)": 8,
+    "Radio transmitida vía web": 5,
+    "TV (señal abierta o cable)": 3,
+    "TV transmitida vía web": 3,
+    "No se maneja esta información": 0,
+    "Otro": 0
+  },
+  "naturaleza_legal": {
+    "Comunitario": 0,
+    "Estatal": 0,
+    "Privado": 13,
+    "Organización sin fines de lucro (asociación civil, fundación, ONG)": 7,
+    "Cooperativa": 0,
+    "Proyecto u organización sin figura jurídica": 0,
+    "No sabe / Prefiere no responder": 1,
+    "No se maneja esta información": 0,
+    "Otro": 0
+  },
+  "tematicas": {
+    "Arte y cultura local": 9,
+    "Deporte local": 9,
+    "Economía y desarrollo local": 16,
+    "Gobierno y política local": 13,
+    "Investigación y vigilancia al poder": 7,
+    "Medio ambiente y sostenibilidad": 5,
+    "Sucesos, seguridad y convivencia ciudadana": 10,
+    "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 17,
+    "No se maneja esta información": 0,
+    "Otro": 3
+  },
+  "ingresos": {
+    "Aportes monetarios de los fundadores y/o el equipo": 4,
+    "Campañas de financiamiento colectivo (crowdfunding)": 1,
+    "Contenidos puntuales patrocinados": 5,
+    "Donaciones de la audiencia, membresías o suscripciones": 2,
+    "Donaciones de empresas": 1,
+    "Eventos": 2,
+    "Fondos gubernamentales": 0,
+    "Publicidad": 11,
+    "Subvenciones o financiamiento internacional": 7,
+    "Talleres / Capacitaciones": 2,
+    "Venta de productos y servicios": 1,
+    "No hay ninguna fuente de ingresos": 1,
+    "No sabe / Prefiere no responder": 3,
+    "No se maneja esta información": 0,
+    "Otro": 0
+  },
+  "censura": {
+    "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 7,
+    "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 9,
+    "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 6,
+    "No ha enfrentado este tipo de situaciones": 4,
+    "Prefiere no responder": 0,
+    "No se maneja esta información": 2,
+    "Otro": 0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "formato": {
+    "Canal o grupo de mensajería en Whatsapp": 42.9,
+    "Canal o grupo de mensajería en Telegram": 21.4,
+    "Cuenta en Instagram": 100.0,
+    "Cuenta en Facebook": 78.6,
+    "Cuenta en TikTok": 50.0,
+    "Cuenta en X": 64.3,
+    "Cuenta en Youtube": 50.0,
+    "Periódico (impreso)": 7.1,
+    "Periodismo cara a cara": 0.0,
+    "Podcast": 0.0,
+    "Portal web de noticias": 50.0,
+    "Radio (AM o FM)": 21.4,
+    "Radio transmitida vía web": 7.1,
+    "TV (señal abierta o cable)": 7.1,
+    "TV transmitida vía web": 7.1,
+    "No se maneja esta información": 0.0,
+    "Otro": 0.0
+  },
+  "naturaleza_legal": {
+    "Comunitario": 0.0,
+    "Estatal": 0.0,
+    "Privado": 57.1,
+    "Organización sin fines de lucro (asociación civil, fundación, ONG)": 7.1,
+    "Cooperativa": 0.0,
+    "Proyecto u organización sin figura jurídica": 7.1,
+    "No sabe / Prefiere no responder": 7.1,
+    "No se maneja esta información": 21.4,
+    "Otro": 0.0
+  },
+  "tematicas": {
+    "Arte y cultura local": 35.7,
+    "Deporte local": 50.0,
+    "Economía y desarrollo local": 78.6,
+    "Gobierno y política local": 71.4,
+    "Investigación y vigilancia al poder": 7.1,
+    "Medio ambiente y sostenibilidad": 28.6,
+    "Sucesos, seguridad y convivencia ciudadana": 64.3,
+    "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 92.9,
+    "No se maneja esta información": 0.0,
+    "Otro": 0.0
+  },
+  "ingresos": {
+    "Aportes monetarios de los fundadores y/o el equipo": 21.4,
+    "Campañas de financiamiento colectivo (crowdfunding)": 0.0,
+    "Contenidos puntuales patrocinados": 28.6,
+    "Donaciones de la audiencia, membresías o suscripciones": 0.0,
+    "Donaciones de empresas": 0.0,
+    "Eventos": 14.3,
+    "Fondos gubernamentales": 7.1,
+    "Publicidad": 71.4,
+    "Subvenciones o financiamiento internacional": 14.3,
+    "Talleres / Capacitaciones": 0.0,
+    "Venta de productos y servicios": 14.3,
+    "No hay ninguna fuente de ingresos": 0.0,
+    "No sabe / Prefiere no responder": 7.1,
+    "No se maneja esta información": 14.3,
+    "Otro": 0.0
+  },
+  "censura": {
+    "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 28.6,
+    "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 42.9,
+    "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 35.7,
+    "No ha enfrentado este tipo de situaciones": 7.1,
+    "Prefiere no responder": 7.1,
+    "No se maneja esta información": 35.7,
+    "Otro": 0.0
+  }
+}
