@@ -9,7 +9,7 @@ def download_tab_csv(filename, sheet_id, gid, output_dir):
     
     filename = output_dir / filename
 
-    url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&{gid}"
+    url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv&gid={gid}"
     r = requests.get(url)
 
     print(filename)

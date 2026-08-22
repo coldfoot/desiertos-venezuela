@@ -6,6 +6,14 @@ import pandas as pd
 from pprint import pprint
 from tabulate import tabulate
 
+def drop_federal_dependencies(lv1_gdf, lv2_gdf):
+    """
+    Removes Dependencias Federales (VE99) from both geojsons before any renaming happens.
+    """
+    lv1_gdf = lv1_gdf[lv1_gdf['code'] != 'VE99'].reset_index(drop=True)
+    lv2_gdf = lv2_gdf[lv2_gdf['parent_code'] != 'VE99'].reset_index(drop=True)
+    return lv1_gdf, lv2_gdf
+
 
 def build_naming_pairs(df, code_col, name_col):
     """
@@ -30,6 +38,8 @@ def main():
     df = pd.read_csv("../output/b_geomatched.csv")
     lv1_gdf = gpd.read_file("../input/level-1.geojson")
     lv2_gdf = gpd.read_file("../input/level-2.geojson")
+
+    lv1_gdf, lv2_gdf = drop_federal_dependencies(lv1_gdf, lv2_gdf)  # <-- add this line
 
     lv1_naming_pairs = build_naming_pairs(df, 'level_1_code', 'estado')
     lv1_gdf = apply_naming_pairs(lv1_gdf, 'code', 'name', lv1_naming_pairs)
