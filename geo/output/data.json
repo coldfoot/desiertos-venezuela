@@ -8,163 +8,163 @@
         "SMALL_UNIT_COUNT": 366,
         "MATCHED_SMALL_UNIT_COUNT": 366,
         "POPULATION": 28704953,
-        "MEDIOS_TOTAL": 4977,
-        "MEDIOS_URBANOS": 4531,
-        "MEDIOS_RURALES": 2391,
-        "MEDIOS_PLURALES_1FUENTE": 2320,
-        "MEDIOS_PLURALES_2FUENTE": 753,
+        "MEDIOS_TOTAL": 4966,
+        "MEDIOS_URBANOS": 4336,
+        "MEDIOS_RURALES": 2386,
+        "MEDIOS_PLURALES_1FUENTE": 2486,
+        "MEDIOS_PLURALES_2FUENTE": 330,
         "CLASSIFICATION_COUNTS": {
-          "Semidesierto": 123,
-          "Semibosque": 115,
+          "Semidesierto": 200,
           "Desierto": 104,
-          "Bosque": 24
+          "Semibosque": 47,
+          "Bosque": 15
         },
         "CLASSIFICATION_PCT": {
-          "Semidesierto": 0.336,
-          "Semibosque": 0.314,
+          "Semidesierto": 0.546,
           "Desierto": 0.284,
-          "Bosque": 0.066
+          "Semibosque": 0.128,
+          "Bosque": 0.041
         },
-        "RATIO_POP_MEDIOS": 5767.5
+        "RATIO_POP_MEDIOS": 5780.3
       },
       "ANSWERS": {
         "totales": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 331,
-            "Canal o grupo de mensajería en Telegram": 226,
-            "Cuenta en Instagram": 602,
-            "Cuenta en Facebook": 442,
+            "Canal o grupo de mensajería en Whatsapp": 327,
+            "Canal o grupo de mensajería en Telegram": 223,
+            "Cuenta en Instagram": 600,
+            "Cuenta en Facebook": 440,
             "Cuenta en TikTok": 329,
-            "Cuenta en X": 295,
-            "Cuenta en Youtube": 240,
-            "Periódico (impreso)": 45,
-            "Periodismo cara a cara": 51,
-            "Podcast": 41,
-            "Portal web de noticias": 301,
-            "Radio (AM o FM)": 227,
-            "Radio transmitida vía web": 142,
+            "Cuenta en X": 296,
+            "Cuenta en Youtube": 239,
+            "Periódico (impreso)": 44,
+            "Periodismo cara a cara": 52,
+            "Podcast": 40,
+            "Portal web de noticias": 298,
+            "Radio (AM o FM)": 223,
+            "Radio transmitida vía web": 141,
             "TV (señal abierta o cable)": 64,
-            "TV transmitida vía web": 52,
+            "TV transmitida vía web": 50,
             "No se maneja esta información": 0,
             "Otro": 22
           },
           "naturaleza_legal": {
             "Comunitario": 37,
             "Estatal": 27,
-            "Privado": 390,
-            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 57,
+            "Privado": 385,
+            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 58,
             "Cooperativa": 1,
-            "Proyecto u organización sin figura jurídica": 67,
+            "Proyecto u organización sin figura jurídica": 68,
             "No sabe / Prefiere no responder": 15,
-            "No se maneja esta información": 52,
-            "Otro": 11
+            "No se maneja esta información": 51,
+            "Otro": 12
           },
           "tematicas": {
-            "Arte y cultura local": 471,
-            "Deporte local": 446,
-            "Economía y desarrollo local": 490,
-            "Gobierno y política local": 492,
-            "Investigación y vigilancia al poder": 123,
-            "Medio ambiente y sostenibilidad": 272,
-            "Sucesos, seguridad y convivencia ciudadana": 472,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 587,
+            "Arte y cultura local": 467,
+            "Deporte local": 441,
+            "Economía y desarrollo local": 488,
+            "Gobierno y política local": 489,
+            "Investigación y vigilancia al poder": 122,
+            "Medio ambiente y sostenibilidad": 270,
+            "Sucesos, seguridad y convivencia ciudadana": 471,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 584,
             "No se maneja esta información": 1,
             "Otro": 43
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 128,
+            "Aportes monetarios de los fundadores y/o el equipo": 125,
             "Campañas de financiamiento colectivo (crowdfunding)": 9,
-            "Contenidos puntuales patrocinados": 205,
-            "Donaciones de la audiencia, membresías o suscripciones": 14,
+            "Contenidos puntuales patrocinados": 208,
+            "Donaciones de la audiencia, membresías o suscripciones": 15,
             "Donaciones de empresas": 21,
             "Eventos": 35,
             "Fondos gubernamentales": 51,
-            "Publicidad": 443,
-            "Subvenciones o financiamiento internacional": 67,
+            "Publicidad": 446,
+            "Subvenciones o financiamiento internacional": 68,
             "Talleres / Capacitaciones": 24,
-            "Venta de productos y servicios": 43,
+            "Venta de productos y servicios": 42,
             "No hay ninguna fuente de ingresos": 38,
-            "No sabe / Prefiere no responder": 18,
+            "No sabe / Prefiere no responder": 17,
             "No se maneja esta información": 48,
             "Otro": 4
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 141,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 335,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 187,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 140,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 333,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 188,
             "No ha enfrentado este tipo de situaciones": 77,
-            "Prefiere no responder": 33,
+            "Prefiere no responder": 32,
             "No se maneja esta información": 131,
             "Otro": 0
           }
         },
         "porcentajes": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 50.5,
-            "Canal o grupo de mensajería en Telegram": 34.5,
-            "Cuenta en Instagram": 91.8,
+            "Canal o grupo de mensajería en Whatsapp": 50.1,
+            "Canal o grupo de mensajería en Telegram": 34.2,
+            "Cuenta en Instagram": 91.9,
             "Cuenta en Facebook": 67.4,
-            "Cuenta en TikTok": 50.2,
-            "Cuenta en X": 45.0,
+            "Cuenta en TikTok": 50.4,
+            "Cuenta en X": 45.3,
             "Cuenta en Youtube": 36.6,
-            "Periódico (impreso)": 6.9,
-            "Periodismo cara a cara": 7.8,
-            "Podcast": 6.2,
-            "Portal web de noticias": 45.9,
-            "Radio (AM o FM)": 34.6,
+            "Periódico (impreso)": 6.7,
+            "Periodismo cara a cara": 8.0,
+            "Podcast": 6.1,
+            "Portal web de noticias": 45.6,
+            "Radio (AM o FM)": 34.2,
             "Radio transmitida vía web": 21.6,
             "TV (señal abierta o cable)": 9.8,
-            "TV transmitida vía web": 7.9,
+            "TV transmitida vía web": 7.7,
             "No se maneja esta información": 0.0,
             "Otro": 3.4
           },
           "naturaleza_legal": {
-            "Comunitario": 5.6,
+            "Comunitario": 5.7,
             "Estatal": 4.1,
-            "Privado": 59.5,
-            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 8.7,
+            "Privado": 59.0,
+            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 8.9,
             "Cooperativa": 0.2,
-            "Proyecto u organización sin figura jurídica": 10.2,
+            "Proyecto u organización sin figura jurídica": 10.4,
             "No sabe / Prefiere no responder": 2.3,
-            "No se maneja esta información": 7.9,
-            "Otro": 1.7
+            "No se maneja esta información": 7.8,
+            "Otro": 1.8
           },
           "tematicas": {
-            "Arte y cultura local": 71.8,
-            "Deporte local": 68.0,
+            "Arte y cultura local": 71.5,
+            "Deporte local": 67.5,
             "Economía y desarrollo local": 74.7,
-            "Gobierno y política local": 75.0,
-            "Investigación y vigilancia al poder": 18.8,
-            "Medio ambiente y sostenibilidad": 41.5,
-            "Sucesos, seguridad y convivencia ciudadana": 72.0,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 89.5,
+            "Gobierno y política local": 74.9,
+            "Investigación y vigilancia al poder": 18.7,
+            "Medio ambiente y sostenibilidad": 41.3,
+            "Sucesos, seguridad y convivencia ciudadana": 72.1,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 89.4,
             "No se maneja esta información": 0.2,
             "Otro": 6.6
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 19.5,
+            "Aportes monetarios de los fundadores y/o el equipo": 19.1,
             "Campañas de financiamiento colectivo (crowdfunding)": 1.4,
-            "Contenidos puntuales patrocinados": 31.2,
-            "Donaciones de la audiencia, membresías o suscripciones": 2.1,
+            "Contenidos puntuales patrocinados": 31.9,
+            "Donaciones de la audiencia, membresías o suscripciones": 2.3,
             "Donaciones de empresas": 3.2,
-            "Eventos": 5.3,
+            "Eventos": 5.4,
             "Fondos gubernamentales": 7.8,
-            "Publicidad": 67.5,
-            "Subvenciones o financiamiento internacional": 10.2,
+            "Publicidad": 68.3,
+            "Subvenciones o financiamiento internacional": 10.4,
             "Talleres / Capacitaciones": 3.7,
-            "Venta de productos y servicios": 6.6,
+            "Venta de productos y servicios": 6.4,
             "No hay ninguna fuente de ingresos": 5.8,
-            "No sabe / Prefiere no responder": 2.7,
-            "No se maneja esta información": 7.3,
+            "No sabe / Prefiere no responder": 2.6,
+            "No se maneja esta información": 7.4,
             "Otro": 0.6
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 21.5,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 51.1,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 28.5,
-            "No ha enfrentado este tipo de situaciones": 11.7,
-            "Prefiere no responder": 5.0,
-            "No se maneja esta información": 20.0,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 21.4,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 51.0,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 28.8,
+            "No ha enfrentado este tipo de situaciones": 11.8,
+            "Prefiere no responder": 4.9,
+            "No se maneja esta información": 20.1,
             "Otro": 0.0
           }
         }
@@ -184,9 +184,9 @@
         "MATCHED_CHILDREN_COUNT": 7,
         "HAS_DATA": true,
         "POPULATION": 182311,
-        "MEDIOS_TOTAL": 27,
-        "MEDIOS_URBANOS": 20,
-        "MEDIOS_RURALES": 21,
+        "MEDIOS_TOTAL": 30,
+        "MEDIOS_URBANOS": 23,
+        "MEDIOS_RURALES": 23,
         "MEDIOS_PLURALES_1FUENTE": 4,
         "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
@@ -195,7 +195,7 @@
         "CLASSIFICATION_PCT": {
           "Desierto": 1.0
         },
-        "RATIO_POP_MEDIOS": 6752.3
+        "RATIO_POP_MEDIOS": 6077.0
       },
       "ANSWERS": {
         "totales": {
@@ -360,16 +360,14 @@
         "MEDIOS_URBANOS": 124,
         "MEDIOS_RURALES": 79,
         "MEDIOS_PLURALES_1FUENTE": 90,
-        "MEDIOS_PLURALES_2FUENTE": 10,
+        "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 11,
-          "Semidesierto": 7,
-          "Semibosque": 3
+          "Semidesierto": 10
         },
         "CLASSIFICATION_PCT": {
           "Desierto": 0.524,
-          "Semidesierto": 0.333,
-          "Semibosque": 0.143
+          "Semidesierto": 0.476
         },
         "RATIO_POP_MEDIOS": 12146.8
       },
@@ -710,16 +708,16 @@
         "MEDIOS_URBANOS": 208,
         "MEDIOS_RURALES": 100,
         "MEDIOS_PLURALES_1FUENTE": 103,
-        "MEDIOS_PLURALES_2FUENTE": 38,
+        "MEDIOS_PLURALES_2FUENTE": 20,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 9,
-          "Semibosque": 6,
-          "Semidesierto": 3
+          "Semidesierto": 6,
+          "Semibosque": 3
         },
         "CLASSIFICATION_PCT": {
           "Desierto": 0.5,
-          "Semibosque": 0.333,
-          "Semidesierto": 0.167
+          "Semidesierto": 0.333,
+          "Semibosque": 0.167
         },
         "RATIO_POP_MEDIOS": 7895.7
       },
@@ -886,42 +884,42 @@
         "MEDIOS_URBANOS": 226,
         "MEDIOS_RURALES": 129,
         "MEDIOS_PLURALES_1FUENTE": 99,
-        "MEDIOS_PLURALES_2FUENTE": 39,
+        "MEDIOS_PLURALES_2FUENTE": 10,
         "CLASSIFICATION_COUNTS": {
-          "Semibosque": 9,
-          "Semidesierto": 3
+          "Semidesierto": 10,
+          "Semibosque": 2
         },
         "CLASSIFICATION_PCT": {
-          "Semibosque": 0.75,
-          "Semidesierto": 0.25
+          "Semidesierto": 0.833,
+          "Semibosque": 0.167
         },
         "RATIO_POP_MEDIOS": 3262.2
       },
       "ANSWERS": {
         "totales": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 17,
-            "Canal o grupo de mensajería en Telegram": 11,
-            "Cuenta en Instagram": 28,
-            "Cuenta en Facebook": 23,
-            "Cuenta en TikTok": 21,
-            "Cuenta en X": 8,
-            "Cuenta en Youtube": 9,
+            "Canal o grupo de mensajería en Whatsapp": 16,
+            "Canal o grupo de mensajería en Telegram": 10,
+            "Cuenta en Instagram": 27,
+            "Cuenta en Facebook": 22,
+            "Cuenta en TikTok": 20,
+            "Cuenta en X": 7,
+            "Cuenta en Youtube": 8,
             "Periódico (impreso)": 1,
-            "Periodismo cara a cara": 3,
-            "Podcast": 4,
+            "Periodismo cara a cara": 2,
+            "Podcast": 3,
             "Portal web de noticias": 6,
-            "Radio (AM o FM)": 15,
+            "Radio (AM o FM)": 14,
             "Radio transmitida vía web": 7,
             "TV (señal abierta o cable)": 4,
-            "TV transmitida vía web": 6,
+            "TV transmitida vía web": 5,
             "No se maneja esta información": 0,
-            "Otro": 6
+            "Otro": 5
           },
           "naturaleza_legal": {
             "Comunitario": 0,
             "Estatal": 1,
-            "Privado": 20,
+            "Privado": 19,
             "Organización sin fines de lucro (asociación civil, fundación, ONG)": 0,
             "Cooperativa": 0,
             "Proyecto u organización sin figura jurídica": 1,
@@ -930,19 +928,19 @@
             "Otro": 0
           },
           "tematicas": {
-            "Arte y cultura local": 19,
-            "Deporte local": 23,
-            "Economía y desarrollo local": 25,
-            "Gobierno y política local": 28,
-            "Investigación y vigilancia al poder": 10,
+            "Arte y cultura local": 18,
+            "Deporte local": 22,
+            "Economía y desarrollo local": 24,
+            "Gobierno y política local": 27,
+            "Investigación y vigilancia al poder": 9,
             "Medio ambiente y sostenibilidad": 10,
             "Sucesos, seguridad y convivencia ciudadana": 28,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 31,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 30,
             "No se maneja esta información": 0,
             "Otro": 0
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 2,
+            "Aportes monetarios de los fundadores y/o el equipo": 1,
             "Campañas de financiamiento colectivo (crowdfunding)": 1,
             "Contenidos puntuales patrocinados": 7,
             "Donaciones de la audiencia, membresías o suscripciones": 0,
@@ -959,9 +957,9 @@
             "Otro": 0
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 8,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 15,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 8,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 7,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 14,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 7,
             "No ha enfrentado este tipo de situaciones": 3,
             "Prefiere no responder": 0,
             "No se maneja esta información": 11,
@@ -970,71 +968,71 @@
         },
         "porcentajes": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 53.1,
-            "Canal o grupo de mensajería en Telegram": 34.4,
-            "Cuenta en Instagram": 87.5,
-            "Cuenta en Facebook": 71.9,
-            "Cuenta en TikTok": 65.6,
-            "Cuenta en X": 25.0,
-            "Cuenta en Youtube": 28.1,
-            "Periódico (impreso)": 3.1,
-            "Periodismo cara a cara": 9.4,
-            "Podcast": 12.5,
-            "Portal web de noticias": 18.8,
-            "Radio (AM o FM)": 46.9,
-            "Radio transmitida vía web": 21.9,
-            "TV (señal abierta o cable)": 12.5,
-            "TV transmitida vía web": 18.8,
+            "Canal o grupo de mensajería en Whatsapp": 51.6,
+            "Canal o grupo de mensajería en Telegram": 32.3,
+            "Cuenta en Instagram": 87.1,
+            "Cuenta en Facebook": 71.0,
+            "Cuenta en TikTok": 64.5,
+            "Cuenta en X": 22.6,
+            "Cuenta en Youtube": 25.8,
+            "Periódico (impreso)": 3.2,
+            "Periodismo cara a cara": 6.5,
+            "Podcast": 9.7,
+            "Portal web de noticias": 19.4,
+            "Radio (AM o FM)": 45.2,
+            "Radio transmitida vía web": 22.6,
+            "TV (señal abierta o cable)": 12.9,
+            "TV transmitida vía web": 16.1,
             "No se maneja esta información": 0.0,
-            "Otro": 18.8
+            "Otro": 16.1
           },
           "naturaleza_legal": {
             "Comunitario": 0.0,
-            "Estatal": 3.1,
-            "Privado": 62.5,
+            "Estatal": 3.2,
+            "Privado": 61.3,
             "Organización sin fines de lucro (asociación civil, fundación, ONG)": 0.0,
             "Cooperativa": 0.0,
-            "Proyecto u organización sin figura jurídica": 3.1,
-            "No sabe / Prefiere no responder": 9.4,
-            "No se maneja esta información": 21.9,
+            "Proyecto u organización sin figura jurídica": 3.2,
+            "No sabe / Prefiere no responder": 9.7,
+            "No se maneja esta información": 22.6,
             "Otro": 0.0
           },
           "tematicas": {
-            "Arte y cultura local": 59.4,
-            "Deporte local": 71.9,
-            "Economía y desarrollo local": 78.1,
-            "Gobierno y política local": 87.5,
-            "Investigación y vigilancia al poder": 31.2,
-            "Medio ambiente y sostenibilidad": 31.2,
-            "Sucesos, seguridad y convivencia ciudadana": 87.5,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 96.9,
+            "Arte y cultura local": 58.1,
+            "Deporte local": 71.0,
+            "Economía y desarrollo local": 77.4,
+            "Gobierno y política local": 87.1,
+            "Investigación y vigilancia al poder": 29.0,
+            "Medio ambiente y sostenibilidad": 32.3,
+            "Sucesos, seguridad y convivencia ciudadana": 90.3,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 96.8,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 6.2,
-            "Campañas de financiamiento colectivo (crowdfunding)": 3.1,
-            "Contenidos puntuales patrocinados": 21.9,
+            "Aportes monetarios de los fundadores y/o el equipo": 3.2,
+            "Campañas de financiamiento colectivo (crowdfunding)": 3.2,
+            "Contenidos puntuales patrocinados": 22.6,
             "Donaciones de la audiencia, membresías o suscripciones": 0.0,
             "Donaciones de empresas": 0.0,
-            "Eventos": 3.1,
+            "Eventos": 3.2,
             "Fondos gubernamentales": 0.0,
-            "Publicidad": 53.1,
+            "Publicidad": 54.8,
             "Subvenciones o financiamiento internacional": 0.0,
             "Talleres / Capacitaciones": 0.0,
-            "Venta de productos y servicios": 3.1,
-            "No hay ninguna fuente de ingresos": 6.2,
+            "Venta de productos y servicios": 3.2,
+            "No hay ninguna fuente de ingresos": 6.5,
             "No sabe / Prefiere no responder": 0.0,
-            "No se maneja esta información": 31.2,
+            "No se maneja esta información": 32.3,
             "Otro": 0.0
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 25.0,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 46.9,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 25.0,
-            "No ha enfrentado este tipo de situaciones": 9.4,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 22.6,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 45.2,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 22.6,
+            "No ha enfrentado este tipo de situaciones": 9.7,
             "Prefiere no responder": 0.0,
-            "No se maneja esta información": 34.4,
+            "No se maneja esta información": 35.5,
             "Otro": 0.0
           }
         }
@@ -1060,17 +1058,17 @@
         "MEDIOS_URBANOS": 166,
         "MEDIOS_RURALES": 42,
         "MEDIOS_PLURALES_1FUENTE": 111,
-        "MEDIOS_PLURALES_2FUENTE": 71,
+        "MEDIOS_PLURALES_2FUENTE": 47,
         "CLASSIFICATION_COUNTS": {
-          "Bosque": 5,
           "Desierto": 4,
-          "Semidesierto": 1,
+          "Bosque": 4,
+          "Semidesierto": 2,
           "Semibosque": 1
         },
         "CLASSIFICATION_PCT": {
-          "Bosque": 0.455,
           "Desierto": 0.364,
-          "Semidesierto": 0.091,
+          "Bosque": 0.364,
+          "Semidesierto": 0.182,
           "Semibosque": 0.091
         },
         "RATIO_POP_MEDIOS": 10345.7
@@ -1238,18 +1236,18 @@
         "MEDIOS_URBANOS": 274,
         "MEDIOS_RURALES": 98,
         "MEDIOS_PLURALES_1FUENTE": 147,
-        "MEDIOS_PLURALES_2FUENTE": 81,
+        "MEDIOS_PLURALES_2FUENTE": 24,
         "CLASSIFICATION_COUNTS": {
-          "Bosque": 5,
-          "Semidesierto": 4,
-          "Semibosque": 3,
-          "Desierto": 2
+          "Semidesierto": 9,
+          "Bosque": 2,
+          "Desierto": 2,
+          "Semibosque": 1
         },
         "CLASSIFICATION_PCT": {
-          "Bosque": 0.357,
-          "Semidesierto": 0.286,
-          "Semibosque": 0.214,
-          "Desierto": 0.143
+          "Semidesierto": 0.643,
+          "Bosque": 0.143,
+          "Desierto": 0.143,
+          "Semibosque": 0.071
         },
         "RATIO_POP_MEDIOS": 7654.1
       },
@@ -1277,10 +1275,10 @@
           "naturaleza_legal": {
             "Comunitario": 5,
             "Estatal": 2,
-            "Privado": 41,
+            "Privado": 40,
             "Organización sin fines de lucro (asociación civil, fundación, ONG)": 1,
             "Cooperativa": 0,
-            "Proyecto u organización sin figura jurídica": 4,
+            "Proyecto u organización sin figura jurídica": 5,
             "No sabe / Prefiere no responder": 1,
             "No se maneja esta información": 0,
             "Otro": 0
@@ -1347,10 +1345,10 @@
           "naturaleza_legal": {
             "Comunitario": 9.3,
             "Estatal": 3.7,
-            "Privado": 75.9,
+            "Privado": 74.1,
             "Organización sin fines de lucro (asociación civil, fundación, ONG)": 1.9,
             "Cooperativa": 0.0,
-            "Proyecto u organización sin figura jurídica": 7.4,
+            "Proyecto u organización sin figura jurídica": 9.3,
             "No sabe / Prefiere no responder": 1.9,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
@@ -1759,18 +1757,16 @@
         "HAS_DATA": true,
         "POPULATION": 1830142,
         "MEDIOS_TOTAL": 263,
-        "MEDIOS_URBANOS": 156,
+        "MEDIOS_URBANOS": 0,
         "MEDIOS_RURALES": 0,
-        "MEDIOS_PLURALES_1FUENTE": 0,
-        "MEDIOS_PLURALES_2FUENTE": 46,
+        "MEDIOS_PLURALES_1FUENTE": 156,
+        "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
-          "Semidesierto": 10,
-          "Semibosque": 9,
+          "Semidesierto": 19,
           "Desierto": 3
         },
         "CLASSIFICATION_PCT": {
-          "Semidesierto": 0.455,
-          "Semibosque": 0.409,
+          "Semidesierto": 0.864,
           "Desierto": 0.136
         },
         "RATIO_POP_MEDIOS": 6958.7
@@ -1938,14 +1934,12 @@
         "MEDIOS_URBANOS": 375,
         "MEDIOS_RURALES": 132,
         "MEDIOS_PLURALES_1FUENTE": 210,
-        "MEDIOS_PLURALES_2FUENTE": 37,
+        "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
-          "Semibosque": 16,
-          "Semidesierto": 9
+          "Semidesierto": 25
         },
         "CLASSIFICATION_PCT": {
-          "Semibosque": 0.64,
-          "Semidesierto": 0.36
+          "Semidesierto": 1.0
         },
         "RATIO_POP_MEDIOS": 2477.4
       },
@@ -2108,9 +2102,9 @@
         "MATCHED_CHILDREN_COUNT": 15,
         "HAS_DATA": true,
         "POPULATION": 827724,
-        "MEDIOS_TOTAL": 130,
-        "MEDIOS_URBANOS": 72,
-        "MEDIOS_RURALES": 72,
+        "MEDIOS_TOTAL": 137,
+        "MEDIOS_URBANOS": 76,
+        "MEDIOS_RURALES": 76,
         "MEDIOS_PLURALES_1FUENTE": 58,
         "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
@@ -2121,7 +2115,7 @@
           "Desierto": 0.8,
           "Semidesierto": 0.2
         },
-        "RATIO_POP_MEDIOS": 6367.1
+        "RATIO_POP_MEDIOS": 6041.8
       },
       "ANSWERS": {
         "totales": {
@@ -2283,9 +2277,9 @@
         "HAS_DATA": true,
         "POPULATION": 338519,
         "MEDIOS_TOTAL": 55,
-        "MEDIOS_URBANOS": 25,
+        "MEDIOS_URBANOS": 0,
         "MEDIOS_RURALES": 0,
-        "MEDIOS_PLURALES_1FUENTE": 0,
+        "MEDIOS_PLURALES_1FUENTE": 25,
         "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 10,
@@ -2302,139 +2296,139 @@
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 2,
             "Canal o grupo de mensajería en Telegram": 3,
-            "Cuenta en Instagram": 4,
-            "Cuenta en Facebook": 4,
-            "Cuenta en TikTok": 3,
-            "Cuenta en X": 2,
+            "Cuenta en Instagram": 7,
+            "Cuenta en Facebook": 5,
+            "Cuenta en TikTok": 5,
+            "Cuenta en X": 3,
             "Cuenta en Youtube": 1,
             "Periódico (impreso)": 1,
-            "Periodismo cara a cara": 0,
+            "Periodismo cara a cara": 2,
             "Podcast": 0,
             "Portal web de noticias": 3,
-            "Radio (AM o FM)": 0,
-            "Radio transmitida vía web": 1,
+            "Radio (AM o FM)": 1,
+            "Radio transmitida vía web": 2,
             "TV (señal abierta o cable)": 0,
             "TV transmitida vía web": 0,
             "No se maneja esta información": 0,
-            "Otro": 1
+            "Otro": 2
           },
           "naturaleza_legal": {
-            "Comunitario": 0,
+            "Comunitario": 1,
             "Estatal": 0,
             "Privado": 3,
-            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 0,
+            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 1,
             "Cooperativa": 0,
             "Proyecto u organización sin figura jurídica": 0,
             "No sabe / Prefiere no responder": 1,
             "No se maneja esta información": 1,
-            "Otro": 0
+            "Otro": 1
           },
           "tematicas": {
-            "Arte y cultura local": 4,
-            "Deporte local": 5,
-            "Economía y desarrollo local": 4,
-            "Gobierno y política local": 4,
+            "Arte y cultura local": 6,
+            "Deporte local": 6,
+            "Economía y desarrollo local": 6,
+            "Gobierno y política local": 7,
             "Investigación y vigilancia al poder": 1,
-            "Medio ambiente y sostenibilidad": 4,
-            "Sucesos, seguridad y convivencia ciudadana": 5,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 5,
+            "Medio ambiente y sostenibilidad": 5,
+            "Sucesos, seguridad y convivencia ciudadana": 7,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 8,
             "No se maneja esta información": 0,
             "Otro": 0
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 0,
+            "Aportes monetarios de los fundadores y/o el equipo": 1,
             "Campañas de financiamiento colectivo (crowdfunding)": 0,
-            "Contenidos puntuales patrocinados": 2,
-            "Donaciones de la audiencia, membresías o suscripciones": 0,
+            "Contenidos puntuales patrocinados": 4,
+            "Donaciones de la audiencia, membresías o suscripciones": 1,
             "Donaciones de empresas": 0,
             "Eventos": 0,
             "Fondos gubernamentales": 0,
-            "Publicidad": 3,
-            "Subvenciones o financiamiento internacional": 0,
-            "Talleres / Capacitaciones": 1,
+            "Publicidad": 5,
+            "Subvenciones o financiamiento internacional": 1,
+            "Talleres / Capacitaciones": 2,
             "Venta de productos y servicios": 0,
             "No hay ninguna fuente de ingresos": 0,
             "No sabe / Prefiere no responder": 1,
-            "No se maneja esta información": 1,
+            "No se maneja esta información": 2,
             "Otro": 0
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 1,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 1,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 2,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 2,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 3,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 4,
             "No ha enfrentado este tipo de situaciones": 1,
             "Prefiere no responder": 1,
-            "No se maneja esta información": 1,
+            "No se maneja esta información": 2,
             "Otro": 0
           }
         },
         "porcentajes": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 40.0,
-            "Canal o grupo de mensajería en Telegram": 60.0,
-            "Cuenta en Instagram": 80.0,
-            "Cuenta en Facebook": 80.0,
-            "Cuenta en TikTok": 60.0,
-            "Cuenta en X": 40.0,
-            "Cuenta en Youtube": 20.0,
-            "Periódico (impreso)": 20.0,
-            "Periodismo cara a cara": 0.0,
+            "Canal o grupo de mensajería en Whatsapp": 25.0,
+            "Canal o grupo de mensajería en Telegram": 37.5,
+            "Cuenta en Instagram": 87.5,
+            "Cuenta en Facebook": 62.5,
+            "Cuenta en TikTok": 62.5,
+            "Cuenta en X": 37.5,
+            "Cuenta en Youtube": 12.5,
+            "Periódico (impreso)": 12.5,
+            "Periodismo cara a cara": 25.0,
             "Podcast": 0.0,
-            "Portal web de noticias": 60.0,
-            "Radio (AM o FM)": 0.0,
-            "Radio transmitida vía web": 20.0,
+            "Portal web de noticias": 37.5,
+            "Radio (AM o FM)": 12.5,
+            "Radio transmitida vía web": 25.0,
             "TV (señal abierta o cable)": 0.0,
             "TV transmitida vía web": 0.0,
             "No se maneja esta información": 0.0,
-            "Otro": 20.0
+            "Otro": 25.0
           },
           "naturaleza_legal": {
-            "Comunitario": 0.0,
+            "Comunitario": 12.5,
             "Estatal": 0.0,
-            "Privado": 60.0,
-            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 0.0,
+            "Privado": 37.5,
+            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 12.5,
             "Cooperativa": 0.0,
             "Proyecto u organización sin figura jurídica": 0.0,
-            "No sabe / Prefiere no responder": 20.0,
-            "No se maneja esta información": 20.0,
-            "Otro": 0.0
+            "No sabe / Prefiere no responder": 12.5,
+            "No se maneja esta información": 12.5,
+            "Otro": 12.5
           },
           "tematicas": {
-            "Arte y cultura local": 80.0,
-            "Deporte local": 100.0,
-            "Economía y desarrollo local": 80.0,
-            "Gobierno y política local": 80.0,
-            "Investigación y vigilancia al poder": 20.0,
-            "Medio ambiente y sostenibilidad": 80.0,
-            "Sucesos, seguridad y convivencia ciudadana": 100.0,
+            "Arte y cultura local": 75.0,
+            "Deporte local": 75.0,
+            "Economía y desarrollo local": 75.0,
+            "Gobierno y política local": 87.5,
+            "Investigación y vigilancia al poder": 12.5,
+            "Medio ambiente y sostenibilidad": 62.5,
+            "Sucesos, seguridad y convivencia ciudadana": 87.5,
             "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 100.0,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 0.0,
+            "Aportes monetarios de los fundadores y/o el equipo": 12.5,
             "Campañas de financiamiento colectivo (crowdfunding)": 0.0,
-            "Contenidos puntuales patrocinados": 40.0,
-            "Donaciones de la audiencia, membresías o suscripciones": 0.0,
+            "Contenidos puntuales patrocinados": 50.0,
+            "Donaciones de la audiencia, membresías o suscripciones": 12.5,
             "Donaciones de empresas": 0.0,
             "Eventos": 0.0,
             "Fondos gubernamentales": 0.0,
-            "Publicidad": 60.0,
-            "Subvenciones o financiamiento internacional": 0.0,
-            "Talleres / Capacitaciones": 20.0,
+            "Publicidad": 62.5,
+            "Subvenciones o financiamiento internacional": 12.5,
+            "Talleres / Capacitaciones": 25.0,
             "Venta de productos y servicios": 0.0,
             "No hay ninguna fuente de ingresos": 0.0,
-            "No sabe / Prefiere no responder": 20.0,
-            "No se maneja esta información": 20.0,
+            "No sabe / Prefiere no responder": 12.5,
+            "No se maneja esta información": 25.0,
             "Otro": 0.0
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 20.0,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 20.0,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 40.0,
-            "No ha enfrentado este tipo de situaciones": 20.0,
-            "Prefiere no responder": 20.0,
-            "No se maneja esta información": 20.0,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 25.0,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 37.5,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 50.0,
+            "No ha enfrentado este tipo de situaciones": 12.5,
+            "Prefiere no responder": 12.5,
+            "No se maneja esta información": 25.0,
             "Otro": 0.0
           }
         }
@@ -2456,22 +2450,22 @@
         "MATCHED_CHILDREN_COUNT": 9,
         "HAS_DATA": true,
         "POPULATION": 1865368,
-        "MEDIOS_TOTAL": 114,
-        "MEDIOS_URBANOS": 107,
-        "MEDIOS_RURALES": 68,
-        "MEDIOS_PLURALES_1FUENTE": 79,
-        "MEDIOS_PLURALES_2FUENTE": 31,
+        "MEDIOS_TOTAL": 111,
+        "MEDIOS_URBANOS": 104,
+        "MEDIOS_RURALES": 65,
+        "MEDIOS_PLURALES_1FUENTE": 76,
+        "MEDIOS_PLURALES_2FUENTE": 3,
         "CLASSIFICATION_COUNTS": {
-          "Semibosque": 5,
-          "Semidesierto": 3,
+          "Semidesierto": 7,
+          "Semibosque": 1,
           "Desierto": 1
         },
         "CLASSIFICATION_PCT": {
-          "Semibosque": 0.556,
-          "Semidesierto": 0.333,
+          "Semidesierto": 0.778,
+          "Semibosque": 0.111,
           "Desierto": 0.111
         },
-        "RATIO_POP_MEDIOS": 16362.9
+        "RATIO_POP_MEDIOS": 16805.1
       },
       "ANSWERS": {
         "totales": {
@@ -2660,7 +2654,7 @@
             "Periódico (impreso)": 2,
             "Periodismo cara a cara": 4,
             "Podcast": 2,
-            "Portal web de noticias": 18,
+            "Portal web de noticias": 17,
             "Radio (AM o FM)": 21,
             "Radio transmitida vía web": 6,
             "TV (señal abierta o cable)": 4,
@@ -2692,17 +2686,17 @@
             "Otro": 3
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 7,
+            "Aportes monetarios de los fundadores y/o el equipo": 6,
             "Campañas de financiamiento colectivo (crowdfunding)": 0,
             "Contenidos puntuales patrocinados": 10,
             "Donaciones de la audiencia, membresías o suscripciones": 0,
             "Donaciones de empresas": 2,
             "Eventos": 1,
             "Fondos gubernamentales": 5,
-            "Publicidad": 26,
+            "Publicidad": 27,
             "Subvenciones o financiamiento internacional": 8,
             "Talleres / Capacitaciones": 1,
-            "Venta de productos y servicios": 3,
+            "Venta de productos y servicios": 2,
             "No hay ninguna fuente de ingresos": 6,
             "No sabe / Prefiere no responder": 1,
             "No se maneja esta información": 2,
@@ -2730,7 +2724,7 @@
             "Periódico (impreso)": 4.7,
             "Periodismo cara a cara": 9.3,
             "Podcast": 4.7,
-            "Portal web de noticias": 41.9,
+            "Portal web de noticias": 39.5,
             "Radio (AM o FM)": 48.8,
             "Radio transmitida vía web": 14.0,
             "TV (señal abierta o cable)": 9.3,
@@ -2762,17 +2756,17 @@
             "Otro": 7.0
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 16.3,
+            "Aportes monetarios de los fundadores y/o el equipo": 14.0,
             "Campañas de financiamiento colectivo (crowdfunding)": 0.0,
             "Contenidos puntuales patrocinados": 23.3,
             "Donaciones de la audiencia, membresías o suscripciones": 0.0,
             "Donaciones de empresas": 4.7,
             "Eventos": 2.3,
             "Fondos gubernamentales": 11.6,
-            "Publicidad": 60.5,
+            "Publicidad": 62.8,
             "Subvenciones o financiamiento internacional": 18.6,
             "Talleres / Capacitaciones": 2.3,
-            "Venta de productos y servicios": 7.0,
+            "Venta de productos y servicios": 4.7,
             "No hay ninguna fuente de ingresos": 14.0,
             "No sabe / Prefiere no responder": 2.3,
             "No se maneja esta información": 4.7,
@@ -2810,17 +2804,15 @@
         "MEDIOS_URBANOS": 329,
         "MEDIOS_RURALES": 122,
         "MEDIOS_PLURALES_1FUENTE": 202,
-        "MEDIOS_PLURALES_2FUENTE": 121,
+        "MEDIOS_PLURALES_2FUENTE": 68,
         "CLASSIFICATION_COUNTS": {
-          "Semibosque": 7,
+          "Semidesierto": 12,
           "Bosque": 7,
-          "Semidesierto": 5,
           "Desierto": 2
         },
         "CLASSIFICATION_PCT": {
-          "Semibosque": 0.333,
+          "Semidesierto": 0.571,
           "Bosque": 0.333,
-          "Semidesierto": 0.238,
           "Desierto": 0.095
         },
         "RATIO_POP_MEDIOS": 8835.8
@@ -2988,16 +2980,14 @@
         "MEDIOS_URBANOS": 114,
         "MEDIOS_RURALES": 38,
         "MEDIOS_PLURALES_1FUENTE": 61,
-        "MEDIOS_PLURALES_2FUENTE": 6,
+        "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 7,
-          "Semidesierto": 5,
-          "Semibosque": 1
+          "Semidesierto": 6
         },
         "CLASSIFICATION_PCT": {
           "Desierto": 0.538,
-          "Semidesierto": 0.385,
-          "Semibosque": 0.077
+          "Semidesierto": 0.462
         },
         "RATIO_POP_MEDIOS": 7695.1
       },
@@ -3005,16 +2995,16 @@
         "totales": {
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 9,
-            "Canal o grupo de mensajería en Telegram": 8,
+            "Canal o grupo de mensajería en Telegram": 7,
             "Cuenta en Instagram": 15,
             "Cuenta en Facebook": 13,
             "Cuenta en TikTok": 13,
             "Cuenta en X": 10,
-            "Cuenta en Youtube": 6,
+            "Cuenta en Youtube": 7,
             "Periódico (impreso)": 3,
             "Periodismo cara a cara": 1,
             "Podcast": 1,
-            "Portal web de noticias": 13,
+            "Portal web de noticias": 12,
             "Radio (AM o FM)": 3,
             "Radio transmitida vía web": 4,
             "TV (señal abierta o cable)": 4,
@@ -3048,14 +3038,14 @@
           "ingresos": {
             "Aportes monetarios de los fundadores y/o el equipo": 3,
             "Campañas de financiamiento colectivo (crowdfunding)": 0,
-            "Contenidos puntuales patrocinados": 6,
+            "Contenidos puntuales patrocinados": 7,
             "Donaciones de la audiencia, membresías o suscripciones": 0,
             "Donaciones de empresas": 1,
             "Eventos": 0,
             "Fondos gubernamentales": 0,
-            "Publicidad": 11,
+            "Publicidad": 13,
             "Subvenciones o financiamiento internacional": 2,
-            "Talleres / Capacitaciones": 2,
+            "Talleres / Capacitaciones": 1,
             "Venta de productos y servicios": 2,
             "No hay ninguna fuente de ingresos": 0,
             "No sabe / Prefiere no responder": 0,
@@ -3075,16 +3065,16 @@
         "porcentajes": {
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 56.2,
-            "Canal o grupo de mensajería en Telegram": 50.0,
+            "Canal o grupo de mensajería en Telegram": 43.8,
             "Cuenta en Instagram": 93.8,
             "Cuenta en Facebook": 81.2,
             "Cuenta en TikTok": 81.2,
             "Cuenta en X": 62.5,
-            "Cuenta en Youtube": 37.5,
+            "Cuenta en Youtube": 43.8,
             "Periódico (impreso)": 18.8,
             "Periodismo cara a cara": 6.2,
             "Podcast": 6.2,
-            "Portal web de noticias": 81.2,
+            "Portal web de noticias": 75.0,
             "Radio (AM o FM)": 18.8,
             "Radio transmitida vía web": 25.0,
             "TV (señal abierta o cable)": 25.0,
@@ -3118,14 +3108,14 @@
           "ingresos": {
             "Aportes monetarios de los fundadores y/o el equipo": 18.8,
             "Campañas de financiamiento colectivo (crowdfunding)": 0.0,
-            "Contenidos puntuales patrocinados": 37.5,
+            "Contenidos puntuales patrocinados": 43.8,
             "Donaciones de la audiencia, membresías o suscripciones": 0.0,
             "Donaciones de empresas": 6.2,
             "Eventos": 0.0,
             "Fondos gubernamentales": 0.0,
-            "Publicidad": 68.8,
+            "Publicidad": 81.2,
             "Subvenciones o financiamiento internacional": 12.5,
-            "Talleres / Capacitaciones": 12.5,
+            "Talleres / Capacitaciones": 6.2,
             "Venta de productos y servicios": 12.5,
             "No hay ninguna fuente de ingresos": 0.0,
             "No sabe / Prefiere no responder": 0.0,
@@ -3166,12 +3156,12 @@
         "MEDIOS_PLURALES_1FUENTE": 58,
         "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
-          "Semidesierto": 6,
-          "Desierto": 5
+          "Semidesierto": 7,
+          "Desierto": 4
         },
         "CLASSIFICATION_PCT": {
-          "Semidesierto": 0.545,
-          "Desierto": 0.455
+          "Semidesierto": 0.636,
+          "Desierto": 0.364
         },
         "RATIO_POP_MEDIOS": 4358.1
       },
@@ -3334,35 +3324,35 @@
         "MATCHED_CHILDREN_COUNT": 14,
         "HAS_DATA": true,
         "POPULATION": 930247,
-        "MEDIOS_TOTAL": 205,
-        "MEDIOS_URBANOS": 184,
+        "MEDIOS_TOTAL": 204,
+        "MEDIOS_URBANOS": 183,
         "MEDIOS_RURALES": 144,
         "MEDIOS_PLURALES_1FUENTE": 142,
-        "MEDIOS_PLURALES_2FUENTE": 30,
+        "MEDIOS_PLURALES_2FUENTE": 23,
         "CLASSIFICATION_COUNTS": {
           "Semibosque": 14
         },
         "CLASSIFICATION_PCT": {
           "Semibosque": 1.0
         },
-        "RATIO_POP_MEDIOS": 4537.8
+        "RATIO_POP_MEDIOS": 4560.0
       },
       "ANSWERS": {
         "totales": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 12,
+            "Canal o grupo de mensajería en Whatsapp": 11,
             "Canal o grupo de mensajería en Telegram": 9,
-            "Cuenta en Instagram": 23,
-            "Cuenta en Facebook": 17,
-            "Cuenta en TikTok": 17,
+            "Cuenta en Instagram": 22,
+            "Cuenta en Facebook": 16,
+            "Cuenta en TikTok": 16,
             "Cuenta en X": 12,
             "Cuenta en Youtube": 15,
             "Periódico (impreso)": 1,
             "Periodismo cara a cara": 3,
             "Podcast": 3,
             "Portal web de noticias": 15,
-            "Radio (AM o FM)": 7,
-            "Radio transmitida vía web": 4,
+            "Radio (AM o FM)": 6,
+            "Radio transmitida vía web": 3,
             "TV (señal abierta o cable)": 5,
             "TV transmitida vía web": 3,
             "No se maneja esta información": 0,
@@ -3376,18 +3366,18 @@
             "Cooperativa": 0,
             "Proyecto u organización sin figura jurídica": 3,
             "No sabe / Prefiere no responder": 0,
-            "No se maneja esta información": 2,
+            "No se maneja esta información": 1,
             "Otro": 1
           },
           "tematicas": {
-            "Arte y cultura local": 11,
-            "Deporte local": 13,
-            "Economía y desarrollo local": 20,
-            "Gobierno y política local": 20,
+            "Arte y cultura local": 10,
+            "Deporte local": 12,
+            "Economía y desarrollo local": 19,
+            "Gobierno y política local": 19,
             "Investigación y vigilancia al poder": 4,
             "Medio ambiente y sostenibilidad": 10,
             "Sucesos, seguridad y convivencia ciudadana": 17,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 22,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 21,
             "No se maneja esta información": 0,
             "Otro": 2
           },
@@ -3405,7 +3395,7 @@
             "Venta de productos y servicios": 2,
             "No hay ninguna fuente de ingresos": 0,
             "No sabe / Prefiere no responder": 0,
-            "No se maneja esta información": 2,
+            "No se maneja esta información": 1,
             "Otro": 0
           },
           "censura": {
@@ -3414,77 +3404,77 @@
             "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 6,
             "No ha enfrentado este tipo de situaciones": 2,
             "Prefiere no responder": 2,
-            "No se maneja esta información": 3,
+            "No se maneja esta información": 2,
             "Otro": 0
           }
         },
         "porcentajes": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 52.2,
-            "Canal o grupo de mensajería en Telegram": 39.1,
+            "Canal o grupo de mensajería en Whatsapp": 50.0,
+            "Canal o grupo de mensajería en Telegram": 40.9,
             "Cuenta en Instagram": 100.0,
-            "Cuenta en Facebook": 73.9,
-            "Cuenta en TikTok": 73.9,
-            "Cuenta en X": 52.2,
-            "Cuenta en Youtube": 65.2,
-            "Periódico (impreso)": 4.3,
-            "Periodismo cara a cara": 13.0,
-            "Podcast": 13.0,
-            "Portal web de noticias": 65.2,
-            "Radio (AM o FM)": 30.4,
-            "Radio transmitida vía web": 17.4,
-            "TV (señal abierta o cable)": 21.7,
-            "TV transmitida vía web": 13.0,
+            "Cuenta en Facebook": 72.7,
+            "Cuenta en TikTok": 72.7,
+            "Cuenta en X": 54.5,
+            "Cuenta en Youtube": 68.2,
+            "Periódico (impreso)": 4.5,
+            "Periodismo cara a cara": 13.6,
+            "Podcast": 13.6,
+            "Portal web de noticias": 68.2,
+            "Radio (AM o FM)": 27.3,
+            "Radio transmitida vía web": 13.6,
+            "TV (señal abierta o cable)": 22.7,
+            "TV transmitida vía web": 13.6,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
           },
           "naturaleza_legal": {
-            "Comunitario": 4.3,
+            "Comunitario": 4.5,
             "Estatal": 0.0,
-            "Privado": 56.5,
-            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 13.0,
+            "Privado": 59.1,
+            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 13.6,
             "Cooperativa": 0.0,
-            "Proyecto u organización sin figura jurídica": 13.0,
+            "Proyecto u organización sin figura jurídica": 13.6,
             "No sabe / Prefiere no responder": 0.0,
-            "No se maneja esta información": 8.7,
-            "Otro": 4.3
+            "No se maneja esta información": 4.5,
+            "Otro": 4.5
           },
           "tematicas": {
-            "Arte y cultura local": 47.8,
-            "Deporte local": 56.5,
-            "Economía y desarrollo local": 87.0,
-            "Gobierno y política local": 87.0,
-            "Investigación y vigilancia al poder": 17.4,
-            "Medio ambiente y sostenibilidad": 43.5,
-            "Sucesos, seguridad y convivencia ciudadana": 73.9,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 95.7,
+            "Arte y cultura local": 45.5,
+            "Deporte local": 54.5,
+            "Economía y desarrollo local": 86.4,
+            "Gobierno y política local": 86.4,
+            "Investigación y vigilancia al poder": 18.2,
+            "Medio ambiente y sostenibilidad": 45.5,
+            "Sucesos, seguridad y convivencia ciudadana": 77.3,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 95.5,
             "No se maneja esta información": 0.0,
-            "Otro": 8.7
+            "Otro": 9.1
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 26.1,
-            "Campañas de financiamiento colectivo (crowdfunding)": 4.3,
-            "Contenidos puntuales patrocinados": 39.1,
-            "Donaciones de la audiencia, membresías o suscripciones": 8.7,
-            "Donaciones de empresas": 4.3,
-            "Eventos": 8.7,
+            "Aportes monetarios de los fundadores y/o el equipo": 27.3,
+            "Campañas de financiamiento colectivo (crowdfunding)": 4.5,
+            "Contenidos puntuales patrocinados": 40.9,
+            "Donaciones de la audiencia, membresías o suscripciones": 9.1,
+            "Donaciones de empresas": 4.5,
+            "Eventos": 9.1,
             "Fondos gubernamentales": 0.0,
-            "Publicidad": 69.6,
-            "Subvenciones o financiamiento internacional": 4.3,
-            "Talleres / Capacitaciones": 4.3,
-            "Venta de productos y servicios": 8.7,
+            "Publicidad": 72.7,
+            "Subvenciones o financiamiento internacional": 4.5,
+            "Talleres / Capacitaciones": 4.5,
+            "Venta de productos y servicios": 9.1,
             "No hay ninguna fuente de ingresos": 0.0,
             "No sabe / Prefiere no responder": 0.0,
-            "No se maneja esta información": 8.7,
+            "No se maneja esta información": 4.5,
             "Otro": 0.0
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 30.4,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 43.5,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 26.1,
-            "No ha enfrentado este tipo de situaciones": 8.7,
-            "Prefiere no responder": 8.7,
-            "No se maneja esta información": 13.0,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 31.8,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 45.5,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 27.3,
+            "No ha enfrentado este tipo de situaciones": 9.1,
+            "Prefiere no responder": 9.1,
+            "No se maneja esta información": 9.1,
             "Otro": 0.0
           }
         }
@@ -3510,16 +3500,14 @@
         "MEDIOS_URBANOS": 69,
         "MEDIOS_RURALES": 48,
         "MEDIOS_PLURALES_1FUENTE": 57,
-        "MEDIOS_PLURALES_2FUENTE": 5,
+        "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 10,
-          "Semidesierto": 4,
-          "Semibosque": 1
+          "Semidesierto": 5
         },
         "CLASSIFICATION_PCT": {
           "Desierto": 0.667,
-          "Semidesierto": 0.267,
-          "Semibosque": 0.067
+          "Semidesierto": 0.333
         },
         "RATIO_POP_MEDIOS": 13339.8
       },
@@ -3686,15 +3674,13 @@
         "MEDIOS_URBANOS": 365,
         "MEDIOS_RURALES": 255,
         "MEDIOS_PLURALES_1FUENTE": 168,
-        "MEDIOS_PLURALES_2FUENTE": 15,
+        "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
-          "Semidesierto": 20,
-          "Semibosque": 6,
+          "Semidesierto": 26,
           "Desierto": 3
         },
         "CLASSIFICATION_PCT": {
-          "Semidesierto": 0.69,
-          "Semibosque": 0.207,
+          "Semidesierto": 0.897,
           "Desierto": 0.103
         },
         "RATIO_POP_MEDIOS": 2702.3
@@ -3862,16 +3848,14 @@
         "MEDIOS_URBANOS": 289,
         "MEDIOS_RURALES": 263,
         "MEDIOS_PLURALES_1FUENTE": 97,
-        "MEDIOS_PLURALES_2FUENTE": 7,
+        "MEDIOS_PLURALES_2FUENTE": 6,
         "CLASSIFICATION_COUNTS": {
-          "Semidesierto": 8,
-          "Desierto": 6,
-          "Semibosque": 6
+          "Semidesierto": 14,
+          "Desierto": 6
         },
         "CLASSIFICATION_PCT": {
-          "Semidesierto": 0.4,
-          "Desierto": 0.3,
-          "Semibosque": 0.3
+          "Semidesierto": 0.7,
+          "Desierto": 0.3
         },
         "RATIO_POP_MEDIOS": 2601.0
       },
@@ -4034,46 +4018,46 @@
         "MATCHED_CHILDREN_COUNT": 14,
         "HAS_DATA": true,
         "POPULATION": 666990,
-        "MEDIOS_TOTAL": 293,
-        "MEDIOS_URBANOS": 273,
-        "MEDIOS_RURALES": 118,
-        "MEDIOS_PLURALES_1FUENTE": 106,
-        "MEDIOS_PLURALES_2FUENTE": 37,
+        "MEDIOS_TOTAL": 279,
+        "MEDIOS_URBANOS": 259,
+        "MEDIOS_RURALES": 111,
+        "MEDIOS_PLURALES_1FUENTE": 97,
+        "MEDIOS_PLURALES_2FUENTE": 0,
         "CLASSIFICATION_COUNTS": {
-          "Semidesierto": 8,
-          "Semibosque": 6
+          "Semidesierto": 13,
+          "Desierto": 1
         },
         "CLASSIFICATION_PCT": {
-          "Semidesierto": 0.571,
-          "Semibosque": 0.429
+          "Semidesierto": 0.929,
+          "Desierto": 0.071
         },
-        "RATIO_POP_MEDIOS": 2276.4
+        "RATIO_POP_MEDIOS": 2390.6
       },
       "ANSWERS": {
         "totales": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 12,
-            "Canal o grupo de mensajería en Telegram": 5,
-            "Cuenta en Instagram": 28,
-            "Cuenta en Facebook": 24,
+            "Canal o grupo de mensajería en Whatsapp": 10,
+            "Canal o grupo de mensajería en Telegram": 4,
+            "Cuenta en Instagram": 26,
+            "Cuenta en Facebook": 23,
             "Cuenta en TikTok": 15,
-            "Cuenta en X": 4,
-            "Cuenta en Youtube": 7,
-            "Periódico (impreso)": 3,
+            "Cuenta en X": 5,
+            "Cuenta en Youtube": 6,
+            "Periódico (impreso)": 2,
             "Periodismo cara a cara": 0,
             "Podcast": 2,
-            "Portal web de noticias": 6,
-            "Radio (AM o FM)": 21,
-            "Radio transmitida vía web": 6,
+            "Portal web de noticias": 5,
+            "Radio (AM o FM)": 19,
+            "Radio transmitida vía web": 5,
             "TV (señal abierta o cable)": 0,
-            "TV transmitida vía web": 2,
+            "TV transmitida vía web": 1,
             "No se maneja esta información": 0,
             "Otro": 0
           },
           "naturaleza_legal": {
-            "Comunitario": 5,
+            "Comunitario": 4,
             "Estatal": 3,
-            "Privado": 16,
+            "Privado": 14,
             "Organización sin fines de lucro (asociación civil, fundación, ONG)": 1,
             "Cooperativa": 0,
             "Proyecto u organización sin figura jurídica": 4,
@@ -4082,37 +4066,37 @@
             "Otro": 3
           },
           "tematicas": {
-            "Arte y cultura local": 33,
-            "Deporte local": 26,
-            "Economía y desarrollo local": 24,
-            "Gobierno y política local": 25,
+            "Arte y cultura local": 30,
+            "Deporte local": 23,
+            "Economía y desarrollo local": 23,
+            "Gobierno y política local": 22,
             "Investigación y vigilancia al poder": 3,
-            "Medio ambiente y sostenibilidad": 10,
-            "Sucesos, seguridad y convivencia ciudadana": 14,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 25,
+            "Medio ambiente y sostenibilidad": 7,
+            "Sucesos, seguridad y convivencia ciudadana": 12,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 22,
             "No se maneja esta información": 0,
             "Otro": 2
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 8,
+            "Aportes monetarios de los fundadores y/o el equipo": 6,
             "Campañas de financiamiento colectivo (crowdfunding)": 1,
             "Contenidos puntuales patrocinados": 12,
             "Donaciones de la audiencia, membresías o suscripciones": 0,
             "Donaciones de empresas": 1,
             "Eventos": 1,
             "Fondos gubernamentales": 9,
-            "Publicidad": 22,
+            "Publicidad": 21,
             "Subvenciones o financiamiento internacional": 0,
             "Talleres / Capacitaciones": 1,
             "Venta de productos y servicios": 1,
             "No hay ninguna fuente de ingresos": 4,
-            "No sabe / Prefiere no responder": 1,
+            "No sabe / Prefiere no responder": 0,
             "No se maneja esta información": 1,
             "Otro": 1
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 6,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 21,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 5,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 18,
             "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 7,
             "No ha enfrentado este tipo de situaciones": 9,
             "Prefiere no responder": 0,
@@ -4122,71 +4106,71 @@
         },
         "porcentajes": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 34.3,
-            "Canal o grupo de mensajería en Telegram": 14.3,
-            "Cuenta en Instagram": 80.0,
-            "Cuenta en Facebook": 68.6,
-            "Cuenta en TikTok": 42.9,
-            "Cuenta en X": 11.4,
-            "Cuenta en Youtube": 20.0,
-            "Periódico (impreso)": 8.6,
+            "Canal o grupo de mensajería en Whatsapp": 31.2,
+            "Canal o grupo de mensajería en Telegram": 12.5,
+            "Cuenta en Instagram": 81.2,
+            "Cuenta en Facebook": 71.9,
+            "Cuenta en TikTok": 46.9,
+            "Cuenta en X": 15.6,
+            "Cuenta en Youtube": 18.8,
+            "Periódico (impreso)": 6.2,
             "Periodismo cara a cara": 0.0,
-            "Podcast": 5.7,
-            "Portal web de noticias": 17.1,
-            "Radio (AM o FM)": 60.0,
-            "Radio transmitida vía web": 17.1,
+            "Podcast": 6.2,
+            "Portal web de noticias": 15.6,
+            "Radio (AM o FM)": 59.4,
+            "Radio transmitida vía web": 15.6,
             "TV (señal abierta o cable)": 0.0,
-            "TV transmitida vía web": 5.7,
+            "TV transmitida vía web": 3.1,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
           },
           "naturaleza_legal": {
-            "Comunitario": 14.3,
-            "Estatal": 8.6,
-            "Privado": 45.7,
-            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 2.9,
+            "Comunitario": 12.5,
+            "Estatal": 9.4,
+            "Privado": 43.8,
+            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 3.1,
             "Cooperativa": 0.0,
-            "Proyecto u organización sin figura jurídica": 11.4,
-            "No sabe / Prefiere no responder": 5.7,
-            "No se maneja esta información": 2.9,
-            "Otro": 8.6
+            "Proyecto u organización sin figura jurídica": 12.5,
+            "No sabe / Prefiere no responder": 6.2,
+            "No se maneja esta información": 3.1,
+            "Otro": 9.4
           },
           "tematicas": {
-            "Arte y cultura local": 94.3,
-            "Deporte local": 74.3,
-            "Economía y desarrollo local": 68.6,
-            "Gobierno y política local": 71.4,
-            "Investigación y vigilancia al poder": 8.6,
-            "Medio ambiente y sostenibilidad": 28.6,
-            "Sucesos, seguridad y convivencia ciudadana": 40.0,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 71.4,
+            "Arte y cultura local": 93.8,
+            "Deporte local": 71.9,
+            "Economía y desarrollo local": 71.9,
+            "Gobierno y política local": 68.8,
+            "Investigación y vigilancia al poder": 9.4,
+            "Medio ambiente y sostenibilidad": 21.9,
+            "Sucesos, seguridad y convivencia ciudadana": 37.5,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 68.8,
             "No se maneja esta información": 0.0,
-            "Otro": 5.7
+            "Otro": 6.2
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 22.9,
-            "Campañas de financiamiento colectivo (crowdfunding)": 2.9,
-            "Contenidos puntuales patrocinados": 34.3,
+            "Aportes monetarios de los fundadores y/o el equipo": 18.8,
+            "Campañas de financiamiento colectivo (crowdfunding)": 3.1,
+            "Contenidos puntuales patrocinados": 37.5,
             "Donaciones de la audiencia, membresías o suscripciones": 0.0,
-            "Donaciones de empresas": 2.9,
-            "Eventos": 2.9,
-            "Fondos gubernamentales": 25.7,
-            "Publicidad": 62.9,
+            "Donaciones de empresas": 3.1,
+            "Eventos": 3.1,
+            "Fondos gubernamentales": 28.1,
+            "Publicidad": 65.6,
             "Subvenciones o financiamiento internacional": 0.0,
-            "Talleres / Capacitaciones": 2.9,
-            "Venta de productos y servicios": 2.9,
-            "No hay ninguna fuente de ingresos": 11.4,
-            "No sabe / Prefiere no responder": 2.9,
-            "No se maneja esta información": 2.9,
-            "Otro": 2.9
+            "Talleres / Capacitaciones": 3.1,
+            "Venta de productos y servicios": 3.1,
+            "No hay ninguna fuente de ingresos": 12.5,
+            "No sabe / Prefiere no responder": 0.0,
+            "No se maneja esta información": 3.1,
+            "Otro": 3.1
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 17.1,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 60.0,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 20.0,
-            "No ha enfrentado este tipo de situaciones": 25.7,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 15.6,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 56.2,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 21.9,
+            "No ha enfrentado este tipo de situaciones": 28.1,
             "Prefiere no responder": 0.0,
-            "No se maneja esta información": 5.7,
+            "No se maneja esta información": 6.2,
             "Otro": 0.0
           }
         }
@@ -4208,29 +4192,31 @@
         "MATCHED_CHILDREN_COUNT": 21,
         "HAS_DATA": true,
         "POPULATION": 3833935,
-        "MEDIOS_TOTAL": 458,
-        "MEDIOS_URBANOS": 435,
-        "MEDIOS_RURALES": 260,
-        "MEDIOS_PLURALES_1FUENTE": 264,
-        "MEDIOS_PLURALES_2FUENTE": 135,
+        "MEDIOS_TOTAL": 455,
+        "MEDIOS_URBANOS": 432,
+        "MEDIOS_RURALES": 259,
+        "MEDIOS_PLURALES_1FUENTE": 261,
+        "MEDIOS_PLURALES_2FUENTE": 85,
         "CLASSIFICATION_COUNTS": {
-          "Semibosque": 9,
-          "Bosque": 7,
-          "Desierto": 5
+          "Semibosque": 12,
+          "Desierto": 5,
+          "Bosque": 2,
+          "Semidesierto": 2
         },
         "CLASSIFICATION_PCT": {
-          "Semibosque": 0.429,
-          "Bosque": 0.333,
-          "Desierto": 0.238
+          "Semibosque": 0.571,
+          "Desierto": 0.238,
+          "Bosque": 0.095,
+          "Semidesierto": 0.095
         },
-        "RATIO_POP_MEDIOS": 8371.0
+        "RATIO_POP_MEDIOS": 8426.2
       },
       "ANSWERS": {
         "totales": {
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 41,
             "Canal o grupo de mensajería en Telegram": 29,
-            "Cuenta en Instagram": 58,
+            "Cuenta en Instagram": 57,
             "Cuenta en Facebook": 40,
             "Cuenta en TikTok": 36,
             "Cuenta en X": 32,
@@ -4239,7 +4225,7 @@
             "Periodismo cara a cara": 7,
             "Podcast": 3,
             "Portal web de noticias": 32,
-            "Radio (AM o FM)": 24,
+            "Radio (AM o FM)": 23,
             "Radio transmitida vía web": 16,
             "TV (señal abierta o cable)": 8,
             "TV transmitida vía web": 7,
@@ -4249,7 +4235,7 @@
           "naturaleza_legal": {
             "Comunitario": 1,
             "Estatal": 1,
-            "Privado": 47,
+            "Privado": 46,
             "Organización sin fines de lucro (asociación civil, fundación, ONG)": 7,
             "Cooperativa": 0,
             "Proyecto u organización sin figura jurídica": 5,
@@ -4258,14 +4244,14 @@
             "Otro": 1
           },
           "tematicas": {
-            "Arte y cultura local": 48,
-            "Deporte local": 45,
-            "Economía y desarrollo local": 45,
-            "Gobierno y política local": 45,
+            "Arte y cultura local": 47,
+            "Deporte local": 44,
+            "Economía y desarrollo local": 44,
+            "Gobierno y política local": 44,
             "Investigación y vigilancia al poder": 21,
             "Medio ambiente y sostenibilidad": 28,
-            "Sucesos, seguridad y convivencia ciudadana": 45,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 54,
+            "Sucesos, seguridad y convivencia ciudadana": 44,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 53,
             "No se maneja esta información": 0,
             "Otro": 3
           },
@@ -4277,7 +4263,7 @@
             "Donaciones de empresas": 2,
             "Eventos": 6,
             "Fondos gubernamentales": 6,
-            "Publicidad": 46,
+            "Publicidad": 45,
             "Subvenciones o financiamiento internacional": 6,
             "Talleres / Capacitaciones": 3,
             "Venta de productos y servicios": 7,
@@ -4291,77 +4277,77 @@
             "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 36,
             "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 26,
             "No ha enfrentado este tipo de situaciones": 9,
-            "Prefiere no responder": 7,
+            "Prefiere no responder": 6,
             "No se maneja esta información": 0,
             "Otro": 0
           }
         },
         "porcentajes": {
           "formato": {
-            "Canal o grupo de mensajería en Whatsapp": 66.1,
-            "Canal o grupo de mensajería en Telegram": 46.8,
-            "Cuenta en Instagram": 93.5,
-            "Cuenta en Facebook": 64.5,
-            "Cuenta en TikTok": 58.1,
-            "Cuenta en X": 51.6,
-            "Cuenta en Youtube": 37.1,
-            "Periódico (impreso)": 3.2,
-            "Periodismo cara a cara": 11.3,
-            "Podcast": 4.8,
-            "Portal web de noticias": 51.6,
-            "Radio (AM o FM)": 38.7,
-            "Radio transmitida vía web": 25.8,
-            "TV (señal abierta o cable)": 12.9,
-            "TV transmitida vía web": 11.3,
+            "Canal o grupo de mensajería en Whatsapp": 67.2,
+            "Canal o grupo de mensajería en Telegram": 47.5,
+            "Cuenta en Instagram": 93.4,
+            "Cuenta en Facebook": 65.6,
+            "Cuenta en TikTok": 59.0,
+            "Cuenta en X": 52.5,
+            "Cuenta en Youtube": 37.7,
+            "Periódico (impreso)": 3.3,
+            "Periodismo cara a cara": 11.5,
+            "Podcast": 4.9,
+            "Portal web de noticias": 52.5,
+            "Radio (AM o FM)": 37.7,
+            "Radio transmitida vía web": 26.2,
+            "TV (señal abierta o cable)": 13.1,
+            "TV transmitida vía web": 11.5,
             "No se maneja esta información": 0.0,
             "Otro": 1.6
           },
           "naturaleza_legal": {
             "Comunitario": 1.6,
             "Estatal": 1.6,
-            "Privado": 75.8,
-            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 11.3,
+            "Privado": 75.4,
+            "Organización sin fines de lucro (asociación civil, fundación, ONG)": 11.5,
             "Cooperativa": 0.0,
-            "Proyecto u organización sin figura jurídica": 8.1,
+            "Proyecto u organización sin figura jurídica": 8.2,
             "No sabe / Prefiere no responder": 0.0,
             "No se maneja esta información": 0.0,
             "Otro": 1.6
           },
           "tematicas": {
-            "Arte y cultura local": 77.4,
-            "Deporte local": 72.6,
-            "Economía y desarrollo local": 72.6,
-            "Gobierno y política local": 72.6,
-            "Investigación y vigilancia al poder": 33.9,
-            "Medio ambiente y sostenibilidad": 45.2,
-            "Sucesos, seguridad y convivencia ciudadana": 72.6,
-            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 87.1,
+            "Arte y cultura local": 77.0,
+            "Deporte local": 72.1,
+            "Economía y desarrollo local": 72.1,
+            "Gobierno y política local": 72.1,
+            "Investigación y vigilancia al poder": 34.4,
+            "Medio ambiente y sostenibilidad": 45.9,
+            "Sucesos, seguridad y convivencia ciudadana": 72.1,
+            "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 86.9,
             "No se maneja esta información": 0.0,
-            "Otro": 4.8
+            "Otro": 4.9
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 21.0,
+            "Aportes monetarios de los fundadores y/o el equipo": 21.3,
             "Campañas de financiamiento colectivo (crowdfunding)": 0.0,
-            "Contenidos puntuales patrocinados": 40.3,
+            "Contenidos puntuales patrocinados": 41.0,
             "Donaciones de la audiencia, membresías o suscripciones": 1.6,
-            "Donaciones de empresas": 3.2,
-            "Eventos": 9.7,
-            "Fondos gubernamentales": 9.7,
-            "Publicidad": 74.2,
-            "Subvenciones o financiamiento internacional": 9.7,
-            "Talleres / Capacitaciones": 4.8,
-            "Venta de productos y servicios": 11.3,
-            "No hay ninguna fuente de ingresos": 4.8,
+            "Donaciones de empresas": 3.3,
+            "Eventos": 9.8,
+            "Fondos gubernamentales": 9.8,
+            "Publicidad": 73.8,
+            "Subvenciones o financiamiento internacional": 9.8,
+            "Talleres / Capacitaciones": 4.9,
+            "Venta de productos y servicios": 11.5,
+            "No hay ninguna fuente de ingresos": 4.9,
             "No sabe / Prefiere no responder": 0.0,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
           },
           "censura": {
-            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 29.0,
-            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 58.1,
-            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 41.9,
-            "No ha enfrentado este tipo de situaciones": 14.5,
-            "Prefiere no responder": 11.3,
+            "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 29.5,
+            "Decisiones de no cubrir ciertos contenidos por precaución (autocensura)": 59.0,
+            "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 42.6,
+            "No ha enfrentado este tipo de situaciones": 14.8,
+            "Prefiere no responder": 9.8,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
           }
@@ -4543,13 +4529,13 @@
         "SURVEY_NAME": "Manapiare",
         "POPULATION": 9021,
         "SIZE_CATEGORY": "Localidad pequeña",
-        "MEDIOS_TOTAL": 0,
-        "MEDIOS_URBANOS": 0,
-        "MEDIOS_RURALES": 0,
+        "MEDIOS_TOTAL": 3,
+        "MEDIOS_URBANOS": 3,
+        "MEDIOS_RURALES": 2,
         "MEDIOS_PLURALES_1FUENTE": null,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
-        "RATIO_POP_MEDIOS": null
+        "RATIO_POP_MEDIOS": 3007.0
       },
       "CENTROID": {
         "xc": -65.806454,
@@ -4677,8 +4663,8 @@
         "MEDIOS_URBANOS": 14,
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 19296.8
       },
       "CENTROID": {
@@ -4989,8 +4975,8 @@
         "MEDIOS_URBANOS": 13,
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 3240.2
       },
       "CENTROID": {
@@ -5067,8 +5053,8 @@
         "MEDIOS_URBANOS": 15,
         "MEDIOS_RURALES": 14,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 29736.9
       },
       "CENTROID": {
@@ -5327,8 +5313,8 @@
         "MEDIOS_URBANOS": 19,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 5312.0
       },
       "CENTROID": {
@@ -5353,7 +5339,7 @@
         "MEDIOS_URBANOS": 28,
         "MEDIOS_RURALES": 21,
         "MEDIOS_PLURALES_1FUENTE": 16,
-        "MEDIOS_PLURALES_2FUENTE": 8,
+        "MEDIOS_PLURALES_2FUENTE": 7,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 14775.1
       },
@@ -5379,7 +5365,7 @@
         "MEDIOS_URBANOS": 18,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 6,
+        "MEDIOS_PLURALES_2FUENTE": 5,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 6841.1
       },
@@ -5665,8 +5651,8 @@
         "MEDIOS_URBANOS": 20,
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 5687.2
       },
       "CENTROID": {
@@ -5743,8 +5729,8 @@
         "MEDIOS_URBANOS": 19,
         "MEDIOS_RURALES": 11,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 7689.6
       },
       "CENTROID": {
@@ -5769,8 +5755,8 @@
         "MEDIOS_URBANOS": 20,
         "MEDIOS_RURALES": 11,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2506.8
       },
       "CENTROID": {
@@ -5847,8 +5833,8 @@
         "MEDIOS_URBANOS": 20,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1585.5
       },
       "CENTROID": {
@@ -5899,8 +5885,8 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1884.0
       },
       "CENTROID": {
@@ -5951,8 +5937,8 @@
         "MEDIOS_URBANOS": 30,
         "MEDIOS_RURALES": 15,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 12348.6
       },
       "CENTROID": {
@@ -6003,8 +5989,8 @@
         "MEDIOS_URBANOS": 25,
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2904.1
       },
       "CENTROID": {
@@ -6029,8 +6015,8 @@
         "MEDIOS_URBANOS": 20,
         "MEDIOS_RURALES": 14,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2773.8
       },
       "CENTROID": {
@@ -6055,8 +6041,8 @@
         "MEDIOS_URBANOS": 16,
         "MEDIOS_RURALES": 7,
         "MEDIOS_PLURALES_1FUENTE": 7,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 917.2
       },
       "CENTROID": {
@@ -6159,7 +6145,7 @@
         "MEDIOS_URBANOS": 26,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 17,
-        "MEDIOS_PLURALES_2FUENTE": 13,
+        "MEDIOS_PLURALES_2FUENTE": 9,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 912.7
       },
@@ -6185,7 +6171,7 @@
         "MEDIOS_URBANOS": 30,
         "MEDIOS_RURALES": 0,
         "MEDIOS_PLURALES_1FUENTE": 21,
-        "MEDIOS_PLURALES_2FUENTE": 15,
+        "MEDIOS_PLURALES_2FUENTE": 11,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 29080.0
       },
@@ -6237,7 +6223,7 @@
         "MEDIOS_URBANOS": 20,
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 13,
-        "MEDIOS_PLURALES_2FUENTE": 10,
+        "MEDIOS_PLURALES_2FUENTE": 9,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 3046.4
       },
@@ -6263,7 +6249,7 @@
         "MEDIOS_URBANOS": 27,
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 19,
-        "MEDIOS_PLURALES_2FUENTE": 14,
+        "MEDIOS_PLURALES_2FUENTE": 10,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 14980.5
       },
@@ -6289,8 +6275,8 @@
         "MEDIOS_URBANOS": 22,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 15,
-        "MEDIOS_PLURALES_2FUENTE": 12,
-        "CLASSIFICATION": "Bosque",
+        "MEDIOS_PLURALES_2FUENTE": 8,
+        "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 5511.1
       },
       "CENTROID": {
@@ -6315,8 +6301,8 @@
         "MEDIOS_URBANOS": 12,
         "MEDIOS_RURALES": 0,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 7,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2212.2
       },
       "CENTROID": {
@@ -6367,8 +6353,8 @@
         "MEDIOS_URBANOS": 22,
         "MEDIOS_RURALES": 6,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 7,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 6978.8
       },
       "CENTROID": {
@@ -6445,8 +6431,8 @@
         "MEDIOS_URBANOS": 28,
         "MEDIOS_RURALES": 7,
         "MEDIOS_PLURALES_1FUENTE": 15,
-        "MEDIOS_PLURALES_2FUENTE": 10,
-        "CLASSIFICATION": "Bosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 6126.1
       },
       "CENTROID": {
@@ -6471,8 +6457,8 @@
         "MEDIOS_URBANOS": 33,
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 17,
-        "MEDIOS_PLURALES_2FUENTE": 12,
-        "CLASSIFICATION": "Bosque",
+        "MEDIOS_PLURALES_2FUENTE": 6,
+        "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 3291.8
       },
       "CENTROID": {
@@ -6497,7 +6483,7 @@
         "MEDIOS_URBANOS": 41,
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 22,
-        "MEDIOS_PLURALES_2FUENTE": 15,
+        "MEDIOS_PLURALES_2FUENTE": 9,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 4075.0
       },
@@ -6523,8 +6509,8 @@
         "MEDIOS_URBANOS": 24,
         "MEDIOS_RURALES": 5,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 9,
-        "CLASSIFICATION": "Bosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 6950.4
       },
       "CENTROID": {
@@ -6575,8 +6561,8 @@
         "MEDIOS_URBANOS": 21,
         "MEDIOS_RURALES": 6,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 7,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 6402.6
       },
       "CENTROID": {
@@ -6653,8 +6639,8 @@
         "MEDIOS_URBANOS": 12,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 3595.5
       },
       "CENTROID": {
@@ -6679,7 +6665,7 @@
         "MEDIOS_URBANOS": 41,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 22,
-        "MEDIOS_PLURALES_2FUENTE": 15,
+        "MEDIOS_PLURALES_2FUENTE": 9,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 20115.7
       },
@@ -7066,11 +7052,11 @@
         "POPULATION": 135916,
         "SIZE_CATEGORY": "Localidad grande",
         "MEDIOS_TOTAL": 14,
-        "MEDIOS_URBANOS": 9,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 9,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 9708.3
       },
       "CENTROID": {
@@ -7092,11 +7078,11 @@
         "POPULATION": 64853,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 13,
-        "MEDIOS_URBANOS": 9,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 9,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 4988.7
       },
       "CENTROID": {
@@ -7118,9 +7104,9 @@
         "POPULATION": 54124,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 12,
-        "MEDIOS_URBANOS": 7,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 7,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 4510.3
@@ -7144,11 +7130,11 @@
         "POPULATION": 129622,
         "SIZE_CATEGORY": "Localidad grande",
         "MEDIOS_TOTAL": 17,
-        "MEDIOS_URBANOS": 11,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 11,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 7624.8
       },
       "CENTROID": {
@@ -7170,9 +7156,9 @@
         "POPULATION": 116301,
         "SIZE_CATEGORY": "Localidad grande",
         "MEDIOS_TOTAL": 12,
-        "MEDIOS_URBANOS": 6,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 9691.8
@@ -7196,9 +7182,9 @@
         "POPULATION": 14726,
         "SIZE_CATEGORY": "Localidad pequeña",
         "MEDIOS_TOTAL": 10,
-        "MEDIOS_URBANOS": 6,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1472.6
@@ -7222,11 +7208,11 @@
         "POPULATION": 108460,
         "SIZE_CATEGORY": "Localidad grande",
         "MEDIOS_TOTAL": 13,
-        "MEDIOS_URBANOS": 9,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 9,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 8343.1
       },
       "CENTROID": {
@@ -7248,11 +7234,11 @@
         "POPULATION": 90691,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 12,
-        "MEDIOS_URBANOS": 8,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 8,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 7557.6
       },
       "CENTROID": {
@@ -7274,9 +7260,9 @@
         "POPULATION": 111867,
         "SIZE_CATEGORY": "Localidad grande",
         "MEDIOS_TOTAL": 12,
-        "MEDIOS_URBANOS": 8,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 8,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 9322.2
@@ -7300,9 +7286,9 @@
         "POPULATION": 72885,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 12,
-        "MEDIOS_URBANOS": 7,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 7,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 6073.8
@@ -7326,9 +7312,9 @@
         "POPULATION": 66539,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 9,
-        "MEDIOS_URBANOS": 5,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 5,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 7393.2
@@ -7352,11 +7338,11 @@
         "POPULATION": 109075,
         "SIZE_CATEGORY": "Localidad grande",
         "MEDIOS_TOTAL": 15,
-        "MEDIOS_URBANOS": 9,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 9,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 7271.7
       },
       "CENTROID": {
@@ -7378,9 +7364,9 @@
         "POPULATION": 42623,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 7,
-        "MEDIOS_URBANOS": 2,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 2,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 6089.0
@@ -7404,9 +7390,9 @@
         "POPULATION": 36691,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 10,
-        "MEDIOS_URBANOS": 6,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 3669.1
@@ -7430,9 +7416,9 @@
         "POPULATION": 29702,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 11,
-        "MEDIOS_URBANOS": 7,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 7,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2700.2
@@ -7456,9 +7442,9 @@
         "POPULATION": 38075,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 7,
-        "MEDIOS_URBANOS": 3,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 3,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 5439.3
@@ -7482,11 +7468,11 @@
         "POPULATION": 46740,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 14,
-        "MEDIOS_URBANOS": 9,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 9,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 3338.6
       },
       "CENTROID": {
@@ -7508,9 +7494,9 @@
         "POPULATION": 50730,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 12,
-        "MEDIOS_URBANOS": 6,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 4227.5
@@ -7534,11 +7520,11 @@
         "POPULATION": 26560,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 13,
-        "MEDIOS_URBANOS": 8,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 8,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2043.1
       },
       "CENTROID": {
@@ -7560,9 +7546,9 @@
         "POPULATION": 94674,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 9,
-        "MEDIOS_URBANOS": 4,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 4,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 10519.3
@@ -7586,11 +7572,11 @@
         "POPULATION": 319109,
         "SIZE_CATEGORY": "Localidad grande",
         "MEDIOS_TOTAL": 18,
-        "MEDIOS_URBANOS": 12,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_1FUENTE": 12,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 17728.3
       },
       "CENTROID": {
@@ -7612,9 +7598,9 @@
         "POPULATION": 70179,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 11,
-        "MEDIOS_URBANOS": 5,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 5,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 6379.9
@@ -7693,8 +7679,8 @@
         "MEDIOS_URBANOS": 16,
         "MEDIOS_RURALES": 6,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1176.7
       },
       "CENTROID": {
@@ -7719,8 +7705,8 @@
         "MEDIOS_URBANOS": 13,
         "MEDIOS_RURALES": 3,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1581.9
       },
       "CENTROID": {
@@ -7745,8 +7731,8 @@
         "MEDIOS_URBANOS": 11,
         "MEDIOS_RURALES": 3,
         "MEDIOS_PLURALES_1FUENTE": 7,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1237.1
       },
       "CENTROID": {
@@ -7797,8 +7783,8 @@
         "MEDIOS_URBANOS": 13,
         "MEDIOS_RURALES": 2,
         "MEDIOS_PLURALES_1FUENTE": 7,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 824.5
       },
       "CENTROID": {
@@ -7823,8 +7809,8 @@
         "MEDIOS_URBANOS": 29,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 14,
-        "MEDIOS_PLURALES_2FUENTE": 4,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 7904.0
       },
       "CENTROID": {
@@ -7849,8 +7835,8 @@
         "MEDIOS_URBANOS": 25,
         "MEDIOS_RURALES": 15,
         "MEDIOS_PLURALES_1FUENTE": 13,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1673.0
       },
       "CENTROID": {
@@ -7875,8 +7861,8 @@
         "MEDIOS_URBANOS": 18,
         "MEDIOS_RURALES": 4,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2225.7
       },
       "CENTROID": {
@@ -7901,8 +7887,8 @@
         "MEDIOS_URBANOS": 25,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1778.5
       },
       "CENTROID": {
@@ -7927,8 +7913,8 @@
         "MEDIOS_URBANOS": 30,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 15,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 8792.6
       },
       "CENTROID": {
@@ -7979,8 +7965,8 @@
         "MEDIOS_URBANOS": 23,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 13,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2179.5
       },
       "CENTROID": {
@@ -8031,8 +8017,8 @@
         "MEDIOS_URBANOS": 10,
         "MEDIOS_RURALES": 4,
         "MEDIOS_PLURALES_1FUENTE": 7,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1002.8
       },
       "CENTROID": {
@@ -8083,8 +8069,8 @@
         "MEDIOS_URBANOS": 10,
         "MEDIOS_RURALES": 3,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 793.8
       },
       "CENTROID": {
@@ -8135,8 +8121,8 @@
         "MEDIOS_URBANOS": 13,
         "MEDIOS_RURALES": 4,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 832.0
       },
       "CENTROID": {
@@ -8161,8 +8147,8 @@
         "MEDIOS_URBANOS": 12,
         "MEDIOS_RURALES": 5,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 837.9
       },
       "CENTROID": {
@@ -8239,8 +8225,8 @@
         "MEDIOS_URBANOS": 12,
         "MEDIOS_RURALES": 6,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 798.1
       },
       "CENTROID": {
@@ -8265,8 +8251,8 @@
         "MEDIOS_URBANOS": 18,
         "MEDIOS_RURALES": 3,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2022.3
       },
       "CENTROID": {
@@ -8287,13 +8273,13 @@
         "SURVEY_NAME": "Ortíz",
         "POPULATION": 66589,
         "SIZE_CATEGORY": "Localidad mediana",
-        "MEDIOS_TOTAL": 0,
-        "MEDIOS_URBANOS": 0,
-        "MEDIOS_RURALES": 0,
+        "MEDIOS_TOTAL": 7,
+        "MEDIOS_URBANOS": 4,
+        "MEDIOS_RURALES": 4,
         "MEDIOS_PLURALES_1FUENTE": 3,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
-        "RATIO_POP_MEDIOS": null
+        "RATIO_POP_MEDIOS": 9512.7
       },
       "CENTROID": {
         "xc": -67.603432,
@@ -8678,9 +8664,9 @@
         "POPULATION": 46491,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 5,
-        "MEDIOS_URBANOS": 3,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 3,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 9298.2
@@ -8704,9 +8690,9 @@
         "POPULATION": 19295,
         "SIZE_CATEGORY": "Localidad pequeña",
         "MEDIOS_TOTAL": 6,
-        "MEDIOS_URBANOS": 3,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 3,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 3215.8
@@ -8730,9 +8716,9 @@
         "POPULATION": 4054,
         "SIZE_CATEGORY": "Localidad pequeña",
         "MEDIOS_TOTAL": 3,
-        "MEDIOS_URBANOS": 1,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 1,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 1351.3
@@ -8756,9 +8742,9 @@
         "POPULATION": 80263,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 6,
-        "MEDIOS_URBANOS": 3,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 3,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 13377.2
@@ -8782,9 +8768,9 @@
         "POPULATION": 33064,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 6,
-        "MEDIOS_URBANOS": 3,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 3,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 5510.7
@@ -8808,9 +8794,9 @@
         "POPULATION": 5346,
         "SIZE_CATEGORY": "Localidad pequeña",
         "MEDIOS_TOTAL": 3,
-        "MEDIOS_URBANOS": 1,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 1,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 1782.0
@@ -8834,9 +8820,9 @@
         "POPULATION": 17009,
         "SIZE_CATEGORY": "Localidad pequeña",
         "MEDIOS_TOTAL": 4,
-        "MEDIOS_URBANOS": 1,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 1,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 4252.2
@@ -8860,9 +8846,9 @@
         "POPULATION": 39464,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 3,
-        "MEDIOS_URBANOS": 1,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 1,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 13154.7
@@ -8886,9 +8872,9 @@
         "POPULATION": 18168,
         "SIZE_CATEGORY": "Localidad pequeña",
         "MEDIOS_TOTAL": 8,
-        "MEDIOS_URBANOS": 4,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 4,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2271.0
@@ -8912,9 +8898,9 @@
         "POPULATION": 45678,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 5,
-        "MEDIOS_URBANOS": 2,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 2,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 9135.6
@@ -8938,9 +8924,9 @@
         "POPULATION": 29687,
         "SIZE_CATEGORY": "Localidad mediana",
         "MEDIOS_TOTAL": 6,
-        "MEDIOS_URBANOS": 3,
+        "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
-        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_1FUENTE": 3,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Desierto",
         "RATIO_POP_MEDIOS": 4947.8
@@ -8967,8 +8953,8 @@
         "MEDIOS_URBANOS": 14,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 12697.3
       },
       "CENTROID": {
@@ -8989,13 +8975,13 @@
         "SURVEY_NAME": "Crespo (Duaca)",
         "POPULATION": 53714,
         "SIZE_CATEGORY": "Localidad mediana",
-        "MEDIOS_TOTAL": 10,
-        "MEDIOS_URBANOS": 10,
-        "MEDIOS_RURALES": 5,
-        "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 5371.4
+        "MEDIOS_TOTAL": 9,
+        "MEDIOS_URBANOS": 9,
+        "MEDIOS_RURALES": 4,
+        "MEDIOS_PLURALES_1FUENTE": 7,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
+        "RATIO_POP_MEDIOS": 5968.2
       },
       "CENTROID": {
         "xc": -69.15582,
@@ -9093,13 +9079,13 @@
         "SURVEY_NAME": "Iribarren (Barquisimeto)",
         "POPULATION": 1054915,
         "SIZE_CATEGORY": "Localidad grande",
-        "MEDIOS_TOTAL": 21,
-        "MEDIOS_URBANOS": 20,
-        "MEDIOS_RURALES": 15,
-        "MEDIOS_PLURALES_1FUENTE": 15,
-        "MEDIOS_PLURALES_2FUENTE": 8,
+        "MEDIOS_TOTAL": 20,
+        "MEDIOS_URBANOS": 19,
+        "MEDIOS_RURALES": 14,
+        "MEDIOS_PLURALES_1FUENTE": 14,
+        "MEDIOS_PLURALES_2FUENTE": 3,
         "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 50234.0
+        "RATIO_POP_MEDIOS": 52745.8
       },
       "CENTROID": {
         "xc": -69.419998,
@@ -9149,8 +9135,8 @@
         "MEDIOS_URBANOS": 6,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 6293.7
       },
       "CENTROID": {
@@ -9171,13 +9157,13 @@
         "SURVEY_NAME": "Palavecino (Cabudare)",
         "POPULATION": 183524,
         "SIZE_CATEGORY": "Localidad grande",
-        "MEDIOS_TOTAL": 19,
-        "MEDIOS_URBANOS": 18,
-        "MEDIOS_RURALES": 11,
-        "MEDIOS_PLURALES_1FUENTE": 13,
-        "MEDIOS_PLURALES_2FUENTE": 7,
-        "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 9659.2
+        "MEDIOS_TOTAL": 18,
+        "MEDIOS_URBANOS": 17,
+        "MEDIOS_RURALES": 10,
+        "MEDIOS_PLURALES_1FUENTE": 12,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
+        "RATIO_POP_MEDIOS": 10195.8
       },
       "CENTROID": {
         "xc": -69.235592,
@@ -9201,8 +9187,8 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 7,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 8662.8
       },
       "CENTROID": {
@@ -9279,8 +9265,8 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 5,
         "MEDIOS_PLURALES_1FUENTE": 12,
-        "MEDIOS_PLURALES_2FUENTE": 8,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 13063.2
       },
       "CENTROID": {
@@ -9305,8 +9291,8 @@
         "MEDIOS_URBANOS": 15,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2989.8
       },
       "CENTROID": {
@@ -9357,8 +9343,8 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 5,
         "MEDIOS_PLURALES_1FUENTE": 12,
-        "MEDIOS_PLURALES_2FUENTE": 8,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 11965.6
       },
       "CENTROID": {
@@ -9435,7 +9421,7 @@
         "MEDIOS_URBANOS": 22,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 13,
-        "MEDIOS_PLURALES_2FUENTE": 11,
+        "MEDIOS_PLURALES_2FUENTE": 9,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 2189.8
       },
@@ -9461,7 +9447,7 @@
         "MEDIOS_URBANOS": 23,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 12,
-        "MEDIOS_PLURALES_2FUENTE": 10,
+        "MEDIOS_PLURALES_2FUENTE": 8,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 3070.4
       },
@@ -9487,8 +9473,8 @@
         "MEDIOS_URBANOS": 16,
         "MEDIOS_RURALES": 7,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 8216.5
       },
       "CENTROID": {
@@ -9565,8 +9551,8 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 8685.6
       },
       "CENTROID": {
@@ -9591,8 +9577,8 @@
         "MEDIOS_URBANOS": 18,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 8839.4
       },
       "CENTROID": {
@@ -9643,7 +9629,7 @@
         "MEDIOS_URBANOS": 26,
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 14,
-        "MEDIOS_PLURALES_2FUENTE": 12,
+        "MEDIOS_PLURALES_2FUENTE": 10,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 10378.0
       },
@@ -10033,8 +10019,8 @@
         "MEDIOS_URBANOS": 15,
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 37511.8
       },
       "CENTROID": {
@@ -10840,7 +10826,7 @@
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": null,
-        "CLASSIFICATION": "Desierto",
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 6510.2
       },
       "CENTROID": {
@@ -10969,7 +10955,7 @@
         "MEDIOS_URBANOS": 12,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 3,
+        "MEDIOS_PLURALES_2FUENTE": 2,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 3232.4
       },
@@ -10995,7 +10981,7 @@
         "MEDIOS_URBANOS": 12,
         "MEDIOS_RURALES": 11,
         "MEDIOS_PLURALES_1FUENTE": 12,
-        "MEDIOS_PLURALES_2FUENTE": 3,
+        "MEDIOS_PLURALES_2FUENTE": 2,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 1420.0
       },
@@ -11073,7 +11059,7 @@
         "MEDIOS_URBANOS": 22,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 14,
-        "MEDIOS_PLURALES_2FUENTE": 3,
+        "MEDIOS_PLURALES_2FUENTE": 2,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 9321.9
       },
@@ -11147,13 +11133,13 @@
         "SURVEY_NAME": "Turén (Villa Bruzual)",
         "POPULATION": 65928,
         "SIZE_CATEGORY": "Localidad mediana",
-        "MEDIOS_TOTAL": 15,
-        "MEDIOS_URBANOS": 14,
+        "MEDIOS_TOTAL": 14,
+        "MEDIOS_URBANOS": 13,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 3,
+        "MEDIOS_PLURALES_2FUENTE": 2,
         "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 4395.2
+        "RATIO_POP_MEDIOS": 4709.1
       },
       "CENTROID": {
         "xc": -68.899517,
@@ -11203,7 +11189,7 @@
         "MEDIOS_URBANOS": 22,
         "MEDIOS_RURALES": 14,
         "MEDIOS_PLURALES_1FUENTE": 14,
-        "MEDIOS_PLURALES_2FUENTE": 3,
+        "MEDIOS_PLURALES_2FUENTE": 2,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 7835.1
       },
@@ -11229,7 +11215,7 @@
         "MEDIOS_URBANOS": 22,
         "MEDIOS_RURALES": 14,
         "MEDIOS_PLURALES_1FUENTE": 14,
-        "MEDIOS_PLURALES_2FUENTE": 3,
+        "MEDIOS_PLURALES_2FUENTE": 2,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 8533.0
       },
@@ -11307,7 +11293,7 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 3,
+        "MEDIOS_PLURALES_2FUENTE": 2,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 2766.4
       },
@@ -11333,8 +11319,8 @@
         "MEDIOS_URBANOS": 12,
         "MEDIOS_RURALES": 6,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 33554.1
       },
       "CENTROID": {
@@ -11776,7 +11762,7 @@
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": null,
-        "CLASSIFICATION": "Semibosque",
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 3884.6
       },
       "CENTROID": {
@@ -11828,7 +11814,7 @@
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": null,
-        "CLASSIFICATION": "Semibosque",
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2082.2
       },
       "CENTROID": {
@@ -11880,7 +11866,7 @@
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1636.8
       },
       "CENTROID": {
@@ -11983,8 +11969,8 @@
         "MEDIOS_URBANOS": 25,
         "MEDIOS_RURALES": 22,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 1,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 3800.0
       },
       "CENTROID": {
@@ -12114,7 +12100,7 @@
         "MEDIOS_RURALES": 14,
         "MEDIOS_PLURALES_1FUENTE": 6,
         "MEDIOS_PLURALES_2FUENTE": null,
-        "CLASSIFICATION": "Semibosque",
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 3968.0
       },
       "CENTROID": {
@@ -12140,7 +12126,7 @@
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 5,
         "MEDIOS_PLURALES_2FUENTE": null,
-        "CLASSIFICATION": "Semibosque",
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1723.8
       },
       "CENTROID": {
@@ -12243,8 +12229,8 @@
         "MEDIOS_URBANOS": 19,
         "MEDIOS_RURALES": 16,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 11554.0
       },
       "CENTROID": {
@@ -12373,8 +12359,8 @@
         "MEDIOS_URBANOS": 14,
         "MEDIOS_RURALES": 7,
         "MEDIOS_PLURALES_1FUENTE": 7,
-        "MEDIOS_PLURALES_2FUENTE": 1,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1681.6
       },
       "CENTROID": {
@@ -12451,8 +12437,8 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 4368.6
       },
       "CENTROID": {
@@ -12477,8 +12463,8 @@
         "MEDIOS_URBANOS": 12,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 7,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1258.5
       },
       "CENTROID": {
@@ -12555,8 +12541,8 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2767.2
       },
       "CENTROID": {
@@ -12867,8 +12853,8 @@
         "MEDIOS_URBANOS": 18,
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 2,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1981.1
       },
       "CENTROID": {
@@ -12997,8 +12983,8 @@
         "MEDIOS_URBANOS": 15,
         "MEDIOS_RURALES": 5,
         "MEDIOS_PLURALES_1FUENTE": 8,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1125.3
       },
       "CENTROID": {
@@ -13101,8 +13087,8 @@
         "MEDIOS_URBANOS": 18,
         "MEDIOS_RURALES": 4,
         "MEDIOS_PLURALES_1FUENTE": 7,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 1145.1
       },
       "CENTROID": {
@@ -13123,13 +13109,13 @@
         "SURVEY_NAME": "Bolívar (Aroa)",
         "POPULATION": 34084,
         "SIZE_CATEGORY": "Localidad mediana",
-        "MEDIOS_TOTAL": 19,
-        "MEDIOS_URBANOS": 16,
+        "MEDIOS_TOTAL": 18,
+        "MEDIOS_URBANOS": 15,
         "MEDIOS_RURALES": 6,
-        "MEDIOS_PLURALES_1FUENTE": 6,
+        "MEDIOS_PLURALES_1FUENTE": 5,
         "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION": "Semidesierto",
-        "RATIO_POP_MEDIOS": 1793.9
+        "RATIO_POP_MEDIOS": 1893.6
       },
       "CENTROID": {
         "xc": -68.898183,
@@ -13149,13 +13135,13 @@
         "SURVEY_NAME": "San Felipe",
         "POPULATION": 115630,
         "SIZE_CATEGORY": "Localidad grande",
-        "MEDIOS_TOTAL": 33,
-        "MEDIOS_URBANOS": 33,
-        "MEDIOS_RURALES": 22,
-        "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 7,
-        "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 3503.9
+        "MEDIOS_TOTAL": 29,
+        "MEDIOS_URBANOS": 29,
+        "MEDIOS_RURALES": 20,
+        "MEDIOS_PLURALES_1FUENTE": 9,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
+        "RATIO_POP_MEDIOS": 3987.2
       },
       "CENTROID": {
         "xc": -68.677931,
@@ -13175,13 +13161,13 @@
         "SURVEY_NAME": "Cocorote",
         "POPULATION": 46803,
         "SIZE_CATEGORY": "Localidad mediana",
-        "MEDIOS_TOTAL": 28,
-        "MEDIOS_URBANOS": 28,
-        "MEDIOS_RURALES": 17,
-        "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 6,
-        "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 1671.5
+        "MEDIOS_TOTAL": 25,
+        "MEDIOS_URBANOS": 25,
+        "MEDIOS_RURALES": 15,
+        "MEDIOS_PLURALES_1FUENTE": 8,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
+        "RATIO_POP_MEDIOS": 1872.1
       },
       "CENTROID": {
         "xc": -68.774349,
@@ -13279,13 +13265,13 @@
         "SURVEY_NAME": "Peña (Yaritagua)",
         "POPULATION": 112446,
         "SIZE_CATEGORY": "Localidad grande",
-        "MEDIOS_TOTAL": 19,
-        "MEDIOS_URBANOS": 18,
-        "MEDIOS_RURALES": 8,
-        "MEDIOS_PLURALES_1FUENTE": 6,
+        "MEDIOS_TOTAL": 18,
+        "MEDIOS_URBANOS": 17,
+        "MEDIOS_RURALES": 7,
+        "MEDIOS_PLURALES_1FUENTE": 5,
         "MEDIOS_PLURALES_2FUENTE": null,
-        "CLASSIFICATION": "Semidesierto",
-        "RATIO_POP_MEDIOS": 5918.2
+        "CLASSIFICATION": "Desierto",
+        "RATIO_POP_MEDIOS": 6247.0
       },
       "CENTROID": {
         "xc": -69.106765,
@@ -13305,13 +13291,13 @@
         "SURVEY_NAME": "Bruzual (Chivacoa)",
         "POPULATION": 76333,
         "SIZE_CATEGORY": "Localidad mediana",
-        "MEDIOS_TOTAL": 23,
-        "MEDIOS_URBANOS": 22,
+        "MEDIOS_TOTAL": 22,
+        "MEDIOS_URBANOS": 21,
         "MEDIOS_RURALES": 7,
-        "MEDIOS_PLURALES_1FUENTE": 10,
-        "MEDIOS_PLURALES_2FUENTE": 7,
-        "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 3318.8
+        "MEDIOS_PLURALES_1FUENTE": 9,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
+        "RATIO_POP_MEDIOS": 3469.7
       },
       "CENTROID": {
         "xc": -68.874537,
@@ -13331,13 +13317,13 @@
         "SURVEY_NAME": "Independencia",
         "POPULATION": 67221,
         "SIZE_CATEGORY": "Localidad mediana",
-        "MEDIOS_TOTAL": 32,
-        "MEDIOS_URBANOS": 32,
-        "MEDIOS_RURALES": 20,
-        "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 7,
-        "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 2100.7
+        "MEDIOS_TOTAL": 28,
+        "MEDIOS_URBANOS": 28,
+        "MEDIOS_RURALES": 18,
+        "MEDIOS_PLURALES_1FUENTE": 9,
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
+        "RATIO_POP_MEDIOS": 2400.8
       },
       "CENTROID": {
         "xc": -68.730097,
@@ -13361,7 +13347,7 @@
         "MEDIOS_URBANOS": 21,
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 14,
-        "MEDIOS_PLURALES_2FUENTE": 7,
+        "MEDIOS_PLURALES_2FUENTE": 4,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 1917.1
       },
@@ -13413,7 +13399,7 @@
         "MEDIOS_URBANOS": 49,
         "MEDIOS_RURALES": 29,
         "MEDIOS_PLURALES_1FUENTE": 30,
-        "MEDIOS_PLURALES_2FUENTE": 19,
+        "MEDIOS_PLURALES_2FUENTE": 13,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 31853.8
       },
@@ -13439,8 +13425,8 @@
         "MEDIOS_URBANOS": 24,
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 13,
-        "MEDIOS_PLURALES_2FUENTE": 9,
-        "CLASSIFICATION": "Bosque",
+        "MEDIOS_PLURALES_2FUENTE": 6,
+        "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 4153.4
       },
       "CENTROID": {
@@ -13491,7 +13477,7 @@
         "MEDIOS_URBANOS": 37,
         "MEDIOS_RURALES": 21,
         "MEDIOS_PLURALES_1FUENTE": 22,
-        "MEDIOS_PLURALES_2FUENTE": 14,
+        "MEDIOS_PLURALES_2FUENTE": 10,
         "CLASSIFICATION": "Bosque",
         "RATIO_POP_MEDIOS": 12168.9
       },
@@ -13543,8 +13529,8 @@
         "MEDIOS_URBANOS": 13,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 3,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 2755.1
       },
       "CENTROID": {
@@ -13569,8 +13555,8 @@
         "MEDIOS_URBANOS": 19,
         "MEDIOS_RURALES": 9,
         "MEDIOS_PLURALES_1FUENTE": 14,
-        "MEDIOS_PLURALES_2FUENTE": 8,
-        "CLASSIFICATION": "Bosque",
+        "MEDIOS_PLURALES_2FUENTE": 5,
+        "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 4177.1
       },
       "CENTROID": {
@@ -13595,7 +13581,7 @@
         "MEDIOS_URBANOS": 27,
         "MEDIOS_RURALES": 14,
         "MEDIOS_PLURALES_1FUENTE": 16,
-        "MEDIOS_PLURALES_2FUENTE": 8,
+        "MEDIOS_PLURALES_2FUENTE": 5,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 4610.8
       },
@@ -13647,7 +13633,7 @@
         "MEDIOS_URBANOS": 18,
         "MEDIOS_RURALES": 16,
         "MEDIOS_PLURALES_1FUENTE": 13,
-        "MEDIOS_PLURALES_2FUENTE": 7,
+        "MEDIOS_PLURALES_2FUENTE": 4,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 2921.5
       },
@@ -13673,7 +13659,7 @@
         "MEDIOS_URBANOS": 22,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 13,
-        "MEDIOS_PLURALES_2FUENTE": 7,
+        "MEDIOS_PLURALES_2FUENTE": 5,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 3781.9
       },
@@ -13699,7 +13685,7 @@
         "MEDIOS_URBANOS": 18,
         "MEDIOS_RURALES": 10,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 7,
+        "MEDIOS_PLURALES_2FUENTE": 5,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 5945.9
       },
@@ -13747,13 +13733,13 @@
         "SURVEY_NAME": "Baralt (San Timoteo)",
         "POPULATION": 92904,
         "SIZE_CATEGORY": "Localidad mediana",
-        "MEDIOS_TOTAL": 18,
-        "MEDIOS_URBANOS": 16,
+        "MEDIOS_TOTAL": 17,
+        "MEDIOS_URBANOS": 15,
         "MEDIOS_RURALES": 11,
-        "MEDIOS_PLURALES_1FUENTE": 10,
+        "MEDIOS_PLURALES_1FUENTE": 9,
         "MEDIOS_PLURALES_2FUENTE": 3,
         "CLASSIFICATION": "Semibosque",
-        "RATIO_POP_MEDIOS": 5161.3
+        "RATIO_POP_MEDIOS": 5464.9
       },
       "CENTROID": {
         "xc": -70.88057,
@@ -13773,13 +13759,13 @@
         "SURVEY_NAME": "Cabimas",
         "POPULATION": 274088,
         "SIZE_CATEGORY": "Localidad grande",
-        "MEDIOS_TOTAL": 38,
-        "MEDIOS_URBANOS": 38,
-        "MEDIOS_RURALES": 19,
-        "MEDIOS_PLURALES_1FUENTE": 25,
-        "MEDIOS_PLURALES_2FUENTE": 12,
-        "CLASSIFICATION": "Bosque",
-        "RATIO_POP_MEDIOS": 7212.8
+        "MEDIOS_TOTAL": 37,
+        "MEDIOS_URBANOS": 37,
+        "MEDIOS_RURALES": 18,
+        "MEDIOS_PLURALES_1FUENTE": 24,
+        "MEDIOS_PLURALES_2FUENTE": 7,
+        "CLASSIFICATION": "Semibosque",
+        "RATIO_POP_MEDIOS": 7407.8
       },
       "CENTROID": {
         "xc": -71.230793,
@@ -13799,13 +13785,13 @@
         "SURVEY_NAME": "Lagunillas (Ciudad Ojeda)",
         "POPULATION": 200092,
         "SIZE_CATEGORY": "Localidad grande",
-        "MEDIOS_TOTAL": 34,
-        "MEDIOS_URBANOS": 34,
+        "MEDIOS_TOTAL": 33,
+        "MEDIOS_URBANOS": 33,
         "MEDIOS_RURALES": 21,
-        "MEDIOS_PLURALES_1FUENTE": 22,
-        "MEDIOS_PLURALES_2FUENTE": 11,
-        "CLASSIFICATION": "Bosque",
-        "RATIO_POP_MEDIOS": 5885.1
+        "MEDIOS_PLURALES_1FUENTE": 21,
+        "MEDIOS_PLURALES_2FUENTE": 7,
+        "CLASSIFICATION": "Semibosque",
+        "RATIO_POP_MEDIOS": 6063.4
       },
       "CENTROID": {
         "xc": -71.131561,
@@ -13829,7 +13815,7 @@
         "MEDIOS_URBANOS": 17,
         "MEDIOS_RURALES": 12,
         "MEDIOS_PLURALES_1FUENTE": 11,
-        "MEDIOS_PLURALES_2FUENTE": 6,
+        "MEDIOS_PLURALES_2FUENTE": 5,
         "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 2918.0
       },
@@ -13855,8 +13841,8 @@
         "MEDIOS_URBANOS": 10,
         "MEDIOS_RURALES": 8,
         "MEDIOS_PLURALES_1FUENTE": 9,
-        "MEDIOS_PLURALES_2FUENTE": 5,
-        "CLASSIFICATION": "Semibosque",
+        "MEDIOS_PLURALES_2FUENTE": null,
+        "CLASSIFICATION": "Semidesierto",
         "RATIO_POP_MEDIOS": 15557.1
       },
       "CENTROID": {
@@ -13881,8 +13867,8 @@
         "MEDIOS_URBANOS": 27,
         "MEDIOS_RURALES": 13,
         "MEDIOS_PLURALES_1FUENTE": 15,
-        "MEDIOS_PLURALES_2FUENTE": 9,
-        "CLASSIFICATION": "Bosque",
+        "MEDIOS_PLURALES_2FUENTE": 6,
+        "CLASSIFICATION": "Semibosque",
         "RATIO_POP_MEDIOS": 2181.9
       },
       "CENTROID": {

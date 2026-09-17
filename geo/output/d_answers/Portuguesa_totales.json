@@ -1,18 +1,18 @@
 {
   "formato": {
-    "Canal o grupo de mensajería en Whatsapp": 12,
+    "Canal o grupo de mensajería en Whatsapp": 11,
     "Canal o grupo de mensajería en Telegram": 9,
-    "Cuenta en Instagram": 23,
-    "Cuenta en Facebook": 17,
-    "Cuenta en TikTok": 17,
+    "Cuenta en Instagram": 22,
+    "Cuenta en Facebook": 16,
+    "Cuenta en TikTok": 16,
     "Cuenta en X": 12,
     "Cuenta en Youtube": 15,
     "Periódico (impreso)": 1,
     "Periodismo cara a cara": 3,
     "Podcast": 3,
     "Portal web de noticias": 15,
-    "Radio (AM o FM)": 7,
-    "Radio transmitida vía web": 4,
+    "Radio (AM o FM)": 6,
+    "Radio transmitida vía web": 3,
     "TV (señal abierta o cable)": 5,
     "TV transmitida vía web": 3,
     "No se maneja esta información": 0,
@@ -26,18 +26,18 @@
     "Cooperativa": 0,
     "Proyecto u organización sin figura jurídica": 3,
     "No sabe / Prefiere no responder": 0,
-    "No se maneja esta información": 2,
+    "No se maneja esta información": 1,
     "Otro": 1
   },
   "tematicas": {
-    "Arte y cultura local": 11,
-    "Deporte local": 13,
-    "Economía y desarrollo local": 20,
-    "Gobierno y política local": 20,
+    "Arte y cultura local": 10,
+    "Deporte local": 12,
+    "Economía y desarrollo local": 19,
+    "Gobierno y política local": 19,
     "Investigación y vigilancia al poder": 4,
     "Medio ambiente y sostenibilidad": 10,
     "Sucesos, seguridad y convivencia ciudadana": 17,
-    "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 22,
+    "Temas sociales locales (como salud, educación, transporte, servicios públicos)": 21,
     "No se maneja esta información": 0,
     "Otro": 2
   },
@@ -55,7 +55,7 @@
     "Venta de productos y servicios": 2,
     "No hay ninguna fuente de ingresos": 0,
     "No sabe / Prefiere no responder": 0,
-    "No se maneja esta información": 2,
+    "No se maneja esta información": 1,
     "Otro": 0
   },
   "censura": {
@@ -64,7 +64,7 @@
     "Presiones indirectas que influyen en la cobertura (por ejemplo, económicas, políticas o de seguridad)": 6,
     "No ha enfrentado este tipo de situaciones": 2,
     "Prefiere no responder": 2,
-    "No se maneja esta información": 3,
+    "No se maneja esta información": 2,
     "Otro": 0
   }
 }

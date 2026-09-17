@@ -1,367 +1,367 @@
 estado,unidade,poblacion,tamano,medios_total,medios_urbanos,medios_rurales,medios_plurales_1fuente,medios_plurales_2fuentes,categoria_definitiva,level_1_code,level_2_code
 Amazonas,Alto Orinoco (La Esmeralda),14464,Localidad pequeña,3,2,2,,No aplica,Desierto,VE02,VE0201
-Amazonas,Atabapo,10711,Localidad pequeña,6,5,4,1,No aplica,Desierto,VE02,VE0202
-Amazonas,Atures (Puerto Ayacucho),132919,Localidad grande,9,9,6,2,No aplica,Desierto,VE02,VE0203
-Amazonas,Autana (Isla Ratón),10191,Localidad pequeña,4,2,4,1,No aplica,Desierto,VE02,VE0204
-Amazonas,Manapiare,9021,Localidad pequeña,0,0,0,,No aplica,Desierto,VE02,VE0206
+Amazonas,Atabapo,10711,Localidad pequeña,6,5,4,1.0,No aplica,Desierto,VE02,VE0202
+Amazonas,Atures (Puerto Ayacucho),132919,Localidad grande,9,9,6,2.0,No aplica,Desierto,VE02,VE0203
+Amazonas,Autana (Isla Ratón),10191,Localidad pequeña,4,2,4,1.0,No aplica,Desierto,VE02,VE0204
+Amazonas,Manapiare,9021,Localidad pequeña,3,3,2,,No aplica,Desierto,VE02,VE0206
 Amazonas,Maroa,2370,Localidad pequeña,2,1,2,,No aplica,Desierto,VE02,VE0205
 Amazonas,Río Negro,2635,Localidad pequeña,3,1,3,,No aplica,Desierto,VE02,VE0207
-Anzoátegui,Anaco,132647,Localidad grande,6,6,1,5,No aplica,Desierto,VE03,VE0301
-Anzoátegui,Aragua,31197,Localidad mediana,2,2,1,1,No aplica,Desierto,VE03,VE0302
-Anzoátegui,Bolívar (Barcelona),446053,Localidad grande,15,15,14,10,4,Semibosque,VE03,VE0318
-Anzoátegui,Bruzual (Clarines),32378,Localidad mediana,2,2,0,1,No aplica,Desierto,VE03,VE0312
-Anzoátegui,Cajigal (Onoto),14278,Localidad pequeña,2,1,1,2,No aplica,Desierto,VE03,VE0309
-Anzoátegui,Diego Bautista Urbaneja (Lechería),42122,Localidad mediana,13,13,8,8,3,Semibosque,VE03,VE0321
-Anzoátegui,Freites (Cantaura),75772,Localidad mediana,6,5,4,5,No aplica,Semidesierto,VE03,VE0313
-Anzoátegui,Guanipa (San José de Guanipa),73243,Localidad mediana,9,9,6,7,No aplica,Semidesierto,VE03,VE0315
-Anzoátegui,Guanta,34031,Localidad mediana,10,10,6,6,No aplica,Semidesierto,VE03,VE0306
-Anzoátegui,Independencia (Soledad),34351,Localidad mediana,6,6,2,5,No aplica,Semidesierto,VE03,VE0307
-Anzoátegui,Libertad (San Mateo),15884,Localidad pequeña,4,3,1,2,No aplica,Desierto,VE03,VE0311
-Anzoátegui,McGregor (El Chaparro),10541,Localidad pequeña,1,1,0,1,No aplica,Desierto,VE03,VE0320
-Anzoátegui,Monagas (San Diego de Cabrutica),17446,Localidad pequeña,5,4,4,5,No aplica,Semidesierto,VE03,VE0310
-Anzoátegui,Carvajal (Valle de Guanape),14439,Localidad pequeña,1,1,0,1,No aplica,Desierto,VE03,VE0304
-Anzoátegui,Peñalver (Puerto Píritu),39405,Localidad mediana,6,6,3,3,No aplica,Desierto,VE03,VE0303
-Anzoátegui,Píritu,25679,Localidad mediana,6,6,3,3,No aplica,Desierto,VE03,VE0314
-Anzoátegui,San Juan de Capistrano (Boca de Uchire),9609,Localidad pequeña,3,3,0,2,No aplica,Desierto,VE03,VE0316
-Anzoátegui,Santa Ana,10149,Localidad pequeña,2,2,1,2,No aplica,Desierto,VE03,VE0317
-Anzoátegui,Simón Rodriguez (El Tigre),196100,Localidad grande,11,11,8,7,No aplica,Semidesierto,VE03,VE0319
-Anzoátegui,Sotillo (Puerto La Cruz),270155,Localidad grande,14,14,13,9,3,Semibosque,VE03,VE0308
-Anzoátegui,Francisco de Miranda (Pariaguán),41459,Localidad mediana,5,4,3,5,No aplica,Semidesierto,VE03,VE0305
-Apure,Achaguas,72491,Localidad mediana,14,14,5,3,No aplica,Desierto,VE04,VE0401
-Apure,Biruaca,68904,Localidad mediana,17,17,7,4,No aplica,Desierto,VE04,VE0402
-Apure,Muñoz (Bruzual),32160,Localidad mediana,5,5,4,2,No aplica,Desierto,VE04,VE0403
-Apure,Páez (Guasdualito),117417,Localidad grande,12,11,9,7,No aplica,Semidesierto,VE04,VE0404
-Apure,Pedro Camejo (San Juan de Payara),37151,Localidad mediana,11,10,7,4,No aplica,Desierto,VE04,VE0405
-Apure,Rómulo Gallegos (Elorza),30901,Localidad mediana,13,13,7,5,No aplica,Semidesierto,VE04,VE0406
-Apure,San Fernando,208479,Localidad grande,19,19,8,6,No aplica,Semidesierto,VE04,VE0407
-Aragua,Bolívar (San Mateo),36593,Localidad mediana,9,9,2,5,No aplica,Semidesierto,VE05,VE0501
-Aragua,Camatagua,16934,Localidad pequeña,4,4,0,1,No aplica,Desierto,VE05,VE0502
-Aragua,Francisco Linares Alcántara (Santa Rita),123140,Localidad grande,18,18,10,11,6,Semibosque,VE05,VE0517
-Aragua,Girardot (Maracay),413704,Localidad grande,28,28,21,16,8,Semibosque,VE05,VE0503
-Aragua,José Ángel Lamas (Santa Cruz),31961,Localidad mediana,7,7,2,3,No aplica,Desierto,VE05,VE0504
-Aragua,José Félix Ribas (La Victoria),146102,Localidad grande,19,19,11,9,4,Semibosque,VE05,VE0505
-Aragua,José Rafael Revenga (El Consejo),49307,Localidad mediana,8,8,2,5,No aplica,Semidesierto,VE05,VE0506
-Aragua,Libertador (Palo Negro),113744,Localidad grande,20,20,8,10,6,Semibosque,VE05,VE0507
-Aragua,Mario Briceño Iragorry (El Limón),100928,Localidad grande,19,19,12,10,6,Semibosque,VE05,VE0508
-Aragua,Ocumare de la Costa,13180,Localidad pequeña,5,5,1,2,No aplica,Desierto,VE05,VE0518
-Aragua,San Casimiro,24827,Localidad pequeña,4,4,1,1,No aplica,Desierto,VE05,VE0509
-Aragua,San Sebastián,23147,Localidad pequeña,4,4,1,1,No aplica,Desierto,VE05,VE0510
-Aragua,Santiago Mariño (Turmero),214068,Localidad grande,29,29,20,16,8,Semibosque,VE05,VE0511
-Aragua,Santos Michelena (Las Tejerías),37848,Localidad mediana,8,8,2,4,No aplica,Desierto,VE05,VE0512
-Aragua,Sucre (Cagua),119605,Localidad grande,18,18,7,8,No aplica,Semidesierto,VE05,VE0513
-Aragua,Tovar (Colonia Tovar),14274,Localidad pequeña,4,4,0,1,No aplica,Desierto,VE05,VE0514
+Anzoátegui,Anaco,132647,Localidad grande,6,6,1,5.0,No aplica,Desierto,VE03,VE0301
+Anzoátegui,Aragua,31197,Localidad mediana,2,2,1,1.0,No aplica,Desierto,VE03,VE0302
+Anzoátegui,Bolívar (Barcelona),446053,Localidad grande,15,15,14,10.0,No aplica,Semidesierto,VE03,VE0318
+Anzoátegui,Bruzual (Clarines),32378,Localidad mediana,2,2,0,1.0,No aplica,Desierto,VE03,VE0312
+Anzoátegui,Cajigal (Onoto),14278,Localidad pequeña,2,1,1,2.0,No aplica,Desierto,VE03,VE0309
+Anzoátegui,Diego Bautista Urbaneja (Lechería),42122,Localidad mediana,13,13,8,8.0,No aplica,Semidesierto,VE03,VE0321
+Anzoátegui,Freites (Cantaura),75772,Localidad mediana,6,5,4,5.0,No aplica,Semidesierto,VE03,VE0313
+Anzoátegui,Guanipa (San José de Guanipa),73243,Localidad mediana,9,9,6,7.0,No aplica,Semidesierto,VE03,VE0315
+Anzoátegui,Guanta,34031,Localidad mediana,10,10,6,6.0,No aplica,Semidesierto,VE03,VE0306
+Anzoátegui,Independencia (Soledad),34351,Localidad mediana,6,6,2,5.0,No aplica,Semidesierto,VE03,VE0307
+Anzoátegui,Libertad (San Mateo),15884,Localidad pequeña,4,3,1,2.0,No aplica,Desierto,VE03,VE0311
+Anzoátegui,McGregor (El Chaparro),10541,Localidad pequeña,1,1,0,1.0,No aplica,Desierto,VE03,VE0320
+Anzoátegui,Monagas (San Diego de Cabrutica),17446,Localidad pequeña,5,4,4,5.0,No aplica,Semidesierto,VE03,VE0310
+Anzoátegui,Carvajal (Valle de Guanape),14439,Localidad pequeña,1,1,0,1.0,No aplica,Desierto,VE03,VE0304
+Anzoátegui,Peñalver (Puerto Píritu),39405,Localidad mediana,6,6,3,3.0,No aplica,Desierto,VE03,VE0303
+Anzoátegui,Píritu,25679,Localidad mediana,6,6,3,3.0,No aplica,Desierto,VE03,VE0314
+Anzoátegui,San Juan de Capistrano (Boca de Uchire),9609,Localidad pequeña,3,3,0,2.0,No aplica,Desierto,VE03,VE0316
+Anzoátegui,Santa Ana,10149,Localidad pequeña,2,2,1,2.0,No aplica,Desierto,VE03,VE0317
+Anzoátegui,Simón Rodriguez (El Tigre),196100,Localidad grande,11,11,8,7.0,No aplica,Semidesierto,VE03,VE0319
+Anzoátegui,Sotillo (Puerto La Cruz),270155,Localidad grande,14,14,13,9.0,No aplica,Semidesierto,VE03,VE0308
+Anzoátegui,Francisco de Miranda (Pariaguán),41459,Localidad mediana,5,4,3,5.0,No aplica,Semidesierto,VE03,VE0305
+Apure,Achaguas,72491,Localidad mediana,14,14,5,3.0,No aplica,Desierto,VE04,VE0401
+Apure,Biruaca,68904,Localidad mediana,17,17,7,4.0,No aplica,Desierto,VE04,VE0402
+Apure,Muñoz (Bruzual),32160,Localidad mediana,5,5,4,2.0,No aplica,Desierto,VE04,VE0403
+Apure,Páez (Guasdualito),117417,Localidad grande,12,11,9,7.0,No aplica,Semidesierto,VE04,VE0404
+Apure,Pedro Camejo (San Juan de Payara),37151,Localidad mediana,11,10,7,4.0,No aplica,Desierto,VE04,VE0405
+Apure,Rómulo Gallegos (Elorza),30901,Localidad mediana,13,13,7,5.0,No aplica,Semidesierto,VE04,VE0406
+Apure,San Fernando,208479,Localidad grande,19,19,8,6.0,No aplica,Semidesierto,VE04,VE0407
+Aragua,Bolívar (San Mateo),36593,Localidad mediana,9,9,2,5.0,No aplica,Semidesierto,VE05,VE0501
+Aragua,Camatagua,16934,Localidad pequeña,4,4,0,1.0,No aplica,Desierto,VE05,VE0502
+Aragua,Francisco Linares Alcántara (Santa Rita),123140,Localidad grande,18,18,10,11.0,5,Semibosque,VE05,VE0517
+Aragua,Girardot (Maracay),413704,Localidad grande,28,28,21,16.0,7,Semibosque,VE05,VE0503
+Aragua,José Ángel Lamas (Santa Cruz),31961,Localidad mediana,7,7,2,3.0,No aplica,Desierto,VE05,VE0504
+Aragua,José Félix Ribas (La Victoria),146102,Localidad grande,19,19,11,9.0,No aplica,Semidesierto,VE05,VE0505
+Aragua,José Rafael Revenga (El Consejo),49307,Localidad mediana,8,8,2,5.0,No aplica,Semidesierto,VE05,VE0506
+Aragua,Libertador (Palo Negro),113744,Localidad grande,20,20,8,10.0,No aplica,Semidesierto,VE05,VE0507
+Aragua,Mario Briceño Iragorry (El Limón),100928,Localidad grande,19,19,12,10.0,No aplica,Semidesierto,VE05,VE0508
+Aragua,Ocumare de la Costa,13180,Localidad pequeña,5,5,1,2.0,No aplica,Desierto,VE05,VE0518
+Aragua,San Casimiro,24827,Localidad pequeña,4,4,1,1.0,No aplica,Desierto,VE05,VE0509
+Aragua,San Sebastián,23147,Localidad pequeña,4,4,1,1.0,No aplica,Desierto,VE05,VE0510
+Aragua,Santiago Mariño (Turmero),214068,Localidad grande,29,29,20,16.0,8,Semibosque,VE05,VE0511
+Aragua,Santos Michelena (Las Tejerías),37848,Localidad mediana,8,8,2,4.0,No aplica,Desierto,VE05,VE0512
+Aragua,Sucre (Cagua),119605,Localidad grande,18,18,7,8.0,No aplica,Semidesierto,VE05,VE0513
+Aragua,Tovar (Colonia Tovar),14274,Localidad pequeña,4,4,0,1.0,No aplica,Desierto,VE05,VE0514
 Aragua,Urdaneta (Barbacoas),20854,Localidad pequeña,2,2,0,,No aplica,Desierto,VE05,VE0515
 Aragua,Zamora (Villa de Cura),142084,Localidad grande,2,2,0,,No aplica,Desierto,VE05,VE0516
-Barinas,Alberto Arvelo Torrealba (Sabaneta),41447,Localidad mediana,22,17,12,8,4,Semibosque,VE06,VE0601
-Barinas,Andrés Eloy Blanco (El Cantón),15592,Localidad pequeña,17,16,7,7,4,Semibosque,VE06,VE0612
-Barinas,Antonio José de Sucre (Socopó),78410,Localidad mediana,27,25,13,10,5,Semibosque,VE06,VE0602
-Barinas,Arismendi,27019,Localidad mediana,13,9,7,5,No aplica,Semidesierto,VE06,VE0603
-Barinas,Barinas,370457,Localidad grande,30,30,15,11,5,Semibosque,VE06,VE0604
-Barinas,Bolívar (Barinitas),53362,Localidad mediana,25,22,12,10,5,Semibosque,VE06,VE0605
-Barinas,Cruz Paredes (Barrancas),25646,Localidad mediana,23,22,13,10,5,Semibosque,VE06,VE0606
-Barinas,Ezequiel Zamora (Santa Bárbara),52643,Localidad mediana,21,20,11,8,3,Semibosque,VE06,VE0607
-Barinas,Obispos (Obispos),36467,Localidad mediana,23,20,9,9,4,Semibosque,VE06,VE0608
-Barinas,Pedraza (Ciudad Bolivia),66572,Localidad mediana,24,20,14,10,4,Semibosque,VE06,VE0609
-Barinas,Rojas (Libertad),40219,Localidad mediana,15,13,9,5,No aplica,Semidesierto,VE06,VE0610
-Barinas,Sosa (Ciudad de Nutrias),24035,Localidad pequeña,15,12,7,6,No aplica,Semidesierto,VE06,VE0611
-Bolívar,Caroní (Ciudad Guayana),872399,Localidad grande,30,30,0,21,15,Bosque,VE07,VE0701
-Bolívar,Cedeño (Caicara del Orinoco),98910,Localidad mediana,5,5,0,3,No aplica,Desierto,VE07,VE0702
-Bolívar,El Callao,24643,Localidad pequeña,27,26,10,17,13,Bosque,VE07,VE0703
-Bolívar,Gran Sabana (Santa Elena de Uairén),36956,Localidad mediana,8,7,1,4,No aplica,Desierto,VE07,VE0704
-Bolívar,Heres (Ciudad Bolívar),404474,Localidad grande,27,27,13,19,14,Bosque,VE07,VE0705
-Bolívar,Piar (Upata),121244,Localidad grande,22,22,10,15,12,Bosque,VE07,VE0706
-Bolívar,Angostura (Ciudad Piar),50563,Localidad mediana,6,6,0,4,No aplica,Desierto,VE07,VE0707
-Bolívar,Roscio (Guasipati),26547,Localidad mediana,12,12,0,8,7,Semibosque,VE07,VE0708
-Bolívar,Sifontes (Tumeremo),60929,Localidad mediana,20,20,8,13,10,Bosque,VE07,VE0709
-Bolívar,Sucre (Maripa),23604,Localidad pequeña,5,5,0,3,No aplica,Desierto,VE07,VE0710
-Bolívar,Padre Pedro Chen (El Palmar),17801,Localidad pequeña,6,6,0,4,No aplica,Semidesierto,VE07,VE0711
-Carabobo,Bejuma,46741,Localidad mediana,13,12,9,8,6,Semibosque,VE08,VE0801
-Carabobo,Carlos Arvelo (Güigüe),144284,Localidad grande,7,5,5,3,No aplica,Desierto,VE08,VE0802
-Carabobo,Diego Ibarra (Mariara),101445,Localidad grande,8,6,5,4,No aplica,Desierto,VE08,VE0803
-Carabobo,Guacara,173760,Localidad grande,25,24,5,11,9,Bosque,VE08,VE0804
-Carabobo,Juan José Mora (Morón),68049,Localidad mediana,12,11,7,5,No aplica,Semidesierto,VE08,VE0805
-Carabobo,Libertador (Tocuyito),167492,Localidad grande,24,22,6,11,7,Semibosque,VE08,VE0806
-Carabobo,Los Guayos,147259,Localidad grande,23,21,6,10,7,Semibosque,VE08,VE0807
-Carabobo,Miranda,28738,Localidad mediana,11,8,9,6,No aplica,Semidesierto,VE08,VE0808
-Carabobo,Montalbán,25719,Localidad mediana,12,9,10,7,No aplica,Semidesierto,VE08,VE0809
-Carabobo,Naguanagua,167075,Localidad grande,41,41,8,22,15,Bosque,VE08,VE0810
-Carabobo,Puerto Cabello,177656,Localidad grande,29,28,7,15,10,Bosque,VE08,VE0811
-Carabobo,San Diego,108628,Localidad grande,33,33,8,17,12,Bosque,VE08,VE0812
-Carabobo,San Joaquín,61054,Localidad mediana,14,13,3,6,No aplica,Semidesierto,VE08,VE0813
-Carabobo,Valencia,824743,Localidad grande,41,41,10,22,15,Bosque,VE08,VE0814
-Distrito Capital,23 de enero,70179,Localidad mediana,11,5,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010122
-Distrito Capital,Altagracia,50730,Localidad mediana,12,6,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010101
-Distrito Capital,Antímano,116301,Localidad grande,12,6,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010102
-Distrito Capital,Caricuao,64853,Localidad mediana,13,9,No aplica,No aplica,4,Semibosque,VE01,VE010104
-Distrito Capital,Catedral,135916,Localidad grande,14,9,No aplica,No aplica,5,Semibosque,VE01,VE010105
-Distrito Capital,Coche,14726,Localidad pequeña,10,6,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010106
-Distrito Capital,El Junquito,54124,Localidad mediana,12,7,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010107
-Distrito Capital,El Paraíso,46740,Localidad mediana,14,9,No aplica,No aplica,4,Semibosque,VE01,VE010108
-Distrito Capital,El Recreo,108460,Localidad grande,13,9,No aplica,No aplica,6,Semibosque,VE01,VE010109
-Distrito Capital,El Valle,111867,Localidad grande,12,8,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010110
-Distrito Capital,Candelaria,129622,Localidad grande,17,11,No aplica,No aplica,6,Semibosque,VE01,VE010103
-Distrito Capital,La Pastora,72885,Localidad mediana,12,7,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010111
-Distrito Capital,La Vega,109075,Localidad grande,15,9,No aplica,No aplica,5,Semibosque,VE01,VE010112
-Distrito Capital,Macarao,42623,Localidad mediana,7,2,No aplica,No aplica,No aplica,Desierto,VE01,VE010113
-Distrito Capital,San Agustín,36691,Localidad mediana,10,6,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010114
-Distrito Capital,San Bernardino,29702,Localidad mediana,11,7,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010115
-Distrito Capital,San José,38075,Localidad mediana,7,3,No aplica,No aplica,No aplica,Desierto,VE01,VE010116
-Distrito Capital,San Juan,94674,Localidad mediana,9,4,No aplica,No aplica,No aplica,Desierto,VE01,VE010117
-Distrito Capital,San Pedro,66539,Localidad mediana,9,5,No aplica,No aplica,No aplica,Semidesierto,VE01,VE010118
-Distrito Capital,Santa Rosalía,90691,Localidad mediana,12,8,No aplica,No aplica,5,Semibosque,VE01,VE010119
-Distrito Capital,Santa Teresa,26560,Localidad mediana,13,8,No aplica,No aplica,5,Semibosque,VE01,VE010120
-Distrito Capital,Sucre,319109,Localidad grande,18,12,No aplica,No aplica,6,Semibosque,VE01,VE010121
-Cojedes,Anzoátegui (Cojedito),16523,Localidad pequeña,9,9,6,5,No aplica,Semidesierto,VE09,VE0901
-Cojedes,Falcón (Tinaquillo),101913,Localidad grande,15,15,10,6,No aplica,Semidesierto,VE09,VE0902
-Cojedes,Girardot (El Baúl),11569,Localidad pequeña,9,9,6,5,No aplica,Semidesierto,VE09,VE0903
-Cojedes,Lima Blanco (Macapo),9272,Localidad pequeña,8,8,7,4,No aplica,Semidesierto,VE09,VE0904
-Cojedes,Pao de San Juan Bautista (El Pao),16270,Localidad pequeña,9,9,5,5,No aplica,Semidesierto,VE09,VE0905
-Cojedes,Ricaurte (Libertad),12319,Localidad pequeña,8,8,5,4,No aplica,Semidesierto,VE09,VE0906
-Cojedes,Rómulo Gallegos,17730,Localidad pequeña,12,12,6,6,No aplica,Semidesierto,VE09,VE0907
-Cojedes,Ezequiel Zamora (San Carlos),111463,Localidad grande,16,16,12,7,No aplica,Semidesierto,VE09,VE0908
-Cojedes,Tinaco,33556,Localidad mediana,13,13,8,6,No aplica,Semidesierto,VE09,VE0909
-Delta Amacuro,Antonio Díaz Curiapo (Curiapo),30116,Localidad mediana,5,4,1,3,No aplica,Desierto,VE10,VE1001
-Delta Amacuro,Casacoima (Sierra Imataca),36645,Localidad mediana,4,2,2,2,No aplica,Desierto,VE10,VE1002
-Delta Amacuro,Pedernales,7206,Localidad pequeña,5,4,2,3,No aplica,Desierto,VE10,VE1003
-Delta Amacuro,Tucupita,115825,Localidad grande,10,10,4,6,No aplica,Semidesierto,VE10,VE1004
-Falcón,Acosta (San Juan de los Cayos),20565,Localidad pequeña,13,13,3,9,2,Semibosque,VE11,VE1101
-Falcón,Bolívar (San Luis),8995,Localidad pequeña,12,10,4,6,No aplica,Semidesierto,VE11,VE1102
-Falcón,Buchivacoa (Capatárida),24487,Localidad pequeña,11,10,4,6,No aplica,Semidesierto,VE11,VE1103
-Falcón,Cacique Manaure (Yaracal),11648,Localidad pequeña,14,13,4,8,2,Semibosque,VE11,VE1104
-Falcón,Carirubana (Punto Fijo),263778,Localidad grande,30,30,12,15,3,Semibosque,VE11,VE1105
-Falcón,Colina (La Vela de Coro),44463,Localidad mediana,25,25,9,11,2,Semibosque,VE11,VE1106
-Falcón,Dabajuro,25358,Localidad mediana,15,13,5,7,No aplica,Semidesierto,VE11,VE1107
-Falcón,Democracia (Pedregal),10719,Localidad pequeña,13,13,2,7,2,Semibosque,VE11,VE1108
-Falcón,Falcón (Pueblo Nuevo),52307,Localidad mediana,24,23,12,13,3,Semibosque,VE11,VE1109
-Falcón,Federación (Churuguara),31912,Localidad mediana,15,12,5,7,No aplica,Semidesierto,VE11,VE1110
-Falcón,Jacura,12034,Localidad pequeña,12,10,4,7,2,Semibosque,VE11,VE1111
-Falcón,Los Taques (Santa Cruz de Los Taques),43498,Localidad mediana,26,25,15,13,3,Semibosque,VE11,VE1112
-Falcón,Mauroa (Mene de Mauroa),26517,Localidad mediana,13,11,4,7,No aplica,Semidesierto,VE11,VE1113
-Falcón,Miranda (Santa Ana de Coro),229217,Localidad grande,29,29,12,14,4,Semibosque,VE11,VE1114
-Falcón,Monseñor Iturriza (Chichiriviche),21180,Localidad pequeña,18,16,6,8,2,Semibosque,VE11,VE1115
-Falcón,Palmasola,7938,Localidad pequeña,10,10,3,8,2,Semibosque,VE11,VE1116
-Falcón,Petit (Cabure),14845,Localidad pequeña,12,11,3,7,2,Semibosque,VE11,VE1117
-Falcón,Píritu,11174,Localidad pequeña,14,12,6,8,2,Semibosque,VE11,VE1118
-Falcón,San Francisco (Mirimire),11730,Localidad pequeña,14,12,5,8,2,Semibosque,VE11,VE1119
-Falcón,Silva (Tucacas),40063,Localidad mediana,18,18,4,8,2,Semibosque,VE11,VE1120
-Falcón,Sucre (La Cruz de Taratara),6064,Localidad pequeña,10,10,1,5,No aplica,Semidesierto,VE11,VE1121
-Falcón,Tocópero,5726,Localidad pequeña,11,10,3,6,No aplica,Semidesierto,VE11,VE1122
-Falcón,Unión (Santa Cruz de Bucaral),16804,Localidad pequeña,10,10,2,6,No aplica,Semidesierto,VE11,VE1123
-Falcón,Urumaco,8578,Localidad pequeña,11,11,1,6,No aplica,Semidesierto,VE11,VE1124
-Falcón,Zamora (Puerto Cumarebo),36401,Localidad mediana,18,18,3,10,2,Semibosque,VE11,VE1125
-Guárico,Esteros de Camaguan,27104,Localidad mediana,7,3,3,3,No aplica,Desierto,VE12,VE1201
-Guárico,Chaguaramas,15263,Localidad pequeña,8,5,5,4,No aplica,Semidesierto,VE12,VE1202
-Guárico,El Socorro,18024,Localidad pequeña,8,4,4,3,No aplica,Desierto,VE12,VE1203
-Guárico,Francisco de Miranda (Calabozo),156629,Localidad grande,12,7,7,5,No aplica,Desierto,VE12,VE1208
-Guárico,José Félix Ribas (Tucupido),40222,Localidad mediana,7,4,4,3,No aplica,Desierto,VE12,VE1211
-Guárico,José Tadeo Monagas (Altagracia de Orituco),82492,Localidad mediana,13,7,7,6,No aplica,Semidesierto,VE12,VE1209
-Guárico,Juan Germán Roscio (San Juan de Los Morros),145327,Localidad grande,13,7,7,6,No aplica,Semidesierto,VE12,VE1212
-Guárico,Julián Mellado (El Sombrero),29422,Localidad mediana,8,4,4,4,No aplica,Desierto,VE12,VE1207
-Guárico,Las Mercedes,36207,Localidad mediana,9,4,4,3,No aplica,Desierto,VE12,VE1206
-Guárico,Leonardo Infante (Valle de La Pascua),137715,Localidad grande,14,9,9,5,No aplica,Desierto,VE12,VE1205
-Guárico,Pedro Zaraza (Zaraza),25423,Localidad mediana,10,6,6,4,No aplica,Desierto,VE12,VE1215
-Guárico,Ortíz,66589,Localidad mediana,0,0,0,3,No aplica,Desierto,VE12,VE1210
-Guárico,San Gerónimo de Guayabal (Guayabal),21075,Localidad pequeña,8,4,4,3,No aplica,Desierto,VE12,VE1204
-Guárico,San José de Guaribe,12338,Localidad pequeña,7,4,4,3,No aplica,Desierto,VE12,VE1213
-Guárico,Santa María de Ipire,13894,Localidad pequeña,6,4,4,3,No aplica,Desierto,VE12,VE1214
-Lara,Andrés Eloy Blanco (Sanare),49640,Localidad mediana,7,7,5,5,No aplica,Semidesierto,VE13,VE1301
-Lara,Crespo (Duaca),53714,Localidad mediana,10,10,5,8,6,Semibosque,VE13,VE1302
-Lara,Iribarren (Barquisimeto),1054915,Localidad grande,21,20,15,15,8,Semibosque,VE13,VE1303
-Lara,Jiménez (Quibor),106111,Localidad grande,10,10,5,5,No aplica,Desierto,VE13,VE1304
-Lara,Morán (El Tocuyo),127031,Localidad grande,13,13,5,8,No aplica,Semidesierto,VE13,VE1305
-Lara,Palavecino (Cabudare),183524,Localidad grande,19,18,11,13,7,Semibosque,VE13,VE1306
-Lara,Simón Planas (Sarare),37036,Localidad mediana,9,9,4,7,No aplica,Semidesierto,VE13,VE1307
-Lara,Torres (Carora),190460,Localidad grande,15,14,9,10,5,Semibosque,VE13,VE1308
-Lara,Urdaneta (Siquisique),62937,Localidad mediana,10,6,9,8,5,Semibosque,VE13,VE1309
-La Guaira,Caraballeda,45678,Localidad mediana,5,2,No aplica,No aplica,No aplica,Desierto,VE24,VE240101
-La Guaira,Carayaca,39464,Localidad mediana,3,1,No aplica,No aplica,No aplica,Desierto,VE24,VE240102
-La Guaira,Carlos Soublette,29687,Localidad mediana,6,3,No aplica,No aplica,No aplica,Desierto,VE24,VE240111
-La Guaira,Caruao,5346,Localidad pequeña,3,1,No aplica,No aplica,No aplica,Desierto,VE24,VE240103
-La Guaira,Catia La Mar,80263,Localidad mediana,6,3,No aplica,No aplica,No aplica,Desierto,VE24,VE240104
-La Guaira,El Junko,4054,Localidad pequeña,3,1,No aplica,No aplica,No aplica,Desierto,VE24,VE240105
-La Guaira,La Guaira,18168,Localidad pequeña,8,4,No aplica,No aplica,No aplica,Semidesierto,VE24,VE240106
-La Guaira,Macuto,19295,Localidad pequeña,6,3,No aplica,No aplica,No aplica,Desierto,VE24,VE240107
-La Guaira,Maiquetía,33064,Localidad mediana,6,3,No aplica,No aplica,No aplica,Desierto,VE24,VE240108
-La Guaira,Naiguatá,17009,Localidad pequeña,4,1,No aplica,No aplica,No aplica,Desierto,VE24,VE240109
-La Guaira,Urimare,46491,Localidad mediana,5,3,No aplica,No aplica,No aplica,Desierto,VE24,VE240110
-Mérida,Adriani (El Vigía),137675,Localidad grande,27,27,11,13,5,Semibosque,VE14,VE1401
-Mérida,Andrés Bello (La Azulita),14203,Localidad pequeña,16,14,6,8,3,Semibosque,VE14,VE1402
-Mérida,Aricagua,4202,Localidad pequeña,16,14,6,4,No aplica,Semidesierto,VE14,VE1404
-Mérida,Briceño (Torondoy),4911,Localidad pequeña,10,7,6,4,No aplica,Semidesierto,VE14,VE1411
-Mérida,Chacón (Canaguá),12971,Localidad pequeña,16,11,12,5,No aplica,Semidesierto,VE14,VE1405
-Mérida,Campo Elías (Ejido),110163,Localidad grande,30,29,13,13,5,Semibosque,VE14,VE1406
-Mérida,Dávila (Bailadores),20662,Localidad pequeña,21,18,12,7,3,Semibosque,VE14,VE1418
-Mérida,Febres Cordero (Nueva Bolivia),33309,Localidad mediana,12,12,4,5,No aplica,Semidesierto,VE14,VE1422
-Mérida,Guaraque (Guaraque),9023,Localidad pequeña,14,10,9,5,No aplica,Semidesierto,VE14,VE1409
-Mérida,Libertador,249831,Localidad grande,39,37,22,13,5,Semibosque,VE14,VE1412
-Mérida,Miranda (Timotes),22664,Localidad pequeña,16,13,7,7,2,Semibosque,VE14,VE1413
-Mérida,Noguera (Santa María de Caparo),3207,Localidad pequeña,8,6,5,4,No aplica,Semidesierto,VE14,VE1415
-Mérida,Parra Olmedo (Tucaní),27767,Localidad mediana,14,12,9,6,No aplica,Semidesierto,VE14,VE1407
-Mérida,Pinto Salinas (Santa Cruz de Mora),24188,Localidad pequeña,17,17,11,6,No aplica,Semidesierto,VE14,VE1403
-Mérida,Pueblo Llano (Pueblo Llano),10885,Localidad pequeña,14,12,6,5,No aplica,Semidesierto,VE14,VE1416
-Mérida,Quintero (Santo Domingo),9539,Localidad pequeña,16,15,7,7,2,Semibosque,VE14,VE1408
-Mérida,Rangel (Mucuchíes),19378,Localidad pequeña,19,17,9,9,3,Semibosque,VE14,VE1417
-Mérida,Ramos de Lora (Santa Elena de Arenales),24804,Localidad pequeña,16,15,7,8,2,Semibosque,VE14,VE1414
-Mérida,Salas (Arapuey),14500,Localidad pequeña,11,8,6,5,No aplica,Semidesierto,VE14,VE1410
-Mérida,Marquina (Tabay),19656,Localidad pequeña,24,24,9,9,3,Semibosque,VE14,VE1419
-Mérida,Sucre (Lagunillas),59213,Localidad mediana,25,24,12,10,4,Semibosque,VE14,VE1420
-Mérida,Tovar,37827,Localidad mediana,27,26,12,10,4,Semibosque,VE14,VE1421
-Mérida,Zea,11277,Localidad pequeña,22,22,10,8,3,Semibosque,VE14,VE1423
-Miranda,Acevedo (Caucagua),89219,Localidad mediana,7,6,4,5,No aplica,Semidesierto,VE15,VE1501
-Miranda,Andrés Bello (San José de Barlovento),21159,Localidad pequeña,5,5,2,4,No aplica,Semidesierto,VE15,VE1502
-Miranda,Baruta,337230,Localidad grande,21,21,3,15,10,Bosque,VE15,VE1503
-Miranda,Brión (Higuerote),62490,Localidad mediana,9,8,4,5,No aplica,Semidesierto,VE15,VE1504
-Miranda,Buroz (Mamporal),27627,Localidad mediana,7,7,3,3,No aplica,Desierto,VE15,VE1505
-Miranda,Carrizal,52555,Localidad mediana,24,22,9,13,11,Bosque,VE15,VE1506
-Miranda,Chacao,71473,Localidad mediana,25,25,2,15,10,Bosque,VE15,VE1507
-Miranda,Cristóbal Rojas (Charallave),131464,Localidad grande,16,16,7,9,6,Semibosque,VE15,VE1508
-Miranda,El Hatillo,83950,Localidad mediana,22,21,3,15,10,Bosque,VE15,VE1509
-Miranda,Guaicaipuro (Los Teques),269828,Localidad grande,26,26,8,14,12,Bosque,VE15,VE1510
-Miranda,Independencia (Santa Teresa del Tuy),147656,Localidad grande,17,17,9,10,6,Semibosque,VE15,VE1511
-Miranda,Lander (Ocumare del Tuy),159110,Localidad grande,18,18,9,10,6,Semibosque,VE15,VE1512
-Miranda,Los Salias (San Antonio de los Altos),70620,Localidad mediana,23,23,10,12,10,Bosque,VE15,VE1513
-Miranda,Páez (Río Chico),39021,Localidad mediana,7,7,3,4,No aplica,Desierto,VE15,VE1514
-Miranda,Paz Castillo (Santa Lucía),115460,Localidad grande,14,14,8,8,No aplica,Semidesierto,VE15,VE1515
-Miranda,Pedro Gual (Cúpira),22117,Localidad pequeña,7,7,3,4,No aplica,Semidesierto,VE15,VE1516
-Miranda,Plaza (Guarenas),222074,Localidad grande,17,17,5,12,8,Semibosque,VE15,VE1517
-Miranda,Simón Bolívar (San Francisco de Yare),44847,Localidad mediana,15,15,9,9,6,Semibosque,VE15,VE1518
-Miranda,Sucre (Petare),641570,Localidad grande,21,20,4,13,11,Bosque,VE15,VE1519
-Miranda,Urdaneta (Cúa),155930,Localidad grande,18,17,12,10,7,Semibosque,VE15,VE1520
-Miranda,Zamora (Guatire),203416,Localidad grande,17,17,5,12,8,Semibosque,VE15,VE1521
-Monagas,Acosta (San Antonio de Capayacuar),17972,Localidad pequeña,9,8,6,4,No aplica,Semidesierto,VE16,VE1601
-Monagas,Aguasay,11999,Localidad pequeña,7,7,1,3,No aplica,Desierto,VE16,VE1602
-Monagas,Bolívar (Caripito),39209,Localidad mediana,9,9,1,5,No aplica,Semidesierto,VE16,VE1603
-Monagas,Caripe,34813,Localidad mediana,10,10,1,6,No aplica,Semidesierto,VE16,VE1604
-Monagas,Cedeño (Caicara de Maturín),36107,Localidad mediana,9,9,2,4,No aplica,Desierto,VE16,VE1605
-Monagas,Libertador (Temblador),45049,Localidad mediana,9,8,2,4,No aplica,Desierto,VE16,VE1607
-Monagas,Maturín,562677,Localidad grande,15,15,8,9,6,Semibosque,VE16,VE1608
-Monagas,Piar (Aragua de Maturín),46141,Localidad mediana,8,7,4,4,No aplica,Desierto,VE16,VE1609
-Monagas,Punceres (Quiriquire),27714,Localidad mediana,8,6,3,4,No aplica,Desierto,VE16,VE1610
-Monagas,Santa Bárbara,9797,Localidad pequeña,8,8,1,3,No aplica,Desierto,VE16,VE1611
-Monagas,Sotillo (Barrancas del Orinoco),24168,Localidad pequeña,11,10,4,5,No aplica,Semidesierto,VE16,VE1612
-Monagas,Uracoa,9514,Localidad pequeña,7,6,3,3,No aplica,Desierto,VE16,VE1613
-Monagas,Zamora (Punta de Mata),65951,Localidad mediana,11,11,2,7,No aplica,Semidesierto,VE16,VE1606
-Nueva Esparta,Antolín del Campo (La Plaza de Paraguachí),32147,Localidad mediana,11,9,8,6,No aplica,Semidesierto,VE17,VE1701
-Nueva Esparta,Arismendi (La Asunción),32950,Localidad mediana,19,19,7,7,No aplica,Semidesierto,VE17,VE1702
-Nueva Esparta,Díaz (San Juan Bautista),81437,Localidad mediana,11,10,7,6,No aplica,Semidesierto,VE17,VE1703
-Nueva Esparta,García (El Valle del Espíritu Santo),77614,Localidad mediana,12,10,6,6,No aplica,Semidesierto,VE17,VE1704
-Nueva Esparta,Gómez (Santa Ana),46933,Localidad mediana,9,8,6,4,No aplica,Desierto,VE17,VE1705
-Nueva Esparta,Maneiro (Pampatar),58556,Localidad mediana,18,18,7,6,No aplica,Semidesierto,VE17,VE1706
-Nueva Esparta,Marcano (Juan Griego),41537,Localidad mediana,12,10,8,6,No aplica,Semidesierto,VE17,VE1707
-Nueva Esparta,Mariño (Porlamar),117183,Localidad grande,18,18,8,6,No aplica,Desierto,VE17,VE1708
-Nueva Esparta,Península de Macanao (Boca de Río),30094,Localidad mediana,9,8,5,4,No aplica,Desierto,VE17,VE1709
-Nueva Esparta,Tubores (Punta de Piedras),42180,Localidad mediana,6,6,5,4,No aplica,Desierto,VE17,VE1710
-Nueva Esparta,Villalba (San Pedro de Coche),10281,Localidad pequeña,6,6,3,3,No aplica,Desierto,VE17,VE1711
-Portuguesa,Agua Blanca,21300,Localidad pequeña,15,12,11,12,3,Semibosque,VE18,VE1801
-Portuguesa,Araure,172372,Localidad grande,22,22,14,14,3,Semibosque,VE18,VE1802
-Portuguesa,Esteller (Píritu),45254,Localidad mediana,14,12,9,10,3,Semibosque,VE18,VE1803
-Portuguesa,Guanare,205081,Localidad grande,22,22,12,14,3,Semibosque,VE18,VE1804
-Portuguesa,Guanarito,38397,Localidad mediana,12,9,9,8,1,Semibosque,VE18,VE1805
-Portuguesa,Monseñor José Vicenti de Unda (Chabasquén de Unda),24232,Localidad pequeña,10,8,9,7,1,Semibosque,VE18,VE1806
-Portuguesa,Ospino,49795,Localidad mediana,18,17,10,11,3,Semibosque,VE18,VE1807
-Portuguesa,Páez (Acarigua),187727,Localidad grande,22,22,14,14,3,Semibosque,VE18,VE1808
-Portuguesa,Papelón,16995,Localidad pequeña,12,8,11,9,1,Semibosque,VE18,VE1809
-Portuguesa,San Genaro de Boconoíto (Boconoíto),23872,Localidad pequeña,10,9,9,7,1,Semibosque,VE18,VE1810
-Portuguesa,San Rafael de Onoto,18908,Localidad pequeña,11,10,9,9,2,Semibosque,VE18,VE1811
-Portuguesa,Santa Rosalía (El Playón),17885,Localidad pequeña,10,8,9,8,2,Semibosque,VE18,VE1812
-Portuguesa,Sucre (Biscucuy),42501,Localidad mediana,12,11,9,9,1,Semibosque,VE18,VE1813
-Portuguesa,Turén (Villa Bruzual),65928,Localidad mediana,15,14,9,10,3,Semibosque,VE18,VE1814
-Sucre,Andrés Eloy Blanco (Casanay),28337,Localidad mediana,4,3,3,3,No aplica,Desierto,VE19,VE1901
-Sucre,Andrés Mata (San José de Aerocuar),21211,Localidad pequeña,4,4,3,3,No aplica,Desierto,VE19,VE1902
-Sucre,Arismendi (Río Caribe),50589,Localidad mediana,6,6,4,5,No aplica,Semidesierto,VE19,VE1903
-Sucre,Benítez (El Pilar),33449,Localidad mediana,2,2,1,2,No aplica,Desierto,VE19,VE1904
-Sucre,Bermúdez (Carúpano),149120,Localidad grande,10,10,8,6,No aplica,Semidesierto,VE19,VE1905
-Sucre,Bolívar (Marigüitar),23642,Localidad pequeña,5,5,1,5,No aplica,Semidesierto,VE19,VE1906
-Sucre,Cajigal (Yaguaraparo),22706,Localidad pequeña,3,3,1,3,No aplica,Desierto,VE19,VE1907
-Sucre,Cruz Salmerón Acosta (Araya),37770,Localidad mediana,5,5,3,4,No aplica,Desierto,VE19,VE1908
-Sucre,Libertador (Tunapuy),10281,Localidad pequeña,1,1,1,1,No aplica,Desierto,VE19,VE1909
-Sucre,Mariño (Irapa),25845,Localidad mediana,2,2,2,2,No aplica,Desierto,VE19,VE1910
-Sucre,Mejía (San Antonio del Golfo),15101,Localidad pequeña,4,3,3,2,No aplica,Desierto,VE19,VE1911
-Sucre,Montes (Cumanacoa),57312,Localidad mediana,7,6,5,5,No aplica,Semidesierto,VE19,VE1912
-Sucre,Ribero (Cariaco),65054,Localidad mediana,5,4,5,4,No aplica,Desierto,VE19,VE1913
-Sucre,Sucre (Cumaná),402649,Localidad grande,12,12,6,9,5,Semibosque,VE19,VE1914
-Sucre,Valdez (Güiria),44077,Localidad mediana,4,3,2,3,No aplica,Desierto,VE19,VE1915
-Táchira,Andrés Bello (Cordero),17464,Localidad pequeña,12,12,7,5,No aplica,Semidesierto,VE20,VE2001
-Táchira,Antonio Rómulo Costa (Las Mesas),8992,Localidad pequeña,13,13,9,4,No aplica,Semidesierto,VE20,VE2002
-Táchira,Ayacucho (Colón),49810,Localidad mediana,18,17,12,10,3,Semibosque,VE20,VE2003
-Táchira,Bolívar (San Antonio del Táchira),52935,Localidad mediana,14,14,7,6,No aplica,Semidesierto,VE20,VE2004
-Táchira,Cárdenas (Táriba),110318,Localidad grande,16,16,7,7,No aplica,Semidesierto,VE20,VE2005
-Táchira,Córdoba (Santa Ana de Táchira),28235,Localidad mediana,13,13,7,6,No aplica,Semidesierto,VE20,VE2006
-Táchira,Fernández Feo (San Rafael del Piñal),38947,Localidad mediana,10,10,6,5,No aplica,Semidesierto,VE20,VE2007
-Táchira,Francisco de Miranda (San José de Bolívar),3475,Localidad pequeña,13,11,11,4,No aplica,Semidesierto,VE20,VE2008
-Táchira,García de Hevia (La Fría),41748,Localidad mediana,14,12,10,7,No aplica,Semidesierto,VE20,VE2009
-Táchira,Guásimos (Palmira),38325,Localidad mediana,14,13,9,6,No aplica,Semidesierto,VE20,VE2010
-Táchira,Independencia (Capacho Nuevo),32009,Localidad mediana,14,13,8,6,No aplica,Semidesierto,VE20,VE2011
-Táchira,Jáuregui (La Grita),35659,Localidad mediana,18,18,13,8,2,Semibosque,VE20,VE2012
-Táchira,José María Vargas (El Cobre),8660,Localidad pequeña,15,15,12,5,No aplica,Semidesierto,VE20,VE2013
-Táchira,Junín (Rubio),74267,Localidad mediana,17,17,12,9,3,Semibosque,VE20,VE2014
-Táchira,San Judas Tadeo (Umuquena),6369,Localidad pequeña,13,13,9,6,No aplica,Semidesierto,VE20,VE2029
-Táchira,Libertad (Capacho Viejo),23542,Localidad pequeña,14,14,7,7,1,Semibosque,VE20,VE2015
-Táchira,Libertador (Abejales),18880,Localidad pequeña,8,8,5,4,No aplica,Semidesierto,VE20,VE2016
-Táchira,Lobatera,11179,Localidad pequeña,11,10,9,5,No aplica,Semidesierto,VE20,VE2017
-Táchira,Michelena,16361,Localidad pequeña,13,12,10,7,3,Semibosque,VE20,VE2018
-Táchira,Panamericano (Coloncito),27188,Localidad mediana,11,10,10,6,No aplica,Semidesierto,VE20,VE2019
-Táchira,Pedro María Ureña (Ureña),45026,Localidad mediana,14,14,7,7,No aplica,Semidesierto,VE20,VE2020
-Táchira,Rafael Urdaneta (Delicias),4986,Localidad pequeña,10,9,7,4,No aplica,Semidesierto,VE20,VE2021
-Táchira,Samuel Dario Maldonado (La Tendida),15875,Localidad pequeña,10,9,7,5,No aplica,Semidesierto,VE20,VE2022
-Táchira,San Cristóbal,231079,Localidad grande,20,19,16,10,3,Semibosque,VE20,VE2023
-Táchira,Seboruco,16297,Localidad pequeña,14,13,11,5,No aplica,Semidesierto,VE20,VE2024
-Táchira,Simón Rodríguez (San Simon),2125,Localidad pequeña,6,6,5,2,No aplica,Desierto,VE20,VE2025
-Táchira,Sucre (Queniquea),6331,Localidad pequeña,11,11,8,3,No aplica,Desierto,VE20,VE2026
-Táchira,Torbes (San Josecito),43559,Localidad mediana,15,15,7,7,No aplica,Semidesierto,VE20,VE2027
-Táchira,Uribante (Pregonero),17219,Localidad pequeña,9,8,7,2,No aplica,Desierto,VE20,VE2028
-Trujillo,Andrés Bello (Santa Isabel),17781,Localidad pequeña,12,12,11,4,No aplica,Semidesierto,VE21,VE2101
-Trujillo,Boconó,95001,Localidad mediana,25,25,22,11,1,Semibosque,VE21,VE2102
-Trujillo,Bolívar (Sabana Grande),17473,Localidad pequeña,13,11,13,4,No aplica,Semidesierto,VE21,VE2103
-Trujillo,Candelaria (Chejendé),30599,Localidad mediana,12,11,12,3,No aplica,Desierto,VE21,VE2104
-Trujillo,Carache,30318,Localidad mediana,14,14,14,5,No aplica,Semidesierto,VE21,VE2105
-Trujillo,Campos Elías,5671,Localidad pequeña,13,12,12,3,No aplica,Desierto,VE21,VE2108
-Trujillo,Carvajal (Carvajal),63488,Localidad mediana,16,16,14,6,No aplica,Semibosque,VE21,VE2116
-Trujillo,Escuque,30108,Localidad mediana,14,14,12,5,No aplica,Semidesierto,VE21,VE2106
-Trujillo,La Ceiba (Santa Apolonia),21387,Localidad pequeña,12,11,12,3,No aplica,Desierto,VE21,VE2109
-Trujillo,Márquez Cañizales (El Paradero),5000,Localidad pequeña,13,12,12,4,No aplica,Semidesierto,VE21,VE2107
-Trujillo,Miranda (El Dividive),24133,Localidad pequeña,14,14,12,5,No aplica,Semibosque,VE21,VE2110
-Trujillo,Monte Carmelo,13863,Localidad pequeña,13,13,12,4,No aplica,Semidesierto,VE21,VE2111
-Trujillo,Motatán,22158,Localidad pequeña,15,15,12,3,No aplica,Desierto,VE21,VE2112
-Trujillo,Pampán,51969,Localidad mediana,15,15,14,4,No aplica,Desierto,VE21,VE2113
-Trujillo,Pampanito,31233,Localidad mediana,15,15,13,6,No aplica,Semibosque,VE21,VE2114
-Trujillo,Rangel (Betijoque),24552,Localidad pequeña,15,15,12,6,6,Semibosque,VE21,VE2115
-Trujillo,Sucre (Sabana de Mendoza),33469,Localidad mediana,15,15,13,5,No aplica,Semidesierto,VE21,VE2117
-Trujillo,Trujillo,62153,Localidad mediana,16,16,13,6,No aplica,Semibosque,VE21,VE2118
-Trujillo,Urdaneta (La Quebrada),37125,Localidad mediana,13,13,13,4,No aplica,Desierto,VE21,VE2119
-Trujillo,Valera,149808,Localidad grande,20,20,15,6,No aplica,Semidesierto,VE21,VE2120
-Yaracuy,Arístides Bastidas (San Pablo),22654,Localidad pequeña,17,16,4,6,No aplica,Semidesierto,VE22,VE2201
-Yaracuy,Bolívar (Aroa),34084,Localidad mediana,19,16,6,6,No aplica,Semidesierto,VE22,VE2202
-Yaracuy,Bruzual (Chivacoa),76333,Localidad mediana,23,22,7,10,7,Semibosque,VE22,VE2203
-Yaracuy,Cocorote,46803,Localidad mediana,28,28,17,10,6,Semibosque,VE22,VE2204
-Yaracuy,Independencia,67221,Localidad mediana,32,32,20,11,7,Semibosque,VE22,VE2205
-Yaracuy,La Trinidad (Boraure),19130,Localidad pequeña,17,15,5,8,5,Semibosque,VE22,VE2207
-Yaracuy,Monge (Yumare),13858,Localidad pequeña,14,12,3,5,No aplica,Semidesierto,VE22,VE2208
-Yaracuy,Nirgua,62974,Localidad mediana,20,17,7,7,No aplica,Semidesierto,VE22,VE2209
-Yaracuy,Páez (Sabana de Parra),21487,Localidad pequeña,16,15,3,6,No aplica,Semidesierto,VE22,VE2206
-Yaracuy,Peña (Yaritagua),112446,Localidad grande,19,18,8,6,No aplica,Semidesierto,VE22,VE2210
-Yaracuy,San Felipe,115630,Localidad grande,33,33,22,11,7,Semibosque,VE22,VE2211
-Yaracuy,Sucre (Guama),21757,Localidad pequeña,19,18,4,7,5,Semibosque,VE22,VE2212
-Yaracuy,Urachiche,23696,Localidad pequeña,16,15,4,6,No aplica,Semidesierto,VE22,VE2213
-Yaracuy,Veroes (Farriar),28917,Localidad mediana,20,16,8,7,No aplica,Semidesierto,VE22,VE2214
-Zulia,Bolívar (Tía Juana),44094,Localidad mediana,23,21,13,14,7,Semibosque,VE23,VE2319
-Zulia,Baralt (San Timoteo),92904,Localidad mediana,18,16,11,10,3,Semibosque,VE23,VE2302
-Zulia,Cabimas,274088,Localidad grande,38,38,19,25,12,Bosque,VE23,VE2303
-Zulia,Catatumbo (Encontrados),41326,Localidad mediana,15,13,10,9,3,Semibosque,VE23,VE2304
-Zulia,Colón (San Carlos del Zulia),127440,Localidad grande,11,11,5,4,No aplica,Desierto,VE23,VE2305
-Zulia,Guajira (Sinamaica),67194,Localidad mediana,23,18,16,13,7,Semibosque,VE23,VE2315
-Zulia,Padilla (El Toro),12594,Localidad pequeña,10,8,7,3,No aplica,Desierto,VE23,VE2301
-Zulia,Pulgar (Pueblo Nuevo-El Chivo),33351,Localidad mediana,9,9,5,3,No aplica,Desierto,VE23,VE2306
-Zulia,Lossada (La Concepción),118919,Localidad grande,20,18,10,11,7,Semibosque,VE23,VE2307
-Zulia,Semprún (Casigua El Cubo),30216,Localidad mediana,10,10,7,4,No aplica,Desierto,VE23,VE2308
-Zulia,La Cañada de Urdaneta (Concepción),83543,Localidad mediana,20,19,9,14,8,Bosque,VE23,VE2309
-Zulia,Lagunillas (Ciudad Ojeda),200092,Localidad grande,34,34,21,22,11,Bosque,VE23,VE2310
-Zulia,Machiques,124492,Localidad grande,27,27,14,16,8,Semibosque,VE23,VE2311
-Zulia,Mara (San Rafael del Moján),202242,Localidad grande,13,10,8,9,5,Semibosque,VE23,VE2312
-Zulia,Maracaibo,1560837,Localidad grande,49,49,29,30,19,Bosque,VE23,VE2313
-Zulia,Miranda (Los Puertos de Altagracia),99681,Localidad mediana,24,24,13,13,9,Bosque,VE23,VE2314
-Zulia,Rosario (La Villa del Rosario),86983,Localidad mediana,23,22,12,13,7,Semibosque,VE23,VE2316
-Zulia,San Francisco,462417,Localidad grande,38,37,21,22,14,Bosque,VE23,VE2317
-Zulia,Santa Rita,58912,Localidad mediana,27,27,13,15,9,Bosque,VE23,VE2318
-Zulia,Sucre (Bobures),60086,Localidad mediana,8,7,5,3,No aplica,Desierto,VE23,VE2320
-Zulia,Valmore Rodríguez (Bachaquero),52524,Localidad mediana,18,17,12,11,6,Semibosque,VE23,VE2321
+Barinas,Alberto Arvelo Torrealba (Sabaneta),41447,Localidad mediana,22,17,12,8.0,No aplica,Semidesierto,VE06,VE0601
+Barinas,Andrés Eloy Blanco (El Cantón),15592,Localidad pequeña,17,16,7,7.0,No aplica,Semidesierto,VE06,VE0612
+Barinas,Antonio José de Sucre (Socopó),78410,Localidad mediana,27,25,13,10.0,No aplica,Semidesierto,VE06,VE0602
+Barinas,Arismendi,27019,Localidad mediana,13,9,7,5.0,No aplica,Semidesierto,VE06,VE0603
+Barinas,Barinas,370457,Localidad grande,30,30,15,11.0,No aplica,Semidesierto,VE06,VE0604
+Barinas,Bolívar (Barinitas),53362,Localidad mediana,25,22,12,10.0,5,Semibosque,VE06,VE0605
+Barinas,Cruz Paredes (Barrancas),25646,Localidad mediana,23,22,13,10.0,5,Semibosque,VE06,VE0606
+Barinas,Ezequiel Zamora (Santa Bárbara),52643,Localidad mediana,21,20,11,8.0,No aplica,Semidesierto,VE06,VE0607
+Barinas,Obispos (Obispos),36467,Localidad mediana,23,20,9,9.0,No aplica,Semidesierto,VE06,VE0608
+Barinas,Pedraza (Ciudad Bolivia),66572,Localidad mediana,24,20,14,10.0,No aplica,Semidesierto,VE06,VE0609
+Barinas,Rojas (Libertad),40219,Localidad mediana,15,13,9,5.0,No aplica,Semidesierto,VE06,VE0610
+Barinas,Sosa (Ciudad de Nutrias),24035,Localidad pequeña,15,12,7,6.0,No aplica,Semidesierto,VE06,VE0611
+Bolívar,Caroní (Ciudad Guayana),872399,Localidad grande,30,30,0,21.0,11,Bosque,VE07,VE0701
+Bolívar,Cedeño (Caicara del Orinoco),98910,Localidad mediana,5,5,0,3.0,No aplica,Desierto,VE07,VE0702
+Bolívar,El Callao,24643,Localidad pequeña,27,26,10,17.0,9,Bosque,VE07,VE0703
+Bolívar,Gran Sabana (Santa Elena de Uairén),36956,Localidad mediana,8,7,1,4.0,No aplica,Desierto,VE07,VE0704
+Bolívar,Heres (Ciudad Bolívar),404474,Localidad grande,27,27,13,19.0,10,Bosque,VE07,VE0705
+Bolívar,Piar (Upata),121244,Localidad grande,22,22,10,15.0,8,Semibosque,VE07,VE0706
+Bolívar,Angostura (Ciudad Piar),50563,Localidad mediana,6,6,0,4.0,No aplica,Desierto,VE07,VE0707
+Bolívar,Roscio (Guasipati),26547,Localidad mediana,12,12,0,8.0,No aplica,Semidesierto,VE07,VE0708
+Bolívar,Sifontes (Tumeremo),60929,Localidad mediana,20,20,8,13.0,9,Bosque,VE07,VE0709
+Bolívar,Sucre (Maripa),23604,Localidad pequeña,5,5,0,3.0,No aplica,Desierto,VE07,VE0710
+Bolívar,Padre Pedro Chen (El Palmar),17801,Localidad pequeña,6,6,0,4.0,No aplica,Semidesierto,VE07,VE0711
+Carabobo,Bejuma,46741,Localidad mediana,13,12,9,8.0,No aplica,Semidesierto,VE08,VE0801
+Carabobo,Carlos Arvelo (Güigüe),144284,Localidad grande,7,5,5,3.0,No aplica,Desierto,VE08,VE0802
+Carabobo,Diego Ibarra (Mariara),101445,Localidad grande,8,6,5,4.0,No aplica,Desierto,VE08,VE0803
+Carabobo,Guacara,173760,Localidad grande,25,24,5,11.0,No aplica,Semidesierto,VE08,VE0804
+Carabobo,Juan José Mora (Morón),68049,Localidad mediana,12,11,7,5.0,No aplica,Semidesierto,VE08,VE0805
+Carabobo,Libertador (Tocuyito),167492,Localidad grande,24,22,6,11.0,No aplica,Semidesierto,VE08,VE0806
+Carabobo,Los Guayos,147259,Localidad grande,23,21,6,10.0,No aplica,Semidesierto,VE08,VE0807
+Carabobo,Miranda,28738,Localidad mediana,11,8,9,6.0,No aplica,Semidesierto,VE08,VE0808
+Carabobo,Montalbán,25719,Localidad mediana,12,9,10,7.0,No aplica,Semidesierto,VE08,VE0809
+Carabobo,Naguanagua,167075,Localidad grande,41,41,8,22.0,9,Bosque,VE08,VE0810
+Carabobo,Puerto Cabello,177656,Localidad grande,29,28,7,15.0,No aplica,Semidesierto,VE08,VE0811
+Carabobo,San Diego,108628,Localidad grande,33,33,8,17.0,6,Semibosque,VE08,VE0812
+Carabobo,San Joaquín,61054,Localidad mediana,14,13,3,6.0,No aplica,Semidesierto,VE08,VE0813
+Carabobo,Valencia,824743,Localidad grande,41,41,10,22.0,9,Bosque,VE08,VE0814
+Distrito Capital,23 de enero,70179,Localidad mediana,11,No aplica,No aplica,5.0,No aplica,Semidesierto,VE01,VE010122
+Distrito Capital,Altagracia,50730,Localidad mediana,12,No aplica,No aplica,6.0,No aplica,Semidesierto,VE01,VE010101
+Distrito Capital,Antímano,116301,Localidad grande,12,No aplica,No aplica,6.0,No aplica,Semidesierto,VE01,VE010102
+Distrito Capital,Caricuao,64853,Localidad mediana,13,No aplica,No aplica,9.0,No aplica,Semidesierto,VE01,VE010104
+Distrito Capital,Catedral,135916,Localidad grande,14,No aplica,No aplica,9.0,No aplica,Semidesierto,VE01,VE010105
+Distrito Capital,Coche,14726,Localidad pequeña,10,No aplica,No aplica,6.0,No aplica,Semidesierto,VE01,VE010106
+Distrito Capital,El Junquito,54124,Localidad mediana,12,No aplica,No aplica,7.0,No aplica,Semidesierto,VE01,VE010107
+Distrito Capital,El Paraíso,46740,Localidad mediana,14,No aplica,No aplica,9.0,No aplica,Semidesierto,VE01,VE010108
+Distrito Capital,El Recreo,108460,Localidad grande,13,No aplica,No aplica,9.0,No aplica,Semidesierto,VE01,VE010109
+Distrito Capital,El Valle,111867,Localidad grande,12,No aplica,No aplica,8.0,No aplica,Semidesierto,VE01,VE010110
+Distrito Capital,Candelaria,129622,Localidad grande,17,No aplica,No aplica,11.0,No aplica,Semidesierto,VE01,VE010103
+Distrito Capital,La Pastora,72885,Localidad mediana,12,No aplica,No aplica,7.0,No aplica,Semidesierto,VE01,VE010111
+Distrito Capital,La Vega,109075,Localidad grande,15,No aplica,No aplica,9.0,No aplica,Semidesierto,VE01,VE010112
+Distrito Capital,Macarao,42623,Localidad mediana,7,No aplica,No aplica,2.0,No aplica,Desierto,VE01,VE010113
+Distrito Capital,San Agustín,36691,Localidad mediana,10,No aplica,No aplica,6.0,No aplica,Semidesierto,VE01,VE010114
+Distrito Capital,San Bernardino,29702,Localidad mediana,11,No aplica,No aplica,7.0,No aplica,Semidesierto,VE01,VE010115
+Distrito Capital,San José,38075,Localidad mediana,7,No aplica,No aplica,3.0,No aplica,Desierto,VE01,VE010116
+Distrito Capital,San Juan,94674,Localidad mediana,9,No aplica,No aplica,4.0,No aplica,Desierto,VE01,VE010117
+Distrito Capital,San Pedro,66539,Localidad mediana,9,No aplica,No aplica,5.0,No aplica,Semidesierto,VE01,VE010118
+Distrito Capital,Santa Rosalía,90691,Localidad mediana,12,No aplica,No aplica,8.0,No aplica,Semidesierto,VE01,VE010119
+Distrito Capital,Santa Teresa,26560,Localidad mediana,13,No aplica,No aplica,8.0,No aplica,Semidesierto,VE01,VE010120
+Distrito Capital,Sucre,319109,Localidad grande,18,No aplica,No aplica,12.0,No aplica,Semidesierto,VE01,VE010121
+Cojedes,Anzoátegui (Cojedito),16523,Localidad pequeña,9,9,6,5.0,No aplica,Semidesierto,VE09,VE0901
+Cojedes,Falcón (Tinaquillo),101913,Localidad grande,15,15,10,6.0,No aplica,Semidesierto,VE09,VE0902
+Cojedes,Girardot (El Baúl),11569,Localidad pequeña,9,9,6,5.0,No aplica,Semidesierto,VE09,VE0903
+Cojedes,Lima Blanco (Macapo),9272,Localidad pequeña,8,8,7,4.0,No aplica,Semidesierto,VE09,VE0904
+Cojedes,Pao de San Juan Bautista (El Pao),16270,Localidad pequeña,9,9,5,5.0,No aplica,Semidesierto,VE09,VE0905
+Cojedes,Ricaurte (Libertad),12319,Localidad pequeña,8,8,5,4.0,No aplica,Semidesierto,VE09,VE0906
+Cojedes,Rómulo Gallegos,17730,Localidad pequeña,12,12,6,6.0,No aplica,Semidesierto,VE09,VE0907
+Cojedes,Ezequiel Zamora (San Carlos),111463,Localidad grande,16,16,12,7.0,No aplica,Semidesierto,VE09,VE0908
+Cojedes,Tinaco,33556,Localidad mediana,13,13,8,6.0,No aplica,Semidesierto,VE09,VE0909
+Delta Amacuro,Antonio Díaz Curiapo (Curiapo),30116,Localidad mediana,5,4,1,3.0,No aplica,Desierto,VE10,VE1001
+Delta Amacuro,Casacoima (Sierra Imataca),36645,Localidad mediana,4,2,2,2.0,No aplica,Desierto,VE10,VE1002
+Delta Amacuro,Pedernales,7206,Localidad pequeña,5,4,2,3.0,No aplica,Desierto,VE10,VE1003
+Delta Amacuro,Tucupita,115825,Localidad grande,10,10,4,6.0,No aplica,Semidesierto,VE10,VE1004
+Falcón,Acosta (San Juan de los Cayos),20565,Localidad pequeña,13,13,3,9.0,No aplica,Semidesierto,VE11,VE1101
+Falcón,Bolívar (San Luis),8995,Localidad pequeña,12,10,4,6.0,No aplica,Semidesierto,VE11,VE1102
+Falcón,Buchivacoa (Capatárida),24487,Localidad pequeña,11,10,4,6.0,No aplica,Semidesierto,VE11,VE1103
+Falcón,Cacique Manaure (Yaracal),11648,Localidad pequeña,14,13,4,8.0,No aplica,Semidesierto,VE11,VE1104
+Falcón,Carirubana (Punto Fijo),263778,Localidad grande,30,30,12,15.0,No aplica,Semidesierto,VE11,VE1105
+Falcón,Colina (La Vela de Coro),44463,Localidad mediana,25,25,9,11.0,No aplica,Semidesierto,VE11,VE1106
+Falcón,Dabajuro,25358,Localidad mediana,15,13,5,7.0,No aplica,Semidesierto,VE11,VE1107
+Falcón,Democracia (Pedregal),10719,Localidad pequeña,13,13,2,7.0,No aplica,Semidesierto,VE11,VE1108
+Falcón,Falcón (Pueblo Nuevo),52307,Localidad mediana,24,23,12,13.0,No aplica,Semidesierto,VE11,VE1109
+Falcón,Federación (Churuguara),31912,Localidad mediana,15,12,5,7.0,No aplica,Semidesierto,VE11,VE1110
+Falcón,Jacura,12034,Localidad pequeña,12,10,4,7.0,No aplica,Semidesierto,VE11,VE1111
+Falcón,Los Taques (Santa Cruz de Los Taques),43498,Localidad mediana,26,25,15,13.0,No aplica,Semidesierto,VE11,VE1112
+Falcón,Mauroa (Mene de Mauroa),26517,Localidad mediana,13,11,4,7.0,No aplica,Semidesierto,VE11,VE1113
+Falcón,Miranda (Santa Ana de Coro),229217,Localidad grande,29,29,12,14.0,No aplica,Semidesierto,VE11,VE1114
+Falcón,Monseñor Iturriza (Chichiriviche),21180,Localidad pequeña,18,16,6,8.0,No aplica,Semidesierto,VE11,VE1115
+Falcón,Palmasola,7938,Localidad pequeña,10,10,3,8.0,No aplica,Semidesierto,VE11,VE1116
+Falcón,Petit (Cabure),14845,Localidad pequeña,12,11,3,7.0,No aplica,Semidesierto,VE11,VE1117
+Falcón,Píritu,11174,Localidad pequeña,14,12,6,8.0,No aplica,Semidesierto,VE11,VE1118
+Falcón,San Francisco (Mirimire),11730,Localidad pequeña,14,12,5,8.0,No aplica,Semidesierto,VE11,VE1119
+Falcón,Silva (Tucacas),40063,Localidad mediana,18,18,4,8.0,No aplica,Semidesierto,VE11,VE1120
+Falcón,Sucre (La Cruz de Taratara),6064,Localidad pequeña,10,10,1,5.0,No aplica,Semidesierto,VE11,VE1121
+Falcón,Tocópero,5726,Localidad pequeña,11,10,3,6.0,No aplica,Semidesierto,VE11,VE1122
+Falcón,Unión (Santa Cruz de Bucaral),16804,Localidad pequeña,10,10,2,6.0,No aplica,Semidesierto,VE11,VE1123
+Falcón,Urumaco,8578,Localidad pequeña,11,11,1,6.0,No aplica,Semidesierto,VE11,VE1124
+Falcón,Zamora (Puerto Cumarebo),36401,Localidad mediana,18,18,3,10.0,No aplica,Semidesierto,VE11,VE1125
+Guárico,Esteros de Camaguan,27104,Localidad mediana,7,3,3,3.0,No aplica,Desierto,VE12,VE1201
+Guárico,Chaguaramas,15263,Localidad pequeña,8,5,5,4.0,No aplica,Semidesierto,VE12,VE1202
+Guárico,El Socorro,18024,Localidad pequeña,8,4,4,3.0,No aplica,Desierto,VE12,VE1203
+Guárico,Francisco de Miranda (Calabozo),156629,Localidad grande,12,7,7,5.0,No aplica,Desierto,VE12,VE1208
+Guárico,José Félix Ribas (Tucupido),40222,Localidad mediana,7,4,4,3.0,No aplica,Desierto,VE12,VE1211
+Guárico,José Tadeo Monagas (Altagracia de Orituco),82492,Localidad mediana,13,7,7,6.0,No aplica,Semidesierto,VE12,VE1209
+Guárico,Juan Germán Roscio (San Juan de Los Morros),145327,Localidad grande,13,7,7,6.0,No aplica,Semidesierto,VE12,VE1212
+Guárico,Julián Mellado (El Sombrero),29422,Localidad mediana,8,4,4,4.0,No aplica,Desierto,VE12,VE1207
+Guárico,Las Mercedes,36207,Localidad mediana,9,4,4,3.0,No aplica,Desierto,VE12,VE1206
+Guárico,Leonardo Infante (Valle de La Pascua),137715,Localidad grande,14,9,9,5.0,No aplica,Desierto,VE12,VE1205
+Guárico,Pedro Zaraza (Zaraza),25423,Localidad mediana,10,6,6,4.0,No aplica,Desierto,VE12,VE1215
+Guárico,Ortíz,66589,Localidad mediana,7,4,4,3.0,No aplica,Desierto,VE12,VE1210
+Guárico,San Gerónimo de Guayabal (Guayabal),21075,Localidad pequeña,8,4,4,3.0,No aplica,Desierto,VE12,VE1204
+Guárico,San José de Guaribe,12338,Localidad pequeña,7,4,4,3.0,No aplica,Desierto,VE12,VE1213
+Guárico,Santa María de Ipire,13894,Localidad pequeña,6,4,4,3.0,No aplica,Desierto,VE12,VE1214
+Lara,Andrés Eloy Blanco (Sanare),49640,Localidad mediana,7,7,5,5.0,No aplica,Semidesierto,VE13,VE1301
+Lara,Crespo (Duaca),53714,Localidad mediana,9,9,4,7.0,No aplica,Semidesierto,VE13,VE1302
+Lara,Iribarren (Barquisimeto),1054915,Localidad grande,20,19,14,14.0,3,Semibosque,VE13,VE1303
+Lara,Jiménez (Quibor),106111,Localidad grande,10,10,5,5.0,No aplica,Desierto,VE13,VE1304
+Lara,Morán (El Tocuyo),127031,Localidad grande,13,13,5,8.0,No aplica,Semidesierto,VE13,VE1305
+Lara,Palavecino (Cabudare),183524,Localidad grande,18,17,10,12.0,No aplica,Semidesierto,VE13,VE1306
+Lara,Simón Planas (Sarare),37036,Localidad mediana,9,9,4,7.0,No aplica,Semidesierto,VE13,VE1307
+Lara,Torres (Carora),190460,Localidad grande,15,14,9,10.0,No aplica,Semidesierto,VE13,VE1308
+Lara,Urdaneta (Siquisique),62937,Localidad mediana,10,6,9,8.0,No aplica,Semidesierto,VE13,VE1309
+La Guaira,Caraballeda,45678,Localidad mediana,5,No aplica,No aplica,2.0,No aplica,Desierto,VE24,VE240101
+La Guaira,Carayaca,39464,Localidad mediana,3,No aplica,No aplica,1.0,No aplica,Desierto,VE24,VE240102
+La Guaira,Carlos Soublette,29687,Localidad mediana,6,No aplica,No aplica,3.0,No aplica,Desierto,VE24,VE240111
+La Guaira,Caruao,5346,Localidad pequeña,3,No aplica,No aplica,1.0,No aplica,Desierto,VE24,VE240103
+La Guaira,Catia La Mar,80263,Localidad mediana,6,No aplica,No aplica,3.0,No aplica,Desierto,VE24,VE240104
+La Guaira,El Junko,4054,Localidad pequeña,3,No aplica,No aplica,1.0,No aplica,Desierto,VE24,VE240105
+La Guaira,La Guaira,18168,Localidad pequeña,8,No aplica,No aplica,4.0,No aplica,Semidesierto,VE24,VE240106
+La Guaira,Macuto,19295,Localidad pequeña,6,No aplica,No aplica,3.0,No aplica,Desierto,VE24,VE240107
+La Guaira,Maiquetía,33064,Localidad mediana,6,No aplica,No aplica,3.0,No aplica,Desierto,VE24,VE240108
+La Guaira,Naiguatá,17009,Localidad pequeña,4,No aplica,No aplica,1.0,No aplica,Desierto,VE24,VE240109
+La Guaira,Urimare,46491,Localidad mediana,5,No aplica,No aplica,3.0,No aplica,Desierto,VE24,VE240110
+Mérida,Adriani (El Vigía),137675,Localidad grande,27,27,11,13.0,5,Semibosque,VE14,VE1401
+Mérida,Andrés Bello (La Azulita),14203,Localidad pequeña,16,14,6,8.0,3,Semibosque,VE14,VE1402
+Mérida,Aricagua,4202,Localidad pequeña,16,14,6,4.0,No aplica,Semidesierto,VE14,VE1404
+Mérida,Briceño (Torondoy),4911,Localidad pequeña,10,7,6,4.0,No aplica,Semidesierto,VE14,VE1411
+Mérida,Chacón (Canaguá),12971,Localidad pequeña,16,11,12,5.0,No aplica,Semidesierto,VE14,VE1405
+Mérida,Campo Elías (Ejido),110163,Localidad grande,30,29,13,13.0,5,Semibosque,VE14,VE1406
+Mérida,Dávila (Bailadores),20662,Localidad pequeña,21,18,12,7.0,3,Semibosque,VE14,VE1418
+Mérida,Febres Cordero (Nueva Bolivia),33309,Localidad mediana,12,12,4,5.0,No aplica,Semidesierto,VE14,VE1422
+Mérida,Guaraque (Guaraque),9023,Localidad pequeña,14,10,9,5.0,No aplica,Semidesierto,VE14,VE1409
+Mérida,Libertador,249831,Localidad grande,39,37,22,13.0,5,Semibosque,VE14,VE1412
+Mérida,Miranda (Timotes),22664,Localidad pequeña,16,13,7,7.0,2,Semibosque,VE14,VE1413
+Mérida,Noguera (Santa María de Caparo),3207,Localidad pequeña,8,6,5,4.0,No aplica,Semidesierto,VE14,VE1415
+Mérida,Parra Olmedo (Tucaní),27767,Localidad mediana,14,12,9,6.0,No aplica,Semidesierto,VE14,VE1407
+Mérida,Pinto Salinas (Santa Cruz de Mora),24188,Localidad pequeña,17,17,11,6.0,No aplica,Semidesierto,VE14,VE1403
+Mérida,Pueblo Llano (Pueblo Llano),10885,Localidad pequeña,14,12,6,5.0,No aplica,Semidesierto,VE14,VE1416
+Mérida,Quintero (Santo Domingo),9539,Localidad pequeña,16,15,7,7.0,2,Semibosque,VE14,VE1408
+Mérida,Rangel (Mucuchíes),19378,Localidad pequeña,19,17,9,9.0,3,Semibosque,VE14,VE1417
+Mérida,Ramos de Lora (Santa Elena de Arenales),24804,Localidad pequeña,16,15,7,8.0,2,Semibosque,VE14,VE1414
+Mérida,Salas (Arapuey),14500,Localidad pequeña,11,8,6,5.0,No aplica,Semidesierto,VE14,VE1410
+Mérida,Marquina (Tabay),19656,Localidad pequeña,24,24,9,9.0,3,Semibosque,VE14,VE1419
+Mérida,Sucre (Lagunillas),59213,Localidad mediana,25,24,12,10.0,4,Semibosque,VE14,VE1420
+Mérida,Tovar,37827,Localidad mediana,27,26,12,10.0,4,Semibosque,VE14,VE1421
+Mérida,Zea,11277,Localidad pequeña,22,22,10,8.0,3,Semibosque,VE14,VE1423
+Miranda,Acevedo (Caucagua),89219,Localidad mediana,7,6,4,5.0,No aplica,Semidesierto,VE15,VE1501
+Miranda,Andrés Bello (San José de Barlovento),21159,Localidad pequeña,5,5,2,4.0,No aplica,Semidesierto,VE15,VE1502
+Miranda,Baruta,337230,Localidad grande,21,21,3,15.0,10,Bosque,VE15,VE1503
+Miranda,Brión (Higuerote),62490,Localidad mediana,9,8,4,5.0,No aplica,Semidesierto,VE15,VE1504
+Miranda,Buroz (Mamporal),27627,Localidad mediana,7,7,3,3.0,No aplica,Desierto,VE15,VE1505
+Miranda,Carrizal,52555,Localidad mediana,24,22,9,13.0,9,Bosque,VE15,VE1506
+Miranda,Chacao,71473,Localidad mediana,25,25,2,15.0,10,Bosque,VE15,VE1507
+Miranda,Cristóbal Rojas (Charallave),131464,Localidad grande,16,16,7,9.0,No aplica,Semidesierto,VE15,VE1508
+Miranda,El Hatillo,83950,Localidad mediana,22,21,3,15.0,10,Bosque,VE15,VE1509
+Miranda,Guaicaipuro (Los Teques),269828,Localidad grande,26,26,8,14.0,10,Bosque,VE15,VE1510
+Miranda,Independencia (Santa Teresa del Tuy),147656,Localidad grande,17,17,9,10.0,No aplica,Semidesierto,VE15,VE1511
+Miranda,Lander (Ocumare del Tuy),159110,Localidad grande,18,18,9,10.0,No aplica,Semidesierto,VE15,VE1512
+Miranda,Los Salias (San Antonio de los Altos),70620,Localidad mediana,23,23,10,12.0,8,Bosque,VE15,VE1513
+Miranda,Páez (Río Chico),39021,Localidad mediana,7,7,3,4.0,No aplica,Desierto,VE15,VE1514
+Miranda,Paz Castillo (Santa Lucía),115460,Localidad grande,14,14,8,8.0,No aplica,Semidesierto,VE15,VE1515
+Miranda,Pedro Gual (Cúpira),22117,Localidad pequeña,7,7,3,4.0,No aplica,Semidesierto,VE15,VE1516
+Miranda,Plaza (Guarenas),222074,Localidad grande,17,17,5,12.0,No aplica,Semidesierto,VE15,VE1517
+Miranda,Simón Bolívar (San Francisco de Yare),44847,Localidad mediana,15,15,9,9.0,No aplica,Semidesierto,VE15,VE1518
+Miranda,Sucre (Petare),641570,Localidad grande,21,20,4,13.0,11,Bosque,VE15,VE1519
+Miranda,Urdaneta (Cúa),155930,Localidad grande,18,17,12,10.0,No aplica,Semidesierto,VE15,VE1520
+Miranda,Zamora (Guatire),203416,Localidad grande,17,17,5,12.0,No aplica,Semidesierto,VE15,VE1521
+Monagas,Acosta (San Antonio de Capayacuar),17972,Localidad pequeña,9,8,6,4.0,No aplica,Semidesierto,VE16,VE1601
+Monagas,Aguasay,11999,Localidad pequeña,7,7,1,3.0,No aplica,Desierto,VE16,VE1602
+Monagas,Bolívar (Caripito),39209,Localidad mediana,9,9,1,5.0,No aplica,Semidesierto,VE16,VE1603
+Monagas,Caripe,34813,Localidad mediana,10,10,1,6.0,No aplica,Semidesierto,VE16,VE1604
+Monagas,Cedeño (Caicara de Maturín),36107,Localidad mediana,9,9,2,4.0,No aplica,Desierto,VE16,VE1605
+Monagas,Libertador (Temblador),45049,Localidad mediana,9,8,2,4.0,No aplica,Desierto,VE16,VE1607
+Monagas,Maturín,562677,Localidad grande,15,15,8,9.0,No aplica,Semidesierto,VE16,VE1608
+Monagas,Piar (Aragua de Maturín),46141,Localidad mediana,8,7,4,4.0,No aplica,Desierto,VE16,VE1609
+Monagas,Punceres (Quiriquire),27714,Localidad mediana,8,6,3,4.0,No aplica,Desierto,VE16,VE1610
+Monagas,Santa Bárbara,9797,Localidad pequeña,8,8,1,3.0,No aplica,Desierto,VE16,VE1611
+Monagas,Sotillo (Barrancas del Orinoco),24168,Localidad pequeña,11,10,4,5.0,No aplica,Semidesierto,VE16,VE1612
+Monagas,Uracoa,9514,Localidad pequeña,7,6,3,3.0,No aplica,Desierto,VE16,VE1613
+Monagas,Zamora (Punta de Mata),65951,Localidad mediana,11,11,2,7.0,No aplica,Semidesierto,VE16,VE1606
+Nueva Esparta,Antolín del Campo (La Plaza de Paraguachí),32147,Localidad mediana,11,9,8,6.0,No aplica,Semidesierto,VE17,VE1701
+Nueva Esparta,Arismendi (La Asunción),32950,Localidad mediana,19,19,7,7.0,No aplica,Semidesierto,VE17,VE1702
+Nueva Esparta,Díaz (San Juan Bautista),81437,Localidad mediana,11,10,7,6.0,No aplica,Semidesierto,VE17,VE1703
+Nueva Esparta,García (El Valle del Espíritu Santo),77614,Localidad mediana,12,10,6,6.0,No aplica,Semidesierto,VE17,VE1704
+Nueva Esparta,Gómez (Santa Ana),46933,Localidad mediana,9,8,6,4.0,No aplica,Desierto,VE17,VE1705
+Nueva Esparta,Maneiro (Pampatar),58556,Localidad mediana,18,18,7,6.0,No aplica,Semidesierto,VE17,VE1706
+Nueva Esparta,Marcano (Juan Griego),41537,Localidad mediana,12,10,8,6.0,No aplica,Semidesierto,VE17,VE1707
+Nueva Esparta,Mariño (Porlamar),117183,Localidad grande,18,18,8,6.0,No aplica,Semidesierto,VE17,VE1708
+Nueva Esparta,Península de Macanao (Boca de Río),30094,Localidad mediana,9,8,5,4.0,No aplica,Desierto,VE17,VE1709
+Nueva Esparta,Tubores (Punta de Piedras),42180,Localidad mediana,6,6,5,4.0,No aplica,Desierto,VE17,VE1710
+Nueva Esparta,Villalba (San Pedro de Coche),10281,Localidad pequeña,6,6,3,3.0,No aplica,Desierto,VE17,VE1711
+Portuguesa,Agua Blanca,21300,Localidad pequeña,15,12,11,12.0,2,Semibosque,VE18,VE1801
+Portuguesa,Araure,172372,Localidad grande,22,22,14,14.0,2,Semibosque,VE18,VE1802
+Portuguesa,Esteller (Píritu),45254,Localidad mediana,14,12,9,10.0,2,Semibosque,VE18,VE1803
+Portuguesa,Guanare,205081,Localidad grande,22,22,12,14.0,2,Semibosque,VE18,VE1804
+Portuguesa,Guanarito,38397,Localidad mediana,12,9,9,8.0,1,Semibosque,VE18,VE1805
+Portuguesa,Monseñor José Vicenti de Unda (Chabasquén de Unda),24232,Localidad pequeña,10,8,9,7.0,1,Semibosque,VE18,VE1806
+Portuguesa,Ospino,49795,Localidad mediana,18,17,10,11.0,2,Semibosque,VE18,VE1807
+Portuguesa,Páez (Acarigua),187727,Localidad grande,22,22,14,14.0,2,Semibosque,VE18,VE1808
+Portuguesa,Papelón,16995,Localidad pequeña,12,8,11,9.0,1,Semibosque,VE18,VE1809
+Portuguesa,San Genaro de Boconoíto (Boconoíto),23872,Localidad pequeña,10,9,9,7.0,1,Semibosque,VE18,VE1810
+Portuguesa,San Rafael de Onoto,18908,Localidad pequeña,11,10,9,9.0,2,Semibosque,VE18,VE1811
+Portuguesa,Santa Rosalía (El Playón),17885,Localidad pequeña,10,8,9,8.0,2,Semibosque,VE18,VE1812
+Portuguesa,Sucre (Biscucuy),42501,Localidad mediana,12,11,9,9.0,1,Semibosque,VE18,VE1813
+Portuguesa,Turén (Villa Bruzual),65928,Localidad mediana,14,13,9,10.0,2,Semibosque,VE18,VE1814
+Sucre,Andrés Eloy Blanco (Casanay),28337,Localidad mediana,4,3,3,3.0,No aplica,Desierto,VE19,VE1901
+Sucre,Andrés Mata (San José de Aerocuar),21211,Localidad pequeña,4,4,3,3.0,No aplica,Desierto,VE19,VE1902
+Sucre,Arismendi (Río Caribe),50589,Localidad mediana,6,6,4,5.0,No aplica,Semidesierto,VE19,VE1903
+Sucre,Benítez (El Pilar),33449,Localidad mediana,2,2,1,2.0,No aplica,Desierto,VE19,VE1904
+Sucre,Bermúdez (Carúpano),149120,Localidad grande,10,10,8,6.0,No aplica,Semidesierto,VE19,VE1905
+Sucre,Bolívar (Marigüitar),23642,Localidad pequeña,5,5,1,5.0,No aplica,Semidesierto,VE19,VE1906
+Sucre,Cajigal (Yaguaraparo),22706,Localidad pequeña,3,3,1,3.0,No aplica,Desierto,VE19,VE1907
+Sucre,Cruz Salmerón Acosta (Araya),37770,Localidad mediana,5,5,3,4.0,No aplica,Desierto,VE19,VE1908
+Sucre,Libertador (Tunapuy),10281,Localidad pequeña,1,1,1,1.0,No aplica,Desierto,VE19,VE1909
+Sucre,Mariño (Irapa),25845,Localidad mediana,2,2,2,2.0,No aplica,Desierto,VE19,VE1910
+Sucre,Mejía (San Antonio del Golfo),15101,Localidad pequeña,4,3,3,2.0,No aplica,Desierto,VE19,VE1911
+Sucre,Montes (Cumanacoa),57312,Localidad mediana,7,6,5,5.0,No aplica,Semidesierto,VE19,VE1912
+Sucre,Ribero (Cariaco),65054,Localidad mediana,5,4,5,4.0,No aplica,Desierto,VE19,VE1913
+Sucre,Sucre (Cumaná),402649,Localidad grande,12,12,6,9.0,No aplica,Semidesierto,VE19,VE1914
+Sucre,Valdez (Güiria),44077,Localidad mediana,4,3,2,3.0,No aplica,Desierto,VE19,VE1915
+Táchira,Andrés Bello (Cordero),17464,Localidad pequeña,12,12,7,5.0,No aplica,Semidesierto,VE20,VE2001
+Táchira,Antonio Rómulo Costa (Las Mesas),8992,Localidad pequeña,13,13,9,4.0,No aplica,Semidesierto,VE20,VE2002
+Táchira,Ayacucho (Colón),49810,Localidad mediana,18,17,12,10.0,No aplica,Semidesierto,VE20,VE2003
+Táchira,Bolívar (San Antonio del Táchira),52935,Localidad mediana,14,14,7,6.0,No aplica,Semidesierto,VE20,VE2004
+Táchira,Cárdenas (Táriba),110318,Localidad grande,16,16,7,7.0,No aplica,Semidesierto,VE20,VE2005
+Táchira,Córdoba (Santa Ana de Táchira),28235,Localidad mediana,13,13,7,6.0,No aplica,Semidesierto,VE20,VE2006
+Táchira,Fernández Feo (San Rafael del Piñal),38947,Localidad mediana,10,10,6,5.0,No aplica,Semidesierto,VE20,VE2007
+Táchira,Francisco de Miranda (San José de Bolívar),3475,Localidad pequeña,13,11,11,4.0,No aplica,Semidesierto,VE20,VE2008
+Táchira,García de Hevia (La Fría),41748,Localidad mediana,14,12,10,7.0,No aplica,Semidesierto,VE20,VE2009
+Táchira,Guásimos (Palmira),38325,Localidad mediana,14,13,9,6.0,No aplica,Semidesierto,VE20,VE2010
+Táchira,Independencia (Capacho Nuevo),32009,Localidad mediana,14,13,8,6.0,No aplica,Semidesierto,VE20,VE2011
+Táchira,Jáuregui (La Grita),35659,Localidad mediana,18,18,13,8.0,No aplica,Semidesierto,VE20,VE2012
+Táchira,José María Vargas (El Cobre),8660,Localidad pequeña,15,15,12,5.0,No aplica,Semidesierto,VE20,VE2013
+Táchira,Junín (Rubio),74267,Localidad mediana,17,17,12,9.0,No aplica,Semidesierto,VE20,VE2014
+Táchira,San Judas Tadeo (Umuquena),6369,Localidad pequeña,13,13,9,6.0,No aplica,Semidesierto,VE20,VE2029
+Táchira,Libertad (Capacho Viejo),23542,Localidad pequeña,14,14,7,7.0,No aplica,Semidesierto,VE20,VE2015
+Táchira,Libertador (Abejales),18880,Localidad pequeña,8,8,5,4.0,No aplica,Semidesierto,VE20,VE2016
+Táchira,Lobatera,11179,Localidad pequeña,11,10,9,5.0,No aplica,Semidesierto,VE20,VE2017
+Táchira,Michelena,16361,Localidad pequeña,13,12,10,7.0,No aplica,Semidesierto,VE20,VE2018
+Táchira,Panamericano (Coloncito),27188,Localidad mediana,11,10,10,6.0,No aplica,Semidesierto,VE20,VE2019
+Táchira,Pedro María Ureña (Ureña),45026,Localidad mediana,14,14,7,7.0,No aplica,Semidesierto,VE20,VE2020
+Táchira,Rafael Urdaneta (Delicias),4986,Localidad pequeña,10,9,7,4.0,No aplica,Semidesierto,VE20,VE2021
+Táchira,Samuel Dario Maldonado (La Tendida),15875,Localidad pequeña,10,9,7,5.0,No aplica,Semidesierto,VE20,VE2022
+Táchira,San Cristóbal,231079,Localidad grande,20,19,16,10.0,No aplica,Semidesierto,VE20,VE2023
+Táchira,Seboruco,16297,Localidad pequeña,14,13,11,5.0,No aplica,Semidesierto,VE20,VE2024
+Táchira,Simón Rodríguez (San Simon),2125,Localidad pequeña,6,6,5,2.0,No aplica,Desierto,VE20,VE2025
+Táchira,Sucre (Queniquea),6331,Localidad pequeña,11,11,8,3.0,No aplica,Desierto,VE20,VE2026
+Táchira,Torbes (San Josecito),43559,Localidad mediana,15,15,7,7.0,No aplica,Semidesierto,VE20,VE2027
+Táchira,Uribante (Pregonero),17219,Localidad pequeña,9,8,7,2.0,No aplica,Desierto,VE20,VE2028
+Trujillo,Andrés Bello (Santa Isabel),17781,Localidad pequeña,12,12,11,4.0,No aplica,Semidesierto,VE21,VE2101
+Trujillo,Boconó,95001,Localidad mediana,25,25,22,11.0,No aplica,Semidesierto,VE21,VE2102
+Trujillo,Bolívar (Sabana Grande),17473,Localidad pequeña,13,11,13,4.0,No aplica,Semidesierto,VE21,VE2103
+Trujillo,Candelaria (Chejendé),30599,Localidad mediana,12,11,12,3.0,No aplica,Desierto,VE21,VE2104
+Trujillo,Carache,30318,Localidad mediana,14,14,14,5.0,No aplica,Semidesierto,VE21,VE2105
+Trujillo,Campos Elías,5671,Localidad pequeña,13,12,12,3.0,No aplica,Desierto,VE21,VE2108
+Trujillo,Carvajal (Carvajal),63488,Localidad mediana,16,16,14,6.0,No aplica,Semidesierto,VE21,VE2116
+Trujillo,Escuque,30108,Localidad mediana,14,14,12,5.0,No aplica,Semidesierto,VE21,VE2106
+Trujillo,La Ceiba (Santa Apolonia),21387,Localidad pequeña,12,11,12,3.0,No aplica,Desierto,VE21,VE2109
+Trujillo,Márquez Cañizales (El Paradero),5000,Localidad pequeña,13,12,12,4.0,No aplica,Semidesierto,VE21,VE2107
+Trujillo,Miranda (El Dividive),24133,Localidad pequeña,14,14,12,5.0,No aplica,Semidesierto,VE21,VE2110
+Trujillo,Monte Carmelo,13863,Localidad pequeña,13,13,12,4.0,No aplica,Semidesierto,VE21,VE2111
+Trujillo,Motatán,22158,Localidad pequeña,15,15,12,3.0,No aplica,Desierto,VE21,VE2112
+Trujillo,Pampán,51969,Localidad mediana,15,15,14,4.0,No aplica,Desierto,VE21,VE2113
+Trujillo,Pampanito,31233,Localidad mediana,15,15,13,6.0,No aplica,Semidesierto,VE21,VE2114
+Trujillo,Rangel (Betijoque),24552,Localidad pequeña,15,15,12,6.0,6,Semidesierto,VE21,VE2115
+Trujillo,Sucre (Sabana de Mendoza),33469,Localidad mediana,15,15,13,5.0,No aplica,Semidesierto,VE21,VE2117
+Trujillo,Trujillo,62153,Localidad mediana,16,16,13,6.0,No aplica,Semidesierto,VE21,VE2118
+Trujillo,Urdaneta (La Quebrada),37125,Localidad mediana,13,13,13,4.0,No aplica,Desierto,VE21,VE2119
+Trujillo,Valera,149808,Localidad grande,20,20,15,6.0,No aplica,Semidesierto,VE21,VE2120
+Yaracuy,Arístides Bastidas (San Pablo),22654,Localidad pequeña,17,16,4,6.0,No aplica,Semidesierto,VE22,VE2201
+Yaracuy,Bolívar (Aroa),34084,Localidad mediana,18,15,6,5.0,No aplica,Semidesierto,VE22,VE2202
+Yaracuy,Bruzual (Chivacoa),76333,Localidad mediana,22,21,7,9.0,No aplica,Semidesierto,VE22,VE2203
+Yaracuy,Cocorote,46803,Localidad mediana,25,25,15,8.0,No aplica,Semidesierto,VE22,VE2204
+Yaracuy,Independencia,67221,Localidad mediana,28,28,18,9.0,No aplica,Semidesierto,VE22,VE2205
+Yaracuy,La Trinidad (Boraure),19130,Localidad pequeña,17,15,5,8.0,No aplica,Semidesierto,VE22,VE2207
+Yaracuy,Monge (Yumare),13858,Localidad pequeña,14,12,3,5.0,No aplica,Semidesierto,VE22,VE2208
+Yaracuy,Nirgua,62974,Localidad mediana,20,17,7,7.0,No aplica,Semidesierto,VE22,VE2209
+Yaracuy,Páez (Sabana de Parra),21487,Localidad pequeña,16,15,3,6.0,No aplica,Semidesierto,VE22,VE2206
+Yaracuy,Peña (Yaritagua),112446,Localidad grande,18,17,7,5.0,No aplica,Desierto,VE22,VE2210
+Yaracuy,San Felipe,115630,Localidad grande,29,29,20,9.0,No aplica,Semidesierto,VE22,VE2211
+Yaracuy,Sucre (Guama),21757,Localidad pequeña,19,18,4,7.0,No aplica,Semidesierto,VE22,VE2212
+Yaracuy,Urachiche,23696,Localidad pequeña,16,15,4,6.0,No aplica,Semidesierto,VE22,VE2213
+Yaracuy,Veroes (Farriar),28917,Localidad mediana,20,16,8,7.0,No aplica,Semidesierto,VE22,VE2214
+Zulia,Bolívar (Tía Juana),44094,Localidad mediana,23,21,13,14.0,4,Semibosque,VE23,VE2319
+Zulia,Baralt (San Timoteo),92904,Localidad mediana,17,15,11,9.0,3,Semibosque,VE23,VE2302
+Zulia,Cabimas,274088,Localidad grande,37,37,18,24.0,7,Semibosque,VE23,VE2303
+Zulia,Catatumbo (Encontrados),41326,Localidad mediana,15,13,10,9.0,No aplica,Semidesierto,VE23,VE2304
+Zulia,Colón (San Carlos del Zulia),127440,Localidad grande,11,11,5,4.0,No aplica,Desierto,VE23,VE2305
+Zulia,Guajira (Sinamaica),67194,Localidad mediana,23,18,16,13.0,4,Semibosque,VE23,VE2315
+Zulia,Padilla (El Toro),12594,Localidad pequeña,10,8,7,3.0,No aplica,Desierto,VE23,VE2301
+Zulia,Pulgar (Pueblo Nuevo-El Chivo),33351,Localidad mediana,9,9,5,3.0,No aplica,Desierto,VE23,VE2306
+Zulia,Lossada (La Concepción),118919,Localidad grande,20,18,10,11.0,5,Semibosque,VE23,VE2307
+Zulia,Semprún (Casigua El Cubo),30216,Localidad mediana,10,10,7,4.0,No aplica,Desierto,VE23,VE2308
+Zulia,La Cañada de Urdaneta (Concepción),83543,Localidad mediana,20,19,9,14.0,5,Semibosque,VE23,VE2309
+Zulia,Lagunillas (Ciudad Ojeda),200092,Localidad grande,33,33,21,21.0,7,Semibosque,VE23,VE2310
+Zulia,Machiques,124492,Localidad grande,27,27,14,16.0,5,Semibosque,VE23,VE2311
+Zulia,Mara (San Rafael del Moján),202242,Localidad grande,13,10,8,9.0,No aplica,Semidesierto,VE23,VE2312
+Zulia,Maracaibo,1560837,Localidad grande,49,49,29,30.0,13,Bosque,VE23,VE2313
+Zulia,Miranda (Los Puertos de Altagracia),99681,Localidad mediana,24,24,13,13.0,6,Semibosque,VE23,VE2314
+Zulia,Rosario (La Villa del Rosario),86983,Localidad mediana,23,22,12,13.0,5,Semibosque,VE23,VE2316
+Zulia,San Francisco,462417,Localidad grande,38,37,21,22.0,10,Bosque,VE23,VE2317
+Zulia,Santa Rita,58912,Localidad mediana,27,27,13,15.0,6,Semibosque,VE23,VE2318
+Zulia,Sucre (Bobures),60086,Localidad mediana,8,7,5,3.0,No aplica,Desierto,VE23,VE2320
+Zulia,Valmore Rodríguez (Bachaquero),52524,Localidad mediana,18,17,12,11.0,5,Semibosque,VE23,VE2321
