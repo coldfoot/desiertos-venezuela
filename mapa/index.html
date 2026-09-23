@@ -9,39 +9,70 @@
 </head>
 <body>
 
-    <header>
+    <div class="wrapper-dash">
+        <header>
 
-        <div class="logo-ipys">
-            Imagine o logo Ipys aqui
+            <div class="logo-ipys">
+                Imagine o logo Ipys aqui
+            </div>
+
+            <div>
+                <h1>Desiertos de Noticias Locales en Venezuela</h1>
+            </div>
+
+            <div class="menu-wrapper">
+                <button class="burger-btn">
+                    <svg class="btn-menu-img" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="5" x2="35" y1="10" y2="10" class="line-top"></line>
+                        <line x1="5" x2="35" y1="20" y2="20" class="line-mid"></line>
+                        <line x1="5" x2="35" y1="30" y2="30" class="line-bottom"></line>
+                    </svg>
+                </button>
+            </div>
+
+        </header>
+
+        <div class="barra-classificacao">
+            <div class="barra-desierto">
+                 <img src="desierto.svg" alt=""><p>Desierto</p>
+            </div>
+            <div class="barra-semidesierto">
+                <img src="semidesierto.svg" alt="">
+                <p>Semidesierto</p>
+            </div>
+            <div class="barra-semibosque">
+                <img src="semibosque.svg" alt="">
+                <p>Semibosque</p>
+            </div>
+            <div class="barra-bosque">
+                <img src="bosque.svg" alt="">
+                <p>Bosque</p>
+            </div>
         </div>
 
-        <div>
-            <h1>Desiertos de Noticias Locales en Venezuela</h1>
-        </div>
+        <div class="container-principal">
 
-        <div class="menu-wrapper">
-            <button class="burger-btn">
-                <svg class="btn-menu-img" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="5" x2="35" y1="10" y2="10" class="line-top"></line>
-                    <line x1="5" x2="35" y1="20" y2="20" class="line-mid"></line>
-                    <line x1="5" x2="35" y1="30" y2="30" class="line-bottom"></line>
-                </svg>
-            </button>
-        </div>
+            <div class="container-mapa">
+                <div class="busca barra-topo-container">
+                    <img src="lupa.svg" alt="">
+                    <input type="search" name="busca-local" id="" placeholder="Selecciona tu ubicación ">
+                </div>
+                <div id="map">
+                </div>
+            </div>
 
-    </header>
-
-    <div class="barra-classificacao"></div>
-
-    <div class="container-principal">
-
-        <div id="map">
+            <div class="container-card">
+                <div class="wrapper-breadcrumb barra-topo-container">
+                    <img src="home.svg" alt="">
+                    <div class="breadcrumb"></div>
+                </div>
+                <div id="card"></div>
+            </div>
 
         </div>
-
     </div>
 
-    <script src="https://api.mapbox.com/mapbox-gl-js/v3.29.0/mapbox-gl.js"></script>
+    <!--<script src="https://api.mapbox.com/mapbox-gl-js/v3.29.0/mapbox-gl.js"></script>-->
     <script src="script.js"></script>
     
 </body>

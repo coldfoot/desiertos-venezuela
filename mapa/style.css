@@ -5,11 +5,29 @@
 :root {
     --bg: #F4F4F4;
     --black: #000000;
+    --bosque: #657034;
+    --desierto: #b26d36;
+    --semidesierto: #d4ba99;
+    --semibosque: #e0d579;
 }
 
 body {
     padding: 0;
     margin: 0;
+}
+
+.wrapper-dash {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-dash > div {
+    flex-grow: 1;
 }
 
 /* HEADER */
@@ -19,12 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
+    flex: 0 0 2rem;
 
 }
 
@@ -42,19 +55,99 @@ header {
     height: 50px;
 }
 
+/* BARRA CLASSIFICACAO */
+
+div.barra-classificacao { 
+
+    display: flex;
+    flex: 0 0 3rem;
+
+}
+
+.barra-classificacao > div {
+    flex: 1 1 25%;
+    background-color: var(--cor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.barra-classificacao p {
+    text-align: center;
+    flex-grow: 1;
+    text-transform: uppercase;
+    color: var(--bg);
+    font-weight: bold;
+}
+
+div.barra-semibosque p,
+div.barra-semidesierto p {
+    color: var(--black);
+}
+
+.barra-desierto { --cor: var(--desierto); }
+.barra-semidesierto { --cor: var(--semidesierto); }
+.barra-semibosque { --cor: var(--semibosque); }
+.barra-bosque { --cor: var(--bosque); }
+
+
+
+/* CONTAINER PRINCIPAL */
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-principal > div {
+    flex: 1 1 50%;
+    border: 1px solid black;
+}
+
+.barra-topo-container {
+
+    display: flex;
+    height: 1rem;
+    margin: .5rem;
+    gap: .5rem;
+
+}
+
+/* CONTAINER MAPA */
+
+/* BUSCA */
+
+.busca {
+    justify-content: space-between;
+}
+
+.lupa-busca {
+    width: 1rem;
+}
+
+.busca input {
+    flex-grow: 1;
+}
+
 /* MAP */
 
 #map {
     border: 1px solid black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1; 
 }
 
 .cover {
     place-content: center;
     text-align: center;
+}
+
+/* CARD */
+
+/* BREADCRUMB */
+
+.wrapper-breadcrumb {
+    justify-content: flex-start;
+}
+
+#card {
+    border: 1px solid black;
 }
