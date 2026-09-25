@@ -25,6 +25,12 @@ const bbox = [
   //[xmin, ymin]
 ];
 
+fetch("../geo/output/data.json").then(response => response.json()).then(data => init(data));
+
+function init(data) {
+  console.log(data);
+}
+
 map.on('load', () => {
 
 
