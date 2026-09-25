@@ -42,9 +42,9 @@ map.on('load', () => {
         coordinates: bbox
         }
     }
-    });
+  });
 
-    map.addLayer({
+  map.addLayer({
     id: 'bbox',
     type: 'line',
     source: 'bbox',
@@ -53,9 +53,39 @@ map.on('load', () => {
         'line-width': 10,
         'line-dasharray': [2, 2]
     }
-    });
+  });
+
+  map.addSource('venezuela', {
+      'type': 'vector',
+      'url': 'mapbox://tiagombp.rzef2q0scjuf',
+      'promoteId' : 'code'
+  });
+
+  /* camadas das small units */
+
+  map.addLayer({
+    'id': 'small_units_fill',
+    'type': 'fill',
+    'source': 'venezuela',
+    'source-layer': "628134755d56856f760c",
+    'paint': {
+        'fill-color' : 'hotpink',
+        'fill-outline-color' : 'black'
+    }
+  });
+
+  /* camadas das large units */
+
+  map.addLayer({
+      'id': 'large_units_border',
+      'type': 'line',
+      'source': 'venezuela',
+      'source-layer': "e6ce5cc1dd5b09147e8a",
+      'paint': {
+          'line-color' : 'black',
+          'line-width' : 2
+      }
+  });
 
 
 });
-
-

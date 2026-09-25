@@ -132,7 +132,9 @@ div.barra-semidesierto p {
 /* MAP */
 
 #map {
-    border: 1px solid black;
+    border: 1px solid hotpink;
+    height: 50%;
+    width: 100%;
 }
 
 .cover {
