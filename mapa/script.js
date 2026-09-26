@@ -25,10 +25,13 @@ const bbox = [
   //[xmin, ymin]
 ];
 
-fetch("../geo/output/data.json").then(response => response.json()).then(data => init(data));
+let data;
 
-function init(data) {
-  console.log(data);
+fetch("../geo/output/data.json").then(response => response.json()).then(data_ => init(data_));
+
+function init(data_) {
+
+  data = data_;
 
   const colors_codes = {
     Bosque: "#657034",
@@ -52,7 +55,7 @@ function init(data) {
 
 }
 
-function init_map(data) {
+function init_map() {
 
   console.log(color_map);
 
@@ -240,7 +243,32 @@ function init_map(data) {
 
       provinciaHoveredId = null;
 
-    }
+  }
+
+  function click_handler_large(e) {
+    
+    const place_id = e.features[0].properties.code;
+
+    //last_provincia_location_data = place_data;
+
+    // limpa o hover state featureState
+
+    // não teria que setar o provinciaHoveredId para null?
+    provinciaHoveredId = null;
+
+    map.setFeatureState(
+        { 
+          source: 'large-units',
+          sourceLayer: "e6ce5cc1dd5b09147e8a",
+          id: provinciaHoveredId
+        },
+
+        { hover : false }
+    );
+
+    render_provincia(place_id);
+
+  }
 
   function toggle_events_large_units(mode) {
 
@@ -248,11 +276,13 @@ function init_map(data) {
 
         map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
         map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
+        map.on("click", 'large_units_hover', click_handler_large);
 
     } else {
 
         map.off('mousemove', 'large_units_hover', mouse_enter_handler_large);
         map.off('mouseleave', 'large_units_hover', mouse_leave_handler_large);
+        map.off("click", 'large_units_hover', click_handler_large);
 
     }
 
@@ -264,8 +294,33 @@ function init_map(data) {
   map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
   map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
   */
+  function render_provincia(place_id) {
+
+    // pega os dados    
+    const place_data = data.large_units.filter(d => d.BASIC_INFO.LEVEL_1_CODE == place_id)[0];
+    console.log(place_data);
+
+    // coloca a borda
+    toggle_highlight_large_unit(place_id);
+
+    // desabilita os eventos de provincia
+    toggle_events_large_units("off");
+
+  }
   
 });
+
+}
+
+function toggle_highlight_large_unit(place_id) {
+
+  map.setFilter(
+    'large_units_border', [
+      '==',
+      ['get', 'code'],
+      place_id
+    ]
+  );
 
 }
 
