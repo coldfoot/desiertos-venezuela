@@ -340,9 +340,19 @@ function preenche_dados_card(place_data) {
 
     const campo = el.dataset.textoCard;
 
-    el.innerHTML = textos[campo];
+    let texto = textos[campo];
+    texto = isNaN(+texto) ? texto : formata_numero(texto);
+
+    el.innerHTML = texto;
 
   })
+
+}
+
+function formata_numero(texto) {
+
+  return new Intl.NumberFormat('es-VE').format(texto); 
+
 
 }
 
