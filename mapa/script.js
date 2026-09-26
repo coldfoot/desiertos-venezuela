@@ -57,10 +57,13 @@ function init(data_) {
 
 function init_map() {
 
+  // já preenche os dados da Venezuela no card
+  const country_data = data.country[0];
+  preenche_dados_card(country_data);
+
   console.log(color_map);
 
   map.on('load', () => {
-
 
   map.fitBounds([-73.3911486, 0.6493155, -56.4818190, 15.7029483] , {
     padding: 50,
@@ -266,7 +269,7 @@ function init_map() {
         { hover : false }
     );
 
-    render_provincia(place_id);
+    render_large_unit(place_id);
 
   }
 
@@ -294,7 +297,7 @@ function init_map() {
   map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
   map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
   */
-  function render_provincia(place_id) {
+  function render_large_unit(place_id) {
 
     // pega os dados    
     const place_data = data.large_units.filter(d => d.BASIC_INFO.LEVEL_1_CODE == place_id)[0];
@@ -305,6 +308,9 @@ function init_map() {
 
     // desabilita os eventos de provincia
     toggle_events_large_units("off");
+
+    // preenche os campos de texto do card
+    preenche_dados_card(place_data);
 
   }
   
@@ -321,6 +327,22 @@ function toggle_highlight_large_unit(place_id) {
       place_id
     ]
   );
+
+}
+
+function preenche_dados_card(place_data) {
+
+  const textos = place_data.BASIC_INFO;
+
+  const elementos_campos = document.querySelectorAll("#card [data-texto-card]");
+
+  elementos_campos.forEach(el => {
+
+    const campo = el.dataset.textoCard;
+
+    el.innerHTML = textos[campo];
+
+  })
 
 }
 
