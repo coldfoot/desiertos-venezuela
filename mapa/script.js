@@ -48,11 +48,11 @@ function init(data) {
 
   console.log(colors);
 
-  init_map();
+  init_map(data);
 
 }
 
-function init_map() {
+function init_map(data) {
 
   console.log(color_map);
 
@@ -168,6 +168,13 @@ function init_map() {
         }
   });
 
+  const popup_large_units = new mapboxgl.Popup(
+      {
+          closeButton: false,
+          loseOnClick: false
+      }
+  );
+
   /* handlers */
 
   function mouse_enter_handler_large(e) {
@@ -175,6 +182,16 @@ function init_map() {
     map.getCanvas().style.cursor = 'pointer';
 
     const place_id = e.features[0].properties.code;
+    const place_name = e.features[0].properties.name;
+    const place_data = data.large_units.filter(d => d.BASIC_INFO.LEVEL_1_CODE == place_id)[0]
+    const centroid = place_data.CENTROID;
+
+    let coordinates = [
+      centroid.xc,
+      centroid.yc
+    ]; 
+
+    popup_large_units.setLngLat(coordinates).setHTML(place_name).addTo(map);
 
     if (provinciaHoveredId) {
         map.setFeatureState(
@@ -205,6 +222,8 @@ function init_map() {
 
   function mouse_leave_handler_large() {
 
+    popup_large_units.remove();
+
     if (provinciaHoveredId) {
         
       map.setFeatureState(
@@ -223,11 +242,32 @@ function init_map() {
 
     }
 
+  function toggle_events_large_units(mode) {
+
+    if( mode == "on") {
+
+        map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
+        map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
+
+    } else {
+
+        map.off('mousemove', 'large_units_hover', mouse_enter_handler_large);
+        map.off('mouseleave', 'large_units_hover', mouse_leave_handler_large);
+
+    }
+
+  }
   /* inicia handlers */
+  toggle_events_large_units("on");
+
+  /*
   map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
   map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
-
+  */
+  
 });
 
 }
+
+
 
