@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desiertos Venezuela</title>
     <link href="https://api.mapbox.com/mapbox-gl-js/v3.29.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,18 +36,18 @@
         </header>
 
         <div class="barra-classificacao">
-            <div class="barra-desierto">
+            <div class="desierto">
                  <img src="desierto.svg" alt=""><p>Desierto</p>
             </div>
-            <div class="barra-semidesierto">
+            <div class="semidesierto">
                 <img src="semidesierto.svg" alt="">
                 <p>Semidesierto</p>
             </div>
-            <div class="barra-semibosque">
+            <div class="semibosque">
                 <img src="semibosque.svg" alt="">
                 <p>Semibosque</p>
             </div>
-            <div class="barra-bosque">
+            <div class="bosque">
                 <img src="bosque.svg" alt="">
                 <p>Bosque</p>
             </div>
@@ -74,6 +77,34 @@
 
                     <p><strong>MEDIOS: </strong><span data-texto-card="MEDIOS_TOTAL"></span></p>
 
+                </div>
+
+                <div class="barra-distribuicao-classificacao">
+                    <div class="desierto" distribuicao-classificacao="desierto"></div>
+                    <div class="semidesierto" distribuicao-classificacao="semidesierto"></div>
+                    <div class="semibosque" distribuicao-classificacao="semibosque"></div>
+                    <div class="bosque" distribuicao-classificacao="bosque"></div>
+                </div>
+
+                <div class="container-boxes">
+                    <div class="btn-box-wrapper">
+                        <button data-btn-box="hallazgos" class="">Hallazgos</button>
+                        <button data-btn-box="perguntas" class="ativo">Perguntas</button>
+                    </div>
+                    <div class="box" data-modo-ativo="perguntas">
+                        <div class="box-hallazgos">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam inventore accusantium sapiente officiis. Cumque nemo a ad nihil! Reprehenderit pariatur consectetur nulla facilis rem vitae ipsam aliquam nemo eligendi sequi.
+                        </div>
+                        <div class="box-perguntas">
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 

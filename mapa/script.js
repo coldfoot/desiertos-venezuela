@@ -356,5 +356,27 @@ function formata_numero(texto) {
 
 }
 
+/* INTERACOES */
+
+const btns_boxes = document.querySelector(".btn-box-wrapper");
+const boxes = document.querySelector(".box");
+
+btns_boxes.addEventListener("click", e => {
+
+  if (e.target.tagName != "BUTTON") return;
+
+  const box_selecionado = e.target.dataset.btnBox;
+
+  boxes.dataset.modoAtivo = box_selecionado;
+
+  btns_boxes.querySelectorAll("button").forEach(btn => {
+    btn.classList.remove("ativo");
+  })
+
+  e.target.classList.add("ativo");
+
+
+
+})
 
 
