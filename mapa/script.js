@@ -25,7 +25,16 @@ const bbox = [
   //[xmin, ymin]
 ];
 
-let data;
+const venezuela_bbox = [-73.3911486, 0.6493155, -56.4818190, 15.7029483];
+
+let data, current_place_data;
+
+let padding = {
+  top: 20,
+  bottom: 20,
+  left: 20,
+  right: 20
+}
 
 fetch("../geo/output/data.json").then(response => response.json()).then(data_ => init(data_));
 
@@ -58,18 +67,20 @@ function init(data_) {
 function init_map() {
 
   // já preenche os dados da Venezuela no card
-  const country_data = data.country[0];
-  preenche_dados_card(country_data);
+  current_place_data = data.country[0];
+  preenche_dados_card();
 
   console.log(color_map);
 
   map.on('load', () => {
 
+  /*
   map.fitBounds([-73.3911486, 0.6493155, -56.4818190, 15.7029483] , {
     padding: 50,
     duration: 0
-  });
+  });*/
 
+  /*
   map.addSource('bbox', {
     type: 'geojson',
     data: {
@@ -90,7 +101,7 @@ function init_map() {
         'line-width': 10,
         'line-dasharray': [2, 2]
     }
-  });
+  });*/
 
   map.addSource('large-units', {
       'type': 'vector',
@@ -244,7 +255,7 @@ function init_map() {
       );
     }
 
-      provinciaHoveredId = null;
+    provinciaHoveredId = null;
 
   }
 
@@ -277,15 +288,17 @@ function init_map() {
 
     if( mode == "on") {
 
-        map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
-        map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
-        map.on("click", 'large_units_hover', click_handler_large);
+      mouse_leave_handler_large();
+
+      map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
+      map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
+      map.on("click", 'large_units_hover', click_handler_large);
 
     } else {
 
-        map.off('mousemove', 'large_units_hover', mouse_enter_handler_large);
-        map.off('mouseleave', 'large_units_hover', mouse_leave_handler_large);
-        map.off("click", 'large_units_hover', click_handler_large);
+      map.off('mousemove', 'large_units_hover', mouse_enter_handler_large);
+      map.off('mouseleave', 'large_units_hover', mouse_leave_handler_large);
+      map.off("click", 'large_units_hover', click_handler_large);
 
     }
 
@@ -297,11 +310,40 @@ function init_map() {
   map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
   map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
   */
+
+  render_venezuela();
+
+  function render_venezuela() {
+
+    current_place_data = data.country[0];
+
+    update_barra_classificacao();
+    preenche_dados_card();
+
+    toggle_highlight_large_unit("");
+
+    // desabilita os eventos de provincia
+    toggle_events_large_units("on");
+
+    map.fitBounds(
+      
+      venezuela_bbox, 
+
+      {
+          linear : false, // false means the map transitions using map.flyTo()
+          speed: 1, 
+          padding: padding//{top: 80, bottom: 100, left: 30, right: 30},
+      }
+
+    );
+  
+  }
+
   function render_large_unit(place_id) {
 
     // pega os dados    
-    const place_data = data.large_units.filter(d => d.BASIC_INFO.LEVEL_1_CODE == place_id)[0];
-    console.log(place_data);
+    current_place_data = data.large_units.filter(d => d.BASIC_INFO.LEVEL_1_CODE == place_id)[0];
+    console.log(current_place_data);
 
     // coloca a borda
     toggle_highlight_large_unit(place_id);
@@ -310,9 +352,15 @@ function init_map() {
     toggle_events_large_units("off");
 
     // preenche os campos de texto do card
-    preenche_dados_card(place_data);
+    preenche_dados_card();
+    update_barra_classificacao();
 
   }
+
+  home_button.addEventListener("click", e => {
+    console.log("VENEZUELA");
+    render_venezuela();
+})
   
 });
 
@@ -330,9 +378,9 @@ function toggle_highlight_large_unit(place_id) {
 
 }
 
-function preenche_dados_card(place_data) {
+function preenche_dados_card() {
 
-  const textos = place_data.BASIC_INFO;
+  const textos = current_place_data.BASIC_INFO;
 
   const elementos_campos = document.querySelectorAll("#card [data-texto-card]");
 
@@ -360,6 +408,7 @@ function formata_numero(texto) {
 
 const btns_boxes = document.querySelector(".btn-box-wrapper");
 const boxes = document.querySelector(".box");
+const home_button = document.querySelector(".home-btn");
 
 btns_boxes.addEventListener("click", e => {
 
@@ -375,8 +424,24 @@ btns_boxes.addEventListener("click", e => {
 
   e.target.classList.add("ativo");
 
-
-
 })
+
+function update_barra_classificacao() {
+
+  const pcts = current_place_data.BASIC_INFO.CLASSIFICATION_PCT;
+
+  const tipos = ["Desierto", "Semidesierto", "Semibosque", "Bosque"];
+
+  tipos.forEach(tipo => {
+
+    const barra = document.querySelector(`[data-distribuicao-classificacao="${tipo}"]`);
+
+    console.log(barra, pcts[tipo]);
+
+    barra.style.flexBasis = pcts[tipo] ? (pcts[tipo]*100 + "%") : 0;
+
+  })
+
+}
 
 
