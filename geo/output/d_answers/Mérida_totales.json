@@ -3,8 +3,8 @@
     "Canal o grupo de mensajería en Whatsapp": 25,
     "Canal o grupo de mensajería en Telegram": 16,
     "Cuenta en Instagram": 36,
-    "Cuenta en Facebook": 19,
-    "Cuenta en TikTok": 19,
+    "Cuenta en Facebook": 20,
+    "Cuenta en TikTok": 20,
     "Cuenta en X": 16,
     "Cuenta en Youtube": 14,
     "Periódico (impreso)": 2,
@@ -49,14 +49,14 @@
     "Donaciones de empresas": 2,
     "Eventos": 1,
     "Fondos gubernamentales": 5,
-    "Publicidad": 27,
+    "Publicidad": 28,
     "Subvenciones o financiamiento internacional": 8,
     "Talleres / Capacitaciones": 1,
     "Venta de productos y servicios": 2,
     "No hay ninguna fuente de ingresos": 6,
     "No sabe / Prefiere no responder": 1,
     "No se maneja esta información": 2,
-    "Otro": 1
+    "Otro": 0
   },
   "censura": {
     "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 6,

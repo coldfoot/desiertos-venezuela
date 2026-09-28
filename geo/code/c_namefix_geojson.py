@@ -50,6 +50,14 @@ def main():
     pprint(lv2_naming_pairs)
     print(tabulate(lv2_gdf.drop(columns=['geometry']), headers='keys'))
 
+    # classificação por município (code -> categoria), no formato da referência
+    lv2_class_pairs = build_naming_pairs(df, 'level_2_code', 'categoria_definitiva')
+    lv2_gdf['classification'] = (
+        lv2_gdf['code'].map(lv2_class_pairs)
+        .str.strip().str.upper()
+        .fillna('Sin datos')
+    )
+
     lv1_gdf.to_file("../output/c_level_1.geojson")
     lv2_gdf.to_file("../output/c_level_2.geojson")
 

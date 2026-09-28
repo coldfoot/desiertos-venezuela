@@ -31,14 +31,14 @@
         "totales": {
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 327,
-            "Canal o grupo de mensajería en Telegram": 223,
-            "Cuenta en Instagram": 600,
-            "Cuenta en Facebook": 440,
-            "Cuenta en TikTok": 329,
-            "Cuenta en X": 296,
+            "Canal o grupo de mensajería en Telegram": 222,
+            "Cuenta en Instagram": 602,
+            "Cuenta en Facebook": 448,
+            "Cuenta en TikTok": 334,
+            "Cuenta en X": 297,
             "Cuenta en Youtube": 239,
-            "Periódico (impreso)": 44,
-            "Periodismo cara a cara": 52,
+            "Periódico (impreso)": 45,
+            "Periodismo cara a cara": 53,
             "Podcast": 40,
             "Portal web de noticias": 298,
             "Radio (AM o FM)": 223,
@@ -72,21 +72,21 @@
             "Otro": 43
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 125,
+            "Aportes monetarios de los fundadores y/o el equipo": 127,
             "Campañas de financiamiento colectivo (crowdfunding)": 9,
             "Contenidos puntuales patrocinados": 208,
-            "Donaciones de la audiencia, membresías o suscripciones": 15,
-            "Donaciones de empresas": 21,
+            "Donaciones de la audiencia, membresías o suscripciones": 14,
+            "Donaciones de empresas": 20,
             "Eventos": 35,
-            "Fondos gubernamentales": 51,
-            "Publicidad": 446,
-            "Subvenciones o financiamiento internacional": 68,
-            "Talleres / Capacitaciones": 24,
+            "Fondos gubernamentales": 52,
+            "Publicidad": 449,
+            "Subvenciones o financiamiento internacional": 69,
+            "Talleres / Capacitaciones": 22,
             "Venta de productos y servicios": 42,
-            "No hay ninguna fuente de ingresos": 38,
-            "No sabe / Prefiere no responder": 17,
+            "No hay ninguna fuente de ingresos": 37,
+            "No sabe / Prefiere no responder": 15,
             "No se maneja esta información": 48,
-            "Otro": 4
+            "Otro": 3
           },
           "censura": {
             "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 140,
@@ -101,14 +101,14 @@
         "porcentajes": {
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 50.1,
-            "Canal o grupo de mensajería en Telegram": 34.2,
-            "Cuenta en Instagram": 91.9,
-            "Cuenta en Facebook": 67.4,
-            "Cuenta en TikTok": 50.4,
-            "Cuenta en X": 45.3,
+            "Canal o grupo de mensajería en Telegram": 34.0,
+            "Cuenta en Instagram": 92.2,
+            "Cuenta en Facebook": 68.6,
+            "Cuenta en TikTok": 51.1,
+            "Cuenta en X": 45.5,
             "Cuenta en Youtube": 36.6,
-            "Periódico (impreso)": 6.7,
-            "Periodismo cara a cara": 8.0,
+            "Periódico (impreso)": 6.9,
+            "Periodismo cara a cara": 8.1,
             "Podcast": 6.1,
             "Portal web de noticias": 45.6,
             "Radio (AM o FM)": 34.2,
@@ -142,21 +142,21 @@
             "Otro": 6.6
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 19.1,
+            "Aportes monetarios de los fundadores y/o el equipo": 19.4,
             "Campañas de financiamiento colectivo (crowdfunding)": 1.4,
             "Contenidos puntuales patrocinados": 31.9,
-            "Donaciones de la audiencia, membresías o suscripciones": 2.3,
-            "Donaciones de empresas": 3.2,
+            "Donaciones de la audiencia, membresías o suscripciones": 2.1,
+            "Donaciones de empresas": 3.1,
             "Eventos": 5.4,
-            "Fondos gubernamentales": 7.8,
-            "Publicidad": 68.3,
-            "Subvenciones o financiamiento internacional": 10.4,
-            "Talleres / Capacitaciones": 3.7,
+            "Fondos gubernamentales": 8.0,
+            "Publicidad": 68.8,
+            "Subvenciones o financiamiento internacional": 10.6,
+            "Talleres / Capacitaciones": 3.4,
             "Venta de productos y servicios": 6.4,
-            "No hay ninguna fuente de ingresos": 5.8,
-            "No sabe / Prefiere no responder": 2.6,
+            "No hay ninguna fuente de ingresos": 5.7,
+            "No sabe / Prefiere no responder": 2.3,
             "No se maneja esta información": 7.4,
-            "Otro": 0.6
+            "Otro": 0.5
           },
           "censura": {
             "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 21.4,
@@ -168,6 +168,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -74.487305,
+        "miny": 0.121278,
+        "maxx": -57.65625,
+        "maxy": 12.85187
       }
     }
   ],
@@ -338,6 +344,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -67.864111,
+        "miny": 0.634574,
+        "maxx": -63.34946,
+        "maxy": 6.197394
       },
       "CENTROID": {
         "xc": -65.944178,
@@ -513,6 +525,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -65.723476,
+        "miny": 7.658483,
+        "maxx": -62.679831,
+        "maxy": 10.31239
+      },
       "CENTROID": {
         "xc": -64.425713,
         "yc": 8.941129
@@ -551,8 +569,8 @@
             "Canal o grupo de mensajería en Whatsapp": 11,
             "Canal o grupo de mensajería en Telegram": 8,
             "Cuenta en Instagram": 19,
-            "Cuenta en Facebook": 16,
-            "Cuenta en TikTok": 16,
+            "Cuenta en Facebook": 17,
+            "Cuenta en TikTok": 17,
             "Cuenta en X": 10,
             "Cuenta en Youtube": 10,
             "Periódico (impreso)": 1,
@@ -621,8 +639,8 @@
             "Canal o grupo de mensajería en Whatsapp": 50.0,
             "Canal o grupo de mensajería en Telegram": 36.4,
             "Cuenta en Instagram": 86.4,
-            "Cuenta en Facebook": 72.7,
-            "Cuenta en TikTok": 72.7,
+            "Cuenta en Facebook": 77.3,
+            "Cuenta en TikTok": 77.3,
             "Cuenta en X": 45.5,
             "Cuenta en Youtube": 45.5,
             "Periódico (impreso)": 4.5,
@@ -686,6 +704,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -72.413864,
+        "miny": 6.079208,
+        "maxx": -66.327886,
+        "maxy": 8.068371
       },
       "CENTROID": {
         "xc": -68.805597,
@@ -863,6 +887,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -67.881794,
+        "miny": 9.251794,
+        "maxx": -66.546142,
+        "maxy": 10.536489
+      },
       "CENTROID": {
         "xc": -67.128129,
         "yc": 9.967809
@@ -1037,6 +1067,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -71.883289,
+        "miny": 7.286395,
+        "maxx": -67.501138,
+        "maxy": 9.061536
+      },
       "CENTROID": {
         "xc": -69.855938,
         "yc": 8.148209
@@ -1077,14 +1113,14 @@
         "totales": {
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 23,
-            "Canal o grupo de mensajería en Telegram": 10,
-            "Cuenta en Instagram": 30,
-            "Cuenta en Facebook": 20,
+            "Canal o grupo de mensajería en Telegram": 9,
+            "Cuenta en Instagram": 31,
+            "Cuenta en Facebook": 21,
             "Cuenta en TikTok": 17,
             "Cuenta en X": 14,
             "Cuenta en Youtube": 12,
             "Periódico (impreso)": 0,
-            "Periodismo cara a cara": 4,
+            "Periodismo cara a cara": 5,
             "Podcast": 4,
             "Portal web de noticias": 19,
             "Radio (AM o FM)": 10,
@@ -1118,7 +1154,7 @@
             "Otro": 3
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 9,
+            "Aportes monetarios de los fundadores y/o el equipo": 10,
             "Campañas de financiamiento colectivo (crowdfunding)": 1,
             "Contenidos puntuales patrocinados": 12,
             "Donaciones de la audiencia, membresías o suscripciones": 1,
@@ -1130,7 +1166,7 @@
             "Talleres / Capacitaciones": 1,
             "Venta de productos y servicios": 3,
             "No hay ninguna fuente de ingresos": 2,
-            "No sabe / Prefiere no responder": 4,
+            "No sabe / Prefiere no responder": 3,
             "No se maneja esta información": 0,
             "Otro": 0
           },
@@ -1147,14 +1183,14 @@
         "porcentajes": {
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 74.2,
-            "Canal o grupo de mensajería en Telegram": 32.3,
-            "Cuenta en Instagram": 96.8,
-            "Cuenta en Facebook": 64.5,
+            "Canal o grupo de mensajería en Telegram": 29.0,
+            "Cuenta en Instagram": 100.0,
+            "Cuenta en Facebook": 67.7,
             "Cuenta en TikTok": 54.8,
             "Cuenta en X": 45.2,
             "Cuenta en Youtube": 38.7,
             "Periódico (impreso)": 0.0,
-            "Periodismo cara a cara": 12.9,
+            "Periodismo cara a cara": 16.1,
             "Podcast": 12.9,
             "Portal web de noticias": 61.3,
             "Radio (AM o FM)": 32.3,
@@ -1188,7 +1224,7 @@
             "Otro": 9.7
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 29.0,
+            "Aportes monetarios de los fundadores y/o el equipo": 32.3,
             "Campañas de financiamiento colectivo (crowdfunding)": 3.2,
             "Contenidos puntuales patrocinados": 38.7,
             "Donaciones de la audiencia, membresías o suscripciones": 3.2,
@@ -1200,7 +1236,7 @@
             "Talleres / Capacitaciones": 3.2,
             "Venta de productos y servicios": 9.7,
             "No hay ninguna fuente de ingresos": 6.5,
-            "No sabe / Prefiere no responder": 12.9,
+            "No sabe / Prefiere no responder": 9.7,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
           },
@@ -1214,6 +1250,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -67.43996,
+        "miny": 3.550454,
+        "maxx": -60.272032,
+        "maxy": 8.44338
       },
       "CENTROID": {
         "xc": -63.524679,
@@ -1393,6 +1435,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -68.42778,
+        "miny": 9.811266,
+        "maxx": -67.517118,
+        "maxy": 10.583531
+      },
       "CENTROID": {
         "xc": -68.033039,
         "yc": 10.171862
@@ -1470,11 +1518,11 @@
           "ingresos": {
             "Aportes monetarios de los fundadores y/o el equipo": 3,
             "Campañas de financiamiento colectivo (crowdfunding)": 0,
-            "Contenidos puntuales patrocinados": 2,
+            "Contenidos puntuales patrocinados": 3,
             "Donaciones de la audiencia, membresías o suscripciones": 0,
             "Donaciones de empresas": 1,
             "Eventos": 0,
-            "Fondos gubernamentales": 2,
+            "Fondos gubernamentales": 3,
             "Publicidad": 9,
             "Subvenciones o financiamiento internacional": 0,
             "Talleres / Capacitaciones": 1,
@@ -1540,11 +1588,11 @@
           "ingresos": {
             "Aportes monetarios de los fundadores y/o el equipo": 17.6,
             "Campañas de financiamiento colectivo (crowdfunding)": 0.0,
-            "Contenidos puntuales patrocinados": 11.8,
+            "Contenidos puntuales patrocinados": 17.6,
             "Donaciones de la audiencia, membresías o suscripciones": 0.0,
             "Donaciones de empresas": 5.9,
             "Eventos": 0.0,
-            "Fondos gubernamentales": 11.8,
+            "Fondos gubernamentales": 17.6,
             "Publicidad": 52.9,
             "Subvenciones o financiamiento internacional": 0.0,
             "Talleres / Capacitaciones": 5.9,
@@ -1564,6 +1612,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -68.987658,
+        "miny": 8.53292,
+        "maxx": -67.752744,
+        "maxy": 10.085418
       },
       "CENTROID": {
         "xc": -68.349005,
@@ -1653,7 +1707,7 @@
             "Subvenciones o financiamiento internacional": 2,
             "Talleres / Capacitaciones": 0,
             "Venta de productos y servicios": 1,
-            "No hay ninguna fuente de ingresos": 1,
+            "No hay ninguna fuente de ingresos": 0,
             "No sabe / Prefiere no responder": 0,
             "No se maneja esta información": 0,
             "Otro": 0
@@ -1723,7 +1777,7 @@
             "Subvenciones o financiamiento internacional": 20.0,
             "Talleres / Capacitaciones": 0.0,
             "Venta de productos y servicios": 10.0,
-            "No hay ninguna fuente de ingresos": 10.0,
+            "No hay ninguna fuente de ingresos": 0.0,
             "No sabe / Prefiere no responder": 0.0,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
@@ -1738,6 +1792,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -62.611607,
+        "miny": 7.753446,
+        "maxx": -59.741104,
+        "maxy": 10.017995
       },
       "CENTROID": {
         "xc": -61.314277,
@@ -1777,8 +1837,8 @@
             "Canal o grupo de mensajería en Whatsapp": 16,
             "Canal o grupo de mensajería en Telegram": 16,
             "Cuenta en Instagram": 25,
-            "Cuenta en Facebook": 20,
-            "Cuenta en TikTok": 17,
+            "Cuenta en Facebook": 21,
+            "Cuenta en TikTok": 18,
             "Cuenta en X": 24,
             "Cuenta en Youtube": 17,
             "Periódico (impreso)": 6,
@@ -1847,8 +1907,8 @@
             "Canal o grupo de mensajería en Whatsapp": 64.0,
             "Canal o grupo de mensajería en Telegram": 64.0,
             "Cuenta en Instagram": 100.0,
-            "Cuenta en Facebook": 80.0,
-            "Cuenta en TikTok": 68.0,
+            "Cuenta en Facebook": 84.0,
+            "Cuenta en TikTok": 72.0,
             "Cuenta en X": 96.0,
             "Cuenta en Youtube": 68.0,
             "Periódico (impreso)": 24.0,
@@ -1913,6 +1973,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -67.163872,
+        "miny": 10.38318,
+        "maxx": -66.861346,
+        "maxy": 10.562548
+      },
       "CENTROID": {
         "xc": -66.994529,
         "yc": 10.469713
@@ -1949,8 +2015,8 @@
             "Canal o grupo de mensajería en Whatsapp": 23,
             "Canal o grupo de mensajería en Telegram": 13,
             "Cuenta en Instagram": 32,
-            "Cuenta en Facebook": 27,
-            "Cuenta en TikTok": 18,
+            "Cuenta en Facebook": 28,
+            "Cuenta en TikTok": 19,
             "Cuenta en X": 14,
             "Cuenta en Youtube": 8,
             "Periódico (impreso)": 1,
@@ -2019,8 +2085,8 @@
             "Canal o grupo de mensajería en Whatsapp": 65.7,
             "Canal o grupo de mensajería en Telegram": 37.1,
             "Cuenta en Instagram": 91.4,
-            "Cuenta en Facebook": 77.1,
-            "Cuenta en TikTok": 51.4,
+            "Cuenta en Facebook": 80.0,
+            "Cuenta en TikTok": 54.3,
             "Cuenta en X": 40.0,
             "Cuenta en Youtube": 22.9,
             "Periódico (impreso)": 2.9,
@@ -2084,6 +2150,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -71.315007,
+        "miny": 10.301126,
+        "maxx": -68.217854,
+        "maxy": 12.195067
       },
       "CENTROID": {
         "xc": -69.775205,
@@ -2259,6 +2331,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -68.030546,
+        "miny": 7.622967,
+        "maxx": -64.774364,
+        "maxy": 10.040532
+      },
       "CENTROID": {
         "xc": -66.53044,
         "yc": 8.822973
@@ -2297,7 +2375,7 @@
             "Canal o grupo de mensajería en Whatsapp": 2,
             "Canal o grupo de mensajería en Telegram": 3,
             "Cuenta en Instagram": 7,
-            "Cuenta en Facebook": 5,
+            "Cuenta en Facebook": 6,
             "Cuenta en TikTok": 5,
             "Cuenta en X": 3,
             "Cuenta en Youtube": 1,
@@ -2338,14 +2416,14 @@
           "ingresos": {
             "Aportes monetarios de los fundadores y/o el equipo": 1,
             "Campañas de financiamiento colectivo (crowdfunding)": 0,
-            "Contenidos puntuales patrocinados": 4,
-            "Donaciones de la audiencia, membresías o suscripciones": 1,
+            "Contenidos puntuales patrocinados": 3,
+            "Donaciones de la audiencia, membresías o suscripciones": 0,
             "Donaciones de empresas": 0,
             "Eventos": 0,
             "Fondos gubernamentales": 0,
             "Publicidad": 5,
             "Subvenciones o financiamiento internacional": 1,
-            "Talleres / Capacitaciones": 2,
+            "Talleres / Capacitaciones": 1,
             "Venta de productos y servicios": 0,
             "No hay ninguna fuente de ingresos": 0,
             "No sabe / Prefiere no responder": 1,
@@ -2367,7 +2445,7 @@
             "Canal o grupo de mensajería en Whatsapp": 25.0,
             "Canal o grupo de mensajería en Telegram": 37.5,
             "Cuenta en Instagram": 87.5,
-            "Cuenta en Facebook": 62.5,
+            "Cuenta en Facebook": 75.0,
             "Cuenta en TikTok": 62.5,
             "Cuenta en X": 37.5,
             "Cuenta en Youtube": 12.5,
@@ -2408,14 +2486,14 @@
           "ingresos": {
             "Aportes monetarios de los fundadores y/o el equipo": 12.5,
             "Campañas de financiamiento colectivo (crowdfunding)": 0.0,
-            "Contenidos puntuales patrocinados": 50.0,
-            "Donaciones de la audiencia, membresías o suscripciones": 12.5,
+            "Contenidos puntuales patrocinados": 37.5,
+            "Donaciones de la audiencia, membresías o suscripciones": 0.0,
             "Donaciones de empresas": 0.0,
             "Eventos": 0.0,
             "Fondos gubernamentales": 0.0,
             "Publicidad": 62.5,
             "Subvenciones o financiamiento internacional": 12.5,
-            "Talleres / Capacitaciones": 25.0,
+            "Talleres / Capacitaciones": 12.5,
             "Venta de productos y servicios": 0.0,
             "No hay ninguna fuente de ingresos": 0.0,
             "No sabe / Prefiere no responder": 12.5,
@@ -2432,6 +2510,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -67.412868,
+        "miny": 10.387601,
+        "maxx": -66.309479,
+        "maxy": 10.632191
       },
       "CENTROID": {
         "xc": -66.899699,
@@ -2473,8 +2557,8 @@
             "Canal o grupo de mensajería en Whatsapp": 14,
             "Canal o grupo de mensajería en Telegram": 10,
             "Cuenta en Instagram": 20,
-            "Cuenta en Facebook": 15,
-            "Cuenta en TikTok": 12,
+            "Cuenta en Facebook": 16,
+            "Cuenta en TikTok": 13,
             "Cuenta en X": 18,
             "Cuenta en Youtube": 14,
             "Periódico (impreso)": 4,
@@ -2516,11 +2600,11 @@
             "Campañas de financiamiento colectivo (crowdfunding)": 1,
             "Contenidos puntuales patrocinados": 5,
             "Donaciones de la audiencia, membresías o suscripciones": 2,
-            "Donaciones de empresas": 1,
+            "Donaciones de empresas": 0,
             "Eventos": 2,
             "Fondos gubernamentales": 0,
-            "Publicidad": 11,
-            "Subvenciones o financiamiento internacional": 7,
+            "Publicidad": 12,
+            "Subvenciones o financiamiento internacional": 8,
             "Talleres / Capacitaciones": 2,
             "Venta de productos y servicios": 1,
             "No hay ninguna fuente de ingresos": 1,
@@ -2543,8 +2627,8 @@
             "Canal o grupo de mensajería en Whatsapp": 66.7,
             "Canal o grupo de mensajería en Telegram": 47.6,
             "Cuenta en Instagram": 95.2,
-            "Cuenta en Facebook": 71.4,
-            "Cuenta en TikTok": 57.1,
+            "Cuenta en Facebook": 76.2,
+            "Cuenta en TikTok": 61.9,
             "Cuenta en X": 85.7,
             "Cuenta en Youtube": 66.7,
             "Periódico (impreso)": 19.0,
@@ -2586,11 +2670,11 @@
             "Campañas de financiamiento colectivo (crowdfunding)": 4.8,
             "Contenidos puntuales patrocinados": 23.8,
             "Donaciones de la audiencia, membresías o suscripciones": 9.5,
-            "Donaciones de empresas": 4.8,
+            "Donaciones de empresas": 0.0,
             "Eventos": 9.5,
             "Fondos gubernamentales": 0.0,
-            "Publicidad": 52.4,
-            "Subvenciones o financiamiento internacional": 33.3,
+            "Publicidad": 57.1,
+            "Subvenciones o financiamiento internacional": 38.1,
             "Talleres / Capacitaciones": 9.5,
             "Venta de productos y servicios": 4.8,
             "No hay ninguna fuente de ingresos": 4.8,
@@ -2608,6 +2692,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -70.882601,
+        "miny": 9.399186,
+        "maxx": -68.874858,
+        "maxy": 10.745339
       },
       "CENTROID": {
         "xc": -69.784975,
@@ -2647,8 +2737,8 @@
             "Canal o grupo de mensajería en Whatsapp": 25,
             "Canal o grupo de mensajería en Telegram": 16,
             "Cuenta en Instagram": 36,
-            "Cuenta en Facebook": 19,
-            "Cuenta en TikTok": 19,
+            "Cuenta en Facebook": 20,
+            "Cuenta en TikTok": 20,
             "Cuenta en X": 16,
             "Cuenta en Youtube": 14,
             "Periódico (impreso)": 2,
@@ -2693,14 +2783,14 @@
             "Donaciones de empresas": 2,
             "Eventos": 1,
             "Fondos gubernamentales": 5,
-            "Publicidad": 27,
+            "Publicidad": 28,
             "Subvenciones o financiamiento internacional": 8,
             "Talleres / Capacitaciones": 1,
             "Venta de productos y servicios": 2,
             "No hay ninguna fuente de ingresos": 6,
             "No sabe / Prefiere no responder": 1,
             "No se maneja esta información": 2,
-            "Otro": 1
+            "Otro": 0
           },
           "censura": {
             "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 6,
@@ -2717,8 +2807,8 @@
             "Canal o grupo de mensajería en Whatsapp": 58.1,
             "Canal o grupo de mensajería en Telegram": 37.2,
             "Cuenta en Instagram": 83.7,
-            "Cuenta en Facebook": 44.2,
-            "Cuenta en TikTok": 44.2,
+            "Cuenta en Facebook": 46.5,
+            "Cuenta en TikTok": 46.5,
             "Cuenta en X": 37.2,
             "Cuenta en Youtube": 32.6,
             "Periódico (impreso)": 4.7,
@@ -2763,14 +2853,14 @@
             "Donaciones de empresas": 4.7,
             "Eventos": 2.3,
             "Fondos gubernamentales": 11.6,
-            "Publicidad": 62.8,
+            "Publicidad": 65.1,
             "Subvenciones o financiamiento internacional": 18.6,
             "Talleres / Capacitaciones": 2.3,
             "Venta de productos y servicios": 4.7,
             "No hay ninguna fuente de ingresos": 14.0,
             "No sabe / Prefiere no responder": 2.3,
             "No se maneja esta información": 4.7,
-            "Otro": 2.3
+            "Otro": 0.0
           },
           "censura": {
             "Restricciones o impedimentos externos para cubrir ciertos temas (censura directa)": 14.0,
@@ -2782,6 +2872,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -71.915058,
+        "miny": 7.662029,
+        "maxx": -70.543646,
+        "maxy": 9.197875
       },
       "CENTROID": {
         "xc": -71.263175,
@@ -2959,6 +3055,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -67.220507,
+        "miny": 9.935113,
+        "maxx": -65.42796,
+        "maxy": 10.649857
+      },
       "CENTROID": {
         "xc": -66.379286,
         "yc": 10.237491
@@ -3133,6 +3235,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -64.062902,
+        "miny": 8.382449,
+        "maxx": -61.996789,
+        "maxy": 10.32066
+      },
       "CENTROID": {
         "xc": -63.020617,
         "yc": 9.413529
@@ -3170,12 +3278,12 @@
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 9,
             "Canal o grupo de mensajería en Telegram": 7,
-            "Cuenta en Instagram": 20,
-            "Cuenta en Facebook": 15,
+            "Cuenta en Instagram": 21,
+            "Cuenta en Facebook": 16,
             "Cuenta en TikTok": 15,
-            "Cuenta en X": 12,
+            "Cuenta en X": 13,
             "Cuenta en Youtube": 8,
-            "Periódico (impreso)": 1,
+            "Periódico (impreso)": 2,
             "Periodismo cara a cara": 1,
             "Podcast": 1,
             "Portal web de noticias": 10,
@@ -3210,19 +3318,19 @@
             "Otro": 1
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 5,
+            "Aportes monetarios de los fundadores y/o el equipo": 6,
             "Campañas de financiamiento colectivo (crowdfunding)": 0,
             "Contenidos puntuales patrocinados": 7,
             "Donaciones de la audiencia, membresías o suscripciones": 0,
             "Donaciones de empresas": 0,
             "Eventos": 0,
             "Fondos gubernamentales": 0,
-            "Publicidad": 18,
+            "Publicidad": 19,
             "Subvenciones o financiamiento internacional": 1,
             "Talleres / Capacitaciones": 0,
             "Venta de productos y servicios": 2,
             "No hay ninguna fuente de ingresos": 0,
-            "No sabe / Prefiere no responder": 2,
+            "No sabe / Prefiere no responder": 1,
             "No se maneja esta información": 0,
             "Otro": 0
           },
@@ -3240,12 +3348,12 @@
           "formato": {
             "Canal o grupo de mensajería en Whatsapp": 42.9,
             "Canal o grupo de mensajería en Telegram": 33.3,
-            "Cuenta en Instagram": 95.2,
-            "Cuenta en Facebook": 71.4,
+            "Cuenta en Instagram": 100.0,
+            "Cuenta en Facebook": 76.2,
             "Cuenta en TikTok": 71.4,
-            "Cuenta en X": 57.1,
+            "Cuenta en X": 61.9,
             "Cuenta en Youtube": 38.1,
-            "Periódico (impreso)": 4.8,
+            "Periódico (impreso)": 9.5,
             "Periodismo cara a cara": 4.8,
             "Podcast": 4.8,
             "Portal web de noticias": 47.6,
@@ -3280,19 +3388,19 @@
             "Otro": 4.8
           },
           "ingresos": {
-            "Aportes monetarios de los fundadores y/o el equipo": 23.8,
+            "Aportes monetarios de los fundadores y/o el equipo": 28.6,
             "Campañas de financiamiento colectivo (crowdfunding)": 0.0,
             "Contenidos puntuales patrocinados": 33.3,
             "Donaciones de la audiencia, membresías o suscripciones": 0.0,
             "Donaciones de empresas": 0.0,
             "Eventos": 0.0,
             "Fondos gubernamentales": 0.0,
-            "Publicidad": 85.7,
+            "Publicidad": 90.5,
             "Subvenciones o financiamiento internacional": 4.8,
             "Talleres / Capacitaciones": 0.0,
             "Venta de productos y servicios": 9.5,
             "No hay ninguna fuente de ingresos": 0.0,
-            "No sabe / Prefiere no responder": 9.5,
+            "No sabe / Prefiere no responder": 4.8,
             "No se maneja esta información": 0.0,
             "Otro": 0.0
           },
@@ -3306,6 +3414,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -64.409719,
+        "miny": 10.730099,
+        "maxx": -63.776425,
+        "maxy": 11.180035
       },
       "CENTROID": {
         "xc": -64.049201,
@@ -3478,6 +3592,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -70.202095,
+        "miny": 8.091236,
+        "maxx": -68.511488,
+        "maxy": 9.845876
       },
       "CENTROID": {
         "xc": -69.272549,
@@ -3653,6 +3773,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -64.530706,
+        "miny": 10.032721,
+        "maxx": -61.847375,
+        "maxy": 10.765256
+      },
       "CENTROID": {
         "xc": -63.349576,
         "yc": 10.409976
@@ -3826,6 +3952,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -72.489778,
+        "miny": 7.36113,
+        "maxx": -71.316773,
+        "maxy": 8.648495
       },
       "CENTROID": {
         "xc": -72.019235,
@@ -4001,6 +4133,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -71.091959,
+        "miny": 8.952097,
+        "maxx": -69.995922,
+        "maxy": 10.039165
+      },
       "CENTROID": {
         "xc": -70.51426,
         "yc": 9.441706
@@ -4175,6 +4313,12 @@
           }
         }
       },
+      "BBOX": {
+        "minx": -69.208288,
+        "miny": 9.83442,
+        "maxx": -68.248721,
+        "maxy": 10.774064
+      },
       "CENTROID": {
         "xc": -68.739502,
         "yc": 10.260068
@@ -4265,7 +4409,7 @@
             "Fondos gubernamentales": 6,
             "Publicidad": 45,
             "Subvenciones o financiamiento internacional": 6,
-            "Talleres / Capacitaciones": 3,
+            "Talleres / Capacitaciones": 2,
             "Venta de productos y servicios": 7,
             "No hay ninguna fuente de ingresos": 3,
             "No sabe / Prefiere no responder": 0,
@@ -4335,7 +4479,7 @@
             "Fondos gubernamentales": 9.8,
             "Publicidad": 73.8,
             "Subvenciones o financiamiento internacional": 9.8,
-            "Talleres / Capacitaciones": 4.9,
+            "Talleres / Capacitaciones": 3.3,
             "Venta de productos y servicios": 11.5,
             "No hay ninguna fuente de ingresos": 4.9,
             "No sabe / Prefiere no responder": 0.0,
@@ -4352,6 +4496,12 @@
             "Otro": 0.0
           }
         }
+      },
+      "BBOX": {
+        "minx": -73.369126,
+        "miny": 8.36299,
+        "maxx": -70.667631,
+        "maxy": 11.843057
       },
       "CENTROID": {
         "xc": -72.085926,
@@ -4384,6 +4534,12 @@
       "CENTROID": {
         "xc": -66.702533,
         "yc": 3.726091
+      },
+      "BBOX": {
+        "minx": -67.857593,
+        "miny": 2.685377,
+        "maxx": -65.830715,
+        "maxy": 4.877764
       }
     },
     {
@@ -4410,6 +4566,12 @@
       "CENTROID": {
         "xc": -65.782448,
         "yc": 1.706018
+      },
+      "BBOX": {
+        "minx": -67.123172,
+        "miny": 0.634574,
+        "maxx": -63.993953,
+        "maxy": 2.883186
       }
     },
     {
@@ -4436,6 +4598,12 @@
       "CENTROID": {
         "xc": -67.015681,
         "yc": 2.671228
+      },
+      "BBOX": {
+        "minx": -67.864111,
+        "miny": 1.98046,
+        "maxx": -66.246031,
+        "maxy": 3.248472
       }
     },
     {
@@ -4462,6 +4630,12 @@
       "CENTROID": {
         "xc": -67.244689,
         "yc": 4.917313
+      },
+      "BBOX": {
+        "minx": -67.855609,
+        "miny": 4.103462,
+        "maxx": -66.367987,
+        "maxy": 5.789001
       }
     },
     {
@@ -4488,6 +4662,12 @@
       "CENTROID": {
         "xc": -67.390121,
         "yc": 5.702834
+      },
+      "BBOX": {
+        "minx": -67.85135,
+        "miny": 5.24486,
+        "maxx": -67.002577,
+        "maxy": 6.197394
       }
     },
     {
@@ -4514,6 +4694,12 @@
       "CENTROID": {
         "xc": -64.904777,
         "yc": 2.900554
+      },
+      "BBOX": {
+        "minx": -66.038232,
+        "miny": 1.477504,
+        "maxx": -63.34946,
+        "maxy": 4.168315
       }
     },
     {
@@ -4540,6 +4726,12 @@
       "CENTROID": {
         "xc": -65.806454,
         "yc": 4.918264
+      },
+      "BBOX": {
+        "minx": -67.188692,
+        "miny": 3.917883,
+        "maxx": -64.549283,
+        "maxy": 6.154255
       }
     },
     {
@@ -4566,6 +4758,12 @@
       "CENTROID": {
         "xc": -64.772521,
         "yc": 9.347732
+      },
+      "BBOX": {
+        "minx": -65.10523,
+        "miny": 8.828737,
+        "maxx": -64.356196,
+        "maxy": 9.742602
       }
     },
     {
@@ -4592,6 +4790,12 @@
       "CENTROID": {
         "xc": -65.045465,
         "yc": 9.927603
+      },
+      "BBOX": {
+        "minx": -65.114126,
+        "miny": 9.803444,
+        "maxx": -64.952855,
+        "maxy": 10.057163
       }
     },
     {
@@ -4618,6 +4822,12 @@
       "CENTROID": {
         "xc": -64.564326,
         "yc": 10.228518
+      },
+      "BBOX": {
+        "minx": -64.685799,
+        "miny": 10.176617,
+        "maxx": -64.486389,
+        "maxy": 10.308922
       }
     },
     {
@@ -4644,6 +4854,12 @@
       "CENTROID": {
         "xc": -64.291185,
         "yc": 8.474881
+      },
+      "BBOX": {
+        "minx": -64.84802,
+        "miny": 7.942522,
+        "maxx": -63.852074,
+        "maxy": 8.950128
       }
     },
     {
@@ -4670,6 +4886,12 @@
       "CENTROID": {
         "xc": -64.55065,
         "yc": 10.159257
+      },
+      "BBOX": {
+        "minx": -64.678436,
+        "miny": 10.093284,
+        "maxx": -64.442174,
+        "maxy": 10.243174
       }
     },
     {
@@ -4696,6 +4918,12 @@
       "CENTROID": {
         "xc": -65.302144,
         "yc": 9.643409
+      },
+      "BBOX": {
+        "minx": -65.697911,
+        "miny": 9.401324,
+        "maxx": -64.945471,
+        "maxy": 9.843598
       }
     },
     {
@@ -4722,6 +4950,12 @@
       "CENTROID": {
         "xc": -64.032174,
         "yc": 9.29902
+      },
+      "BBOX": {
+        "minx": -64.488142,
+        "miny": 8.757368,
+        "maxx": -63.36462,
+        "maxy": 10.120078
       }
     },
     {
@@ -4748,6 +4982,12 @@
       "CENTROID": {
         "xc": -65.670778,
         "yc": 9.882534
+      },
+      "BBOX": {
+        "minx": -65.723476,
+        "miny": 9.773614,
+        "maxx": -65.591475,
+        "maxy": 9.979894
       }
     },
     {
@@ -4774,6 +5014,12 @@
       "CENTROID": {
         "xc": -64.621415,
         "yc": 9.253602
+      },
+      "BBOX": {
+        "minx": -64.774298,
+        "miny": 9.042241,
+        "maxx": -64.443691,
+        "maxy": 9.468663
       }
     },
     {
@@ -4800,6 +5046,12 @@
       "CENTROID": {
         "xc": -65.410617,
         "yc": 10.084708
+      },
+      "BBOX": {
+        "minx": -65.492174,
+        "miny": 10.0249,
+        "maxx": -65.349055,
+        "maxy": 10.140525
       }
     },
     {
@@ -4826,6 +5078,12 @@
       "CENTROID": {
         "xc": -63.439804,
         "yc": 8.478762
+      },
+      "BBOX": {
+        "minx": -63.987779,
+        "miny": 8.085124,
+        "maxx": -62.679831,
+        "maxy": 8.947582
       }
     },
     {
@@ -4852,6 +5110,12 @@
       "CENTROID": {
         "xc": -64.87686,
         "yc": 8.191754
+      },
+      "BBOX": {
+        "minx": -65.504286,
+        "miny": 7.658483,
+        "maxx": -64.313002,
+        "maxy": 8.764523
       }
     },
     {
@@ -4878,6 +5142,12 @@
       "CENTROID": {
         "xc": -65.078348,
         "yc": 9.99468
+      },
+      "BBOX": {
+        "minx": -65.40412,
+        "miny": 9.803444,
+        "maxx": -64.862629,
+        "maxy": 10.169162
       }
     },
     {
@@ -4904,6 +5174,12 @@
       "CENTROID": {
         "xc": -63.911951,
         "yc": 8.75988
+      },
+      "BBOX": {
+        "minx": -64.207857,
+        "miny": 8.569302,
+        "maxx": -63.6061,
+        "maxy": 8.930925
       }
     },
     {
@@ -4930,6 +5206,12 @@
       "CENTROID": {
         "xc": -64.488373,
         "yc": 9.80928
+      },
+      "BBOX": {
+        "minx": -64.877869,
+        "miny": 9.551174,
+        "maxx": -64.112361,
+        "maxy": 10.086516
       }
     },
     {
@@ -4956,6 +5238,12 @@
       "CENTROID": {
         "xc": -64.179347,
         "yc": 8.778099
+      },
+      "BBOX": {
+        "minx": -64.356196,
+        "miny": 8.568972,
+        "maxx": -63.987783,
+        "maxy": 8.946305
       }
     },
     {
@@ -4982,6 +5270,12 @@
       "CENTROID": {
         "xc": -64.710386,
         "yc": 10.233719
+      },
+      "BBOX": {
+        "minx": -64.76304,
+        "miny": 10.17129,
+        "maxx": -64.659387,
+        "maxy": 10.31239
       }
     },
     {
@@ -5008,6 +5302,12 @@
       "CENTROID": {
         "xc": -65.366656,
         "yc": 9.889608
+      },
+      "BBOX": {
+        "minx": -65.650521,
+        "miny": 9.681155,
+        "maxx": -65.104807,
+        "maxy": 10.072029
       }
     },
     {
@@ -5034,6 +5334,12 @@
       "CENTROID": {
         "xc": -64.468291,
         "yc": 9.358512
+      },
+      "BBOX": {
+        "minx": -64.567702,
+        "miny": 9.042241,
+        "maxx": -64.344509,
+        "maxy": 9.56395
       }
     },
     {
@@ -5060,6 +5366,12 @@
       "CENTROID": {
         "xc": -64.653167,
         "yc": 9.987627
+      },
+      "BBOX": {
+        "minx": -64.9851,
+        "miny": 9.713566,
+        "maxx": -64.187785,
+        "maxy": 10.187766
       }
     },
     {
@@ -5086,6 +5398,12 @@
       "CENTROID": {
         "xc": -65.021298,
         "yc": 9.200472
+      },
+      "BBOX": {
+        "minx": -65.314004,
+        "miny": 8.922853,
+        "maxx": -64.740376,
+        "maxy": 9.439992
       }
     },
     {
@@ -5112,6 +5430,12 @@
       "CENTROID": {
         "xc": -67.694056,
         "yc": 7.822225
+      },
+      "BBOX": {
+        "minx": -68.039671,
+        "miny": 7.642533,
+        "maxx": -67.49813,
+        "maxy": 7.985624
       }
     },
     {
@@ -5138,6 +5462,12 @@
       "CENTROID": {
         "xc": -70.850357,
         "yc": 7.285888
+      },
+      "BBOX": {
+        "minx": -72.413864,
+        "miny": 6.933953,
+        "maxx": -69.611674,
+        "maxy": 7.790742
       }
     },
     {
@@ -5164,6 +5494,12 @@
       "CENTROID": {
         "xc": -69.292846,
         "yc": 7.62865
+      },
+      "BBOX": {
+        "minx": -69.901579,
+        "miny": 7.149946,
+        "maxx": -68.820471,
+        "maxy": 8.068371
       }
     },
     {
@@ -5190,6 +5526,12 @@
       "CENTROID": {
         "xc": -69.432894,
         "yc": 6.82903
+      },
+      "BBOX": {
+        "minx": -70.369725,
+        "miny": 6.244364,
+        "maxx": -68.586309,
+        "maxy": 7.367545
       }
     },
     {
@@ -5216,6 +5558,12 @@
       "CENTROID": {
         "xc": -66.949833,
         "yc": 7.552161
+      },
+      "BBOX": {
+        "minx": -67.541301,
+        "miny": 7.170642,
+        "maxx": -66.327886,
+        "maxy": 7.914009
       }
     },
     {
@@ -5242,6 +5590,12 @@
       "CENTROID": {
         "xc": -68.438106,
         "yc": 7.285932
+      },
+      "BBOX": {
+        "minx": -68.955409,
+        "miny": 6.523008,
+        "maxx": -67.773783,
+        "maxy": 7.963101
       }
     },
     {
@@ -5268,6 +5622,12 @@
       "CENTROID": {
         "xc": -67.892382,
         "yc": 6.778705
+      },
+      "BBOX": {
+        "minx": -69.538805,
+        "miny": 6.079208,
+        "maxx": -66.9924,
+        "maxy": 7.723309
       }
     },
     {
@@ -5294,6 +5654,12 @@
       "CENTROID": {
         "xc": -66.944639,
         "yc": 9.970434
+      },
+      "BBOX": {
+        "minx": -67.105585,
+        "miny": 9.882807,
+        "maxx": -66.703261,
+        "maxy": 10.070704
       }
     },
     {
@@ -5320,6 +5686,12 @@
       "CENTROID": {
         "xc": -67.63957,
         "yc": 10.323177
+      },
+      "BBOX": {
+        "minx": -67.692866,
+        "miny": 10.260013,
+        "maxx": -67.59626,
+        "maxy": 10.367559
       }
     },
     {
@@ -5346,6 +5718,12 @@
       "CENTROID": {
         "xc": -67.595147,
         "yc": 10.350205
+      },
+      "BBOX": {
+        "minx": -67.68005,
+        "miny": 10.200269,
+        "maxx": -67.526936,
+        "maxy": 10.518105
       }
     },
     {
@@ -5372,6 +5750,12 @@
       "CENTROID": {
         "xc": -67.535653,
         "yc": 10.202984
+      },
+      "BBOX": {
+        "minx": -67.604385,
+        "miny": 10.182317,
+        "maxx": -67.488934,
+        "maxy": 10.220412
       }
     },
     {
@@ -5398,6 +5782,12 @@
       "CENTROID": {
         "xc": -67.446609,
         "yc": 10.153536
+      },
+      "BBOX": {
+        "minx": -67.508752,
+        "miny": 10.112853,
+        "maxx": -67.386143,
+        "maxy": 10.207761
       }
     },
     {
@@ -5424,6 +5814,12 @@
       "CENTROID": {
         "xc": -67.413778,
         "yc": 10.236946
+      },
+      "BBOX": {
+        "minx": -67.455771,
+        "miny": 10.188214,
+        "maxx": -67.373933,
+        "maxy": 10.313693
       }
     },
     {
@@ -5450,6 +5846,12 @@
       "CENTROID": {
         "xc": -67.184067,
         "yc": 9.994954
+      },
+      "BBOX": {
+        "minx": -67.332764,
+        "miny": 9.828239,
+        "maxx": -67.056533,
+        "maxy": 10.103192
       }
     },
     {
@@ -5476,6 +5878,12 @@
       "CENTROID": {
         "xc": -67.510457,
         "yc": 10.161268
+      },
+      "BBOX": {
+        "minx": -67.533289,
+        "miny": 10.130673,
+        "maxx": -67.479939,
+        "maxy": 10.188686
       }
     },
     {
@@ -5502,6 +5910,12 @@
       "CENTROID": {
         "xc": -67.48899,
         "yc": 10.369908
+      },
+      "BBOX": {
+        "minx": -67.573072,
+        "miny": 10.185121,
+        "maxx": -67.398746,
+        "maxy": 10.536453
       }
     },
     {
@@ -5528,6 +5942,12 @@
       "CENTROID": {
         "xc": -67.754503,
         "yc": 10.416132
+      },
+      "BBOX": {
+        "minx": -67.881794,
+        "miny": 10.327762,
+        "maxx": -67.627315,
+        "maxy": 10.50337
       }
     },
     {
@@ -5554,6 +5974,12 @@
       "CENTROID": {
         "xc": -67.242308,
         "yc": 10.259218
+      },
+      "BBOX": {
+        "minx": -67.295946,
+        "miny": 10.17252,
+        "maxx": -67.18638,
+        "maxy": 10.353707
       }
     },
     {
@@ -5580,6 +6006,12 @@
       "CENTROID": {
         "xc": -67.477342,
         "yc": 10.048198
+      },
+      "BBOX": {
+        "minx": -67.696861,
+        "miny": 9.926208,
+        "maxx": -67.2763,
+        "maxy": 10.145486
       }
     },
     {
@@ -5606,6 +6038,12 @@
       "CENTROID": {
         "xc": -66.879858,
         "yc": 9.825521
+      },
+      "BBOX": {
+        "minx": -67.119849,
+        "miny": 9.664688,
+        "maxx": -66.694114,
+        "maxy": 9.981419
       }
     },
     {
@@ -5632,6 +6070,12 @@
       "CENTROID": {
         "xc": -67.160172,
         "yc": 10.187405
+      },
+      "BBOX": {
+        "minx": -67.208223,
+        "miny": 10.072247,
+        "maxx": -67.096188,
+        "maxy": 10.312004
       }
     },
     {
@@ -5658,6 +6102,12 @@
       "CENTROID": {
         "xc": -67.567654,
         "yc": 10.169249
+      },
+      "BBOX": {
+        "minx": -67.610378,
+        "miny": 10.132596,
+        "maxx": -67.524697,
+        "maxy": 10.207327
       }
     },
     {
@@ -5684,6 +6134,12 @@
       "CENTROID": {
         "xc": -66.733628,
         "yc": 9.55861
+      },
+      "BBOX": {
+        "minx": -67.01559,
+        "miny": 9.251794,
+        "maxx": -66.546142,
+        "maxy": 9.982072
       }
     },
     {
@@ -5710,6 +6166,12 @@
       "CENTROID": {
         "xc": -67.335125,
         "yc": 10.401816
+      },
+      "BBOX": {
+        "minx": -67.471247,
+        "miny": 10.312795,
+        "maxx": -67.162492,
+        "maxy": 10.536489
       }
     },
     {
@@ -5736,6 +6198,12 @@
       "CENTROID": {
         "xc": -67.317778,
         "yc": 10.201008
+      },
+      "BBOX": {
+        "minx": -67.438115,
+        "miny": 10.079782,
+        "maxx": -67.19869,
+        "maxy": 10.351155
       }
     },
     {
@@ -5762,6 +6230,12 @@
       "CENTROID": {
         "xc": -71.086962,
         "yc": 7.757877
+      },
+      "BBOX": {
+        "minx": -71.505648,
+        "miny": 7.470205,
+        "maxx": -70.724699,
+        "maxy": 8.150582
       }
     },
     {
@@ -5788,6 +6262,12 @@
       "CENTROID": {
         "xc": -70.249958,
         "yc": 8.860109
+      },
+      "BBOX": {
+        "minx": -70.420303,
+        "miny": 8.696971,
+        "maxx": -70.032109,
+        "maxy": 9.05938
       }
     },
     {
@@ -5814,6 +6294,12 @@
       "CENTROID": {
         "xc": -69.182582,
         "yc": 8.241097
+      },
+      "BBOX": {
+        "minx": -69.550731,
+        "miny": 7.891323,
+        "maxx": -68.641809,
+        "maxy": 8.702131
       }
     },
     {
@@ -5840,6 +6326,12 @@
       "CENTROID": {
         "xc": -69.880596,
         "yc": 8.422261
+      },
+      "BBOX": {
+        "minx": -70.284699,
+        "miny": 8.04736,
+        "maxx": -69.425549,
+        "maxy": 8.764899
       }
     },
     {
@@ -5866,6 +6358,12 @@
       "CENTROID": {
         "xc": -70.507137,
         "yc": 8.80321
+      },
+      "BBOX": {
+        "minx": -70.70498,
+        "miny": 8.58364,
+        "maxx": -70.333691,
+        "maxy": 9.025148
       }
     },
     {
@@ -5892,6 +6390,12 @@
       "CENTROID": {
         "xc": -70.011933,
         "yc": 8.80159
+      },
+      "BBOX": {
+        "minx": -70.251613,
+        "miny": 8.607037,
+        "maxx": -69.751903,
+        "maxy": 9.061536
       }
     },
     {
@@ -5918,6 +6422,12 @@
       "CENTROID": {
         "xc": -69.649059,
         "yc": 8.502092
+      },
+      "BBOX": {
+        "minx": -69.925633,
+        "miny": 8.137638,
+        "maxx": -69.477016,
+        "maxy": 8.735314
       }
     },
     {
@@ -5944,6 +6454,12 @@
       "CENTROID": {
         "xc": -70.031675,
         "yc": 8.289296
+      },
+      "BBOX": {
+        "minx": -70.497466,
+        "miny": 7.931372,
+        "maxx": -69.452987,
+        "maxy": 8.739399
       }
     },
     {
@@ -5970,6 +6486,12 @@
       "CENTROID": {
         "xc": -68.230575,
         "yc": 8.208723
+      },
+      "BBOX": {
+        "minx": -68.847346,
+        "miny": 7.86771,
+        "maxx": -67.501138,
+        "maxy": 8.613899
       }
     },
     {
@@ -5996,6 +6518,12 @@
       "CENTROID": {
         "xc": -70.687386,
         "yc": 8.105977
+      },
+      "BBOX": {
+        "minx": -71.044965,
+        "miny": 7.759511,
+        "maxx": -70.298816,
+        "maxy": 8.596096
       }
     },
     {
@@ -6022,6 +6550,12 @@
       "CENTROID": {
         "xc": -70.351004,
         "yc": 7.978887
+      },
+      "BBOX": {
+        "minx": -70.835722,
+        "miny": 7.382224,
+        "maxx": -69.578239,
+        "maxy": 8.768138
       }
     },
     {
@@ -6048,6 +6582,12 @@
       "CENTROID": {
         "xc": -71.073639,
         "yc": 7.443267
+      },
+      "BBOX": {
+        "minx": -71.883289,
+        "miny": 7.286395,
+        "maxx": -70.501393,
+        "maxy": 7.654831
       }
     },
     {
@@ -6074,6 +6614,12 @@
       "CENTROID": {
         "xc": -63.264094,
         "yc": 5.688835
+      },
+      "BBOX": {
+        "minx": -64.30934,
+        "miny": 3.550454,
+        "maxx": -62.094271,
+        "maxy": 7.995268
       }
     },
     {
@@ -6100,6 +6646,12 @@
       "CENTROID": {
         "xc": -64.440778,
         "yc": 5.851701
+      },
+      "BBOX": {
+        "minx": -65.282509,
+        "miny": 3.847464,
+        "maxx": -63.340203,
+        "maxy": 8.094949
       }
     },
     {
@@ -6126,6 +6678,12 @@
       "CENTROID": {
         "xc": -66.006441,
         "yc": 6.693366
+      },
+      "BBOX": {
+        "minx": -67.43996,
+        "miny": 5.635507,
+        "maxx": -64.78217,
+        "maxy": 7.901135
       }
     },
     {
@@ -6152,6 +6710,12 @@
       "CENTROID": {
         "xc": -61.773028,
         "yc": 7.211964
+      },
+      "BBOX": {
+        "minx": -62.025491,
+        "miny": 6.740139,
+        "maxx": -61.603807,
+        "maxy": 7.681138
       }
     },
     {
@@ -6178,6 +6742,12 @@
       "CENTROID": {
         "xc": -62.755264,
         "yc": 8.224816
+      },
+      "BBOX": {
+        "minx": -63.001851,
+        "miny": 8.007319,
+        "maxx": -62.499634,
+        "maxy": 8.440992
       }
     },
     {
@@ -6204,6 +6774,12 @@
       "CENTROID": {
         "xc": -61.946718,
         "yc": 8.06306
+      },
+      "BBOX": {
+        "minx": -62.271913,
+        "miny": 7.56447,
+        "maxx": -61.650142,
+        "maxy": 8.44338
       }
     },
     {
@@ -6230,6 +6806,12 @@
       "CENTROID": {
         "xc": -61.405501,
         "yc": 6.851221
+      },
+      "BBOX": {
+        "minx": -62.815372,
+        "miny": 5.826838,
+        "maxx": -60.272032,
+        "maxy": 7.978783
       }
     },
     {
@@ -6256,6 +6838,12 @@
       "CENTROID": {
         "xc": -63.639745,
         "yc": 7.887705
+      },
+      "BBOX": {
+        "minx": -64.293414,
+        "miny": 7.44207,
+        "maxx": -62.999165,
+        "maxy": 8.321324
       }
     },
     {
@@ -6282,6 +6870,12 @@
       "CENTROID": {
         "xc": -62.568123,
         "yc": 7.335403
+      },
+      "BBOX": {
+        "minx": -63.031954,
+        "miny": 6.23194,
+        "maxx": -62.115154,
+        "maxy": 8.385533
       }
     },
     {
@@ -6308,6 +6902,12 @@
       "CENTROID": {
         "xc": -62.049259,
         "yc": 7.227195
+      },
+      "BBOX": {
+        "minx": -62.487178,
+        "miny": 6.352514,
+        "maxx": -61.490289,
+        "maxy": 7.946641
       }
     },
     {
@@ -6334,6 +6934,12 @@
       "CENTROID": {
         "xc": -61.801369,
         "yc": 5.198987
+      },
+      "BBOX": {
+        "minx": -62.924149,
+        "miny": 4.077084,
+        "maxx": -60.582946,
+        "maxy": 6.329687
       }
     },
     {
@@ -6360,6 +6966,12 @@
       "CENTROID": {
         "xc": -68.127937,
         "yc": 10.033213
+      },
+      "BBOX": {
+        "minx": -68.251468,
+        "miny": 9.879553,
+        "maxx": -68.000397,
+        "maxy": 10.231526
       }
     },
     {
@@ -6386,6 +6998,12 @@
       "CENTROID": {
         "xc": -67.795865,
         "yc": 10.283102
+      },
+      "BBOX": {
+        "minx": -67.856456,
+        "miny": 10.20623,
+        "maxx": -67.734671,
+        "maxy": 10.349937
       }
     },
     {
@@ -6412,6 +7030,12 @@
       "CENTROID": {
         "xc": -68.266221,
         "yc": 10.450777
+      },
+      "BBOX": {
+        "minx": -68.404125,
+        "miny": 10.296833,
+        "maxx": -68.138377,
+        "maxy": 10.583531
       }
     },
     {
@@ -6438,6 +7062,12 @@
       "CENTROID": {
         "xc": -68.029025,
         "yc": 10.407886
+      },
+      "BBOX": {
+        "minx": -68.183061,
+        "miny": 10.320355,
+        "maxx": -67.858419,
+        "maxy": 10.498135
       }
     },
     {
@@ -6464,6 +7094,12 @@
       "CENTROID": {
         "xc": -67.952384,
         "yc": 10.264521
+      },
+      "BBOX": {
+        "minx": -67.993611,
+        "miny": 10.180181,
+        "maxx": -67.909077,
+        "maxy": 10.361445
       }
     },
     {
@@ -6490,6 +7126,12 @@
       "CENTROID": {
         "xc": -68.064285,
         "yc": 10.282679
+      },
+      "BBOX": {
+        "minx": -68.159749,
+        "miny": 10.225873,
+        "maxx": -67.970232,
+        "maxy": 10.343834
       }
     },
     {
@@ -6516,6 +7158,12 @@
       "CENTROID": {
         "xc": -67.881926,
         "yc": 10.2706
+      },
+      "BBOX": {
+        "minx": -67.932061,
+        "miny": 10.151643,
+        "maxx": -67.830677,
+        "maxy": 10.372436
       }
     },
     {
@@ -6542,6 +7190,12 @@
       "CENTROID": {
         "xc": -68.313397,
         "yc": 10.215459
+      },
+      "BBOX": {
+        "minx": -68.379287,
+        "miny": 10.152145,
+        "maxx": -68.232576,
+        "maxy": 10.270071
       }
     },
     {
@@ -6568,6 +7222,12 @@
       "CENTROID": {
         "xc": -67.903728,
         "yc": 10.145162
+      },
+      "BBOX": {
+        "minx": -67.955232,
+        "miny": 10.089481,
+        "maxx": -67.860542,
+        "maxy": 10.214255
       }
     },
     {
@@ -6594,6 +7254,12 @@
       "CENTROID": {
         "xc": -67.700431,
         "yc": 10.296423
+      },
+      "BBOX": {
+        "minx": -67.746662,
+        "miny": 10.236569,
+        "maxx": -67.651023,
+        "maxy": 10.343143
       }
     },
     {
@@ -6620,6 +7286,12 @@
       "CENTROID": {
         "xc": -68.366263,
         "yc": 10.110075
+      },
+      "BBOX": {
+        "minx": -68.42778,
+        "miny": 9.989877,
+        "maxx": -68.299673,
+        "maxy": 10.225391
       }
     },
     {
@@ -6646,6 +7318,12 @@
       "CENTROID": {
         "xc": -68.259751,
         "yc": 10.23805
+      },
+      "BBOX": {
+        "minx": -68.398885,
+        "miny": 10.028419,
+        "maxx": -68.140326,
+        "maxy": 10.422019
       }
     },
     {
@@ -6672,6 +7350,12 @@
       "CENTROID": {
         "xc": -67.9748,
         "yc": 9.997804
+      },
+      "BBOX": {
+        "minx": -68.133136,
+        "miny": 9.811266,
+        "maxx": -67.804332,
+        "maxy": 10.234058
       }
     },
     {
@@ -6698,6 +7382,12 @@
       "CENTROID": {
         "xc": -67.739952,
         "yc": 9.992242
+      },
+      "BBOX": {
+        "minx": -67.981299,
+        "miny": 9.822618,
+        "maxx": -67.517118,
+        "maxy": 10.141401
       }
     },
     {
@@ -6724,6 +7414,12 @@
       "CENTROID": {
         "xc": -68.420081,
         "yc": 9.819364
+      },
+      "BBOX": {
+        "minx": -68.503397,
+        "miny": 9.758806,
+        "maxx": -68.30149,
+        "maxy": 9.910934
       }
     },
     {
@@ -6750,6 +7446,12 @@
       "CENTROID": {
         "xc": -68.642901,
         "yc": 9.734956
+      },
+      "BBOX": {
+        "minx": -68.840202,
+        "miny": 9.519878,
+        "maxx": -68.378793,
+        "maxy": 9.976341
       }
     },
     {
@@ -6776,6 +7478,12 @@
       "CENTROID": {
         "xc": -68.367202,
         "yc": 8.824632
+      },
+      "BBOX": {
+        "minx": -68.736273,
+        "miny": 8.53292,
+        "maxx": -67.997072,
+        "maxy": 9.219531
       }
     },
     {
@@ -6802,6 +7510,12 @@
       "CENTROID": {
         "xc": -68.291215,
         "yc": 9.911057
+      },
+      "BBOX": {
+        "minx": -68.485729,
+        "miny": 9.795715,
+        "maxx": -68.124095,
+        "maxy": 10.085418
       }
     },
     {
@@ -6828,6 +7542,12 @@
       "CENTROID": {
         "xc": -68.635986,
         "yc": 9.301351
+      },
+      "BBOX": {
+        "minx": -68.888991,
+        "miny": 9.057984,
+        "maxx": -68.395065,
+        "maxy": 9.555827
       }
     },
     {
@@ -6854,6 +7574,12 @@
       "CENTROID": {
         "xc": -68.07848,
         "yc": 9.370541
+      },
+      "BBOX": {
+        "minx": -68.374392,
+        "miny": 8.638014,
+        "maxx": -67.752744,
+        "maxy": 9.880331
       }
     },
     {
@@ -6880,6 +7606,12 @@
       "CENTROID": {
         "xc": -68.497681,
         "yc": 9.390664
+      },
+      "BBOX": {
+        "minx": -68.666255,
+        "miny": 9.058187,
+        "maxx": -68.357629,
+        "maxy": 9.6174
       }
     },
     {
@@ -6906,6 +7638,12 @@
       "CENTROID": {
         "xc": -68.364568,
         "yc": 9.533862
+      },
+      "BBOX": {
+        "minx": -68.518734,
+        "miny": 9.089275,
+        "maxx": -68.197015,
+        "maxy": 9.787075
       }
     },
     {
@@ -6932,6 +7670,12 @@
       "CENTROID": {
         "xc": -68.860843,
         "yc": 9.643274
+      },
+      "BBOX": {
+        "minx": -68.987658,
+        "miny": 9.424505,
+        "maxx": -68.728637,
+        "maxy": 9.870198
       }
     },
     {
@@ -6958,6 +7702,12 @@
       "CENTROID": {
         "xc": -62.105899,
         "yc": 8.490187
+      },
+      "BBOX": {
+        "minx": -62.611607,
+        "miny": 8.282036,
+        "maxx": -61.588009,
+        "maxy": 8.724055
       }
     },
     {
@@ -6984,6 +7734,12 @@
       "CENTROID": {
         "xc": -62.169149,
         "yc": 9.729801
+      },
+      "BBOX": {
+        "minx": -62.444167,
+        "miny": 9.390298,
+        "maxx": -61.825224,
+        "maxy": 10.017995
       }
     },
     {
@@ -7010,6 +7766,12 @@
       "CENTROID": {
         "xc": -60.904496,
         "yc": 8.438671
+      },
+      "BBOX": {
+        "minx": -61.797211,
+        "miny": 7.753446,
+        "maxx": -59.741104,
+        "maxy": 9.484601
       }
     },
     {
@@ -7036,6 +7798,12 @@
       "CENTROID": {
         "xc": -61.705215,
         "yc": 9.261014
+      },
+      "BBOX": {
+        "minx": -62.373485,
+        "miny": 8.604532,
+        "maxx": -60.954853,
+        "maxy": 9.888995
       }
     },
     {
@@ -7062,6 +7830,12 @@
       "CENTROID": {
         "xc": -66.915993,
         "yc": 10.505574
+      },
+      "BBOX": {
+        "minx": -66.924366,
+        "miny": 10.501085,
+        "maxx": -66.908941,
+        "maxy": 10.511196
       }
     },
     {
@@ -7088,6 +7862,12 @@
       "CENTROID": {
         "xc": -66.981866,
         "yc": 10.429752
+      },
+      "BBOX": {
+        "minx": -67.023787,
+        "miny": 10.400035,
+        "maxx": -66.949799,
+        "maxy": 10.450455
       }
     },
     {
@@ -7114,6 +7894,12 @@
       "CENTROID": {
         "xc": -67.029085,
         "yc": 10.493706
+      },
+      "BBOX": {
+        "minx": -67.10669,
+        "miny": 10.45307,
+        "maxx": -66.976054,
+        "maxy": 10.536278
       }
     },
     {
@@ -7140,6 +7926,12 @@
       "CENTROID": {
         "xc": -66.902004,
         "yc": 10.505698
+      },
+      "BBOX": {
+        "minx": -66.910265,
+        "miny": 10.499266,
+        "maxx": -66.890656,
+        "maxy": 10.51546
       }
     },
     {
@@ -7166,6 +7958,12 @@
       "CENTROID": {
         "xc": -66.993522,
         "yc": 10.463106
+      },
+      "BBOX": {
+        "minx": -67.047696,
+        "miny": 10.439821,
+        "maxx": -66.961108,
+        "maxy": 10.496989
       }
     },
     {
@@ -7192,6 +7990,12 @@
       "CENTROID": {
         "xc": -66.933326,
         "yc": 10.433802
+      },
+      "BBOX": {
+        "minx": -66.953034,
+        "miny": 10.4087,
+        "maxx": -66.907175,
+        "maxy": 10.458603
       }
     },
     {
@@ -7218,6 +8022,12 @@
       "CENTROID": {
         "xc": -66.879081,
         "yc": 10.515723
+      },
+      "BBOX": {
+        "minx": -66.897104,
+        "miny": 10.487318,
+        "maxx": -66.861346,
+        "maxy": 10.546072
       }
     },
     {
@@ -7244,6 +8054,12 @@
       "CENTROID": {
         "xc": -66.918021,
         "yc": 10.479039
+      },
+      "BBOX": {
+        "minx": -66.933992,
+        "miny": 10.465189,
+        "maxx": -66.900202,
+        "maxy": 10.501639
       }
     },
     {
@@ -7270,6 +8086,12 @@
       "CENTROID": {
         "xc": -66.909365,
         "yc": 10.445322
+      },
+      "BBOX": {
+        "minx": -66.934714,
+        "miny": 10.408149,
+        "maxx": -66.890138,
+        "maxy": 10.478104
       }
     },
     {
@@ -7296,6 +8118,12 @@
       "CENTROID": {
         "xc": -66.923958,
         "yc": 10.531052
+      },
+      "BBOX": {
+        "minx": -66.935222,
+        "miny": 10.510396,
+        "maxx": -66.915308,
+        "maxy": 10.552678
       }
     },
     {
@@ -7322,6 +8150,12 @@
       "CENTROID": {
         "xc": -66.893062,
         "yc": 10.48387
+      },
+      "BBOX": {
+        "minx": -66.911333,
+        "miny": 10.464513,
+        "maxx": -66.880033,
+        "maxy": 10.497657
       }
     },
     {
@@ -7348,6 +8182,12 @@
       "CENTROID": {
         "xc": -66.951415,
         "yc": 10.461096
+      },
+      "BBOX": {
+        "minx": -66.976222,
+        "miny": 10.443582,
+        "maxx": -66.928972,
+        "maxy": 10.482217
       }
     },
     {
@@ -7374,6 +8214,12 @@
       "CENTROID": {
         "xc": -67.071996,
         "yc": 10.423015
+      },
+      "BBOX": {
+        "minx": -67.163872,
+        "miny": 10.38318,
+        "maxx": -66.981282,
+        "maxy": 10.463559
       }
     },
     {
@@ -7400,6 +8246,12 @@
       "CENTROID": {
         "xc": -66.903877,
         "yc": 10.496357
+      },
+      "BBOX": {
+        "minx": -66.911304,
+        "miny": 10.490215,
+        "maxx": -66.894244,
+        "maxy": 10.502042
       }
     },
     {
@@ -7426,6 +8278,12 @@
       "CENTROID": {
         "xc": -66.898948,
         "yc": 10.530096
+      },
+      "BBOX": {
+        "minx": -66.907582,
+        "miny": 10.505219,
+        "maxx": -66.890479,
+        "maxy": 10.551539
       }
     },
     {
@@ -7452,6 +8310,12 @@
       "CENTROID": {
         "xc": -66.908729,
         "yc": 10.529078
+      },
+      "BBOX": {
+        "minx": -66.912633,
+        "miny": 10.509198,
+        "maxx": -66.902987,
+        "maxy": 10.551877
       }
     },
     {
@@ -7478,6 +8342,12 @@
       "CENTROID": {
         "xc": -66.945832,
         "yc": 10.485989
+      },
+      "BBOX": {
+        "minx": -66.971405,
+        "miny": 10.470461,
+        "maxx": -66.914371,
+        "maxy": 10.499632
       }
     },
     {
@@ -7504,6 +8374,12 @@
       "CENTROID": {
         "xc": -66.91401,
         "yc": 10.52696
+      },
+      "BBOX": {
+        "minx": -66.922268,
+        "miny": 10.506671,
+        "maxx": -66.908232,
+        "maxy": 10.552658
       }
     },
     {
@@ -7530,6 +8406,12 @@
       "CENTROID": {
         "xc": -66.91703,
         "yc": 10.497286
+      },
+      "BBOX": {
+        "minx": -66.920538,
+        "miny": 10.491215,
+        "maxx": -66.913674,
+        "maxy": 10.503784
       }
     },
     {
@@ -7556,6 +8438,12 @@
       "CENTROID": {
         "xc": -66.932163,
         "yc": 10.498186
+      },
+      "BBOX": {
+        "minx": -66.945868,
+        "miny": 10.488396,
+        "maxx": -66.917955,
+        "maxy": 10.505616
       }
     },
     {
@@ -7582,6 +8470,12 @@
       "CENTROID": {
         "xc": -66.976639,
         "yc": 10.529992
+      },
+      "BBOX": {
+        "minx": -67.03078,
+        "miny": 10.493148,
+        "maxx": -66.928063,
+        "maxy": 10.562548
       }
     },
     {
@@ -7608,6 +8502,12 @@
       "CENTROID": {
         "xc": -66.934213,
         "yc": 10.507144
+      },
+      "BBOX": {
+        "minx": -66.947525,
+        "miny": 10.499453,
+        "maxx": -66.922512,
+        "maxy": 10.514204
       }
     },
     {
@@ -7634,6 +8534,12 @@
       "CENTROID": {
         "xc": -70.990261,
         "yc": 10.792455
+      },
+      "BBOX": {
+        "minx": -71.315007,
+        "miny": 10.449116,
+        "maxx": -70.797304,
+        "maxy": 11.119041
       }
     },
     {
@@ -7660,6 +8566,12 @@
       "CENTROID": {
         "xc": -69.883831,
         "yc": 11.012087
+      },
+      "BBOX": {
+        "minx": -70.074784,
+        "miny": 10.876619,
+        "maxx": -69.645465,
+        "maxy": 11.151621
       }
     },
     {
@@ -7686,6 +8598,12 @@
       "CENTROID": {
         "xc": -68.599654,
         "yc": 10.848323
+      },
+      "BBOX": {
+        "minx": -68.943402,
+        "miny": 10.649537,
+        "maxx": -68.217854,
+        "maxy": 11.060417
       }
     },
     {
@@ -7712,6 +8630,12 @@
       "CENTROID": {
         "xc": -68.556166,
         "yc": 11.167493
+      },
+      "BBOX": {
+        "minx": -68.770988,
+        "miny": 10.966069,
+        "maxx": -68.339296,
+        "maxy": 11.355395
       }
     },
     {
@@ -7738,6 +8662,12 @@
       "CENTROID": {
         "xc": -69.445699,
         "yc": 11.067467
+      },
+      "BBOX": {
+        "minx": -69.723774,
+        "miny": 10.905716,
+        "maxx": -69.200075,
+        "maxy": 11.22963
       }
     },
     {
@@ -7764,6 +8694,12 @@
       "CENTROID": {
         "xc": -70.62737,
         "yc": 10.714716
+      },
+      "BBOX": {
+        "minx": -70.759694,
+        "miny": 10.31071,
+        "maxx": -70.507835,
+        "maxy": 11.104811
       }
     },
     {
@@ -7790,6 +8726,12 @@
       "CENTROID": {
         "xc": -70.168835,
         "yc": 10.831254
+      },
+      "BBOX": {
+        "minx": -70.494797,
+        "miny": 10.543194,
+        "maxx": -69.818605,
+        "maxy": 11.216581
       }
     },
     {
@@ -7816,6 +8758,12 @@
       "CENTROID": {
         "xc": -69.873644,
         "yc": 11.328333
+      },
+      "BBOX": {
+        "minx": -70.239035,
+        "miny": 11.106955,
+        "maxx": -69.477906,
+        "maxy": 11.566421
       }
     },
     {
@@ -7842,6 +8790,12 @@
       "CENTROID": {
         "xc": -70.209765,
         "yc": 11.828361
+      },
+      "BBOX": {
+        "minx": -70.300552,
+        "miny": 11.722392,
+        "maxx": -70.120796,
+        "maxy": 11.95233
       }
     },
     {
@@ -7868,6 +8822,12 @@
       "CENTROID": {
         "xc": -68.421442,
         "yc": 10.738387
+      },
+      "BBOX": {
+        "minx": -68.625217,
+        "miny": 10.577698,
+        "maxx": -68.217875,
+        "maxy": 10.877086
       }
     },
     {
@@ -7894,6 +8854,12 @@
       "CENTROID": {
         "xc": -69.48154,
         "yc": 11.326493
+      },
+      "BBOX": {
+        "minx": -69.633573,
+        "miny": 11.120955,
+        "maxx": -69.373907,
+        "maxy": 11.505984
       }
     },
     {
@@ -7920,6 +8886,12 @@
       "CENTROID": {
         "xc": -70.018159,
         "yc": 11.714981
+      },
+      "BBOX": {
+        "minx": -70.237067,
+        "miny": 11.603274,
+        "maxx": -69.807009,
+        "maxy": 11.849227
       }
     },
     {
@@ -7946,6 +8918,12 @@
       "CENTROID": {
         "xc": -69.233147,
         "yc": 11.488942
+      },
+      "BBOX": {
+        "minx": -69.299078,
+        "miny": 11.442706,
+        "maxx": -69.161906,
+        "maxy": 11.534861
       }
     },
     {
@@ -7972,6 +8950,12 @@
       "CENTROID": {
         "xc": -69.9973,
         "yc": 11.943768
+      },
+      "BBOX": {
+        "minx": -70.262086,
+        "miny": 11.513348,
+        "maxx": -69.686069,
+        "maxy": 12.195067
       }
     },
     {
@@ -7998,6 +8982,12 @@
       "CENTROID": {
         "xc": -69.584759,
         "yc": 10.824588
+      },
+      "BBOX": {
+        "minx": -69.910538,
+        "miny": 10.689751,
+        "maxx": -69.263676,
+        "maxy": 10.95931
       }
     },
     {
@@ -8024,6 +9014,12 @@
       "CENTROID": {
         "xc": -68.942898,
         "yc": 11.015862
+      },
+      "BBOX": {
+        "minx": -69.225892,
+        "miny": 10.763748,
+        "maxx": -68.620021,
+        "maxy": 11.256604
       }
     },
     {
@@ -8050,6 +9046,12 @@
       "CENTROID": {
         "xc": -69.153233,
         "yc": 10.816982
+      },
+      "BBOX": {
+        "minx": -69.357841,
+        "miny": 10.660906,
+        "maxx": -68.852534,
+        "maxy": 11.065968
       }
     },
     {
@@ -8076,6 +9078,12 @@
       "CENTROID": {
         "xc": -68.563656,
         "yc": 10.676822
+      },
+      "BBOX": {
+        "minx": -68.651798,
+        "miny": 10.596243,
+        "maxx": -68.45857,
+        "maxy": 10.774325
       }
     },
     {
@@ -8102,6 +9110,12 @@
       "CENTROID": {
         "xc": -69.691895,
         "yc": 11.061432
+      },
+      "BBOX": {
+        "minx": -69.877425,
+        "miny": 10.933067,
+        "maxx": -69.563347,
+        "maxy": 11.21928
       }
     },
     {
@@ -8128,6 +9142,12 @@
       "CENTROID": {
         "xc": -68.549219,
         "yc": 10.983244
+      },
+      "BBOX": {
+        "minx": -68.620132,
+        "miny": 10.910739,
+        "maxx": -68.450583,
+        "maxy": 11.068546
       }
     },
     {
@@ -8154,6 +9174,12 @@
       "CENTROID": {
         "xc": -68.712788,
         "yc": 11.136005
+      },
+      "BBOX": {
+        "minx": -68.82323,
+        "miny": 11.028311,
+        "maxx": -68.576157,
+        "maxy": 11.28079
       }
     },
     {
@@ -8180,6 +9206,12 @@
       "CENTROID": {
         "xc": -70.285462,
         "yc": 11.111775
+      },
+      "BBOX": {
+        "minx": -70.443287,
+        "miny": 10.885069,
+        "maxx": -70.12084,
+        "maxy": 11.351948
       }
     },
     {
@@ -8206,6 +9238,12 @@
       "CENTROID": {
         "xc": -70.632755,
         "yc": 10.89556
+      },
+      "BBOX": {
+        "minx": -70.975945,
+        "miny": 10.301126,
+        "maxx": -70.307148,
+        "maxy": 11.324413
       }
     },
     {
@@ -8232,6 +9270,12 @@
       "CENTROID": {
         "xc": -69.015265,
         "yc": 11.331223
+      },
+      "BBOX": {
+        "minx": -69.246533,
+        "miny": 11.190009,
+        "maxx": -68.733776,
+        "maxy": 11.496061
       }
     },
     {
@@ -8258,6 +9302,12 @@
       "CENTROID": {
         "xc": -69.320691,
         "yc": 11.332597
+      },
+      "BBOX": {
+        "minx": -69.465026,
+        "miny": 11.119656,
+        "maxx": -69.182497,
+        "maxy": 11.521318
       }
     },
     {
@@ -8284,6 +9334,12 @@
       "CENTROID": {
         "xc": -67.603432,
         "yc": 9.497371
+      },
+      "BBOX": {
+        "minx": -67.972572,
+        "miny": 9.192678,
+        "maxx": -67.203143,
+        "maxy": 9.929836
       }
     },
     {
@@ -8310,6 +9366,12 @@
       "CENTROID": {
         "xc": -65.293957,
         "yc": 9.213516
+      },
+      "BBOX": {
+        "minx": -65.635182,
+        "miny": 8.805929,
+        "maxx": -64.774364,
+        "maxy": 9.654303
       }
     },
     {
@@ -8336,6 +9398,12 @@
       "CENTROID": {
         "xc": -66.475607,
         "yc": 8.398661
+      },
+      "BBOX": {
+        "minx": -66.805408,
+        "miny": 7.622967,
+        "maxx": -66.01281,
+        "maxy": 9.219103
       }
     },
     {
@@ -8362,6 +9430,12 @@
       "CENTROID": {
         "xc": -65.989634,
         "yc": 8.48902
+      },
+      "BBOX": {
+        "minx": -66.315251,
+        "miny": 7.672889,
+        "maxx": -65.608039,
+        "maxy": 9.60987
       }
     },
     {
@@ -8388,6 +9462,12 @@
       "CENTROID": {
         "xc": -66.293347,
         "yc": 9.347193
+      },
+      "BBOX": {
+        "minx": -66.716758,
+        "miny": 9.012243,
+        "maxx": -65.99905,
+        "maxy": 9.652786
       }
     },
     {
@@ -8414,6 +9494,12 @@
       "CENTROID": {
         "xc": -67.279372,
         "yc": 9.768926
+      },
+      "BBOX": {
+        "minx": -67.543812,
+        "miny": 9.560157,
+        "maxx": -66.958235,
+        "maxy": 9.994036
       }
     },
     {
@@ -8440,6 +9526,12 @@
       "CENTROID": {
         "xc": -65.642927,
         "yc": 8.618798
+      },
+      "BBOX": {
+        "minx": -65.913538,
+        "miny": 7.892371,
+        "maxx": -65.416903,
+        "maxy": 9.137216
       }
     },
     {
@@ -8466,6 +9558,12 @@
       "CENTROID": {
         "xc": -67.556504,
         "yc": 8.196316
+      },
+      "BBOX": {
+        "minx": -67.836646,
+        "miny": 7.885613,
+        "maxx": -67.363814,
+        "maxy": 8.448004
       }
     },
     {
@@ -8492,6 +9590,12 @@
       "CENTROID": {
         "xc": -67.295105,
         "yc": 8.73951
+      },
+      "BBOX": {
+        "minx": -68.030546,
+        "miny": 7.985506,
+        "maxx": -66.652729,
+        "maxy": 9.259273
       }
     },
     {
@@ -8518,6 +9622,12 @@
       "CENTROID": {
         "xc": -65.321945,
         "yc": 8.6211
+      },
+      "BBOX": {
+        "minx": -65.620238,
+        "miny": 7.856144,
+        "maxx": -64.783497,
+        "maxy": 9.088808
       }
     },
     {
@@ -8544,6 +9654,12 @@
       "CENTROID": {
         "xc": -67.076706,
         "yc": 9.375824
+      },
+      "BBOX": {
+        "minx": -67.399717,
+        "miny": 9.125775,
+        "maxx": -66.687097,
+        "maxy": 9.694196
       }
     },
     {
@@ -8570,6 +9686,12 @@
       "CENTROID": {
         "xc": -67.086758,
         "yc": 8.012367
+      },
+      "BBOX": {
+        "minx": -67.520118,
+        "miny": 7.686735,
+        "maxx": -66.526635,
+        "maxy": 8.454726
       }
     },
     {
@@ -8596,6 +9718,12 @@
       "CENTROID": {
         "xc": -65.843107,
         "yc": 9.785284
+      },
+      "BBOX": {
+        "minx": -66.002056,
+        "miny": 9.586916,
+        "maxx": -65.670707,
+        "maxy": 9.970182
       }
     },
     {
@@ -8622,6 +9750,12 @@
       "CENTROID": {
         "xc": -65.751828,
         "yc": 9.34685
+      },
+      "BBOX": {
+        "minx": -65.959186,
+        "miny": 8.969466,
+        "maxx": -65.501586,
+        "maxy": 9.68977
       }
     },
     {
@@ -8648,6 +9782,12 @@
       "CENTROID": {
         "xc": -66.332513,
         "yc": 9.736527
+      },
+      "BBOX": {
+        "minx": -66.687389,
+        "miny": 9.247611,
+        "maxx": -65.955545,
+        "maxy": 10.040532
       }
     },
     {
@@ -8674,6 +9814,12 @@
       "CENTROID": {
         "xc": -66.996622,
         "yc": 10.588008
+      },
+      "BBOX": {
+        "minx": -67.030425,
+        "miny": 10.552032,
+        "maxx": -66.965748,
+        "maxy": 10.615991
       }
     },
     {
@@ -8700,6 +9846,12 @@
       "CENTROID": {
         "xc": -66.887806,
         "yc": 10.578291
+      },
+      "BBOX": {
+        "minx": -66.91306,
+        "miny": 10.541584,
+        "maxx": -66.864813,
+        "maxy": 10.612323
       }
     },
     {
@@ -8726,6 +9878,12 @@
       "CENTROID": {
         "xc": -67.079246,
         "yc": 10.48097
+      },
+      "BBOX": {
+        "minx": -67.104425,
+        "miny": 10.458379,
+        "maxx": -67.055665,
+        "maxy": 10.506676
       }
     },
     {
@@ -8752,6 +9910,12 @@
       "CENTROID": {
         "xc": -67.053691,
         "yc": 10.574134
+      },
+      "BBOX": {
+        "minx": -67.106816,
+        "miny": 10.546468,
+        "maxx": -67.008449,
+        "maxy": 10.610816
       }
     },
     {
@@ -8778,6 +9942,12 @@
       "CENTROID": {
         "xc": -66.943628,
         "yc": 10.569504
+      },
+      "BBOX": {
+        "minx": -66.964711,
+        "miny": 10.543219,
+        "maxx": -66.903217,
+        "maxy": 10.607864
       }
     },
     {
@@ -8804,6 +9974,12 @@
       "CENTROID": {
         "xc": -66.426069,
         "yc": 10.580807
+      },
+      "BBOX": {
+        "minx": -66.548455,
+        "miny": 10.52316,
+        "maxx": -66.309479,
+        "maxy": 10.632191
       }
     },
     {
@@ -8830,6 +10006,12 @@
       "CENTROID": {
         "xc": -66.659539,
         "yc": 10.584907
+      },
+      "BBOX": {
+        "minx": -66.803747,
+        "miny": 10.53851,
+        "maxx": -66.522774,
+        "maxy": 10.62972
       }
     },
     {
@@ -8856,6 +10038,12 @@
       "CENTROID": {
         "xc": -67.232406,
         "yc": 10.492899
+      },
+      "BBOX": {
+        "minx": -67.412868,
+        "miny": 10.387601,
+        "maxx": -67.027703,
+        "maxy": 10.581539
       }
     },
     {
@@ -8882,6 +10070,12 @@
       "CENTROID": {
         "xc": -66.92381,
         "yc": 10.584709
+      },
+      "BBOX": {
+        "minx": -66.940188,
+        "miny": 10.562319,
+        "maxx": -66.908535,
+        "maxy": 10.60625
       }
     },
     {
@@ -8908,6 +10102,12 @@
       "CENTROID": {
         "xc": -66.828453,
         "yc": 10.577124
+      },
+      "BBOX": {
+        "minx": -66.87129,
+        "miny": 10.537991,
+        "maxx": -66.779959,
+        "maxy": 10.621618
       }
     },
     {
@@ -8934,6 +10134,12 @@
       "CENTROID": {
         "xc": -66.969877,
         "yc": 10.578119
+      },
+      "BBOX": {
+        "minx": -66.980765,
+        "miny": 10.548741,
+        "maxx": -66.961732,
+        "maxy": 10.603015
       }
     },
     {
@@ -8960,6 +10166,12 @@
       "CENTROID": {
         "xc": -70.206158,
         "yc": 10.171735
+      },
+      "BBOX": {
+        "minx": -70.882601,
+        "miny": 9.75959,
+        "maxx": -69.606628,
+        "maxy": 10.568086
       }
     },
     {
@@ -8986,6 +10198,12 @@
       "CENTROID": {
         "xc": -69.15582,
         "yc": 10.327583
+      },
+      "BBOX": {
+        "minx": -69.314246,
+        "miny": 10.135799,
+        "maxx": -69.007556,
+        "maxy": 10.482677
       }
     },
     {
@@ -9012,6 +10230,12 @@
       "CENTROID": {
         "xc": -69.118496,
         "yc": 9.829746
+      },
+      "BBOX": {
+        "minx": -69.285512,
+        "miny": 9.67512,
+        "maxx": -68.946605,
+        "maxy": 10.017281
       }
     },
     {
@@ -9038,6 +10262,12 @@
       "CENTROID": {
         "xc": -69.86942,
         "yc": 9.675347
+      },
+      "BBOX": {
+        "minx": -70.126947,
+        "miny": 9.399186,
+        "maxx": -69.619461,
+        "maxy": 10.0137
       }
     },
     {
@@ -9064,6 +10294,12 @@
       "CENTROID": {
         "xc": -69.548823,
         "yc": 9.6658
+      },
+      "BBOX": {
+        "minx": -69.733646,
+        "miny": 9.523752,
+        "maxx": -69.343478,
+        "maxy": 9.817472
       }
     },
     {
@@ -9090,6 +10326,12 @@
       "CENTROID": {
         "xc": -69.419998,
         "yc": 10.167886
+      },
+      "BBOX": {
+        "minx": -69.676331,
+        "miny": 9.724349,
+        "maxx": -69.134997,
+        "maxy": 10.523588
       }
     },
     {
@@ -9116,6 +10358,12 @@
       "CENTROID": {
         "xc": -69.614725,
         "yc": 9.930113
+      },
+      "BBOX": {
+        "minx": -69.761029,
+        "miny": 9.720499,
+        "maxx": -69.468449,
+        "maxy": 10.148782
       }
     },
     {
@@ -9142,6 +10390,12 @@
       "CENTROID": {
         "xc": -69.577037,
         "yc": 10.58366
+      },
+      "BBOX": {
+        "minx": -70.341434,
+        "miny": 10.379695,
+        "maxx": -68.874858,
+        "maxy": 10.745339
       }
     },
     {
@@ -9168,6 +10422,12 @@
       "CENTROID": {
         "xc": -69.235592,
         "yc": 9.987043
+      },
+      "BBOX": {
+        "minx": -69.319092,
+        "miny": 9.899091,
+        "maxx": -69.149953,
+        "maxy": 10.088161
       }
     },
     {
@@ -9194,6 +10454,12 @@
       "CENTROID": {
         "xc": -66.911331,
         "yc": 10.117986
+      },
+      "BBOX": {
+        "minx": -66.997736,
+        "miny": 9.99908,
+        "maxx": -66.833197,
+        "maxy": 10.237532
       }
     },
     {
@@ -9220,6 +10486,12 @@
       "CENTROID": {
         "xc": -65.69399,
         "yc": 10.084977
+      },
+      "BBOX": {
+        "minx": -65.893906,
+        "miny": 9.940461,
+        "maxx": -65.42796,
+        "maxy": 10.219988
       }
     },
     {
@@ -9246,6 +10518,12 @@
       "CENTROID": {
         "xc": -66.645505,
         "yc": 10.323471
+      },
+      "BBOX": {
+        "minx": -66.824731,
+        "miny": 10.219316,
+        "maxx": -66.50649,
+        "maxy": 10.415571
       }
     },
     {
@@ -9272,6 +10550,12 @@
       "CENTROID": {
         "xc": -66.652083,
         "yc": 10.475575
+      },
+      "BBOX": {
+        "minx": -66.72308,
+        "miny": 10.403971,
+        "maxx": -66.576601,
+        "maxy": 10.545633
       }
     },
     {
@@ -9298,6 +10582,12 @@
       "CENTROID": {
         "xc": -66.729205,
         "yc": 10.179143
+      },
+      "BBOX": {
+        "minx": -66.823735,
+        "miny": 10.099104,
+        "maxx": -66.644115,
+        "maxy": 10.257761
       }
     },
     {
@@ -9324,6 +10614,12 @@
       "CENTROID": {
         "xc": -66.766058,
         "yc": 10.483277
+      },
+      "BBOX": {
+        "minx": -66.846241,
+        "miny": 10.392388,
+        "maxx": -66.690912,
+        "maxy": 10.548741
       }
     },
     {
@@ -9350,6 +10646,12 @@
       "CENTROID": {
         "xc": -66.486408,
         "yc": 10.459518
+      },
+      "BBOX": {
+        "minx": -66.604925,
+        "miny": 10.316703,
+        "maxx": -66.346739,
+        "maxy": 10.556946
       }
     },
     {
@@ -9376,6 +10678,12 @@
       "CENTROID": {
         "xc": -65.957962,
         "yc": 10.137496
+      },
+      "BBOX": {
+        "minx": -66.154358,
+        "miny": 9.935113,
+        "maxx": -65.686213,
+        "maxy": 10.391167
       }
     },
     {
@@ -9402,6 +10710,12 @@
       "CENTROID": {
         "xc": -66.311134,
         "yc": 10.204253
+      },
+      "BBOX": {
+        "minx": -66.561199,
+        "miny": 9.946945,
+        "maxx": -66.066916,
+        "maxy": 10.526169
       }
     },
     {
@@ -9428,6 +10742,12 @@
       "CENTROID": {
         "xc": -66.995378,
         "yc": 10.351335
+      },
+      "BBOX": {
+        "minx": -67.023312,
+        "miny": 10.315274,
+        "maxx": -66.958295,
+        "maxy": 10.387412
       }
     },
     {
@@ -9454,6 +10774,12 @@
       "CENTROID": {
         "xc": -66.945501,
         "yc": 10.386182
+      },
+      "BBOX": {
+        "minx": -66.998853,
+        "miny": 10.345123,
+        "maxx": -66.891693,
+        "maxy": 10.4246
       }
     },
     {
@@ -9480,6 +10806,12 @@
       "CENTROID": {
         "xc": -66.838628,
         "yc": 10.25515
+      },
+      "BBOX": {
+        "minx": -66.898135,
+        "miny": 10.156042,
+        "maxx": -66.758695,
+        "maxy": 10.341094
       }
     },
     {
@@ -9506,6 +10838,12 @@
       "CENTROID": {
         "xc": -66.856185,
         "yc": 10.412573
+      },
+      "BBOX": {
+        "minx": -66.900091,
+        "miny": 10.341094,
+        "maxx": -66.764187,
+        "maxy": 10.490787
       }
     },
     {
@@ -9532,6 +10870,12 @@
       "CENTROID": {
         "xc": -66.034201,
         "yc": 10.286731
+      },
+      "BBOX": {
+        "minx": -66.10316,
+        "miny": 10.204102,
+        "maxx": -65.980111,
+        "maxy": 10.384292
       }
     },
     {
@@ -9558,6 +10902,12 @@
       "CENTROID": {
         "xc": -66.609651,
         "yc": 10.185638
+      },
+      "BBOX": {
+        "minx": -66.75995,
+        "miny": 10.074621,
+        "maxx": -66.505643,
+        "maxy": 10.278622
       }
     },
     {
@@ -9584,6 +10934,12 @@
       "CENTROID": {
         "xc": -66.698727,
         "yc": 10.056594
+      },
+      "BBOX": {
+        "minx": -66.87469,
+        "miny": 9.966478,
+        "maxx": -66.487373,
+        "maxy": 10.190212
       }
     },
     {
@@ -9610,6 +10966,12 @@
       "CENTROID": {
         "xc": -66.854749,
         "yc": 10.515153
+      },
+      "BBOX": {
+        "minx": -66.872709,
+        "miny": 10.482148,
+        "maxx": -66.837006,
+        "maxy": 10.550805
       }
     },
     {
@@ -9636,6 +10998,12 @@
       "CENTROID": {
         "xc": -67.038966,
         "yc": 10.261569
+      },
+      "BBOX": {
+        "minx": -67.220507,
+        "miny": 10.056022,
+        "maxx": -66.824731,
+        "maxy": 10.436792
       }
     },
     {
@@ -9662,6 +11030,12 @@
       "CENTROID": {
         "xc": -66.790385,
         "yc": 10.40291
+      },
+      "BBOX": {
+        "minx": -66.851497,
+        "miny": 10.355538,
+        "maxx": -66.69536,
+        "maxy": 10.459262
       }
     },
     {
@@ -9688,6 +11062,12 @@
       "CENTROID": {
         "xc": -66.184416,
         "yc": 10.512717
+      },
+      "BBOX": {
+        "minx": -66.330213,
+        "miny": 10.370857,
+        "maxx": -65.990099,
+        "maxy": 10.649857
       }
     },
     {
@@ -9714,6 +11094,12 @@
       "CENTROID": {
         "xc": -66.113472,
         "yc": 10.333462
+      },
+      "BBOX": {
+        "minx": -66.231829,
+        "miny": 10.243224,
+        "maxx": -66.014647,
+        "maxy": 10.406867
       }
     },
     {
@@ -9740,6 +11126,12 @@
       "CENTROID": {
         "xc": -63.429178,
         "yc": 9.964687
+      },
+      "BBOX": {
+        "minx": -63.628565,
+        "miny": 9.780489,
+        "maxx": -63.205155,
+        "maxy": 10.140762
       }
     },
     {
@@ -9766,6 +11158,12 @@
       "CENTROID": {
         "xc": -63.412026,
         "yc": 10.178729
+      },
+      "BBOX": {
+        "minx": -63.623861,
+        "miny": 10.067634,
+        "maxx": -63.195785,
+        "maxy": 10.32066
       }
     },
     {
@@ -9792,6 +11190,12 @@
       "CENTROID": {
         "xc": -62.380809,
         "yc": 8.905535
+      },
+      "BBOX": {
+        "minx": -62.779156,
+        "miny": 8.662744,
+        "maxx": -62.048984,
+        "maxy": 9.135164
       }
     },
     {
@@ -9818,6 +11222,12 @@
       "CENTROID": {
         "xc": -63.769525,
         "yc": 9.849069
+      },
+      "BBOX": {
+        "minx": -64.062902,
+        "miny": 9.543476,
+        "maxx": -63.480145,
+        "maxy": 10.088232
       }
     },
     {
@@ -9844,6 +11254,12 @@
       "CENTROID": {
         "xc": -63.142484,
         "yc": 9.996283
+      },
+      "BBOX": {
+        "minx": -63.334227,
+        "miny": 9.878316,
+        "maxx": -62.935772,
+        "maxy": 10.122464
       }
     },
     {
@@ -9870,6 +11286,12 @@
       "CENTROID": {
         "xc": -63.117814,
         "yc": 10.112595
+      },
+      "BBOX": {
+        "minx": -63.226726,
+        "miny": 10.008845,
+        "maxx": -63.019753,
+        "maxy": 10.224538
       }
     },
     {
@@ -9896,6 +11318,12 @@
       "CENTROID": {
         "xc": -62.673962,
         "yc": 8.940377
+      },
+      "BBOX": {
+        "minx": -63.046207,
+        "miny": 8.478638,
+        "maxx": -62.298865,
+        "maxy": 9.389519
       }
     },
     {
@@ -9922,6 +11350,12 @@
       "CENTROID": {
         "xc": -63.673225,
         "yc": 9.625087
+      },
+      "BBOX": {
+        "minx": -63.825322,
+        "miny": 9.493995,
+        "maxx": -63.521799,
+        "maxy": 9.748882
       }
     },
     {
@@ -9948,6 +11382,12 @@
       "CENTROID": {
         "xc": -62.4097,
         "yc": 8.662016
+      },
+      "BBOX": {
+        "minx": -62.728639,
+        "miny": 8.382449,
+        "maxx": -61.996789,
+        "maxy": 8.891247
       }
     },
     {
@@ -9974,6 +11414,12 @@
       "CENTROID": {
         "xc": -63.730027,
         "yc": 10.111061
+      },
+      "BBOX": {
+        "minx": -63.932553,
+        "miny": 10.02016,
+        "maxx": -63.568021,
+        "maxy": 10.222523
       }
     },
     {
@@ -10000,6 +11446,12 @@
       "CENTROID": {
         "xc": -63.543395,
         "yc": 9.570331
+      },
+      "BBOX": {
+        "minx": -63.641034,
+        "miny": 9.491051,
+        "maxx": -63.451243,
+        "maxy": 9.653983
       }
     },
     {
@@ -10026,6 +11478,12 @@
       "CENTROID": {
         "xc": -62.918902,
         "yc": 9.492324
+      },
+      "BBOX": {
+        "minx": -63.544843,
+        "miny": 8.741948,
+        "maxx": -62.282524,
+        "maxy": 10.267429
       }
     },
     {
@@ -10052,6 +11510,12 @@
       "CENTROID": {
         "xc": -63.634083,
         "yc": 9.30322
+      },
+      "BBOX": {
+        "minx": -63.972628,
+        "miny": 8.965665,
+        "maxx": -63.315209,
+        "maxy": 9.543413
       }
     },
     {
@@ -10078,6 +11542,12 @@
       "CENTROID": {
         "xc": -71.633493,
         "yc": 8.413125
+      },
+      "BBOX": {
+        "minx": -71.725222,
+        "miny": 8.263458,
+        "maxx": -71.547868,
+        "maxy": 8.554222
       }
     },
     {
@@ -10104,6 +11574,12 @@
       "CENTROID": {
         "xc": -71.282316,
         "yc": 8.512795
+      },
+      "BBOX": {
+        "minx": -71.404893,
+        "miny": 8.313815,
+        "maxx": -71.145829,
+        "maxy": 8.723135
       }
     },
     {
@@ -10130,6 +11606,12 @@
       "CENTROID": {
         "xc": -70.806222,
         "yc": 8.977541
+      },
+      "BBOX": {
+        "minx": -70.931932,
+        "miny": 8.848588,
+        "maxx": -70.673183,
+        "maxy": 9.097205
       }
     },
     {
@@ -10156,6 +11638,12 @@
       "CENTROID": {
         "xc": -71.107456,
         "yc": 9.019102
+      },
+      "BBOX": {
+        "minx": -71.235881,
+        "miny": 8.879465,
+        "maxx": -70.918339,
+        "maxy": 9.197875
       }
     },
     {
@@ -10182,6 +11670,12 @@
       "CENTROID": {
         "xc": -70.657005,
         "yc": 8.95195
+      },
+      "BBOX": {
+        "minx": -70.731736,
+        "miny": 8.89431,
+        "maxx": -70.576848,
+        "maxy": 9.027418
       }
     },
     {
@@ -10208,6 +11702,12 @@
       "CENTROID": {
         "xc": -71.83025,
         "yc": 8.237383
+      },
+      "BBOX": {
+        "minx": -71.912351,
+        "miny": 8.155645,
+        "maxx": -71.750333,
+        "maxy": 8.323884
       }
     },
     {
@@ -10234,6 +11734,12 @@
       "CENTROID": {
         "xc": -70.878311,
         "yc": 9.122376
+      },
+      "BBOX": {
+        "minx": -70.949756,
+        "miny": 9.054441,
+        "maxx": -70.795873,
+        "maxy": 9.193632
       }
     },
     {
@@ -10260,6 +11766,12 @@
       "CENTROID": {
         "xc": -70.957595,
         "yc": 8.576415
+      },
+      "BBOX": {
+        "minx": -71.111031,
+        "miny": 8.414199,
+        "maxx": -70.830723,
+        "maxy": 8.736152
       }
     },
     {
@@ -10286,6 +11798,12 @@
       "CENTROID": {
         "xc": -70.966732,
         "yc": 8.971502
+      },
+      "BBOX": {
+        "minx": -71.097136,
+        "miny": 8.80603,
+        "maxx": -70.866562,
+        "maxy": 9.135232
       }
     },
     {
@@ -10312,6 +11830,12 @@
       "CENTROID": {
         "xc": -71.76421,
         "yc": 8.430069
+      },
+      "BBOX": {
+        "minx": -71.820316,
+        "miny": 8.332091,
+        "maxx": -71.705718,
+        "maxy": 8.548734
       }
     },
     {
@@ -10338,6 +11862,12 @@
       "CENTROID": {
         "xc": -71.199065,
         "yc": 8.834291
+      },
+      "BBOX": {
+        "minx": -71.359428,
+        "miny": 8.709039,
+        "maxx": -71.025341,
+        "maxy": 8.950569
       }
     },
     {
@@ -10364,6 +11894,12 @@
       "CENTROID": {
         "xc": -71.686565,
         "yc": 8.625742
+      },
+      "BBOX": {
+        "minx": -71.915058,
+        "miny": 8.493223,
+        "maxx": -71.511036,
+        "maxy": 8.767926
       }
     },
     {
@@ -10390,6 +11926,12 @@
       "CENTROID": {
         "xc": -71.39742,
         "yc": 8.705606
+      },
+      "BBOX": {
+        "minx": -71.558501,
+        "miny": 8.608178,
+        "maxx": -71.213377,
+        "maxy": 8.799924
       }
     },
     {
@@ -10416,6 +11958,12 @@
       "CENTROID": {
         "xc": -71.726989,
         "yc": 8.335944
+      },
+      "BBOX": {
+        "minx": -71.806533,
+        "miny": 8.239314,
+        "maxx": -71.670049,
+        "maxy": 8.435879
       }
     },
     {
@@ -10442,6 +11990,12 @@
       "CENTROID": {
         "xc": -71.071712,
         "yc": 8.523052
+      },
+      "BBOX": {
+        "minx": -71.235864,
+        "miny": 8.288401,
+        "maxx": -70.849321,
+        "maxy": 8.819012
       }
     },
     {
@@ -10468,6 +12022,12 @@
       "CENTROID": {
         "xc": -70.677194,
         "yc": 8.869018
+      },
+      "BBOX": {
+        "minx": -70.812804,
+        "miny": 8.748488,
+        "maxx": -70.543646,
+        "maxy": 9.011943
       }
     },
     {
@@ -10494,6 +12054,12 @@
       "CENTROID": {
         "xc": -71.402486,
         "yc": 8.113188
+      },
+      "BBOX": {
+        "minx": -71.637146,
+        "miny": 7.847232,
+        "maxx": -71.178385,
+        "maxy": 8.363666
       }
     },
     {
@@ -10520,6 +12086,12 @@
       "CENTROID": {
         "xc": -71.442416,
         "yc": 8.818783
+      },
+      "BBOX": {
+        "minx": -71.597245,
+        "miny": 8.709658,
+        "maxx": -71.288814,
+        "maxy": 8.939048
       }
     },
     {
@@ -10546,6 +12118,12 @@
       "CENTROID": {
         "xc": -71.130491,
         "yc": 8.180089
+      },
+      "BBOX": {
+        "minx": -71.293896,
+        "miny": 7.905045,
+        "maxx": -70.906751,
+        "maxy": 8.386243
       }
     },
     {
@@ -10572,6 +12150,12 @@
       "CENTROID": {
         "xc": -71.461223,
         "yc": 8.445936
+      },
+      "BBOX": {
+        "minx": -71.594915,
+        "miny": 8.237422,
+        "maxx": -71.303183,
+        "maxy": 8.637562
       }
     },
     {
@@ -10598,6 +12182,12 @@
       "CENTROID": {
         "xc": -71.689972,
         "yc": 8.155037
+      },
+      "BBOX": {
+        "minx": -71.824333,
+        "miny": 8.004764,
+        "maxx": -71.561397,
+        "maxy": 8.300634
       }
     },
     {
@@ -10624,6 +12214,12 @@
       "CENTROID": {
         "xc": -71.465424,
         "yc": 7.801468
+      },
+      "BBOX": {
+        "minx": -71.533962,
+        "miny": 7.662029,
+        "maxx": -71.372761,
+        "maxy": 7.907935
       }
     },
     {
@@ -10650,6 +12246,12 @@
       "CENTROID": {
         "xc": -70.874131,
         "yc": 8.724272
+      },
+      "BBOX": {
+        "minx": -71.039896,
+        "miny": 8.585283,
+        "maxx": -70.707017,
+        "maxy": 8.893632
       }
     },
     {
@@ -10676,6 +12278,12 @@
       "CENTROID": {
         "xc": -64.089955,
         "yc": 10.921901
+      },
+      "BBOX": {
+        "minx": -64.230401,
+        "miny": 10.794005,
+        "maxx": -63.990934,
+        "maxy": 11.01494
       }
     },
     {
@@ -10702,6 +12310,12 @@
       "CENTROID": {
         "xc": -63.906639,
         "yc": 10.955037
+      },
+      "BBOX": {
+        "minx": -63.9434,
+        "miny": 10.88287,
+        "maxx": -63.847617,
+        "maxy": 11.005602
       }
     },
     {
@@ -10728,6 +12342,12 @@
       "CENTROID": {
         "xc": -63.97507,
         "yc": 10.976735
+      },
+      "BBOX": {
+        "minx": -64.035398,
+        "miny": 10.891146,
+        "maxx": -63.897863,
+        "maxy": 11.050428
       }
     },
     {
@@ -10754,6 +12374,12 @@
       "CENTROID": {
         "xc": -63.921715,
         "yc": 11.08095
+      },
+      "BBOX": {
+        "minx": -63.976084,
+        "miny": 11.020436,
+        "maxx": -63.883747,
+        "maxy": 11.140072
       }
     },
     {
@@ -10780,6 +12406,12 @@
       "CENTROID": {
         "xc": -63.943841,
         "yc": 10.769809
+      },
+      "BBOX": {
+        "minx": -64.00563,
+        "miny": 10.730099,
+        "maxx": -63.893302,
+        "maxy": 10.811254
       }
     },
     {
@@ -10806,6 +12438,12 @@
       "CENTROID": {
         "xc": -63.818518,
         "yc": 11.005259
+      },
+      "BBOX": {
+        "minx": -63.857698,
+        "miny": 10.979447,
+        "maxx": -63.776425,
+        "maxy": 11.033093
       }
     },
     {
@@ -10832,6 +12470,12 @@
       "CENTROID": {
         "xc": -63.860988,
         "yc": 10.952917
+      },
+      "BBOX": {
+        "minx": -63.901915,
+        "miny": 10.884429,
+        "maxx": -63.814713,
+        "maxy": 10.985827
       }
     },
     {
@@ -10858,6 +12502,12 @@
       "CENTROID": {
         "xc": -63.978874,
         "yc": 11.056813
+      },
+      "BBOX": {
+        "minx": -64.015694,
+        "miny": 11.023394,
+        "maxx": -63.948692,
+        "maxy": 11.110488
       }
     },
     {
@@ -10884,6 +12534,12 @@
       "CENTROID": {
         "xc": -63.858896,
         "yc": 11.032376
+      },
+      "BBOX": {
+        "minx": -63.913426,
+        "miny": 10.99644,
+        "maxx": -63.801937,
+        "maxy": 11.063952
       }
     },
     {
@@ -10910,6 +12566,12 @@
       "CENTROID": {
         "xc": -63.867415,
         "yc": 11.107607
+      },
+      "BBOX": {
+        "minx": -63.912438,
+        "miny": 11.060509,
+        "maxx": -63.820355,
+        "maxy": 11.180035
       }
     },
     {
@@ -10936,6 +12598,12 @@
       "CENTROID": {
         "xc": -64.274425,
         "yc": 11.005222
+      },
+      "BBOX": {
+        "minx": -64.409719,
+        "miny": 10.934472,
+        "maxx": -64.165459,
+        "maxy": 11.086018
       }
     },
     {
@@ -10962,6 +12630,12 @@
       "CENTROID": {
         "xc": -69.19096,
         "yc": 9.203214
+      },
+      "BBOX": {
+        "minx": -69.31743,
+        "miny": 8.928736,
+        "maxx": -69.019738,
+        "maxy": 9.478735
       }
     },
     {
@@ -10988,6 +12662,12 @@
       "CENTROID": {
         "xc": -69.070268,
         "yc": 9.608141
+      },
+      "BBOX": {
+        "minx": -69.1771,
+        "miny": 9.503105,
+        "maxx": -68.952077,
+        "maxy": 9.706884
       }
     },
     {
@@ -11014,6 +12694,12 @@
       "CENTROID": {
         "xc": -69.929144,
         "yc": 9.478273
+      },
+      "BBOX": {
+        "minx": -70.025039,
+        "miny": 9.356479,
+        "maxx": -69.826351,
+        "maxy": 9.567817
       }
     },
     {
@@ -11040,6 +12726,12 @@
       "CENTROID": {
         "xc": -68.995538,
         "yc": 9.659011
+      },
+      "BBOX": {
+        "minx": -69.093619,
+        "miny": 9.548274,
+        "maxx": -68.909884,
+        "maxy": 9.778246
       }
     },
     {
@@ -11066,6 +12758,12 @@
       "CENTROID": {
         "xc": -69.728856,
         "yc": 9.13925
+      },
+      "BBOX": {
+        "minx": -70.001344,
+        "miny": 8.860731,
+        "maxx": -69.435269,
+        "maxy": 9.439976
       }
     },
     {
@@ -11092,6 +12790,12 @@
       "CENTROID": {
         "xc": -68.92903,
         "yc": 8.51914
+      },
+      "BBOX": {
+        "minx": -69.524768,
+        "miny": 8.091236,
+        "maxx": -68.511488,
+        "maxy": 8.794316
       }
     },
     {
@@ -11118,6 +12822,12 @@
       "CENTROID": {
         "xc": -69.920867,
         "yc": 8.920562
+      },
+      "BBOX": {
+        "minx": -70.202095,
+        "miny": 8.706005,
+        "maxx": -69.569141,
+        "maxy": 9.180286
       }
     },
     {
@@ -11144,6 +12854,12 @@
       "CENTROID": {
         "xc": -68.899517,
         "yc": 9.239264
+      },
+      "BBOX": {
+        "minx": -69.193586,
+        "miny": 8.982603,
+        "maxx": -68.628564,
+        "maxy": 9.462118
       }
     },
     {
@@ -11170,6 +12886,12 @@
       "CENTROID": {
         "xc": -68.874275,
         "yc": 8.99627
+      },
+      "BBOX": {
+        "minx": -69.111257,
+        "miny": 8.822308,
+        "maxx": -68.550498,
+        "maxy": 9.22979
       }
     },
     {
@@ -11196,6 +12918,12 @@
       "CENTROID": {
         "xc": -69.283949,
         "yc": 9.596697
+      },
+      "BBOX": {
+        "minx": -69.443947,
+        "miny": 9.401259,
+        "maxx": -69.050633,
+        "maxy": 9.845876
       }
     },
     {
@@ -11222,6 +12950,12 @@
       "CENTROID": {
         "xc": -69.034395,
         "yc": 9.475049
+      },
+      "BBOX": {
+        "minx": -69.235935,
+        "miny": 9.346039,
+        "maxx": -68.826084,
+        "maxy": 9.577674
       }
     },
     {
@@ -11248,6 +12982,12 @@
       "CENTROID": {
         "xc": -69.991167,
         "yc": 9.282
+      },
+      "BBOX": {
+        "minx": -70.114588,
+        "miny": 9.166268,
+        "maxx": -69.865867,
+        "maxy": 9.426197
       }
     },
     {
@@ -11274,6 +13014,12 @@
       "CENTROID": {
         "xc": -69.243681,
         "yc": 8.837659
+      },
+      "BBOX": {
+        "minx": -69.694291,
+        "miny": 8.669801,
+        "maxx": -68.589224,
+        "maxy": 9.059119
       }
     },
     {
@@ -11300,6 +13046,12 @@
       "CENTROID": {
         "xc": -69.425653,
         "yc": 9.269073
+      },
+      "BBOX": {
+        "minx": -69.693436,
+        "miny": 8.922495,
+        "maxx": -69.097543,
+        "maxy": 9.556685
       }
     },
     {
@@ -11326,6 +13078,12 @@
       "CENTROID": {
         "xc": -64.24352,
         "yc": 10.261486
+      },
+      "BBOX": {
+        "minx": -64.530706,
+        "miny": 10.061177,
+        "maxx": -64.009181,
+        "maxy": 10.480108
       }
     },
     {
@@ -11352,6 +13110,12 @@
       "CENTROID": {
         "xc": -63.335586,
         "yc": 10.524588
+      },
+      "BBOX": {
+        "minx": -63.441048,
+        "miny": 10.359079,
+        "maxx": -63.200752,
+        "maxy": 10.66763
       }
     },
     {
@@ -11378,6 +13142,12 @@
       "CENTROID": {
         "xc": -63.30841,
         "yc": 10.330936
+      },
+      "BBOX": {
+        "minx": -63.497068,
+        "miny": 10.144039,
+        "maxx": -63.093977,
+        "maxy": 10.663488
       }
     },
     {
@@ -11404,6 +13174,12 @@
       "CENTROID": {
         "xc": -63.986571,
         "yc": 10.600274
+      },
+      "BBOX": {
+        "minx": -64.296648,
+        "miny": 10.503071,
+        "maxx": -63.713937,
+        "maxy": 10.708008
       }
     },
     {
@@ -11430,6 +13206,12 @@
       "CENTROID": {
         "xc": -62.773682,
         "yc": 10.68543
+      },
+      "BBOX": {
+        "minx": -63.215669,
+        "miny": 10.594459,
+        "maxx": -61.847375,
+        "maxy": 10.765256
       }
     },
     {
@@ -11456,6 +13238,12 @@
       "CENTROID": {
         "xc": -62.935048,
         "yc": 10.316351
+      },
+      "BBOX": {
+        "minx": -63.30474,
+        "miny": 10.032721,
+        "maxx": -62.609205,
+        "maxy": 10.628808
       }
     },
     {
@@ -11482,6 +13270,12 @@
       "CENTROID": {
         "xc": -63.269219,
         "yc": 10.631735
+      },
+      "BBOX": {
+        "minx": -63.441406,
+        "miny": 10.5322,
+        "maxx": -63.170535,
+        "maxy": 10.693072
       }
     },
     {
@@ -11508,6 +13302,12 @@
       "CENTROID": {
         "xc": -63.939982,
         "yc": 10.402649
+      },
+      "BBOX": {
+        "minx": -64.055097,
+        "miny": 10.340868,
+        "maxx": -63.839136,
+        "maxy": 10.454661
       }
     },
     {
@@ -11534,6 +13334,12 @@
       "CENTROID": {
         "xc": -62.242762,
         "yc": 10.643296
+      },
+      "BBOX": {
+        "minx": -62.476716,
+        "miny": 10.532223,
+        "maxx": -61.857628,
+        "maxy": 10.736967
       }
     },
     {
@@ -11560,6 +13366,12 @@
       "CENTROID": {
         "xc": -62.823306,
         "yc": 10.610783
+      },
+      "BBOX": {
+        "minx": -62.941284,
+        "miny": 10.52972,
+        "maxx": -62.695339,
+        "maxy": 10.690604
       }
     },
     {
@@ -11586,6 +13398,12 @@
       "CENTROID": {
         "xc": -63.768946,
         "yc": 10.387874
+      },
+      "BBOX": {
+        "minx": -63.872067,
+        "miny": 10.295792,
+        "maxx": -63.667207,
+        "maxy": 10.472476
       }
     },
     {
@@ -11612,6 +13430,12 @@
       "CENTROID": {
         "xc": -63.003207,
         "yc": 10.553539
+      },
+      "BBOX": {
+        "minx": -63.123198,
+        "miny": 10.471619,
+        "maxx": -62.867362,
+        "maxy": 10.615854
       }
     },
     {
@@ -11638,6 +13462,12 @@
       "CENTROID": {
         "xc": -63.924139,
         "yc": 10.221695
+      },
+      "BBOX": {
+        "minx": -64.113195,
+        "miny": 10.083968,
+        "maxx": -63.701926,
+        "maxy": 10.37219
       }
     },
     {
@@ -11664,6 +13494,12 @@
       "CENTROID": {
         "xc": -62.569891,
         "yc": 10.622061
+      },
+      "BBOX": {
+        "minx": -62.753154,
+        "miny": 10.533392,
+        "maxx": -62.43032,
+        "maxy": 10.711134
       }
     },
     {
@@ -11690,6 +13526,12 @@
       "CENTROID": {
         "xc": -63.579639,
         "yc": 10.432151
+      },
+      "BBOX": {
+        "minx": -63.76952,
+        "miny": 10.195061,
+        "maxx": -63.320311,
+        "maxy": 10.656643
       }
     },
     {
@@ -11716,6 +13558,12 @@
       "CENTROID": {
         "xc": -70.586201,
         "yc": 9.123368
+      },
+      "BBOX": {
+        "minx": -70.730187,
+        "miny": 8.974262,
+        "maxx": -70.443898,
+        "maxy": 9.29286
       }
     },
     {
@@ -11742,6 +13590,12 @@
       "CENTROID": {
         "xc": -70.235174,
         "yc": 9.6612
+      },
+      "BBOX": {
+        "minx": -70.497975,
+        "miny": 9.42008,
+        "maxx": -69.995922,
+        "maxy": 9.842638
       }
     },
     {
@@ -11768,6 +13622,12 @@
       "CENTROID": {
         "xc": -70.42717,
         "yc": 9.324397
+      },
+      "BBOX": {
+        "minx": -70.568274,
+        "miny": 9.173754,
+        "maxx": -70.292153,
+        "maxy": 9.449703
       }
     },
     {
@@ -11794,6 +13654,12 @@
       "CENTROID": {
         "xc": -70.45938,
         "yc": 9.514825
+      },
+      "BBOX": {
+        "minx": -70.61637,
+        "miny": 9.412962,
+        "maxx": -70.288299,
+        "maxy": 9.624442
       }
     },
     {
@@ -11820,6 +13686,12 @@
       "CENTROID": {
         "xc": -70.514721,
         "yc": 9.422519
+      },
+      "BBOX": {
+        "minx": -70.572798,
+        "miny": 9.362791,
+        "maxx": -70.450935,
+        "maxy": 9.50015
       }
     },
     {
@@ -11846,6 +13718,12 @@
       "CENTROID": {
         "xc": -70.423841,
         "yc": 9.644441
+      },
+      "BBOX": {
+        "minx": -70.562537,
+        "miny": 9.507254,
+        "maxx": -70.29176,
+        "maxy": 9.804187
       }
     },
     {
@@ -11872,6 +13750,12 @@
       "CENTROID": {
         "xc": -70.732396,
         "yc": 9.345442
+      },
+      "BBOX": {
+        "minx": -70.811578,
+        "miny": 9.264837,
+        "maxx": -70.656526,
+        "maxy": 9.414338
       }
     },
     {
@@ -11898,6 +13782,12 @@
       "CENTROID": {
         "xc": -70.559706,
         "yc": 9.853333
+      },
+      "BBOX": {
+        "minx": -70.702214,
+        "miny": 9.694213,
+        "maxx": -70.322858,
+        "maxy": 10.039165
       }
     },
     {
@@ -11924,6 +13814,12 @@
       "CENTROID": {
         "xc": -70.083411,
         "yc": 9.408934
+      },
+      "BBOX": {
+        "minx": -70.143009,
+        "miny": 9.335357,
+        "maxx": -70.034925,
+        "maxy": 9.52806
       }
     },
     {
@@ -11950,6 +13846,12 @@
       "CENTROID": {
         "xc": -70.673922,
         "yc": 9.192564
+      },
+      "BBOX": {
+        "minx": -70.800742,
+        "miny": 9.048994,
+        "maxx": -70.559478,
+        "maxy": 9.364966
       }
     },
     {
@@ -11976,6 +13878,12 @@
       "CENTROID": {
         "xc": -70.262805,
         "yc": 9.21678
+      },
+      "BBOX": {
+        "minx": -70.555371,
+        "miny": 8.952097,
+        "maxx": -70.041943,
+        "maxy": 9.524545
       }
     },
     {
@@ -12002,6 +13910,12 @@
       "CENTROID": {
         "xc": -70.988652,
         "yc": 9.476159
+      },
+      "BBOX": {
+        "minx": -71.091959,
+        "miny": 9.329901,
+        "maxx": -70.903358,
+        "maxy": 9.61681
       }
     },
     {
@@ -12028,6 +13942,12 @@
       "CENTROID": {
         "xc": -70.824571,
         "yc": 9.494396
+      },
+      "BBOX": {
+        "minx": -70.906598,
+        "miny": 9.39644,
+        "maxx": -70.649425,
+        "maxy": 9.592532
       }
     },
     {
@@ -12054,6 +13974,12 @@
       "CENTROID": {
         "xc": -70.72508,
         "yc": 9.647406
+      },
+      "BBOX": {
+        "minx": -70.843256,
+        "miny": 9.556647,
+        "maxx": -70.633464,
+        "maxy": 9.771635
       }
     },
     {
@@ -12080,6 +14006,12 @@
       "CENTROID": {
         "xc": -70.832917,
         "yc": 9.379042
+      },
+      "BBOX": {
+        "minx": -70.904709,
+        "miny": 9.257683,
+        "maxx": -70.755174,
+        "maxy": 9.477158
       }
     },
     {
@@ -12106,6 +14038,12 @@
       "CENTROID": {
         "xc": -70.572274,
         "yc": 9.357384
+      },
+      "BBOX": {
+        "minx": -70.600681,
+        "miny": 9.258498,
+        "maxx": -70.536963,
+        "maxy": 9.455833
       }
     },
     {
@@ -12132,6 +14070,12 @@
       "CENTROID": {
         "xc": -70.661464,
         "yc": 9.556997
+      },
+      "BBOX": {
+        "minx": -70.805424,
+        "miny": 9.413593,
+        "maxx": -70.516696,
+        "maxy": 9.727094
       }
     },
     {
@@ -12158,6 +14102,12 @@
       "CENTROID": {
         "xc": -70.85603,
         "yc": 9.219299
+      },
+      "BBOX": {
+        "minx": -71.056641,
+        "miny": 9.074234,
+        "maxx": -70.71268,
+        "maxy": 9.375023
       }
     },
     {
@@ -12184,6 +14134,12 @@
       "CENTROID": {
         "xc": -70.611677,
         "yc": 9.44541
+      },
+      "BBOX": {
+        "minx": -70.665683,
+        "miny": 9.343361,
+        "maxx": -70.565029,
+        "maxy": 9.56156
       }
     },
     {
@@ -12210,6 +14166,12 @@
       "CENTROID": {
         "xc": -70.719017,
         "yc": 9.271638
+      },
+      "BBOX": {
+        "minx": -70.815985,
+        "miny": 9.1964,
+        "maxx": -70.629289,
+        "maxy": 9.374943
       }
     },
     {
@@ -12236,6 +14198,12 @@
       "CENTROID": {
         "xc": -72.183898,
         "yc": 7.737247
+      },
+      "BBOX": {
+        "minx": -72.27602,
+        "miny": 7.665212,
+        "maxx": -72.073923,
+        "maxy": 7.812575
       }
     },
     {
@@ -12262,6 +14230,12 @@
       "CENTROID": {
         "xc": -72.047972,
         "yc": 8.395803
+      },
+      "BBOX": {
+        "minx": -72.17259,
+        "miny": 8.291377,
+        "maxx": -71.930109,
+        "maxy": 8.512902
       }
     },
     {
@@ -12288,6 +14262,12 @@
       "CENTROID": {
         "xc": -71.991001,
         "yc": 7.533112
+      },
+      "BBOX": {
+        "minx": -72.200372,
+        "miny": 7.36113,
+        "maxx": -71.789737,
+        "maxy": 7.734758
       }
     },
     {
@@ -12314,6 +14294,12 @@
       "CENTROID": {
         "xc": -71.752872,
         "yc": 7.905746
+      },
+      "BBOX": {
+        "minx": -72.002727,
+        "miny": 7.629974,
+        "maxx": -71.508649,
+        "maxy": 8.179706
       }
     },
     {
@@ -12340,6 +14326,12 @@
       "CENTROID": {
         "xc": -72.083766,
         "yc": 8.017779
+      },
+      "BBOX": {
+        "minx": -72.152357,
+        "miny": 7.925091,
+        "maxx": -72.019747,
+        "maxy": 8.111667
       }
     },
     {
@@ -12366,6 +14358,12 @@
       "CENTROID": {
         "xc": -72.333503,
         "yc": 7.810965
+      },
+      "BBOX": {
+        "minx": -72.406399,
+        "miny": 7.691633,
+        "maxx": -72.262131,
+        "maxy": 7.905571
       }
     },
     {
@@ -12392,6 +14390,12 @@
       "CENTROID": {
         "xc": -71.897627,
         "yc": 7.913297
+      },
+      "BBOX": {
+        "minx": -71.994516,
+        "miny": 7.819221,
+        "maxx": -71.778553,
+        "maxy": 8.032977
       }
     },
     {
@@ -12418,6 +14422,12 @@
       "CENTROID": {
         "xc": -72.0925,
         "yc": 8.13243
+      },
+      "BBOX": {
+        "minx": -72.19031,
+        "miny": 8.072921,
+        "maxx": -72.019742,
+        "maxy": 8.211471
       }
     },
     {
@@ -12444,6 +14454,12 @@
       "CENTROID": {
         "xc": -72.366021,
         "yc": 7.627394
+      },
+      "BBOX": {
+        "minx": -72.44739,
+        "miny": 7.411891,
+        "maxx": -72.284104,
+        "maxy": 7.790021
       }
     },
     {
@@ -12470,6 +14486,12 @@
       "CENTROID": {
         "xc": -72.186534,
         "yc": 7.988214
+      },
+      "BBOX": {
+        "minx": -72.27278,
+        "miny": 7.93059,
+        "maxx": -72.114479,
+        "maxy": 8.088699
       }
     },
     {
@@ -12496,6 +14518,12 @@
       "CENTROID": {
         "xc": -72.424166,
         "yc": 7.761527
+      },
+      "BBOX": {
+        "minx": -72.474056,
+        "miny": 7.635801,
+        "maxx": -72.350668,
+        "maxy": 7.871425
       }
     },
     {
@@ -12522,6 +14550,12 @@
       "CENTROID": {
         "xc": -72.432437,
         "yc": 7.531223
+      },
+      "BBOX": {
+        "minx": -72.478029,
+        "miny": 7.400669,
+        "maxx": -72.383417,
+        "maxy": 7.703332
       }
     },
     {
@@ -12548,6 +14582,12 @@
       "CENTROID": {
         "xc": -72.286974,
         "yc": 8.114533
+      },
+      "BBOX": {
+        "minx": -72.393666,
+        "miny": 7.978921,
+        "maxx": -72.16359,
+        "maxy": 8.315426
       }
     },
     {
@@ -12574,6 +14614,12 @@
       "CENTROID": {
         "xc": -72.043016,
         "yc": 8.259723
+      },
+      "BBOX": {
+        "minx": -72.159872,
+        "miny": 8.181548,
+        "maxx": -71.951528,
+        "maxy": 8.344546
       }
     },
     {
@@ -12600,6 +14646,12 @@
       "CENTROID": {
         "xc": -72.259508,
         "yc": 8.3142
+      },
+      "BBOX": {
+        "minx": -72.407999,
+        "miny": 8.162756,
+        "maxx": -72.127657,
+        "maxy": 8.500641
       }
     },
     {
@@ -12626,6 +14678,12 @@
       "CENTROID": {
         "xc": -71.991646,
         "yc": 7.872035
+      },
+      "BBOX": {
+        "minx": -72.124757,
+        "miny": 7.748406,
+        "maxx": -71.836713,
+        "maxy": 8.018874
       }
     },
     {
@@ -12652,6 +14710,12 @@
       "CENTROID": {
         "xc": -72.144042,
         "yc": 7.887926
+      },
+      "BBOX": {
+        "minx": -72.20363,
+        "miny": 7.827499,
+        "maxx": -72.078563,
+        "maxy": 7.93779
       }
     },
     {
@@ -12678,6 +14742,12 @@
       "CENTROID": {
         "xc": -72.153641,
         "yc": 8.175304
+      },
+      "BBOX": {
+        "minx": -72.217971,
+        "miny": 8.089033,
+        "maxx": -72.093572,
+        "maxy": 8.249468
       }
     },
     {
@@ -12704,6 +14774,12 @@
       "CENTROID": {
         "xc": -72.283174,
         "yc": 7.930705
+      },
+      "BBOX": {
+        "minx": -72.37331,
+        "miny": 7.867549,
+        "maxx": -72.142553,
+        "maxy": 8.018831
       }
     },
     {
@@ -12730,6 +14806,12 @@
       "CENTROID": {
         "xc": -71.883792,
         "yc": 8.496338
+      },
+      "BBOX": {
+        "minx": -71.987484,
+        "miny": 8.34611,
+        "maxx": -71.774106,
+        "maxy": 8.648495
       }
     },
     {
@@ -12756,6 +14838,12 @@
       "CENTROID": {
         "xc": -72.287485,
         "yc": 7.827461
+      },
+      "BBOX": {
+        "minx": -72.317124,
+        "miny": 7.752048,
+        "maxx": -72.258638,
+        "maxy": 7.879506
       }
     },
     {
@@ -12782,6 +14870,12 @@
       "CENTROID": {
         "xc": -71.623755,
         "yc": 7.639868
+      },
+      "BBOX": {
+        "minx": -71.83878,
+        "miny": 7.474843,
+        "maxx": -71.316773,
+        "maxy": 7.842994
       }
     },
     {
@@ -12808,6 +14902,12 @@
       "CENTROID": {
         "xc": -72.159427,
         "yc": 7.659915
+      },
+      "BBOX": {
+        "minx": -72.247274,
+        "miny": 7.614713,
+        "maxx": -72.067948,
+        "maxy": 7.705488
       }
     },
     {
@@ -12834,6 +14934,12 @@
       "CENTROID": {
         "xc": -72.233503,
         "yc": 7.852064
+      },
+      "BBOX": {
+        "minx": -72.276684,
+        "miny": 7.824878,
+        "maxx": -72.194328,
+        "maxy": 7.884836
       }
     },
     {
@@ -12860,6 +14966,12 @@
       "CENTROID": {
         "xc": -71.955478,
         "yc": 8.192792
+      },
+      "BBOX": {
+        "minx": -72.045952,
+        "miny": 8.004976,
+        "maxx": -71.86379,
+        "maxy": 8.383601
       }
     },
     {
@@ -12886,6 +14998,12 @@
       "CENTROID": {
         "xc": -72.237088,
         "yc": 7.537624
+      },
+      "BBOX": {
+        "minx": -72.389305,
+        "miny": 7.411899,
+        "maxx": -72.05542,
+        "maxy": 7.694071
       }
     },
     {
@@ -12912,6 +15030,12 @@
       "CENTROID": {
         "xc": -71.851772,
         "yc": 8.326299
+      },
+      "BBOX": {
+        "minx": -71.899316,
+        "miny": 8.264212,
+        "maxx": -71.805853,
+        "maxy": 8.374722
       }
     },
     {
@@ -12938,6 +15062,12 @@
       "CENTROID": {
         "xc": -72.412428,
         "yc": 7.946208
+      },
+      "BBOX": {
+        "minx": -72.489778,
+        "miny": 7.859129,
+        "maxx": -72.345444,
+        "maxy": 8.035311
       }
     },
     {
@@ -12964,6 +15094,12 @@
       "CENTROID": {
         "xc": -72.096847,
         "yc": 7.789625
+      },
+      "BBOX": {
+        "minx": -72.277128,
+        "miny": 7.694094,
+        "maxx": -71.969259,
+        "maxy": 7.873169
       }
     },
     {
@@ -12990,6 +15126,12 @@
       "CENTROID": {
         "xc": -68.742502,
         "yc": 10.231649
+      },
+      "BBOX": {
+        "minx": -68.803192,
+        "miny": 10.189573,
+        "maxx": -68.674684,
+        "maxy": 10.2804
       }
     },
     {
@@ -13016,6 +15158,12 @@
       "CENTROID": {
         "xc": -68.857729,
         "yc": 10.250721
+      },
+      "BBOX": {
+        "minx": -68.911334,
+        "miny": 10.181949,
+        "maxx": -68.791343,
+        "maxy": 10.328404
       }
     },
     {
@@ -13042,6 +15190,12 @@
       "CENTROID": {
         "xc": -68.64184,
         "yc": 10.05568
+      },
+      "BBOX": {
+        "minx": -68.974155,
+        "miny": 9.83442,
+        "maxx": -68.354962,
+        "maxy": 10.366671
       }
     },
     {
@@ -13068,6 +15222,12 @@
       "CENTROID": {
         "xc": -68.73549,
         "yc": 10.635929
+      },
+      "BBOX": {
+        "minx": -68.873846,
+        "miny": 10.452513,
+        "maxx": -68.609883,
+        "maxy": 10.774064
       }
     },
     {
@@ -13094,6 +15254,12 @@
       "CENTROID": {
         "xc": -68.799951,
         "yc": 10.250506
+      },
+      "BBOX": {
+        "minx": -68.885552,
+        "miny": 10.149001,
+        "maxx": -68.694717,
+        "maxy": 10.363168
       }
     },
     {
@@ -13120,6 +15286,12 @@
       "CENTROID": {
         "xc": -68.898183,
         "yc": 10.45668
+      },
+      "BBOX": {
+        "minx": -69.078882,
+        "miny": 10.2867,
+        "maxx": -68.713172,
+        "maxy": 10.649597
       }
     },
     {
@@ -13146,6 +15318,12 @@
       "CENTROID": {
         "xc": -68.677931,
         "yc": 10.40695
+      },
+      "BBOX": {
+        "minx": -68.778071,
+        "miny": 10.209286,
+        "maxx": -68.603745,
+        "maxy": 10.606839
       }
     },
     {
@@ -13172,6 +15350,12 @@
       "CENTROID": {
         "xc": -68.774349,
         "yc": 10.300096
+      },
+      "BBOX": {
+        "minx": -68.828193,
+        "miny": 10.197643,
+        "maxx": -68.671154,
+        "maxy": 10.403392
       }
     },
     {
@@ -13198,6 +15382,12 @@
       "CENTROID": {
         "xc": -69.000164,
         "yc": 10.078575
+      },
+      "BBOX": {
+        "minx": -69.070358,
+        "miny": 9.993207,
+        "maxx": -68.921899,
+        "maxy": 10.156859
       }
     },
     {
@@ -13224,6 +15414,12 @@
       "CENTROID": {
         "xc": -68.996374,
         "yc": 10.195056
+      },
+      "BBOX": {
+        "minx": -69.080109,
+        "miny": 10.088765,
+        "maxx": -68.901861,
+        "maxy": 10.32999
       }
     },
     {
@@ -13250,6 +15446,12 @@
       "CENTROID": {
         "xc": -68.511948,
         "yc": 10.435947
+      },
+      "BBOX": {
+        "minx": -68.652177,
+        "miny": 10.20649,
+        "maxx": -68.248721,
+        "maxy": 10.606091
       }
     },
     {
@@ -13276,6 +15478,12 @@
       "CENTROID": {
         "xc": -69.106765,
         "yc": 10.051532
+      },
+      "BBOX": {
+        "minx": -69.208288,
+        "miny": 9.869736,
+        "maxx": -69.012855,
+        "maxy": 10.235377
       }
     },
     {
@@ -13302,6 +15510,12 @@
       "CENTROID": {
         "xc": -68.874537,
         "yc": 10.17393
+      },
+      "BBOX": {
+        "minx": -69.001243,
+        "miny": 10.066553,
+        "maxx": -68.713568,
+        "maxy": 10.325698
       }
     },
     {
@@ -13328,6 +15542,12 @@
       "CENTROID": {
         "xc": -68.730097,
         "yc": 10.304092
+      },
+      "BBOX": {
+        "minx": -68.79961,
+        "miny": 10.209286,
+        "maxx": -68.671154,
+        "maxy": 10.414961
       }
     },
     {
@@ -13354,6 +15574,12 @@
       "CENTROID": {
         "xc": -71.282586,
         "yc": 10.305818
+      },
+      "BBOX": {
+        "minx": -71.416171,
+        "miny": 10.213664,
+        "maxx": -71.146757,
+        "maxy": 10.384635
       }
     },
     {
@@ -13380,6 +15606,12 @@
       "CENTROID": {
         "xc": -71.932228,
         "yc": 8.84953
+      },
+      "BBOX": {
+        "minx": -72.19454,
+        "miny": 8.423985,
+        "maxx": -71.645218,
+        "maxy": 9.239145
       }
     },
     {
@@ -13406,6 +15638,12 @@
       "CENTROID": {
         "xc": -71.693084,
         "yc": 10.67761
+      },
+      "BBOX": {
+        "minx": -71.781506,
+        "miny": 10.583476,
+        "maxx": -71.581884,
+        "maxy": 10.768015
       }
     },
     {
@@ -13432,6 +15670,12 @@
       "CENTROID": {
         "xc": -71.272371,
         "yc": 10.709367
+      },
+      "BBOX": {
+        "minx": -71.593054,
+        "miny": 10.449322,
+        "maxx": -70.879226,
+        "maxy": 10.975267
       }
     },
     {
@@ -13458,6 +15702,12 @@
       "CENTROID": {
         "xc": -71.696011,
         "yc": 11.019434
+      },
+      "BBOX": {
+        "minx": -71.820536,
+        "miny": 10.855518,
+        "maxx": -71.532842,
+        "maxy": 11.13393
       }
     },
     {
@@ -13484,6 +15734,12 @@
       "CENTROID": {
         "xc": -71.70185,
         "yc": 10.55243
+      },
+      "BBOX": {
+        "minx": -71.780011,
+        "miny": 10.508534,
+        "maxx": -71.60941,
+        "maxy": 10.603545
       }
     },
     {
@@ -13510,6 +15766,12 @@
       "CENTROID": {
         "xc": -71.562493,
         "yc": 8.910365
+      },
+      "BBOX": {
+        "minx": -71.697762,
+        "miny": 8.705723,
+        "maxx": -71.377793,
+        "maxy": 9.06968
       }
     },
     {
@@ -13536,6 +15798,12 @@
       "CENTROID": {
         "xc": -72.176006,
         "yc": 9.055869
+      },
+      "BBOX": {
+        "minx": -72.49589,
+        "miny": 8.36299,
+        "maxx": -71.714154,
+        "maxy": 9.61297
       }
     },
     {
@@ -13562,6 +15830,12 @@
       "CENTROID": {
         "xc": -71.959637,
         "yc": 10.365367
+      },
+      "BBOX": {
+        "minx": -72.306996,
+        "miny": 10.082753,
+        "maxx": -71.627604,
+        "maxy": 10.510728
       }
     },
     {
@@ -13588,6 +15862,12 @@
       "CENTROID": {
         "xc": -72.604921,
         "yc": 9.783078
+      },
+      "BBOX": {
+        "minx": -73.148081,
+        "miny": 9.285247,
+        "maxx": -71.931624,
+        "maxy": 10.357547
       }
     },
     {
@@ -13614,6 +15894,12 @@
       "CENTROID": {
         "xc": -71.164723,
         "yc": 9.121531
+      },
+      "BBOX": {
+        "minx": -71.463332,
+        "miny": 8.902257,
+        "maxx": -70.892321,
+        "maxy": 9.36001
       }
     },
     {
@@ -13640,6 +15926,12 @@
       "CENTROID": {
         "xc": -71.97422,
         "yc": 11.315773
+      },
+      "BBOX": {
+        "minx": -72.49826,
+        "miny": 10.993193,
+        "maxx": -71.331292,
+        "maxy": 11.843057
       }
     },
     {
@@ -13666,6 +15958,12 @@
       "CENTROID": {
         "xc": -72.356224,
         "yc": 10.27302
+      },
+      "BBOX": {
+        "minx": -72.906469,
+        "miny": 9.839052,
+        "maxx": -71.981696,
+        "maxy": 10.62235
       }
     },
     {
@@ -13692,6 +15990,12 @@
       "CENTROID": {
         "xc": -72.304469,
         "yc": 10.624294
+      },
+      "BBOX": {
+        "minx": -72.90075,
+        "miny": 10.356955,
+        "maxx": -71.779159,
+        "maxy": 10.770003
       }
     },
     {
@@ -13718,6 +16022,12 @@
       "CENTROID": {
         "xc": -72.699088,
         "yc": 9.098694
+      },
+      "BBOX": {
+        "minx": -73.369126,
+        "miny": 8.45484,
+        "maxx": -72.297616,
+        "maxy": 9.53651
       }
     },
     {
@@ -13744,6 +16054,12 @@
       "CENTROID": {
         "xc": -70.88057,
         "yc": 9.893228
+      },
+      "BBOX": {
+        "minx": -71.093047,
+        "miny": 9.579162,
+        "maxx": -70.667631,
+        "maxy": 10.358376
       }
     },
     {
@@ -13770,6 +16086,12 @@
       "CENTROID": {
         "xc": -71.230793,
         "yc": 10.405726
+      },
+      "BBOX": {
+        "minx": -71.479429,
+        "miny": 10.32071,
+        "maxx": -70.879074,
+        "maxy": 10.477569
       }
     },
     {
@@ -13796,6 +16118,12 @@
       "CENTROID": {
         "xc": -71.131561,
         "yc": 10.237493
+      },
+      "BBOX": {
+        "minx": -71.357662,
+        "miny": 10.014449,
+        "maxx": -70.818908,
+        "maxy": 10.464189
       }
     },
     {
@@ -13822,6 +16150,12 @@
       "CENTROID": {
         "xc": -70.979914,
         "yc": 10.167805
+      },
+      "BBOX": {
+        "minx": -71.226484,
+        "miny": 9.873758,
+        "maxx": -70.757619,
+        "maxy": 10.47164
       }
     },
     {
@@ -13848,6 +16182,12 @@
       "CENTROID": {
         "xc": -72.166408,
         "yc": 10.907201
+      },
+      "BBOX": {
+        "minx": -72.682774,
+        "miny": 10.767305,
+        "maxx": -71.658705,
+        "maxy": 11.097715
       }
     },
     {
@@ -13874,6 +16214,12 @@
       "CENTROID": {
         "xc": -71.365725,
         "yc": 10.524664
+      },
+      "BBOX": {
+        "minx": -71.54194,
+        "miny": 10.436632,
+        "maxx": -71.146656,
+        "maxy": 10.619817
       }
     }
   ]

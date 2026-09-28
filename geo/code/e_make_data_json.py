@@ -109,6 +109,13 @@ def centroid_dict(geometry):
     place one marker per state/municipio without re-deriving geometry client-side."""
     point = geometry.centroid
     return {"xc": round(point.x, 6), "yc": round(point.y, 6)}
+
+
+def bbox_dict(bounds):
+    """{"minx", "miny", "maxx", "maxy"} a partir de (minx, miny, maxx, maxy).
+    float() converte os valores numpy de total_bounds para o json.dump."""
+    minx, miny, maxx, maxy = (round(float(v), 6) for v in bounds)
+    return {"minx": minx, "miny": miny, "maxx": maxx, "maxy": maxy}
  
  
 # --- one builder per output level ---
@@ -163,7 +170,11 @@ def build_small_units(level_2_gdf, by_level_2_code):
                 "CLASSIFICATION": NO_DATA,
                 "RATIO_POP_MEDIOS": None,
             })
-        small_units.append({"BASIC_INFO": basic_info, "CENTROID": centroid_dict(feat.geometry)})
+        small_units.append({
+                "BASIC_INFO": basic_info, 
+                "CENTROID": centroid_dict(feat.geometry),
+                "BBOX": bbox_dict(feat.geometry.bounds)
+            })
     return small_units
  
 def build_large_units(level_1_gdf, small_units):
@@ -223,6 +234,7 @@ def build_large_units(level_1_gdf, small_units):
                 "RATIO_POP_MEDIOS": ratio_pop_medios_value,
             },
             "ANSWERS": load_answers(feat['name']),
+            "BBOX": bbox_dict(feat.geometry.bounds),
             "CENTROID": centroid_dict(feat.geometry),
         })
     return large_units
@@ -268,6 +280,7 @@ def build_country(large_units, small_units):
             "RATIO_POP_MEDIOS": ratio_pop_medios_value,
         },
         "ANSWERS": load_answers("Venezuela"),
+        "BBOX": {"minx": -74.487305, "miny": 0.121278, "maxx": -57.656250, "maxy": 12.851870},
     }]
  
  
