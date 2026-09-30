@@ -665,9 +665,17 @@ function update_barra_classificacao() {
 
     barras.forEach(barra => {
 
-      barra.style.flexBasis = (barra.dataset.distribuicaoClassificacao == classification) ?
-        "100%" :
-        0;
+      if (barra.dataset.distribuicaoClassificacao == classification) {
+
+        barra.style.flexBasis = "100%";
+        barra.firstChild.textContent = classification;
+
+      } else {
+
+        barra.style.flexBasis = 0;
+        barra.firstChild.textContent = "";
+
+      }
 
     });
 
@@ -682,6 +690,8 @@ function update_barra_classificacao() {
       const barra = document.querySelector(`[data-distribuicao-classificacao="${tipo}"]`);
 
       barra.style.flexBasis = pcts[tipo] ? (pcts[tipo]*100 + "%") : 0;
+
+      barra.firstChild.textContent = pcts[tipo] ? ( (pcts[tipo]*100).toFixed(1) + "%") : "";
 
     })
 

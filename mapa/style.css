@@ -210,9 +210,14 @@ div.barra-classificacao {
     background-color: var(--cor-fundo);
     color: var(--cor);
     transition: flex-basis .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
+.barra-distribuicao-classificacao > div > span {
+    font-size: .8em;
+}
 
 
 /* boxes */
