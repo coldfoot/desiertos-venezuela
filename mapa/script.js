@@ -435,8 +435,7 @@ function init_map() {
     }
 
   }
-  /* inicia handlers */
-  toggle_events_large_units("on");
+
 
   /*
   map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
