@@ -12,6 +12,7 @@ map = new mapboxgl.Map({
     zoom: 4
 });
 
+/*
 const xmin = -73.3911486;
 const ymin = 0.6493155;
 const xmax = -56.4818190;
@@ -26,6 +27,7 @@ const bbox = [
 ];
 
 const venezuela_bbox = [-73.3911486, 0.6493155, -56.4818190, 15.7029483];
+*/
 
 let data, current_place_data;
 
@@ -42,21 +44,14 @@ function init(data_) {
 
   data = data_;
 
-  const colors_codes = {
-    Bosque: "#657034",
-    Desierto: "#b26d36",
-    Semidesierto: "#d4ba99",
-    Semibosque: "#e0d579"
+  const color_codes = {
+    BOSQUE: "#657034",
+    DESIERTO: "#b26d36",
+    SEMIDESIERTO: "#d4ba99",
+    SEMIBOSQUE: "#e0d579"
 };
 
-  const colors = {};
-  data.small_units.forEach(small_unit => {
-
-    colors[small_unit.BASIC_INFO.LEVEL_2_CODE] = colors_codes[small_unit.BASIC_INFO.CLASSIFICATION];
-
-  })
-
-  color_map = Object.entries(colors).flat();
+  colors = Object.entries(color_codes).flat();
 
   console.log(colors);
 
@@ -69,8 +64,6 @@ function init_map() {
   // já preenche os dados da Venezuela no card
   current_place_data = data.country[0];
   preenche_dados_card();
-
-  console.log(color_map);
 
   map.on('load', () => {
 
@@ -109,25 +102,30 @@ function init_map() {
       'promoteId' : 'code'
   });
 
+  map.addSource('small-units', {
+      'type': 'vector',
+      'url': 'mapbox://tiagombp.4u3ayb1hj5di',
+      'promoteId' : 'code'
+  });
+
   /* camadas das small units */
-/*
+
   map.addLayer({
     'id': 'small_units_fill',
     'type': 'fill',
-    'source': 'venezuela',
-    'source-layer': "628134755d56856f760c",
+    'source': 'small-units',
+    'source-layer': "ccfc20288643c896b78c",
     'paint': {
         'fill-color' :
           [
               'match',
-              ['to-string', ['get', 'code']],
-              ...color_map,
+              ['to-string', ['get', 'classification']],
+              ...colors,
               'transparent'
-          ],
-        'fill-outline-color' : 'black'
+          ]/*,
+        'fill-outline-color' : 'gray'*/
     }
   });
-*/
 
   /* camadas das large units */
 
@@ -171,16 +169,16 @@ function init_map() {
       'source': 'large-units',
       'source-layer': "e6ce5cc1dd5b09147e8a",
       'paint': {
-          'line-color' : 'black',
-          'line-opacity': [
+          'line-color' : '#333',
+          'line-width': [
             'case',
             [
                 'boolean', 
                 ['feature-state', 'hover'], 
                 false
             ],
-            1,
-            0
+            3,
+            1
           ]
         }
   });
@@ -268,7 +266,7 @@ function init_map() {
     // limpa o hover state featureState
 
     // não teria que setar o provinciaHoveredId para null?
-    provinciaHoveredId = null;
+    //provinciaHoveredId = null;
 
     map.setFeatureState(
         { 
@@ -287,8 +285,6 @@ function init_map() {
   function toggle_events_large_units(mode) {
 
     if( mode == "on") {
-
-      mouse_leave_handler_large();
 
       map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
       map.on('mouseleave', 'large_units_hover', mouse_leave_handler_large);
@@ -313,21 +309,15 @@ function init_map() {
 
   render_venezuela();
 
-  function render_venezuela() {
+  function render_any_place() {
 
-    current_place_data = data.country[0];
-
+    const bbox = Object.values(current_place_data.BBOX);
     update_barra_classificacao();
     preenche_dados_card();
 
-    toggle_highlight_large_unit("");
-
-    // desabilita os eventos de provincia
-    toggle_events_large_units("on");
-
     map.fitBounds(
       
-      venezuela_bbox, 
+      bbox, 
 
       {
           linear : false, // false means the map transitions using map.flyTo()
@@ -336,6 +326,24 @@ function init_map() {
       }
 
     );
+
+  }
+
+  function render_venezuela() {
+
+    console.log("Rendering Venezuela, ", provinciaHoveredId)
+    // pega os dados
+    current_place_data = data.country[0];
+
+    render_any_place();
+
+    toggle_highlight_large_unit("");
+
+    mouse_leave_handler_large();
+    // habilita os eventos de provincia
+    toggle_events_large_units("on");
+
+
   
   }
 
@@ -345,15 +353,16 @@ function init_map() {
     current_place_data = data.large_units.filter(d => d.BASIC_INFO.LEVEL_1_CODE == place_id)[0];
     console.log(current_place_data);
 
+    render_any_place();
+
+
     // coloca a borda
     toggle_highlight_large_unit(place_id);
 
     // desabilita os eventos de provincia
     toggle_events_large_units("off");
 
-    // preenche os campos de texto do card
-    preenche_dados_card();
-    update_barra_classificacao();
+
 
   }
 
@@ -435,8 +444,6 @@ function update_barra_classificacao() {
   tipos.forEach(tipo => {
 
     const barra = document.querySelector(`[data-distribuicao-classificacao="${tipo}"]`);
-
-    console.log(barra, pcts[tipo]);
 
     barra.style.flexBasis = pcts[tipo] ? (pcts[tipo]*100 + "%") : 0;
 

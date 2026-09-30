@@ -125,12 +125,13 @@ div.barra-classificacao {
 
 .busca input {
     flex-grow: 1;
+    background-color: transparent;
+    border: none;
 }
 
 /* MAP */
 
 #map {
-    border: 1px solid hotpink;
     height: 50%;
     width: 100%;
 }
@@ -191,6 +192,8 @@ div.barra-classificacao {
 
 .btn-box-wrapper {
     display: flex;
+    background-color: #AF967E20;
+    border-radius: 5px;
 }
 
 .container-boxes {
@@ -203,10 +206,9 @@ div.barra-classificacao {
     flex: 0 0 50%;
     margin: 0;
     padding: .5rem;
-    background-color: transparent;
-    border-radius: 5px;
     border: none;
-    margin-bottom: -1px
+    margin-bottom: -1px;
+    background-color: transparent;
 
 }
 
@@ -214,6 +216,7 @@ div.barra-classificacao {
 
     border: 1px solid black;
     border-bottom-color: var(--bg);
+    background-color: var(--bg);
 
 }
 
