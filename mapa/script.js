@@ -31,6 +31,10 @@ const venezuela_bbox = [-73.3911486, 0.6493155, -56.4818190, 15.7029483];
 
 let data, current_place_data, current_large_unit, current_small_unit;
 
+const table_names_large_units = {};
+
+let flag_monitorando_small_units = false;
+
 let padding = {
   top: 20,
   bottom: 20,
@@ -43,6 +47,14 @@ fetch("../geo/output/data.json").then(response => response.json()).then(data_ =>
 function init(data_) {
 
   data = data_;
+
+  data.large_units.forEach(unit => {
+
+    table_names_large_units[unit.BASIC_INFO.KEY] = unit.BASIC_INFO.NAME;
+
+  })
+
+
 
   const color_codes = {
     BOSQUE: "#657034",
@@ -422,11 +434,15 @@ function init_map() {
 
     if( mode == "on") {
 
+      flag_monitorando_small_units = true;
+
       map.on('mousemove', 'small_units_hover', mouse_enter_handler_small);
       map.on('mouseleave', 'small_units_hover', mouse_leave_handler_small);
       map.on("click", 'small_units_hover', click_handler_small);
 
     } else {
+
+      flag_monitorando_small_units = false;
 
       map.off('mousemove', 'small_units_hover', mouse_enter_handler_small);
       map.off('mouseleave', 'small_units_hover', mouse_leave_handler_small);
@@ -515,7 +531,11 @@ function init_map() {
     toggle_borders_small_units("on");
 
     // monitora eventos small units
-    toggle_events_small_units("on");
+    if (!flag_monitorando_small_units) {
+
+      toggle_events_small_units("on");
+      
+    }
 
   }
 
@@ -525,7 +545,10 @@ function init_map() {
     current_place_data = data.small_units.filter(d => d.BASIC_INFO.LEVEL_2_CODE == place_id)[0];
 
     const place_name = current_place_data.BASIC_INFO.NAME;
-    const provincia = current_place_data.BASIC_INFO.PARENT;
+    
+    // o "PARENT" vem em minúscula e sem acentos
+    const identificador_provincia = current_place_data.BASIC_INFO.PARENT;
+    const provincia = table_names_large_units[identificador_provincia];
 
     // atualiza informações de contexto
     current_large_unit = provincia;
@@ -541,7 +564,16 @@ function init_map() {
   home_button.addEventListener("click", e => {
 
     render_venezuela();
-})
+
+  });
+
+  btn_breadcrumb_large_unit.addEventListener("click", e => {
+
+    render_large_unit(current_large_unit);
+
+  })
+
+
   
 });
 
