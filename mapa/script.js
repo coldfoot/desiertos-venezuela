@@ -53,8 +53,6 @@ function init(data_) {
 
   colors = Object.entries(color_codes).flat();
 
-  console.log(colors);
-
   init_map(data);
 
 }
@@ -66,35 +64,6 @@ function init_map() {
   preenche_dados_card();
 
   map.on('load', () => {
-
-  /*
-  map.fitBounds([-73.3911486, 0.6493155, -56.4818190, 15.7029483] , {
-    padding: 50,
-    duration: 0
-  });*/
-
-  /*
-  map.addSource('bbox', {
-    type: 'geojson',
-    data: {
-        type: 'Feature',
-        geometry: {
-        type: 'Polygon',
-        coordinates: bbox
-        }
-    }
-  });
-
-  map.addLayer({
-    id: 'bbox',
-    type: 'line',
-    source: 'bbox',
-    paint: {
-        'line-color': 'red',
-        'line-width': 10,
-        'line-dasharray': [2, 2]
-    }
-  });*/
 
   map.addSource('large-units', {
       'type': 'vector',
@@ -109,6 +78,8 @@ function init_map() {
   });
 
   /* camadas das small units */
+
+  let localidadHoveredId = null;
 
   map.addLayer({
     'id': 'small_units_fill',
@@ -126,6 +97,47 @@ function init_map() {
         'fill-outline-color' : 'gray'*/
     }
   });
+
+  map.addLayer({
+
+    'id': 'small_units_border',
+    'type': 'line',
+    'source': 'small-units',
+    'source-layer': "ccfc20288643c896b78c",
+    'paint': {
+        'line-color' : "#666",
+        'line-width' : 0
+    }
+  });
+
+  map.addLayer({
+    'id': 'small_units_hover',
+    'type': 'fill',
+    'source': 'small-units',
+    'source-layer': "ccfc20288643c896b78c",
+    'paint': {
+        'fill-color' : 'white',
+        'fill-opacity': [
+          'case',
+          [
+              'boolean', 
+              ['feature-state', 'hover'], 
+              false
+          ],
+          .1,
+          0
+        ]
+      }
+  });
+
+  function toggle_borders_small_units(mode) {
+
+    map.setPaintProperty(
+      'small_units_border', 
+      'line-width', mode == 'on' ? 1 : 0
+    )
+
+  }
 
   /* camadas das large units */
 
@@ -190,7 +202,14 @@ function init_map() {
       }
   );
 
-  /* handlers */
+  const popup_small_units = new mapboxgl.Popup(
+      {
+          closeButton: false,
+          loseOnClick: false
+      }
+  );
+
+  /* handlers large units */
 
   function mouse_enter_handler_large(e) {
     
@@ -278,6 +297,8 @@ function init_map() {
         { hover : false }
     );
 
+    console.log("Clicado");
+
     render_large_unit(place_name);
 
   }
@@ -299,6 +320,121 @@ function init_map() {
     }
 
   }
+
+  /* habndlers small units */
+
+  function mouse_enter_handler_small(e) {
+    
+    map.getCanvas().style.cursor = 'pointer';
+
+    const place_id = e.features[0].properties.code;
+    const place_name = e.features[0].properties.name;
+
+    const place_data = data.small_units.filter(d => d.BASIC_INFO.LEVEL_2_CODE == place_id)[0]
+    const centroid = place_data.CENTROID;
+
+    let coordinates = [
+      centroid.xc,
+      centroid.yc
+    ]; 
+
+    popup_small_units.setLngLat(coordinates).setHTML(place_name).addTo(map);
+
+    if (localidadHoveredId) {
+        map.setFeatureState(
+            { 
+              source: 'small-units',
+              sourceLayer: "ccfc20288643c896b78c",
+              id: localidadHoveredId
+            },
+
+            { hover : false }
+        )
+
+    }
+
+    localidadHoveredId = place_id;
+
+    map.setFeatureState(
+        { 
+          source: 'small-units',
+          sourceLayer: "ccfc20288643c896b78c",
+          id: localidadHoveredId
+        },
+
+        { hover : true }
+    )
+
+  }
+
+  function mouse_leave_handler_small() {
+
+    popup_small_units.remove();
+
+    if (localidadHoveredId) {
+        
+      map.setFeatureState(
+
+        { 
+          source: 'small-units',
+          sourceLayer: "ccfc20288643c896b78c",
+          id: localidadHoveredId
+        },
+
+          { hover: false }
+      );
+    }
+
+    localidadHoveredId = null;
+
+  }
+
+  function click_handler_small(e) {
+    
+    const place_id = e.features[0].properties.code;
+
+    //current_small_unit = place_name;
+
+    //last_provincia_location_data = place_data;
+
+    // limpa o hover state featureState
+
+    // não teria que setar o provinciaHoveredId para null?
+    //provinciaHoveredId = null;
+
+    map.setFeatureState(
+      { 
+        source: 'small-units',
+        sourceLayer: "ccfc20288643c896b78c",
+        id: localidadHoveredId
+      },
+
+      { hover : false }
+    );
+
+    render_small_unit(place_id);
+
+  }
+
+  function toggle_events_small_units(mode) {
+
+    console.log("chamado", mode);
+
+    if( mode == "on") {
+
+      map.on('mousemove', 'small_units_hover', mouse_enter_handler_small);
+      map.on('mouseleave', 'small_units_hover', mouse_leave_handler_small);
+      map.on("click", 'small_units_hover', click_handler_small);
+
+    } else {
+
+      map.off('mousemove', 'small_units_hover', mouse_enter_handler_small);
+      map.off('mouseleave', 'small_units_hover', mouse_leave_handler_small);
+      map.off("click", 'small_units_hover', click_handler_small);
+
+    }
+
+  }
   /* inicia handlers */
   toggle_events_large_units("on");
 
@@ -312,7 +448,7 @@ function init_map() {
   function render_any_place() {
 
     const bbox = Object.values(current_place_data.BBOX);
-    update_barra_classificacao();
+    if (!current_small_unit) update_barra_classificacao();
     preenche_dados_card();
     atualiza_bread_crumb();
 
@@ -331,8 +467,6 @@ function init_map() {
   }
 
   function render_venezuela() {
-
-    console.log("Rendering Venezuela, ", provinciaHoveredId)
     
     // pega os dados
     current_place_data = data.country[0];
@@ -349,13 +483,20 @@ function init_map() {
     // habilita os eventos de provincia
     toggle_events_large_units("on");
 
+
+    toggle_borders_small_units("off");
+
+    // desabilita os eventos de localidade
+    toggle_events_small_units("off");
+
   }
 
   function render_large_unit(place_name) {
 
+    console.log("large units chamado", place_name);
+
     // pega os dados    
     current_place_data = data.large_units.filter(d => d.BASIC_INFO.NAME == place_name)[0];
-    console.log(current_place_data);
 
     const place_id = current_place_data.BASIC_INFO.LEVEL_1_CODE;
 
@@ -371,10 +512,35 @@ function init_map() {
     // desabilita os eventos de provincia
     toggle_events_large_units("off");
 
+    // mostra fronteiras das small units
+    toggle_borders_small_units("on");
+
+    // monitora eventos small units
+    toggle_events_small_units("on");
+
+  }
+
+  function render_small_unit(place_id) {
+
+    // pega os dados    
+    current_place_data = data.small_units.filter(d => d.BASIC_INFO.LEVEL_2_CODE == place_id)[0];
+
+    const place_name = current_place_data.BASIC_INFO.NAME;
+    const provincia = current_place_data.BASIC_INFO.PARENT;
+
+    // atualiza informações de contexto
+    current_large_unit = provincia;
+    current_small_unit = place_name;
+
+    render_any_place();
+
+    // coloca a borda
+    //toggle_highlight_large_unit(place_id);
+
   }
 
   home_button.addEventListener("click", e => {
-    console.log("VENEZUELA");
+
     render_venezuela();
 })
   
@@ -414,8 +580,6 @@ function preenche_dados_card() {
 }
 
 function atualiza_bread_crumb() {
-
-  console.log(current_large_unit);
 
   btn_breadcrumb_large_unit.textContent = current_large_unit ?
     (" / " + current_large_unit) :
