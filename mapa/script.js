@@ -447,7 +447,7 @@ function init_map() {
   function render_any_place() {
 
     const bbox = Object.values(current_place_data.BBOX);
-    if (!current_small_unit) update_barra_classificacao();
+    update_barra_classificacao();
     preenche_dados_card();
     atualiza_bread_crumb();
 
@@ -625,17 +625,35 @@ btns_boxes.addEventListener("click", e => {
 
 function update_barra_classificacao() {
 
-  const pcts = current_place_data.BASIC_INFO.CLASSIFICATION_PCT;
+  if (current_small_unit) {
 
-  const tipos = ["Desierto", "Semidesierto", "Semibosque", "Bosque"];
+    const classification = current_place_data.BASIC_INFO.CLASSIFICATION;
 
-  tipos.forEach(tipo => {
+    const barras = document.querySelectorAll("[data-distribuicao-classificacao]");
 
-    const barra = document.querySelector(`[data-distribuicao-classificacao="${tipo}"]`);
+    barras.forEach(barra => {
 
-    barra.style.flexBasis = pcts[tipo] ? (pcts[tipo]*100 + "%") : 0;
+      barra.style.flexBasis = (barra.dataset.distribuicaoClassificacao == classification) ?
+        "100%" :
+        0;
 
-  })
+    });
+
+  } else {
+
+    const pcts = current_place_data.BASIC_INFO.CLASSIFICATION_PCT;
+
+    const tipos = ["Desierto", "Semidesierto", "Semibosque", "Bosque"];
+
+    tipos.forEach(tipo => {
+
+      const barra = document.querySelector(`[data-distribuicao-classificacao="${tipo}"]`);
+
+      barra.style.flexBasis = pcts[tipo] ? (pcts[tipo]*100 + "%") : 0;
+
+    })
+
+  }
 
 }
 
