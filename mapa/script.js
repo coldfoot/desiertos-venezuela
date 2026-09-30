@@ -29,7 +29,7 @@ const bbox = [
 const venezuela_bbox = [-73.3911486, 0.6493155, -56.4818190, 15.7029483];
 */
 
-let data, current_place_data;
+let data, current_place_data, current_large_unit, current_small_unit;
 
 let padding = {
   top: 20,
@@ -259,7 +259,7 @@ function init_map() {
 
   function click_handler_large(e) {
     
-    const place_id = e.features[0].properties.code;
+    const place_name = e.features[0].properties.name;
 
     //last_provincia_location_data = place_data;
 
@@ -278,7 +278,7 @@ function init_map() {
         { hover : false }
     );
 
-    render_large_unit(place_id);
+    render_large_unit(place_name);
 
   }
 
@@ -314,6 +314,7 @@ function init_map() {
     const bbox = Object.values(current_place_data.BBOX);
     update_barra_classificacao();
     preenche_dados_card();
+    atualiza_bread_crumb();
 
     map.fitBounds(
       
@@ -332,37 +333,43 @@ function init_map() {
   function render_venezuela() {
 
     console.log("Rendering Venezuela, ", provinciaHoveredId)
+    
     // pega os dados
     current_place_data = data.country[0];
+    
+    // reseta as informações do contexto
+    current_large_unit = undefined;
+    current_small_unit = undefined;
 
     render_any_place();
 
+    // remove o highlight na large unit
     toggle_highlight_large_unit("");
 
-    mouse_leave_handler_large();
     // habilita os eventos de provincia
     toggle_events_large_units("on");
 
-
-  
   }
 
-  function render_large_unit(place_id) {
+  function render_large_unit(place_name) {
 
     // pega os dados    
-    current_place_data = data.large_units.filter(d => d.BASIC_INFO.LEVEL_1_CODE == place_id)[0];
+    current_place_data = data.large_units.filter(d => d.BASIC_INFO.NAME == place_name)[0];
     console.log(current_place_data);
 
-    render_any_place();
+    const place_id = current_place_data.BASIC_INFO.LEVEL_1_CODE;
 
+    // atualiza informações de contexto
+    current_large_unit = place_name;
+    current_small_unit = undefined;
+
+    render_any_place();
 
     // coloca a borda
     toggle_highlight_large_unit(place_id);
 
     // desabilita os eventos de provincia
     toggle_events_large_units("off");
-
-
 
   }
 
@@ -406,6 +413,22 @@ function preenche_dados_card() {
 
 }
 
+function atualiza_bread_crumb() {
+
+  console.log(current_large_unit);
+
+  btn_breadcrumb_large_unit.textContent = current_large_unit ?
+    (" / " + current_large_unit) :
+    ""
+  ;
+
+  btn_breadcrumb_small_unit.textContent = current_small_unit ?
+    (" / " + current_small_unit) :
+    ""
+  ;
+
+}
+
 function formata_numero(texto) {
 
   return new Intl.NumberFormat('es-VE').format(texto); 
@@ -417,7 +440,9 @@ function formata_numero(texto) {
 
 const btns_boxes = document.querySelector(".btn-box-wrapper");
 const boxes = document.querySelector(".box");
-const home_button = document.querySelector(".home-btn");
+const home_button = document.querySelector(".btn-breadcrumb-venezuela");
+const btn_breadcrumb_large_unit = document.querySelector(".btn-breadcrumb-large-unit");
+const btn_breadcrumb_small_unit = document.querySelector(".btn-breadcrumb-small-unit");
 
 btns_boxes.addEventListener("click", e => {
 
