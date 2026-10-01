@@ -123,6 +123,18 @@ function init_map() {
   });
 
   map.addLayer({
+      'id': 'small_units_border_highlight',
+      'type': 'line',
+      'source': 'small-units',
+      'source-layer': "ccfc20288643c896b78c",
+      'paint': {
+          'line-color' : 'black',
+          'line-width' : 3
+      },
+      'filter': ['==', 'localidad', '']
+  });
+
+  map.addLayer({
     'id': 'small_units_hover',
     'type': 'fill',
     'source': 'small-units',
@@ -141,6 +153,7 @@ function init_map() {
         ]
       }
   });
+
 
   function toggle_borders_small_units(mode) {
 
@@ -452,6 +465,18 @@ function init_map() {
 
   }
 
+    function toggle_highlight_small_unit(place_id) {
+
+      map.setFilter(
+        'small_units_border_highlight', [
+          '==',
+          ['get', 'code'],
+          place_id
+        ]
+      );
+
+    }
+
 
   /*
   map.on('mousemove', 'large_units_hover', mouse_enter_handler_large);
@@ -500,6 +525,7 @@ function init_map() {
 
 
     toggle_borders_small_units("off");
+    toggle_highlight_small_unit('');
 
     // desabilita os eventos de localidade
     toggle_events_small_units("off");
@@ -529,6 +555,7 @@ function init_map() {
 
     // mostra fronteiras das small units
     toggle_borders_small_units("on");
+    toggle_highlight_small_unit('');
 
     // monitora eventos small units
     if (!flag_monitorando_small_units) {
@@ -550,9 +577,20 @@ function init_map() {
     const identificador_provincia = current_place_data.BASIC_INFO.PARENT;
     const provincia = table_names_large_units[identificador_provincia];
 
+    // faz o highlight na provincia da small unit
+    if (provincia != current_large_unit) {
+
+      const provincia_code = current_place_data.BASIC_INFO.LEVEL_1_CODE;
+
+      toggle_highlight_large_unit(provincia_code);
+
+    }
+
     // atualiza informações de contexto
     current_large_unit = provincia;
     current_small_unit = place_name;
+
+    toggle_highlight_small_unit(place_id);
 
     render_any_place();
 
