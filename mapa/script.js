@@ -31,6 +31,8 @@ const venezuela_bbox = [-73.3911486, 0.6493155, -56.4818190, 15.7029483];
 
 let data, current_place_data, current_large_unit, current_small_unit;
 
+let lista_locais;
+
 const table_names_large_units = {};
 
 let flag_monitorando_small_units = false;
@@ -324,8 +326,6 @@ function init_map() {
         { hover : false }
     );
 
-    console.log("Clicado");
-
     render_large_unit(place_name);
 
   }
@@ -613,6 +613,47 @@ function init_map() {
 
   })
 
+  search_bar.addEventListener("change", e => {
+  
+    const value = e.target.value;
+
+    const valid_option = lista_locais.find(option => option.value == value);
+
+    console.log(value, valid_option);
+
+    if (valid_option) {
+
+      const tipo = valid_option.dataset.tipoLocalidade;
+      const id = valid_option.dataset.code;
+
+      if (tipo == "small_unit") {
+
+        // como pode acontecer de a pessoa ir direto para a small unit via search, aqui complementamos ações que seriam feitas se a pessoa tivesse seguido o fluxo normal venezuela > large_unit > small_unit. Essas ações teriam sido disparadas pelo render_large_units:
+
+        // desabilita os eventos de provincia
+        toggle_events_large_units("off");
+        // mostra fronteiras das small units
+        toggle_borders_small_units("on");
+
+        // monitora eventos small units
+        if (!flag_monitorando_small_units) {
+
+          toggle_events_small_units("on");
+          
+        }
+
+        render_small_unit(id);
+
+      } else {
+
+        render_large_unit(value);
+        
+      }
+
+    }
+
+  })
+
 
   
 });
@@ -672,6 +713,8 @@ function formata_numero(texto) {
 }
 
 function populate_datalist() {
+
+  //listalocais é o id do datalist no html, está sendo referenciada diretamente aqui;
   
   data.large_units.forEach(large_unit => {
 
@@ -684,7 +727,7 @@ function populate_datalist() {
 
     listalocais.appendChild(new_option);
     
-  })
+  });
 
   data.small_units.forEach(small_unit => {
 
@@ -697,7 +740,9 @@ function populate_datalist() {
 
     listalocais.appendChild(new_option);
     
-  })
+  });
+
+  lista_locais = Array.from(listalocais.options);
 
 }
 
@@ -708,6 +753,7 @@ const boxes = document.querySelector(".box");
 const home_button = document.querySelector(".btn-breadcrumb-venezuela");
 const btn_breadcrumb_large_unit = document.querySelector(".btn-breadcrumb-large-unit");
 const btn_breadcrumb_small_unit = document.querySelector(".btn-breadcrumb-small-unit");
+const search_bar = document.querySelector(".busca input");
 
 btns_boxes.addEventListener("click", e => {
 
