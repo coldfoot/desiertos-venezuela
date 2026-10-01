@@ -54,6 +54,8 @@ function init(data_) {
 
   })
 
+  populate_datalist();
+
 
 
   const color_codes = {
@@ -666,6 +668,36 @@ function formata_numero(texto) {
 
   return new Intl.NumberFormat('es-VE').format(texto); 
 
+
+}
+
+function populate_datalist() {
+  
+  data.large_units.forEach(large_unit => {
+
+    const new_option = document.createElement("option");
+
+    new_option.label = large_unit.BASIC_INFO.NAME;
+    new_option.value = large_unit.BASIC_INFO.NAME;
+    new_option.dataset.tipoLocalidade = "large_unit";
+    new_option.dataset.code = large_unit.BASIC_INFO.LEVEL_1_CODE;
+
+    listalocais.appendChild(new_option);
+    
+  })
+
+  data.small_units.forEach(small_unit => {
+
+    const new_option = document.createElement("option");
+
+    new_option.label = `${small_unit.BASIC_INFO.NAME}, ${table_names_large_units[small_unit.BASIC_INFO.PARENT]}`;
+    new_option.value = small_unit.BASIC_INFO.NAME;
+    new_option.dataset.tipoLocalidade = "small_unit";
+    new_option.dataset.code = small_unit.BASIC_INFO.LEVEL_2_CODE;
+
+    listalocais.appendChild(new_option);
+    
+  })
 
 }
 
