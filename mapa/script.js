@@ -760,13 +760,13 @@ const home_button = document.querySelector(".btn-breadcrumb-venezuela");
 const btn_breadcrumb_large_unit = document.querySelector(".btn-breadcrumb-large-unit");
 const btn_breadcrumb_small_unit = document.querySelector(".btn-breadcrumb-small-unit");
 const search_bar = document.querySelector(".busca input");
-const perguntas = document.querySelector(".box-perguntas");
+const preguntas = document.querySelector(".box-preguntas");
 const modal = document.querySelector(".modal-viz");
 const bg_modal= document.querySelector(".bg-modal-viz");
 const btn_close_modal = document.querySelector("button.close-modal");
 const container_principal = document.querySelector(".container-principal");
 
-perguntas.addEventListener("click", e => {
+preguntas.addEventListener("click", e => {
 
   if (e.target.tagName == "LI") {
 
