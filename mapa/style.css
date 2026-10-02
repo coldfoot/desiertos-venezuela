@@ -149,8 +149,13 @@ button.btn-menu[data-state="close menu"] .line-mid {
 div.barra-classificacao { 
 
     display: flex;
-    flex: 0 0 3rem;
+    flex: 0 0 2.5rem;
+    height: 2.5rem;
 
+}
+
+.barra-classificacao img {
+    height: 2rem;
 }
 
 .barra-classificacao > div {

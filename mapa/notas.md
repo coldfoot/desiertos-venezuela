@@ -24,3 +24,10 @@ Intuição de que o breadcrumb pode fazer alguma coisa. Fundo?
 
 https://blog.master.dev/modern-css-round-out-tabs/
 
+
+Quando clicar em um local de uma provincia diferente, atualizar o border highlight.
+
+ok Implementar clique no botao do breadcrumb da provincia.
+
+* Filtros de tipo de terreno;
+* Menu;
