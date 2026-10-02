@@ -205,7 +205,12 @@ div.barra-classificacao {
 }
 
 /* CONTAINER MAPA */
+.container-mapa {
 
+    display: flex;
+    flex-direction: column;
+
+}
 /* BUSCA */
 
 .busca {
@@ -228,7 +233,7 @@ div.barra-classificacao {
 /* MAP */
 
 #map {
-    height: 100%;
+    flex-grow: 1;
     width: 100%;
 }
 
