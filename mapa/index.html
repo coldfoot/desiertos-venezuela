@@ -74,6 +74,7 @@
             </div>
 
             <div class="container-card">
+
                 <div class="wrapper-breadcrumb barra-topo-container">
                     <button class="btn-breadcrumb-venezuela">
                         <img class="home-btn" src="home.svg" alt="">
@@ -83,6 +84,7 @@
                     <button class="btn-breadcrumb-small-unit"></button>
                     
                 </div>
+
                 <div id="card">
 
                     <h2 data-texto-card="NAME">Venezuela</h2>
@@ -111,11 +113,11 @@
                         </div>
                         <div class="box-perguntas">
                             <ul>
-                                <li>1</li>
-                                <li>2</li>
-                                <li>3</li>
-                                <li>4</li>
-                                <li>5</li>
+                                <li data-topic="formato">¿En qué plataformas publican?</li>
+                                <li data-topic="naturaleza_legal">¿Qué tipo de medio es?</li>
+                                <li data-topic="tematicas">¿Qué temas cubren?</li>
+                                <li data-topic="ingresos">¿Cómo se financian?</li>
+                                <li data-topic="censura">¿Han enfrentado censura o presiones?</li>
                             </ul>
                         </div>
                     </div>
@@ -125,10 +127,36 @@
         </div>
     </div>
 
+    <div class="modal-viz" data-modal-active="none">
+        <button class="close-modal">&times;</button>
+        <div class="bg-modal-viz"></div>
+        <div class="container-viz">
+            <!--<p class="chapeu-viz-main-title"></p>-->
+            <h4 class="viz-main-title">¿En qué plataforma publican los medios?</h4>
+            <p class="viz-subtitle">
+            </p>
+
+            <div class="minicharts-global-container"></div>
+
+            <div class="footer-modal-viz">
+                <div class="logo-wrapper-modal">
+                    <img src="IPYS_logo_black.png" alt="Logo de Ipys" class="logo">
+                </div>
+
+                <!--<a class="modal-viz-descargar-datos">
+                    <img src="../img/download-botao.svg" alt="" class="btn-download-data"><span>Descargar Datos</span>
+                </a>-->
+
+            </div>
+
+        </div>
+    </div>
+
     <script src="https://api.mapbox.com/mapbox-gl-js/v3.29.0/mapbox-gl.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="script.js"></script>
     <script src="script-btn.js"></script>
+    <script src="viz.js"></script>
     
 </body>
 </html>

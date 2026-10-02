@@ -9,6 +9,7 @@
     --desierto: #b26d36;
     --semidesierto: #d4ba99;
     --semibosque: #e0d579;
+    --color-accent: hotpink;
 }
 
 body {
@@ -370,3 +371,217 @@ div.barra-classificacao {
 
 .box[data-modo-ativo="hallazgos"] > .box-perguntas { display: none; }
 .box[data-modo-ativo="perguntas"] > .box-hallazgos { display: none; }
+
+/* PERGUNTAS */
+
+.box-perguntas li {
+
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.box-perguntas li + li {
+
+    margin-top: 1em;
+
+}
+
+.box-perguntas li::before {
+    content: "\002B";
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--black);
+    color: var(--bg);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1em;
+}
+
+/********/
+
+/* MODAL VIZ */
+
+.modal-viz {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity .6s;
+    z-index: 3; /*para ficar acima do texto, no mobile */
+}
+
+.modal-viz[data-modal-active="none"] {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.modal-viz[data-modal-active="none"] .bg-modal-viz {
+    opacity: 0;
+}
+
+.bg-modal-viz {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--black);
+    opacity: .8;
+    transition: opacity .6s;
+}
+
+button.close-modal {
+    position: absolute;
+    border: none;
+    top: 1rem;
+    right: 1rem;
+    font-weight: bold;
+    font-size: 3rem;
+    transform-origin: center center;
+    background-color: var(--black);
+    border-radius: 50%;
+    color: var(--bg);
+    transition: transform .1s;
+    z-index: 1;
+
+    width: 3rem;
+    height: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.close-modal:hover {
+    transform: scale(130%);
+}
+
+.container-viz,
+.container-modal-relato,
+.container-modal-relato-regional {
+    position: absolute;
+    top: 2rem;
+    bottom: 2rem;
+    left: 2rem;
+    right: 2rem;
+    border-radius: 10px;
+    background-color: var(--bg);
+    opacity: 0;
+    padding: 2rem 4rem;
+    overflow-y: auto;
+    transition: opacity .6s;
+}
+
+[data-modal-active="relato"] .container-viz { display: none; }
+[data-modal-active="relato"] .container-modal-relato-regional { display: none; }
+
+[data-modal-active="viz"] .container-modal-relato { display: none; }
+[data-modal-active="viz"] .container-modal-relato-regional { display: none; }
+
+[data-modal-active="relato"] .container-modal-relato { opacity: 1; }
+[data-modal-active="viz"] .container-viz { opacity: 1; }
+
+[data-modal-active="relato regional"] .container-viz { display: none; }
+[data-modal-active="relato regional"] .container-modal-relato { display: none; }
+[data-modal-active="relato regional"] .container-modal-relato-regional { opacity : 1;}
+
+.viz-main-title {
+    font-size: 2rem;
+    margin: .5rem 0;
+}
+
+.minicharts-global-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.mini-chart-title {
+    font-weight: bold;
+    padding-left: 20px;
+    margin: .5rem 0;
+    max-width: 300px;
+    height: 4ch;
+}
+
+line.strip {
+    stroke: var(--black);
+    /*stroke-width: 2;
+    opacity: 0.2;*/
+}
+
+line.strip[data-strip-type="highlight"] {
+    opacity: 1;
+    stroke: var(--color-accent);
+}
+
+line.strip[data-strip-type="promedio-country"] {
+    opacity: 1;
+    stroke: var(--color-accent);
+}
+
+line.strip[data-strip-type="promedio-provincia"] {
+    opacity: 1;
+    stroke: black;
+}
+
+line.tick {
+    stroke: var(--black);
+    stroke-width: 1;
+}
+
+text.label {
+    font-size: 10px;
+    text-anchor: middle;
+}
+
+rect.striplot-bg {
+    fill: rgba(0, 0, 0, 0.03);
+}
+
+.mini-chart-tooltip-container {
+    position: relative;
+}
+
+/*.minichart-promedio-country-label,
+.minichart-promedio-provincia-label,*/
+.minichart-selected-unit-label {
+    position: absolute;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 0 3px;
+    text-align: left;
+    color: var(--color-accent);
+    width: max-content;
+    /*transform: translate(0, -100%);*/
+}
+
+.chapeu-viz-main-title {
+    color: var(--color-accent);
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.make-left {
+    transform: translateX(-100%);
+    text-align: right;
+}
+
+.mini-chart-tooltip {
+    opacity: 0;
+    position: absolute;
+    transition: opacity .2s;
+    font-size: 12px;
+    padding: 0 .5em;
+    width: 200px;
+}
+
+.mini-chart-tooltip.tooltip-visible {
+    opacity: 1;
+}

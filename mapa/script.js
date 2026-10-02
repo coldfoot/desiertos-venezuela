@@ -33,6 +33,8 @@ let data, current_place_data, current_large_unit, current_small_unit;
 
 let lista_locais;
 
+let nivel = "pais";
+
 const table_names_large_units = {};
 
 let flag_monitorando_small_units = false;
@@ -510,6 +512,7 @@ function init_map() {
 
   function render_venezuela() {
     
+    nivel = "pais";
     // pega os dados
     current_place_data = data.country[0];
     
@@ -536,7 +539,7 @@ function init_map() {
 
   function render_large_unit(place_name) {
 
-    console.log("large units chamado", place_name);
+    nivel = "large_unit";
 
     // pega os dados    
     current_place_data = data.large_units.filter(d => d.BASIC_INFO.NAME == place_name)[0];
@@ -570,6 +573,7 @@ function init_map() {
 
   function render_small_unit(place_id) {
 
+    nivel = small_unit;
     // pega os dados    
     current_place_data = data.small_units.filter(d => d.BASIC_INFO.LEVEL_2_CODE == place_id)[0];
 
@@ -647,7 +651,7 @@ function init_map() {
       } else {
 
         render_large_unit(value);
-        
+
       }
 
     }
@@ -754,6 +758,39 @@ const home_button = document.querySelector(".btn-breadcrumb-venezuela");
 const btn_breadcrumb_large_unit = document.querySelector(".btn-breadcrumb-large-unit");
 const btn_breadcrumb_small_unit = document.querySelector(".btn-breadcrumb-small-unit");
 const search_bar = document.querySelector(".busca input");
+const perguntas = document.querySelector(".box-perguntas");
+const modal = document.querySelector(".modal-viz");
+const bg_modal= document.querySelector(".bg-modal-viz");
+const btn_close_modal = document.querySelector("button.close-modal");
+
+perguntas.addEventListener("click", e => {
+
+  if (e.target.tagName == "LI") {
+
+    const topic = e.target.dataset.topic;
+    console.log(topic);
+
+    toggle_modal("viz");
+
+    const country = "Venezuela"
+
+    if (nivel == "pais") {
+      visualize_topic(country, topic, nivel);
+    }
+
+    if (nivel == "large_unit") {
+      const provincia = current_large_unit;
+      visualize_topic(country, topic, nivel, provincia);
+    }
+
+    if (nivel == "localidad") {
+      console.log("nada aqui");
+
+    }
+
+  }
+
+})
 
 btns_boxes.addEventListener("click", e => {
 
@@ -814,5 +851,19 @@ function update_barra_classificacao() {
   }
 
 }
+
+function toggle_modal(modal_option) {
+    // none closes it
+    modal.dataset.modalActive = modal_option;
+
+}
+
+bg_modal.addEventListener("click", e => {
+    toggle_modal("none");
+});
+
+btn_close_modal.addEventListener("click", e => {
+    toggle_modal("none");
+})
 
 
