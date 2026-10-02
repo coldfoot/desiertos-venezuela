@@ -491,6 +491,8 @@ function init_map() {
 
   function render_any_place() {
 
+    container_principal.dataset.nivel = nivel;
+
     const bbox = Object.values(current_place_data.BBOX);
     update_barra_classificacao();
     preenche_dados_card();
@@ -573,7 +575,7 @@ function init_map() {
 
   function render_small_unit(place_id) {
 
-    nivel = small_unit;
+    nivel = "small_unit";
     // pega os dados    
     current_place_data = data.small_units.filter(d => d.BASIC_INFO.LEVEL_2_CODE == place_id)[0];
 
@@ -762,6 +764,7 @@ const perguntas = document.querySelector(".box-perguntas");
 const modal = document.querySelector(".modal-viz");
 const bg_modal= document.querySelector(".bg-modal-viz");
 const btn_close_modal = document.querySelector("button.close-modal");
+const container_principal = document.querySelector(".container-principal");
 
 perguntas.addEventListener("click", e => {
 

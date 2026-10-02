@@ -321,6 +321,10 @@ div.barra-classificacao {
     /* tirar depois, vou usar o gap do flex */
 }
 
+[data-nivel="small_unit"] .container-boxes {
+    display: none;
+}
+
 .container-boxes button {
 
     flex: 0 0 50%;
