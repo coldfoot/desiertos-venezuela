@@ -336,7 +336,8 @@ div.barra-classificacao {
 
 }
 
-.container-boxes button.ativo {
+.container-boxes button.ativo,
+[data-nivel="large_unit"] .container-boxes button[data-btn-box="perguntas"] {
 
     border: 1px solid black;
     border-bottom-color: var(--bg);
@@ -375,6 +376,10 @@ div.barra-classificacao {
 
 .box[data-modo-ativo="hallazgos"] > .box-perguntas { display: none; }
 .box[data-modo-ativo="perguntas"] > .box-hallazgos { display: none; }
+
+[data-nivel="large_unit"] .box[data-modo-ativo] > .box-hallazgos { display: none; }
+[data-nivel="large_unit"] .box[data-modo-ativo] > .box-perguntas { display: initial; }
+[data-nivel="large_unit"] .container-boxes button[data-btn-box="hallazgos"] { display: none; }
 
 /* PERGUNTAS */
 
