@@ -58,3 +58,12 @@ ESPELHOS = [
         ],
     },
 ]
+
+# Puestos periodísticos declarados e número de medios por cada estado.
+PUESTOS_MEDIOS = {
+    "origem": "Categorización total",
+    "destino": "PUESTOS_Y_MEDIOS_ESTADO",
+    "coluna_estado": "Estado",
+    "coluna_puestos": "Número de puestos periodísticos declarados por estado",
+    "coluna_medios": "Número de medios por estado",
+}
