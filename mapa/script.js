@@ -31,6 +31,13 @@ const venezuela_bbox = [-73.3911486, 0.6493155, -56.4818190, 15.7029483];
 
 let data, current_place_data, current_large_unit, current_small_unit;
 
+const color_codes = {
+    BOSQUE: "#657034",
+    DESIERTO: "#b26d36",
+    SEMIDESIERTO: "#d4ba99",
+    SEMIBOSQUE: "#e0d579"
+};
+
 let lista_locais;
 
 let nivel = "pais";
@@ -38,6 +45,8 @@ let nivel = "pais";
 const table_names_large_units = {};
 
 let flag_monitorando_small_units = false;
+
+let filtro_classificacao = "";
 
 let padding = {
   top: 20,
@@ -59,15 +68,6 @@ function init(data_) {
   })
 
   populate_datalist();
-
-
-
-  const color_codes = {
-    BOSQUE: "#657034",
-    DESIERTO: "#b26d36",
-    SEMIDESIERTO: "#d4ba99",
-    SEMIBOSQUE: "#e0d579"
-};
 
   colors = Object.entries(color_codes).flat();
 
@@ -765,6 +765,85 @@ const modal = document.querySelector(".modal-viz");
 const bg_modal= document.querySelector(".bg-modal-viz");
 const btn_close_modal = document.querySelector("button.close-modal");
 const container_principal = document.querySelector(".container-principal");
+const barra_classificacao = document.querySelector(".barra-classificacao");
+const wrapper_dashboard = document.querySelector(".wrapper-dash");
+
+function filter_tipo_classificacao(tipo) {
+
+  filtro_classificacao = tipo;
+
+  if (tipo != '') {
+
+    tipo = tipo.toUpperCase();
+
+    map.setPaintProperty(
+      'small_units_fill',
+      'fill-color',
+      [
+          'case',
+          [
+              '==',
+              ['get', 'classification'],
+              tipo
+          ],
+          color_codes[tipo],
+          'transparent'
+      ]
+    )
+
+  } else {
+
+    map.setPaintProperty(
+      'small_units_fill',
+      'fill-color',
+      [
+          'match',
+          ['to-string', ['get', 'classification']],
+          ...colors,
+          'transparent'
+      ]
+    )
+  }
+
+}
+
+function reseta_barra_classificacao() {
+
+  barra_classificacao.querySelectorAll("div").forEach(div => {
+    div.classList.remove("classificacao-ativa");
+  });
+}
+
+barra_classificacao.addEventListener('click', e => {
+
+  let classificacao;
+  let div;
+
+  if (e.target.tagName == "DIV") div = e.target;
+  else div = e.target.parentElement;
+
+  reseta_barra_classificacao();
+
+  classificacao = div.className;
+
+  if (classificacao == filtro_classificacao) {
+
+    filter_tipo_classificacao("");
+
+    barra_classificacao.classList.remove("classificacao-selecionada");
+
+    return;
+
+  } else {
+
+    console.log(barra_classificacao);
+    div.classList.add("classificacao-ativa");
+    barra_classificacao.classList.add("classificacao-selecionada");
+    filter_tipo_classificacao(classificacao);
+
+  }
+
+})
 
 preguntas.addEventListener("click", e => {
 

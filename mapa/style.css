@@ -159,6 +159,7 @@ div.barra-classificacao {
 }
 
 .barra-classificacao > div {
+    position: relative;
     flex: 1 1 25%;
     background-color: var(--cor-fundo);
     display: flex;
@@ -179,7 +180,27 @@ div.barra-classificacao {
 .semibosque   { --cor-fundo: var(--semibosque); --cor: var(--black); }
 .bosque       { --cor-fundo: var(--bosque); --cor: var(--bg); }
 
+.barra-classificacao.classificacao-selecionada > div {
+    filter: grayscale(1);
+    opacity: .5;
+}
 
+.barra-classificacao.classificacao-selecionada > div:hover {
+    filter: grayscale(0);
+}
+
+.barra-classificacao.classificacao-selecionada > div.classificacao-ativa {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+div.classificacao-ativa::after {
+    content: "\00D7";
+    color: var(--cor);
+    position: absolute;
+    right: 1em;
+
+}
 
 /* CONTAINER PRINCIPAL */
 
