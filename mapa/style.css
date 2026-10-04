@@ -180,6 +180,10 @@ div.barra-classificacao {
 .semibosque   { --cor-fundo: var(--semibosque); --cor: var(--black); }
 .bosque       { --cor-fundo: var(--bosque); --cor: var(--bg); }
 
+.barra-classificacao > div:hover {
+    box-shadow: 0 0 5px 5px #AF967E20;
+}
+
 .barra-classificacao.classificacao-selecionada > div {
     filter: grayscale(1);
     opacity: .5;
@@ -284,6 +288,12 @@ div.classificacao-ativa::after {
     height: 100%;
     text-transform: uppercase;
     font-size: 1rem;
+    background-color: transparent;
+
+}
+
+.wrapper-breadcrumb > button:hover {
+    background-color: #AF967E20;
 
 }
 
