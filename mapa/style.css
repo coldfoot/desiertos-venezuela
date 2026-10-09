@@ -666,6 +666,10 @@ body.pagina-hallazgos h2 {
     max-width: 500px;
 }
 
+body.pagina-hallazgos h2.titulo-analisis {
+    font-weight: bold;
+}
+
 body.pagina-hallazgos p.chapeu {
     font-weight: 200;
     text-transform: uppercase;
@@ -704,8 +708,9 @@ body.pagina-hallazgos div.main-text ul {
     padding: 0;
 }
 
-body.pagina-hallazgos div.main-text li + li {
-    margin-top: 1.25rem;
+body.pagina-hallazgos div.main-text li + li,
+body.pagina-hallazgos div.main-text p + p {
+    margin-top: 2rem;
 }
 
 body.pagina-hallazgos div.main-text .label-paysage {
