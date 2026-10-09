@@ -48,6 +48,11 @@ header {
     padding-left: .5rem;
 }
 
+.logo-ipys, 
+.wrapper-btn-menu {
+    flex: 1 1 70px;
+}
+
 h1 {
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -59,13 +64,18 @@ header.show-menu .btn-menu-content {
     transform: translateX(0);
 }
 
+.wrapper-btm-menu {
+    z-index: 5;
+}
+
 .btn-menu {
     border: none;
     margin: 0;
     background-color: transparent;
-    z-index: 5;
     padding: 0;
     padding-right: 1rem;
+    display: block;
+    margin-left: auto;
 }
 
 .btn-menu-img {
