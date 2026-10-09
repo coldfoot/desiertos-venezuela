@@ -650,3 +650,65 @@ rect.striplot-bg {
 .mini-chart-tooltip.tooltip-visible {
     opacity: 1;
 }
+
+/*PAGINA HALLAZGOS*/
+
+body.pagina-hallazgos main {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+body.pagina-hallazgos h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+body.pagina-hallazgos p.chapeu {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+body.pagina-hallazgos p.chapeu2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+body.pagina-hallazgos div.main-text {
+    margin-top: 2rem;
+}
+
+body.pagina-hallazgos div.main-text p,
+body.pagina-hallazgos div.main-text li {
+    line-height: 2rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+body.pagina-hallazgos div.main-text h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+body.pagina-hallazgos div.main-text ul {
+    margin-right: 0;
+    padding: 0;
+}
+
+body.pagina-hallazgos div.main-text li + li {
+    margin-top: 1.25rem;
+}
+
+body.pagina-hallazgos div.main-text .label-paysage {
+    background-color: var(--cor-fundo);
+    color: var(--cor);
+}

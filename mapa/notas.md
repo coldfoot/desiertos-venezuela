@@ -31,3 +31,5 @@ ok Implementar clique no botao do breadcrumb da provincia.
 
 * Filtros de tipo de terreno;
 * Menu;
+* Destacar cidade
+
