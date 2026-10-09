@@ -670,12 +670,17 @@ body.pagina-hallazgos h2.titulo-analisis {
     font-weight: bold;
 }
 
+body.pagina-hallazgos h2.titulo-metodologia {
+    font-weight: bold;
+    margin-top: 2.5rem;
+}
+
 body.pagina-hallazgos p.chapeu {
     font-weight: 200;
     text-transform: uppercase;
     font-size: 1rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 body.pagina-hallazgos p.chapeu2 {
@@ -691,7 +696,8 @@ body.pagina-hallazgos div.main-text {
 }
 
 body.pagina-hallazgos div.main-text p,
-body.pagina-hallazgos div.main-text li {
+body.pagina-hallazgos div.main-text li,
+body.pagina-hallazgos div.main-text h4.pregunta {
     line-height: 2rem;
     font-size: 1.25rem;
     font-weight: 300;
@@ -716,4 +722,11 @@ body.pagina-hallazgos div.main-text p + p {
 body.pagina-hallazgos div.main-text .label-paysage {
     background-color: var(--cor-fundo);
     color: var(--cor);
+}
+
+body.pagina-hallazgos div.main-text h4.pregunta {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
 }
