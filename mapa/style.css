@@ -740,3 +740,43 @@ body.pagina-hallazgos div.main-text h4.pregunta {
     margin-top: 2rem;
 
 }
+
+/* STORY */
+
+body.story div.opening {
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+
+
+svg.map-escuro,
+svg.map-claro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+path.map-claro {
+    stroke: #333;
+    fill: var(--bg);
+}
+
+path.map-escuro {
+    fill: #333;
+    stroke: var(--bg);
+}
+
+.map-container-escuro {
+    background-color: #333;
+}
