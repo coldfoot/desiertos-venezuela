@@ -27,6 +27,7 @@ class Mapa {
         this.svg.attr("height", this.h);
 
         this.build();
+        this.calcula_buracos();
         this.render();
 
 
@@ -44,15 +45,133 @@ class Mapa {
 
     }
 
+    calcula_buracos() {
+
+        const ideal_side = 100;
+
+        const n_w = Math.floor(this.w / ideal_side);
+        let n_h = Math.floor(this.h / ideal_side);
+
+        const actual_w = n_w * ideal_side;
+        const dif_w = (this.w - actual_w);
+
+        const side = ideal_side + dif_w;
+
+        const actual_h = n_h * side
+        if (actual_h < this.h) n_h++;
+
+        this.n_w = n_w;
+        this.n_h = n_h;
+
+        this.buracos = [];
+
+        for (let j = 0; j < n_h; j++) {
+
+            for (let i = 0; i < n_w; i++) {
+
+                const buraco = {
+                    x : i * side,
+                    y : j * side,
+                    'side' : side,
+                    I : i,
+                    J : j
+                }
+
+                this.buracos.push(buraco);
+
+
+            }
+
+        }
+
+    }
+
     render() {
 
-        this.svg.selectAll("path.mapa")
-            .data(this.features)
-            .join("path")
-            .classed("mapa", true)
-            .classed(this.ref, true)
-            .attr("d", this.path)
+        let layer = this.svg;
+
+        if (this.ref === "map-claro") {
+            const maskId = "map-claro-mask";
+            const squares = this.buracos;
+
+            const mask = this.svg.append("defs")
+                .append("mask")
+                .attr("id", maskId)
+                .attr("maskUnits", "userSpaceOnUse")
+                .attr("maskContentUnits", "userSpaceOnUse")
+                .attr("x", 0)
+                .attr("y", 0)
+                .attr("width", this.w)
+                .attr("height", this.h);
+
+            mask.append("rect")
+                .attr("width", this.w)
+                .attr("height", this.h)
+                .attr("fill", "white");
+
+            mask.selectAll("rect.hole")
+                .data(squares)
+                .join("rect")
+                .attr("class", "hole")
+                .attr("data-i", d => d.I)
+                .attr("data-j", d => d.J)
+                .attr("x", d => d.x)
+                .attr("y", d => d.y)
+                .attr("width", d => d.side)
+                .attr("height", d => d.side)
+                .attr("fill", "black")
+                .attr("opacity", 0)
+            ;
+
+            layer = this.svg.append("g")
+                .attr("mask", `url(#${maskId})`);
+        } 
+
+        layer.append("rect")
+            .attr("width", this.w)
+            .attr("height", this.h)
+            .attr("fill", this.ref === "map-claro" ? "#F4F4F4" : "#333")
         ;
+
+        layer.selectAll("path.mapa")
+                .data(this.features)
+                .join("path")
+                .classed("mapa", true)
+                .classed(this.ref, true)
+                .attr("d", this.path)
+            ;
+    }
+
+    constroi_controle_buracos() {
+
+        this.controle_buracos = [];
+
+        for (let j = 0; j < this.n_h; j++) {
+            
+            const linha = [];
+
+            for (let i = 0; i < this.n_w; i++) {
+
+                linha.push(i);
+
+            }
+
+            this.controle_buracos.push(linha);
+
+        }
+
+    }
+
+    controla_buracos(linha) {
+
+        if (linha == 0) {
+
+
+
+        }
+
+
+
     }
 
 }
