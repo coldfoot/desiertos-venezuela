@@ -790,6 +790,10 @@ div.opening h1 .linha-titulo {
     gap: 1ch;
 }
 
+div.opening h1 .linha-titulo .bloco-titulo {
+    display: flex;
+}
+
 svg.map-escuro {
     background-color: #333;
 }

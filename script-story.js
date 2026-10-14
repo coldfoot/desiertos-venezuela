@@ -33,6 +33,7 @@ class Mapa {
 
         if (this.ref === "map-claro") {
             this.seta_triggers_buracos();
+            this.seta_trigger_letras_titulo();
         }
 
 
@@ -195,6 +196,26 @@ class Mapa {
             this.anims.push(new_anim);
 
         }
+
+    }
+
+    seta_trigger_letras_titulo() {
+
+        gsap.to('span.bloco-letras', {
+
+            delay: (d,i) => gsap.utils.random(0, 1),
+
+            scrollTrigger: {
+                trigger: `[data-step="0"]`,
+                start: `top 50%`,
+                end: `+=${this.h/2}`,
+                scrub: .5
+            },
+
+            color: "#F4F4F4"
+
+
+        })
 
     }
 
