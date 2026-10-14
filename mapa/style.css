@@ -755,7 +755,7 @@ body.story div.opening {
 
 }
 
-
+/* MAPAS */
 
 svg.map-escuro,
 svg.map-claro {
@@ -765,6 +765,10 @@ svg.map-claro {
     height: 100%;
     width: 100%;
 
+}
+
+svg.map-escuro {
+    background-color: #333;
 }
 
 path.map-claro {
@@ -779,4 +783,19 @@ path.map-escuro {
 
 .map-container-escuro {
     background-color: #333;
+}
+
+/* SCROLLER */
+
+.scroller {
+    margin-top: 100vh;
+
+}
+
+.scroller-step {
+
+    height: 95vh;
+    width: 100%;
+    border: 1px solid hotpink;
+
 }

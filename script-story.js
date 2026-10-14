@@ -1,3 +1,4 @@
+gsap.registerPlugin(ScrollTrigger);
 let mapa_escuro, mapa_claro;
 
 fetch("ven.geojson").then(response => response.json()).then(data => {
@@ -29,6 +30,10 @@ class Mapa {
         this.build();
         this.calcula_buracos();
         this.render();
+
+        if (this.ref === "map-claro") {
+            this.seta_triggers_buracos();
+        }
 
 
     }
@@ -62,6 +67,7 @@ class Mapa {
 
         this.n_w = n_w;
         this.n_h = n_h;
+        this.side = side;
 
         this.buracos = [];
 
@@ -144,7 +150,7 @@ class Mapa {
 
     constroi_controle_buracos() {
 
-        this.controle_buracos = [];
+        this.buracos_a_ativar = [];
 
         for (let j = 0; j < this.n_h; j++) {
             
@@ -156,21 +162,39 @@ class Mapa {
 
             }
 
-            this.controle_buracos.push(linha);
+            this.buracos_a_ativar.push(linha);
 
         }
+
+        this.buracos_ativados = [];
+        this.buracos_meio_ativados = [];
 
     }
 
-    controla_buracos(linha) {
+    seta_triggers_buracos() {
 
-        if (linha == 0) {
+        this.anims = [];
 
+        for (let j = 0; j < this.n_h; j++) {
 
+            const new_anim = gsap.to(`[data-j="${j}"]`, {
+
+                delay: (d,i) => gsap.utils.random(0, 0.2),
+
+                scrollTrigger: {
+                    trigger: `[data-step="0"]`,
+                    start: `top ${j * this.side}px`,
+                    end: `+=${this.side}px`,
+                    scrub: .5
+                },
+
+                "opacity" : 1
+
+            });
+
+            this.anims.push(new_anim);
 
         }
-
-
 
     }
 
