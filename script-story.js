@@ -183,7 +183,7 @@ class Mapa {
 
                 scrollTrigger: {
                     trigger: `[data-step="0"]`,
-                    start: `top ${j * this.side}px`,
+                    start: `top ${(j + 1) * this.side}px`,
                     end: `+=${this.side}px`,
                     scrub: .5
                 },
