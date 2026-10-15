@@ -127,7 +127,7 @@ class Mapa {
                 .attr("width", d => d.side)
                 .attr("height", d => d.side)
                 .attr("fill", "black")
-                .attr("opacity", 0)
+                .attr("opacity", 1)
             ;
 
             layer = this.svg.append("g")
@@ -189,7 +189,7 @@ class Mapa {
                     scrub: .5
                 },
 
-                "opacity" : 1
+                "opacity" : 0
 
             });
 
@@ -212,7 +212,7 @@ class Mapa {
                 scrub: .5
             },
 
-            color: "#F4F4F4"
+            color: "#333"
 
 
         })
