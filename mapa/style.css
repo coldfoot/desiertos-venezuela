@@ -741,6 +741,66 @@ body.pagina-hallazgos div.main-text h4.pregunta {
 
 }
 
+body.pagina-hallazgos table {
+    line-height: 1.6;
+    font-size: .8em;
+}
+
+body.pagina-hallazgos table th,
+body.pagina-hallazgos table td {
+    padding: .5em;
+}
+
+body.pagina-hallazgos table thead {
+    text-transform: uppercase;
+    border-bottom: 3px solid gray;
+
+}
+
+body.pagina-hallazgos table thead .metodologia-tabela-tamanhos th {
+    font-weight: normal;
+}
+
+body.pagina-hallazgos table thead .metodologia-tabela-tamanhos,
+body.pagina-hallazgos table thead .metodologia-tabela-localidads {
+    text-align: left;
+}
+
+body.pagina-hallazgos table thead .metodologia-tabela-tamanhos th {
+    padding-top: 0;
+}
+body.pagina-hallazgos table thead .metodologia-tabela-localidads th {
+    padding-bottom: 0;
+}
+
+.metodologia-tabela-header {
+    border-bottom: 2px solid currentColor;
+}
+
+body.pagina-hallazgos table tbody .desierto {
+    background-color: #E9CDBB;
+}
+
+body.pagina-hallazgos table tbody .semidesierto {
+    background-color: #EDE3D9;
+}
+
+body.pagina-hallazgos table tbody .semibosque {
+    background-color: #EFEBCE;
+}
+
+body.pagina-hallazgos table tbody .bosque {
+    background-color: #C7CEB8;
+}
+
+
+
+body.pagina-hallazgos table tbody th {
+    background-color: var(--cor-fundo);
+    color: var(--cor);
+}
+
+
 /* STORY */
 
 body.story div.opening {
