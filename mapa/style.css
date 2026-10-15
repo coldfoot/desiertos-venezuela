@@ -873,11 +873,19 @@ div.opening h1 {
 div.opening h1 .linha-titulo {
     display: flex;
     justify-content: space-between;
-    gap: 1ch;
+    align-items: center;
+    gap: .4ch;
+    line-height: 1;
 }
 
 div.opening h1 .linha-titulo .bloco-titulo {
     display: flex;
+}
+
+div.opening h1 .bloco-vazio {
+    background-color: var(--bg);
+    flex: 1 1 1ch;
+    height: 3rem;
 }
 
 svg.map-escuro {

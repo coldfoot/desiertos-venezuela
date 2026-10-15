@@ -217,6 +217,21 @@ class Mapa {
 
             color: "#333",
 
+        });
+
+        gsap.to('span.bloco-vazio', {
+
+            delay: (d,i) => gsap.utils.random(0, 1),
+
+            scrollTrigger: {
+                trigger: `[data-step="0"]`,
+                start: `top 50%`,
+                end: `+=${this.h/2}`,
+                scrub: .5
+            },
+
+            backgroundColor: "#333",
+
         })
 
     }
