@@ -860,6 +860,12 @@ svg.map-claro {
 
 }
 
+path.level2 {
+    fill: transparent;
+}
+
+/* TITULO STORY */
+
 div.opening h1 {
     position: absolute;
     top: 50%;

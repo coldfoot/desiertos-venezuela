@@ -2,7 +2,13 @@ gsap.registerPlugin(ScrollTrigger);
 let mapa_escuro, mapa_claro;
 let margem_mapa = 50;
 
-fetch("ven.geojson").then(response => response.json()).then(data => {
+Promise.all([
+    fetch("ven.geojson"),
+    fetch("ven_level_2.geojson")
+])
+.then(responses => Promise.all(
+    responses.map(res => res.json())
+)).then(data => {
 
     console.log(data);
 
@@ -10,20 +16,23 @@ fetch("ven.geojson").then(response => response.json()).then(data => {
     mapa_claro = new Mapa("map-claro", data);
 
 
-})
+});
 
 class Mapa {
 
     constructor(ref, dados) {
 
         this.svg = d3.select("." + ref);
-        this.dados = dados;
+        this.dados = dados[0];
+        this.dados_detalhados = dados[1];
         this.ref = ref;
 
         this.w = +this.svg.style("width").slice(0,-2);
         this.h = +this.svg.style("height").slice(0, -2);
 
-        this.svg.attr("viewBox", `0 0 ${this.w} ${this.h}`);
+        this.viewBox_inicial = `0 0 ${this.w} ${this.h}`;
+
+        this.svg.attr("viewBox", this.viewBox_inicial);
 
         this.svg.attr("width", this.w);
         this.svg.attr("height", this.h);
@@ -33,6 +42,7 @@ class Mapa {
         this.render();
 
         if (this.ref === "map-claro") {
+            this.render_subnacionais();
             this.seta_triggers_buracos();
             this.seta_trigger_letras_titulo();
             this.seta_trigger_menu_burger();
@@ -140,6 +150,7 @@ class Mapa {
         layer.append("rect")
             .attr("width", this.w)
             .attr("height", this.h)
+            .classed("svg-bg-mapa", true)
             .attr("fill", this.ref === "map-claro" ? "#F4F4F4" : "#333")
         ;
 
@@ -150,6 +161,19 @@ class Mapa {
                 .classed(this.ref, true)
                 .attr("d", this.path)
             ;
+    }
+
+    render_subnacionais() {
+
+        this.subnacionais = this.svg.append("g").classed("mapa-subnacionais", true)
+            .selectAll("path.level2")
+            .data(this.dados_detalhados.features)
+            .join("path")
+            .classed("level2", true)
+            .attr("d", this.path)
+            .attr("opacity", 0)
+        ;
+
     }
 
     constroi_controle_buracos() {
