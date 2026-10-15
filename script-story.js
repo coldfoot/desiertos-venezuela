@@ -1,5 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 let mapa_escuro, mapa_claro;
+let margem_mapa = 50;
 
 fetch("ven.geojson").then(response => response.json()).then(data => {
 
@@ -34,6 +35,7 @@ class Mapa {
         if (this.ref === "map-claro") {
             this.seta_triggers_buracos();
             this.seta_trigger_letras_titulo();
+            this.seta_trigger_menu_burger();
         }
 
 
@@ -44,7 +46,8 @@ class Mapa {
         this.features = this.dados.features;
 
         this.proj = d3.geoMercator()
-            .fitSize([this.w, this.h], this.dados)
+            //.fitSize([this.w, this.h], this.dados)
+            .fitExtent([[margem_mapa, margem_mapa], [this.w - margem_mapa, this.h - margem_mapa]], this.dados)
         ;
 
         this.path = d3.geoPath().projection(this.proj);
@@ -212,8 +215,36 @@ class Mapa {
                 scrub: .5
             },
 
-            color: "#333"
+            color: "#333",
 
+        })
+
+    }
+
+    seta_trigger_menu_burger() {
+
+        gsap.to('.btn-menu-img line', {
+
+            scrollTrigger: {
+                trigger: `[data-step="0"]`,
+                start: `top 40%`,
+                end: `+=${this.h/4}`,
+                scrub: .5
+            },
+
+            stroke: "#333",
+
+            onComplete: () => {
+                document.querySelector(".logo-white").style.display = "none";
+                document.querySelector(".logo-black").style.display = "block";
+                console.log("FIM")
+            },
+
+            onReverseComplete: () => {
+                document.querySelector(".logo-black").style.display = "none";
+                document.querySelector(".logo-white").style.display = "block";
+                console.log("FIM2")
+            }
 
         })
 

@@ -842,7 +842,13 @@ body.story header {
     left: 0;
 }
 
-/* MAPAS */
+body.story .logo-black {
+    display: none;
+}
+
+
+
+/* MAPAS DO STORY */
 
 svg.map-escuro,
 svg.map-claro {
