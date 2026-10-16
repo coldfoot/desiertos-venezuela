@@ -924,7 +924,8 @@ path.map-escuro {
 
     height: 100vh;
     width: 100%;
-    border: 2px solid hotpink;
+    /*border: 2px solid hotpink;*/
+    border-top: 1px dotted currentColor;
 
 }
 
