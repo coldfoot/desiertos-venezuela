@@ -1,5 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 let mapa_escuro, mapa_claro;
+let scroller;
 let margem_mapa = 50;
 
 Promise.all([
@@ -14,6 +15,8 @@ Promise.all([
 
     mapa_escuro = new Mapa("map-escuro", data);
     mapa_claro = new Mapa("map-claro", data);
+
+    scroller = new Scroller("[data-step]");
 
 
 });
@@ -160,6 +163,7 @@ class Mapa {
                 .classed("mapa", true)
                 .classed(this.ref, true)
                 .attr("d", this.path)
+                .attr("stroke-width", 1)
             ;
     }
 
@@ -170,8 +174,11 @@ class Mapa {
             .data(this.dados_detalhados.features)
             .join("path")
             .classed("level2", true)
+            .attr("data-localidad", d => d.properties.name)
+            .attr("data-classificacao", d => d.properties.classification)
             .attr("d", this.path)
-            .attr("opacity", 0)
+            .style("fill", "transparent")
+            .style("stroke", "transparent")
         ;
 
     }
@@ -287,6 +294,187 @@ class Mapa {
 
         })
 
+    }
+
+}
+
+
+class Scroller {
+
+    step_actions = {
+
+        "Apertura" : () => {
+
+            gsap.to("h1", {
+
+                scrollTrigger : {
+                    trigger: '[data-step="Apertura"]',
+                    markers: false,
+                    toggleClass: 'active',
+                    pin: false,
+                    scrub: 1.5,
+                    start: "top bottom",
+                    end: "top 50%"
+                },
+
+                opacity: 0
+
+            })
+
+        },
+
+        "Villa de Cura" : () => {
+
+            const tl = gsap.timeline({
+
+                    scrollTrigger : {
+                        trigger: '[data-step="Villa de Cura"]',
+                        markers: false,
+                        toggleClass: 'active',
+                        pin: false,
+                        scrub: 1,
+                        start: "top bottom",
+                        end: "top 75%"
+
+                        //onEnter : () => this.step_actions[step_name]("forward"),
+                        //onEnterBack : () => this.step_actions[step_name]("back"),
+                        //onLeave : () => v.scroller.linechart_regioes.render[step_name](forward = true),
+                        //onLeaveBack : () => v.scroller.linechart_regioes.render[step_name](forward = false)
+
+                    }
+
+            });
+
+            tl.to("svg.map-claro", 
+                { 
+                    attr: { viewBox: this.view_boxes["Zamora (Villa de Cura)"] }
+                }
+            ).to("svg.map-claro path", {
+                attr: { 'stroke-width': 0.5 }
+            })
+            .to("path[data-localidad='Zamora (Villa de Cura)']",
+                {
+                    fill: "#b26d36",
+                    stroke: "black"
+                }
+            )
+
+        },
+
+        "Desiertos" : () => {
+
+            const tl = gsap.timeline({
+
+                    scrollTrigger : {
+                        trigger: '[data-step="Desiertos"]',
+                        markers: false,
+                        toggleClass: 'active',
+                        pin: false,
+                        scrub: 1,
+                        start: "top bottom",
+                        end: "top top"
+
+                        //onEnter : () => this.step_actions[step_name]("forward"),
+                        //onEnterBack : () => this.step_actions[step_name]("back"),
+                        //onLeave : () => v.scroller.linechart_regioes.render[step_name](forward = true),
+                        //onLeaveBack : () => v.scroller.linechart_regioes.render[step_name](forward = false)
+
+                    }
+
+            });
+
+            tl.to("svg.map-claro", 
+                { 
+                    attr: { viewBox: mapa_claro.viewBox_inicial }
+                }
+            ).to("svg.map-claro path", {
+                attr: { 'stroke-width': 1 }
+            })
+            .set("path[data-localidad='Zamora (Villa de Cura)']",
+                {
+                    fill: "transparent",
+                    stroke: "transparent"
+                }
+            ).to("path[data-classificacao='DESIERTO']", {
+
+                    fill: "#b26d36"
+
+            })
+
+        }
+
+
+    }
+
+    view_boxes = {}
+
+    constructor(step_selector) {
+
+        this.start_parameter = "25% 60%";
+        this.end_parameter = "75% 40%";
+
+        const lista_cidades = ["Zamora (Villa de Cura)"];
+
+        this.get_view_boxes(lista_cidades);
+
+        this.steps = Object.keys(this.step_actions);
+
+        this.steps.forEach(step => this.step_actions[step]());
+
+        this.steps_elements = document.querySelectorAll(step_selector);
+
+
+        //this.monitora_scroller();
+
+    }
+
+    /*
+    get_view_boxes(lista_cidades) {
+
+        const padding_x = 20;
+        const padding_y = 15;
+
+        lista_cidades.forEach(cidade => {
+
+            const el_cidade = document.querySelector(`[data-localidad="${cidade}"]`);
+
+            const bbox = el_cidade.getBBox();
+
+            console.log(bbox);
+    
+            const viewBox = `${bbox.x - padding_x} ${ bbox.y - padding_y} ${bbox.width} ${bbox.height}`
+
+            this.view_boxes[cidade] = viewBox;
+
+        })
+
+    }*/
+
+    get_view_boxes(lista_cidades) {
+        const padding = 100;
+        const svg = document.querySelector("svg.map-claro");
+        const aspect = svg.viewBox.baseVal.width / svg.viewBox.baseVal.height;
+
+        lista_cidades.forEach(cidade => {
+            const el = document.querySelector(`[data-localidad="${cidade}"]`);
+
+            const bbox = el.getBBox();
+
+            let width = bbox.width + 2 * padding;
+            let height = bbox.height + 2 * padding;
+
+            // Expand the shorter dimension so the viewBox matches the SVG viewport.
+            if (width / height < aspect) {
+                width = height * aspect;
+            } else {
+                height = width / aspect;
+            }
+
+            const x = bbox.x + bbox.width / 2 - width / 2;
+            const y = bbox.y + bbox.height / 2 - height / 2;
+
+            this.view_boxes[cidade] = `${x} ${y} ${width} ${height}`;
+        });
     }
 
 }
