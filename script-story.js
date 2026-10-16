@@ -320,10 +320,10 @@ class Scroller {
                     markers: false,
                     toggleClass: 'active',
                     pin: false,
-                    scrub: 1,
-                    start: "top bottom",
-                    end: "top 50%",
-                    toggleActions: "play reverse play reverse"
+                    scrub: true,
+                    start: "top 75%",
+                    end: "top 25%"
+
                 },
 
                 opacity: 0
@@ -341,7 +341,7 @@ class Scroller {
                         markers: false,
                         toggleClass: 'active',
                         pin: false,
-                        scrub: 1,
+                        scrub: true,
                         start: "top 75%",
                         end: "top 25%"
 
@@ -379,7 +379,7 @@ class Scroller {
                         markers: false,
                         toggleClass: 'active',
                         pin: false,
-                        scrub: 0,
+                        scrub: true,
                         start: "top 75%",
                         end: "top 25%",
 
@@ -422,7 +422,7 @@ class Scroller {
                         pin: false,
                         start: "top 75%",
                         end: "top 25%",
-                        scrub: 0
+                        scrub: true
                         //toggleActions: "play reverse play reverse"
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
@@ -457,7 +457,7 @@ class Scroller {
                         pin: false,
                         start: "top 75%",
                         end: "top 25%",
-                        scrub: 1
+                        scrub: true
                         //toggleActions: "play reverse play reverse"
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
@@ -492,7 +492,7 @@ class Scroller {
                         pin: false,
                         start: "top 75%",
                         end: "top 25%",
-                        scrub: 1
+                        scrub: true
                         //toggleActions: "play reverse play reverse"
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
@@ -527,7 +527,7 @@ class Scroller {
                         pin: false,
                         start: "top 75%",
                         end: "top 25%",
-                        scrub: 1
+                        scrub: true
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
                         //onEnterBack : () => this.step_actions[step_name]("back"),
