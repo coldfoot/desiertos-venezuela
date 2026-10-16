@@ -312,7 +312,7 @@ class Scroller {
                     markers: false,
                     toggleClass: 'active',
                     pin: false,
-                    scrub: 1.5,
+                    scrub: 1,
                     start: "top bottom",
                     end: "top 50%"
                 },
@@ -401,8 +401,109 @@ class Scroller {
 
             })
 
-        }
+        },
 
+        "Semidesiertos" : () => {
+
+            const tl = gsap.timeline({
+
+                    scrollTrigger : {
+                        trigger: '[data-step="Semidesiertos"]',
+                        markers: false,
+                        toggleClass: 'active',
+                        pin: false,
+                        scrub: 1,
+                        start: "top 25%",
+                        end: "top 75%"
+
+                        //onEnter : () => this.step_actions[step_name]("forward"),
+                        //onEnterBack : () => this.step_actions[step_name]("back"),
+                        //onLeave : () => v.scroller.linechart_regioes.render[step_name](forward = true),
+                        //onLeaveBack : () => v.scroller.linechart_regioes.render[step_name](forward = false)
+
+                    }
+
+            });
+
+            tl.set("path[data-classificacao]", {
+
+                    fill: "transparent"
+
+            }).to("path[data-classificacao='SEMIDESIERTO']", {
+
+                    fill: "#d4ba99"
+
+            })
+
+        },
+
+        "Semibosques" : () => {
+
+            const tl = gsap.timeline({
+
+                    scrollTrigger : {
+                        trigger: '[data-step="Semibosques"]',
+                        markers: false,
+                        toggleClass: 'active',
+                        pin: false,
+                        scrub: 1,
+                        start: "top 25%",
+                        end: "top 75%"
+
+                        //onEnter : () => this.step_actions[step_name]("forward"),
+                        //onEnterBack : () => this.step_actions[step_name]("back"),
+                        //onLeave : () => v.scroller.linechart_regioes.render[step_name](forward = true),
+                        //onLeaveBack : () => v.scroller.linechart_regioes.render[step_name](forward = false)
+
+                    }
+
+            });
+
+            tl.set("path[data-classificacao]", {
+
+                    fill: "transparent"
+
+            }).to("path[data-classificacao='SEMIBOSQUE']", {
+
+                    fill: "#e0d579"
+
+            })
+
+        },
+        
+        "Bosques" : () => {
+
+            const tl = gsap.timeline({
+
+                    scrollTrigger : {
+                        trigger: '[data-step="Bosques"]',
+                        markers: false,
+                        toggleClass: 'active',
+                        pin: false,
+                        //scrub: 1,
+                        start: "top 25%",
+                        end: "top 75%"
+
+                        //onEnter : () => this.step_actions[step_name]("forward"),
+                        //onEnterBack : () => this.step_actions[step_name]("back"),
+                        //onLeave : () => v.scroller.linechart_regioes.render[step_name](forward = true),
+                        //onLeaveBack : () => v.scroller.linechart_regioes.render[step_name](forward = false)
+
+                    }
+
+            });
+
+            tl.set("path[data-classificacao]", {
+
+                    fill: "transparent"
+
+            }).to("path[data-classificacao='BOSQUE']", {
+
+                    fill: "#657034"
+
+            })
+
+        }   
 
     }
 
