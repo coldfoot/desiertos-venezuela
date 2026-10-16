@@ -826,13 +826,33 @@ body.pagina-hallazgos table tbody .bosque {
     background-color: #C7CEB8;
 }
 
-
-
 body.pagina-hallazgos table tbody th {
     background-color: var(--cor-fundo);
     color: var(--cor);
 }
 
+body.pagina-hallazgos table.capacidad {
+    width: 100%;
+}
+
+body.pagina-hallazgos table.capacidad caption {
+    text-align: left;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+body.pagina-hallazgos table.capacidad thead {
+    text-transform: none;
+}
+
+body.pagina-hallazgos table.capacidad tbody th {
+    text-align: left;
+}
+
+body.pagina-hallazgos table.capacidad tbody td {
+    text-align: right;
+}
 
 /* STORY */
 
