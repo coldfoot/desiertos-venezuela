@@ -683,10 +683,23 @@ rect.striplot-bg {
 
 /*PAGINA HALLAZGOS*/
 
-body.pagina-hallazgos main {
+body.pagina-hallazgos main .main-text {
     margin: 0 auto;
     max-width: 700px;
 }
+
+body.pagina-hallazgos main .full-bleed {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+body.pagina-hallazgos main img {
+    display: block;
+    width: 100%;
+}
+
+
 
 body.pagina-hallazgos h2 {
     text-align: center;
