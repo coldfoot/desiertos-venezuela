@@ -3,6 +3,13 @@ let mapa_escuro, mapa_claro;
 let scroller;
 let margem_mapa = 50;
 
+const colors = {
+    "BOSQUE" : "#657034",
+    "DESIERTO" : "#b26d36",
+    "SEMIDESIERTO" : "#d4ba99",
+    "SEMIBOSQUE" : "#e0d579"
+}
+
 Promise.all([
     fetch("ven.geojson"),
     fetch("ven_level_2.geojson")
@@ -177,8 +184,9 @@ class Mapa {
             .attr("data-localidad", d => d.properties.name)
             .attr("data-classificacao", d => d.properties.classification)
             .attr("d", this.path)
-            .style("fill", "transparent")
+            .style("fill", d => colors[d.properties.classification])
             .style("stroke", "transparent")
+            .style("opacity", 0)
         ;
 
     }
@@ -314,7 +322,8 @@ class Scroller {
                     pin: false,
                     scrub: 1,
                     start: "top bottom",
-                    end: "top 50%"
+                    end: "top 50%",
+                    toggleActions: "play reverse play reverse"
                 },
 
                 opacity: 0
@@ -333,8 +342,8 @@ class Scroller {
                         toggleClass: 'active',
                         pin: false,
                         scrub: 1,
-                        start: "top bottom",
-                        end: "top 75%"
+                        start: "top 75%",
+                        end: "top 25%"
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
                         //onEnterBack : () => this.step_actions[step_name]("back"),
@@ -354,7 +363,7 @@ class Scroller {
             })
             .to("path[data-localidad='Zamora (Villa de Cura)']",
                 {
-                    fill: "#b26d36",
+                    opacity: 1,
                     stroke: "black"
                 }
             )
@@ -370,9 +379,9 @@ class Scroller {
                         markers: false,
                         toggleClass: 'active',
                         pin: false,
-                        scrub: 1,
-                        start: "top bottom",
-                        end: "top top"
+                        scrub: 0,
+                        start: "top 75%",
+                        end: "top 25%",
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
                         //onEnterBack : () => this.step_actions[step_name]("back"),
@@ -390,14 +399,13 @@ class Scroller {
             ).to("svg.map-claro path", {
                 attr: { 'stroke-width': 1 }
             })
-            .set("path[data-localidad='Zamora (Villa de Cura)']",
+            .to("path[data-localidad='Zamora (Villa de Cura)']",
                 {
-                    fill: "transparent",
                     stroke: "transparent"
                 }
             ).to("path[data-classificacao='DESIERTO']", {
 
-                    fill: "#b26d36"
+                    opacity : 1
 
             })
 
@@ -412,9 +420,10 @@ class Scroller {
                         markers: false,
                         toggleClass: 'active',
                         pin: false,
-                        scrub: 1,
-                        start: "top 25%",
-                        end: "top 75%"
+                        start: "top 75%",
+                        end: "top 25%",
+                        scrub: 0
+                        //toggleActions: "play reverse play reverse"
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
                         //onEnterBack : () => this.step_actions[step_name]("back"),
@@ -425,13 +434,13 @@ class Scroller {
 
             });
 
-            tl.set("path[data-classificacao]", {
+            tl.to("path[data-classificacao='DESIERTO']", {
 
-                    fill: "transparent"
+                    opacity: 0
 
             }).to("path[data-classificacao='SEMIDESIERTO']", {
 
-                    fill: "#d4ba99"
+                    opacity: 1
 
             })
 
@@ -446,9 +455,10 @@ class Scroller {
                         markers: false,
                         toggleClass: 'active',
                         pin: false,
-                        scrub: 1,
-                        start: "top 25%",
-                        end: "top 75%"
+                        start: "top 75%",
+                        end: "top 25%",
+                        scrub: 1
+                        //toggleActions: "play reverse play reverse"
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
                         //onEnterBack : () => this.step_actions[step_name]("back"),
@@ -459,13 +469,13 @@ class Scroller {
 
             });
 
-            tl.set("path[data-classificacao]", {
+            tl.to("path[data-classificacao='SEMIDESIERTO']", {
 
-                    fill: "transparent"
+                    opacity : 0
 
             }).to("path[data-classificacao='SEMIBOSQUE']", {
 
-                    fill: "#e0d579"
+                    opacity : 1
 
             })
 
@@ -480,9 +490,10 @@ class Scroller {
                         markers: false,
                         toggleClass: 'active',
                         pin: false,
-                        //scrub: 1,
-                        start: "top 25%",
-                        end: "top 75%"
+                        start: "top 75%",
+                        end: "top 25%",
+                        scrub: 1
+                        //toggleActions: "play reverse play reverse"
 
                         //onEnter : () => this.step_actions[step_name]("forward"),
                         //onEnterBack : () => this.step_actions[step_name]("back"),
@@ -493,13 +504,43 @@ class Scroller {
 
             });
 
-            tl.set("path[data-classificacao]", {
+            tl.to("path[data-classificacao='SEMIBOSQUE']", {
 
-                    fill: "transparent"
+                    opacity : 0
 
             }).to("path[data-classificacao='BOSQUE']", {
 
-                    fill: "#657034"
+                    opacity : 1
+
+            })
+
+        },
+
+        "Mapa Completo" : () => {
+
+            const tl = gsap.timeline({
+
+                    scrollTrigger : {
+                        trigger: '[data-step="Mapa Completo"]',
+                        markers: false,
+                        toggleClass: 'active',
+                        pin: false,
+                        start: "top 75%",
+                        end: "top 25%",
+                        scrub: 1
+
+                        //onEnter : () => this.step_actions[step_name]("forward"),
+                        //onEnterBack : () => this.step_actions[step_name]("back"),
+                        //onLeave : () => v.scroller.linechart_regioes.render[step_name](forward = true),
+                        //onLeaveBack : () => v.scroller.linechart_regioes.render[step_name](forward = false)
+
+                    }
+
+            });
+
+            tl.to("path[data-classificacao]", {
+
+                    opacity : 1
 
             })
 

@@ -860,6 +860,10 @@ svg.map-claro {
 
 }
 
+path.level2 {
+    transition: opacity .2s;
+}
+
 /* TITULO STORY */
 
 div.opening h1 {
@@ -948,4 +952,35 @@ p.texto-step {
 .tag-paysaje {
     color: var(--cor);
     background-color: var(--cor-fundo);
+}
+
+a.call-to-action {
+    padding: .5em 1em;
+    display: block;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: var(--black);
+    color: var(--bg);
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+.scroller-step[data-step="Desiertos"] p.texto-step::before {
+    content: url(./desierto.svg);
+    display: block;
+}
+
+.scroller-step[data-step="Semidesiertos"] p.texto-step::before {
+    content: url(./semidesierto.svg);
+    display: block;
+}
+
+.scroller-step[data-step="Semibosques"] p.texto-step::before {
+    content: url(./semibosque.svg);
+    display: block;
+}
+
+.scroller-step[data-step="Bosques"] p.texto-step::before {
+    content: url(./bosque.svg);
+    display: block;
 }
