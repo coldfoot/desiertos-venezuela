@@ -683,6 +683,21 @@ rect.striplot-bg {
 
 /*PAGINA HALLAZGOS*/
 
+body.pagina-hallazgos header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--bg);
+}
+
+body.pagina-hallazgos main {
+
+    margin-top: 114px; /*magic number*/
+
+}
+
+
 body.pagina-hallazgos main .main-text {
     margin: 0 auto;
     max-width: 700px;
