@@ -9,7 +9,7 @@
     --desierto: #b26d36;
     --semidesierto: #d4ba99;
     --semibosque: #e0d579;
-    --color-accent: hotpink;
+    --color-accent: var(--black);
 }
 
 body {
@@ -419,6 +419,7 @@ div.classificacao-ativa::after {
     border: none;
     margin-bottom: -1px;
     background-color: transparent;
+    font-family: inherit;
 
 }
 
@@ -444,8 +445,12 @@ div.classificacao-ativa::after {
 
     border: 1px solid black;
     border-radius: 0 0 5px 5px;
-    padding: .5em;
+    padding: 1em;
 
+}
+
+.box-hallazgos {
+    line-height: 1.5;
 }
 
 .box[data-modo-ativo="hallazgos"] {
@@ -1028,4 +1033,69 @@ a.call-to-action {
 .scroller-step[data-step="Bosques"] p.texto-step::before {
     content: url(./bosque.svg);
     display: block;
+}
+
+/* PAGINA CREDITOS */
+
+body.pagina-creditos {
+    background-color: var(--black);
+    color: var(--bg);
+}
+
+body.pagina-hallazgos.pagina-creditos header {
+    background-color: var(--black);
+}
+
+body.pagina-creditos .btn-menu-img {
+    stroke: var(--bg);
+}
+
+body.pagina-creditos .btn-menu-content {
+    background-color: var(--black);
+    color: var(--bg);    
+}
+
+body.pagina-creditos .btn-menu-content li {
+    color: inherit;
+}
+
+body.pagina-creditos .btn-menu-content li a:hover {
+    background-color: var(--bg);
+    color: var(--black);
+}
+
+.grid-creditos {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-creditos {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.card-creditos img {
+    border-radius: 20px;
+    border: 3px solid var(--bg);
+    min-width: 150px;
+    height: 150px;
+}
+body.pagina-creditos .card-creditos .texto-card-creditos p {
+    font-size: 1rem;
+}
+
+body.pagina-creditos .card-creditos .texto-card-creditos p.titulo-card-creditos {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: .2em;
+}
+
+body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
+    margin: 0;
+    font-size: .8em;
 }
