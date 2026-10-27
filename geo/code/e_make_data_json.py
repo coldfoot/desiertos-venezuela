@@ -16,6 +16,44 @@ OUTPUT_PATH = '../output/data.json'
 QUESTIONNAIRE_TOTALS_PATH = '../output/d_answers/{name}_totales.json'
 QUESTIONNAIRE_PERCENTAGES_PATH = '../output/d_answers/{name}_porcentajes.json'
 
+STATE_TOTALS_PATH = '../output/a_totales_estado.csv'
+COUNTRY_TOTALS_PATH = '../output/a_totales_venezuela.csv'
+
+# --- official medios totals loading ---
+
+def load_official_medios(state_names):
+    """
+    Loads the medios totals per state and for the whole country, as reported in the
+    PUESTOS_Y_MEDIOS_ESTADO / PUESTOS_Y_MEDIOS_VENEZUELA tabs (already standardized by
+    a_download_csv.py). WHY: one medio can cover several municipios, so summing the
+    municipio-level MEDIOS_TOTAL double-counts it; these tabs hold the de-duplicated
+    numbers.
+
+    state_names: the state names in c_level_1.geojson. The tab must contain exactly
+        these states, matched by name the same way load_answers() does.
+
+    Returns (by_state, country): a dict {state name: medios_total} and an int.
+    """
+    states_df = pd.read_csv(STATE_TOTALS_PATH)
+    by_state = dict(zip(states_df['estado'], states_df['medios_total'].astype(int)))
+
+    tab_states = set(by_state)
+    geo_states = set(state_names)
+    assert len(states_df) == len(tab_states), (
+        f"duplicate states in {STATE_TOTALS_PATH}"
+    )
+    assert tab_states == geo_states, (
+        f"{STATE_TOTALS_PATH} doesn't match c_level_1.geojson. "
+        f"missing states: {geo_states - tab_states}, "
+        f"unexpected states: {tab_states - geo_states}"
+    )
+
+    country_df = pd.read_csv(COUNTRY_TOTALS_PATH)
+    assert len(country_df) == 1, f"expected exactly one row in {COUNTRY_TOTALS_PATH}"
+    country = int(country_df['medios_total'].iloc[0])
+
+    return by_state, country
+
 # --- answer data loading ---
 
 def load_answers(name):
@@ -177,16 +215,23 @@ def build_small_units(level_2_gdf, by_level_2_code):
             })
     return small_units
  
-def build_large_units(level_1_gdf, small_units):
+def build_large_units(level_1_gdf, small_units, state_medios):
     """One entry per level-1 geometry feature, aggregated from its small_units children.
     Grouping happens here (not in a shared helper) since it's only ever needed once, right
     before building these entries.
- 
+
+    MEDIOS_TOTAL is NOT summed from the children (one medio can cover several
+    municipios); it comes from the official per-state totals instead. The medios
+    breakdowns (urbanos, rurales, plurales) have no official per-state source, so
+    they're null at this level rather than a wrong sum.
+
     Args:
         level_1_gdf: GeoDataFrame from c_level_1.geojson (code, name, geometry — one row
             per state).
         small_units: the list already built by build_small_units, grouped here by
             LEVEL_1_CODE so each state can aggregate its own children.
+        state_medios: dict of state name -> official medios_total, from
+            load_official_medios.
     """
     children_by_state = {}
     for su in small_units:
@@ -204,14 +249,18 @@ def build_large_units(level_1_gdf, small_units):
         children_count = len(children)
         matched_children_count = len(matched_children)
         has_data = matched_children_count > 0
-        population = total(c['BASIC_INFO']['POPULATION'] for c in children)
-        medios_total = total(c['BASIC_INFO']['MEDIOS_TOTAL'] for c in children)
-        medios_urbanos = total(c['BASIC_INFO']['MEDIOS_URBANOS'] for c in children)
-        medios_rurales = total(c['BASIC_INFO']['MEDIOS_RURALES'] for c in children)
-        medios_plurales_1fuente = total(c['BASIC_INFO']['MEDIOS_PLURALES_1FUENTE'] for c in children)
-        medios_plurales_2fuente = total(c['BASIC_INFO']['MEDIOS_PLURALES_2FUENTE'] for c in children)
+        population = total(c['BASIC_INFO']['POPULATION'] for c in children)  # municipio populations don't overlap, so summing is fine
+        medios_total = state_medios[feat['name']]
         ratio_pop_medios_value = ratio_pop_medios(population, medios_total)
- 
+
+        # Sanity check: a state can't have fewer medios than its largest municipio,
+        # nor more than all its municipios combined. Warn instead of failing, since
+        # it's a data-quality signal for the data team, not a pipeline error.
+        children_medios = [c['BASIC_INFO']['MEDIOS_TOTAL'] for c in matched_children]
+        if children_medios and not (max(children_medios) <= medios_total <= sum(children_medios)):
+            print(f"WARNING: {feat['name']} has {medios_total} medios, outside the expected "
+                  f"range [{max(children_medios)}, {sum(children_medios)}] from its municipios")
+
         large_units.append({
             "BASIC_INFO": {
                 "NAME": feat['name'],
@@ -225,10 +274,10 @@ def build_large_units(level_1_gdf, small_units):
                 "HAS_DATA": has_data,
                 "POPULATION": population,
                 "MEDIOS_TOTAL": medios_total,
-                "MEDIOS_URBANOS": medios_urbanos,
-                "MEDIOS_RURALES": medios_rurales,
-                "MEDIOS_PLURALES_1FUENTE": medios_plurales_1fuente,
-                "MEDIOS_PLURALES_2FUENTE": medios_plurales_2fuente,
+                "MEDIOS_URBANOS": None,           # no official per-state figure
+                "MEDIOS_RURALES": None,           # no official per-state figure
+                "MEDIOS_PLURALES_1FUENTE": None,  # no official per-state figure
+                "MEDIOS_PLURALES_2FUENTE": None,  # no official per-state figure
                 "CLASSIFICATION_COUNTS": counts,
                 "CLASSIFICATION_PCT": pct,
                 "RATIO_POP_MEDIOS": ratio_pop_medios_value,
@@ -239,14 +288,18 @@ def build_large_units(level_1_gdf, small_units):
         })
     return large_units
  
-def build_country(large_units, small_units):
-    """The single country-level aggregate entry, summed over every small_unit.
- 
+def build_country(large_units, small_units, country_medios):
+    """The single country-level aggregate entry. Population and classification stats
+    are summed over every small_unit; MEDIOS_TOTAL comes from the official country
+    total instead (summing would double-count medios covering several municipios),
+    and the medios breakdowns are null, as in build_large_units.
+
     Args:
         large_units: the list built by build_large_units, used only for its length
             (LARGE_UNIT_COUNT).
         small_units: the full list built by build_small_units, summed over for the
-            country-wide totals.
+            country-wide population and classification stats.
+        country_medios: the official country medios_total, from load_official_medios.
     """
     all_classifications = [c['BASIC_INFO']['CLASSIFICATION'] for c in small_units]
     counts, pct = classification_stats(all_classifications)
@@ -254,11 +307,7 @@ def build_country(large_units, small_units):
     small_unit_count = len(small_units)
     matched_small_unit_count = sum(c['BASIC_INFO']['HAS_DATA'] for c in small_units)
     population = total(c['BASIC_INFO']['POPULATION'] for c in small_units)
-    medios_total = total(c['BASIC_INFO']['MEDIOS_TOTAL'] for c in small_units)
-    medios_urbanos = total(c['BASIC_INFO']['MEDIOS_URBANOS'] for c in small_units)
-    medios_rurales = total(c['BASIC_INFO']['MEDIOS_RURALES'] for c in small_units)
-    medios_plurales_1fuente = total(c['BASIC_INFO']['MEDIOS_PLURALES_1FUENTE'] for c in small_units)
-    medios_plurales_2fuente = total(c['BASIC_INFO']['MEDIOS_PLURALES_2FUENTE'] for c in small_units)
+    medios_total = country_medios
     ratio_pop_medios_value = ratio_pop_medios(population, medios_total)
 
  
@@ -271,10 +320,10 @@ def build_country(large_units, small_units):
             "MATCHED_SMALL_UNIT_COUNT": matched_small_unit_count,
             "POPULATION": population,
             "MEDIOS_TOTAL": medios_total,
-            "MEDIOS_URBANOS": medios_urbanos,
-            "MEDIOS_RURALES": medios_rurales,
-            "MEDIOS_PLURALES_1FUENTE": medios_plurales_1fuente,
-            "MEDIOS_PLURALES_2FUENTE": medios_plurales_2fuente,
+            "MEDIOS_URBANOS": None,           # no official country figure
+            "MEDIOS_RURALES": None,           # no official country figure
+            "MEDIOS_PLURALES_1FUENTE": None,  # no official country figure
+            "MEDIOS_PLURALES_2FUENTE": None,  # no official country figure
             "CLASSIFICATION_COUNTS": counts,
             "CLASSIFICATION_PCT": pct,
             "RATIO_POP_MEDIOS": ratio_pop_medios_value,
@@ -291,9 +340,11 @@ def main():
     level_1_gdf = gpd.read_file(LEVEL_1_PATH)
     level_2_gdf = gpd.read_file(LEVEL_2_PATH)
  
+    state_medios, country_medios = load_official_medios(level_1_gdf['name'])
+
     small_units = build_small_units(level_2_gdf, by_level_2_code)
-    large_units = build_large_units(level_1_gdf, small_units)
-    country = build_country(large_units, small_units)
+    large_units = build_large_units(level_1_gdf, small_units, state_medios)
+    country = build_country(large_units, small_units, country_medios)
  
     data = {"country": country, "large_units": large_units, "small_units": small_units}
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:

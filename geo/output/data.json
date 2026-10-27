@@ -8,11 +8,11 @@
         "SMALL_UNIT_COUNT": 366,
         "MATCHED_SMALL_UNIT_COUNT": 366,
         "POPULATION": 28704953,
-        "MEDIOS_TOTAL": 4966,
-        "MEDIOS_URBANOS": 4336,
-        "MEDIOS_RURALES": 2386,
-        "MEDIOS_PLURALES_1FUENTE": 2486,
-        "MEDIOS_PLURALES_2FUENTE": 330,
+        "MEDIOS_TOTAL": 651,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 200,
           "Desierto": 104,
@@ -25,7 +25,7 @@
           "Semibosque": 0.128,
           "Bosque": 0.041
         },
-        "RATIO_POP_MEDIOS": 5780.3
+        "RATIO_POP_MEDIOS": 44093.6
       },
       "ANSWERS": {
         "totales": {
@@ -190,18 +190,18 @@
         "MATCHED_CHILDREN_COUNT": 7,
         "HAS_DATA": true,
         "POPULATION": 182311,
-        "MEDIOS_TOTAL": 30,
-        "MEDIOS_URBANOS": 23,
-        "MEDIOS_RURALES": 23,
-        "MEDIOS_PLURALES_1FUENTE": 4,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 9,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 7
         },
         "CLASSIFICATION_PCT": {
           "Desierto": 1.0
         },
-        "RATIO_POP_MEDIOS": 6077.0
+        "RATIO_POP_MEDIOS": 20256.8
       },
       "ANSWERS": {
         "totales": {
@@ -368,11 +368,11 @@
         "MATCHED_CHILDREN_COUNT": 21,
         "HAS_DATA": true,
         "POPULATION": 1566938,
-        "MEDIOS_TOTAL": 129,
-        "MEDIOS_URBANOS": 124,
-        "MEDIOS_RURALES": 79,
-        "MEDIOS_PLURALES_1FUENTE": 90,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 16,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 11,
           "Semidesierto": 10
@@ -381,7 +381,7 @@
           "Desierto": 0.524,
           "Semidesierto": 0.476
         },
-        "RATIO_POP_MEDIOS": 12146.8
+        "RATIO_POP_MEDIOS": 97933.6
       },
       "ANSWERS": {
         "totales": {
@@ -548,11 +548,11 @@
         "MATCHED_CHILDREN_COUNT": 7,
         "HAS_DATA": true,
         "POPULATION": 567503,
-        "MEDIOS_TOTAL": 91,
-        "MEDIOS_URBANOS": 89,
-        "MEDIOS_RURALES": 47,
-        "MEDIOS_PLURALES_1FUENTE": 31,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 22,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 4,
           "Semidesierto": 3
@@ -561,7 +561,7 @@
           "Desierto": 0.571,
           "Semidesierto": 0.429
         },
-        "RATIO_POP_MEDIOS": 6236.3
+        "RATIO_POP_MEDIOS": 25795.6
       },
       "ANSWERS": {
         "totales": {
@@ -728,11 +728,11 @@
         "MATCHED_CHILDREN_COUNT": 18,
         "HAS_DATA": true,
         "POPULATION": 1642300,
-        "MEDIOS_TOTAL": 208,
-        "MEDIOS_URBANOS": 208,
-        "MEDIOS_RURALES": 100,
-        "MEDIOS_PLURALES_1FUENTE": 103,
-        "MEDIOS_PLURALES_2FUENTE": 20,
+        "MEDIOS_TOTAL": 39,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 9,
           "Semidesierto": 6,
@@ -743,7 +743,7 @@
           "Semidesierto": 0.333,
           "Semibosque": 0.167
         },
-        "RATIO_POP_MEDIOS": 7895.7
+        "RATIO_POP_MEDIOS": 42110.3
       },
       "ANSWERS": {
         "totales": {
@@ -910,11 +910,11 @@
         "MATCHED_CHILDREN_COUNT": 12,
         "HAS_DATA": true,
         "POPULATION": 831869,
-        "MEDIOS_TOTAL": 255,
-        "MEDIOS_URBANOS": 226,
-        "MEDIOS_RURALES": 129,
-        "MEDIOS_PLURALES_1FUENTE": 99,
-        "MEDIOS_PLURALES_2FUENTE": 10,
+        "MEDIOS_TOTAL": 31,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 10,
           "Semibosque": 2
@@ -923,7 +923,7 @@
           "Semidesierto": 0.833,
           "Semibosque": 0.167
         },
-        "RATIO_POP_MEDIOS": 3262.2
+        "RATIO_POP_MEDIOS": 26834.5
       },
       "ANSWERS": {
         "totales": {
@@ -1090,11 +1090,11 @@
         "MATCHED_CHILDREN_COUNT": 11,
         "HAS_DATA": true,
         "POPULATION": 1738070,
-        "MEDIOS_TOTAL": 168,
-        "MEDIOS_URBANOS": 166,
-        "MEDIOS_RURALES": 42,
-        "MEDIOS_PLURALES_1FUENTE": 111,
-        "MEDIOS_PLURALES_2FUENTE": 47,
+        "MEDIOS_TOTAL": 31,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 4,
           "Bosque": 4,
@@ -1107,7 +1107,7 @@
           "Semidesierto": 0.182,
           "Semibosque": 0.091
         },
-        "RATIO_POP_MEDIOS": 10345.7
+        "RATIO_POP_MEDIOS": 56066.8
       },
       "ANSWERS": {
         "totales": {
@@ -1274,11 +1274,11 @@
         "MATCHED_CHILDREN_COUNT": 14,
         "HAS_DATA": true,
         "POPULATION": 2242643,
-        "MEDIOS_TOTAL": 293,
-        "MEDIOS_URBANOS": 274,
-        "MEDIOS_RURALES": 98,
-        "MEDIOS_PLURALES_1FUENTE": 147,
-        "MEDIOS_PLURALES_2FUENTE": 24,
+        "MEDIOS_TOTAL": 54,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 9,
           "Bosque": 2,
@@ -1291,7 +1291,7 @@
           "Desierto": 0.143,
           "Semibosque": 0.071
         },
-        "RATIO_POP_MEDIOS": 7654.1
+        "RATIO_POP_MEDIOS": 41530.4
       },
       "ANSWERS": {
         "totales": {
@@ -1458,18 +1458,18 @@
         "MATCHED_CHILDREN_COUNT": 9,
         "HAS_DATA": true,
         "POPULATION": 330615,
-        "MEDIOS_TOTAL": 99,
-        "MEDIOS_URBANOS": 99,
-        "MEDIOS_RURALES": 65,
-        "MEDIOS_PLURALES_1FUENTE": 48,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 17,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 9
         },
         "CLASSIFICATION_PCT": {
           "Semidesierto": 1.0
         },
-        "RATIO_POP_MEDIOS": 3339.5
+        "RATIO_POP_MEDIOS": 19447.9
       },
       "ANSWERS": {
         "totales": {
@@ -1636,11 +1636,11 @@
         "MATCHED_CHILDREN_COUNT": 4,
         "HAS_DATA": true,
         "POPULATION": 189792,
-        "MEDIOS_TOTAL": 24,
-        "MEDIOS_URBANOS": 20,
-        "MEDIOS_RURALES": 9,
-        "MEDIOS_PLURALES_1FUENTE": 14,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 10,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 3,
           "Semidesierto": 1
@@ -1649,7 +1649,7 @@
           "Desierto": 0.75,
           "Semidesierto": 0.25
         },
-        "RATIO_POP_MEDIOS": 7908.0
+        "RATIO_POP_MEDIOS": 18979.2
       },
       "ANSWERS": {
         "totales": {
@@ -1816,11 +1816,11 @@
         "MATCHED_CHILDREN_COUNT": 22,
         "HAS_DATA": true,
         "POPULATION": 1830142,
-        "MEDIOS_TOTAL": 263,
-        "MEDIOS_URBANOS": 0,
-        "MEDIOS_RURALES": 0,
-        "MEDIOS_PLURALES_1FUENTE": 156,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 25,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 19,
           "Desierto": 3
@@ -1829,7 +1829,7 @@
           "Semidesierto": 0.864,
           "Desierto": 0.136
         },
-        "RATIO_POP_MEDIOS": 6958.7
+        "RATIO_POP_MEDIOS": 73205.7
       },
       "ANSWERS": {
         "totales": {
@@ -1996,18 +1996,18 @@
         "MATCHED_CHILDREN_COUNT": 25,
         "HAS_DATA": true,
         "POPULATION": 986001,
-        "MEDIOS_TOTAL": 398,
-        "MEDIOS_URBANOS": 375,
-        "MEDIOS_RURALES": 132,
-        "MEDIOS_PLURALES_1FUENTE": 210,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 35,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 25
         },
         "CLASSIFICATION_PCT": {
           "Semidesierto": 1.0
         },
-        "RATIO_POP_MEDIOS": 2477.4
+        "RATIO_POP_MEDIOS": 28171.5
       },
       "ANSWERS": {
         "totales": {
@@ -2174,11 +2174,11 @@
         "MATCHED_CHILDREN_COUNT": 15,
         "HAS_DATA": true,
         "POPULATION": 827724,
-        "MEDIOS_TOTAL": 137,
-        "MEDIOS_URBANOS": 76,
-        "MEDIOS_RURALES": 76,
-        "MEDIOS_PLURALES_1FUENTE": 58,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 16,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 12,
           "Semidesierto": 3
@@ -2187,7 +2187,7 @@
           "Desierto": 0.8,
           "Semidesierto": 0.2
         },
-        "RATIO_POP_MEDIOS": 6041.8
+        "RATIO_POP_MEDIOS": 51732.8
       },
       "ANSWERS": {
         "totales": {
@@ -2354,11 +2354,11 @@
         "MATCHED_CHILDREN_COUNT": 11,
         "HAS_DATA": true,
         "POPULATION": 338519,
-        "MEDIOS_TOTAL": 55,
-        "MEDIOS_URBANOS": 0,
-        "MEDIOS_RURALES": 0,
-        "MEDIOS_PLURALES_1FUENTE": 25,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 8,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 10,
           "Semidesierto": 1
@@ -2367,7 +2367,7 @@
           "Desierto": 0.909,
           "Semidesierto": 0.091
         },
-        "RATIO_POP_MEDIOS": 6154.9
+        "RATIO_POP_MEDIOS": 42314.9
       },
       "ANSWERS": {
         "totales": {
@@ -2534,11 +2534,11 @@
         "MATCHED_CHILDREN_COUNT": 9,
         "HAS_DATA": true,
         "POPULATION": 1865368,
-        "MEDIOS_TOTAL": 111,
-        "MEDIOS_URBANOS": 104,
-        "MEDIOS_RURALES": 65,
-        "MEDIOS_PLURALES_1FUENTE": 76,
-        "MEDIOS_PLURALES_2FUENTE": 3,
+        "MEDIOS_TOTAL": 21,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 7,
           "Semibosque": 1,
@@ -2549,7 +2549,7 @@
           "Semibosque": 0.111,
           "Desierto": 0.111
         },
-        "RATIO_POP_MEDIOS": 16805.1
+        "RATIO_POP_MEDIOS": 88827.0
       },
       "ANSWERS": {
         "totales": {
@@ -2716,11 +2716,11 @@
         "MATCHED_CHILDREN_COUNT": 23,
         "HAS_DATA": true,
         "POPULATION": 881855,
-        "MEDIOS_TOTAL": 430,
-        "MEDIOS_URBANOS": 390,
-        "MEDIOS_RURALES": 211,
-        "MEDIOS_PLURALES_1FUENTE": 171,
-        "MEDIOS_PLURALES_2FUENTE": 44,
+        "MEDIOS_TOTAL": 43,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semibosque": 13,
           "Semidesierto": 10
@@ -2729,7 +2729,7 @@
           "Semibosque": 0.565,
           "Semidesierto": 0.435
         },
-        "RATIO_POP_MEDIOS": 2050.8
+        "RATIO_POP_MEDIOS": 20508.3
       },
       "ANSWERS": {
         "totales": {
@@ -2896,11 +2896,11 @@
         "MATCHED_CHILDREN_COUNT": 21,
         "HAS_DATA": true,
         "POPULATION": 2968816,
-        "MEDIOS_TOTAL": 336,
-        "MEDIOS_URBANOS": 329,
-        "MEDIOS_RURALES": 122,
-        "MEDIOS_PLURALES_1FUENTE": 202,
-        "MEDIOS_PLURALES_2FUENTE": 68,
+        "MEDIOS_TOTAL": 50,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 12,
           "Bosque": 7,
@@ -2911,7 +2911,7 @@
           "Bosque": 0.333,
           "Desierto": 0.095
         },
-        "RATIO_POP_MEDIOS": 8835.8
+        "RATIO_POP_MEDIOS": 59376.3
       },
       "ANSWERS": {
         "totales": {
@@ -3078,11 +3078,11 @@
         "MATCHED_CHILDREN_COUNT": 13,
         "HAS_DATA": true,
         "POPULATION": 931111,
-        "MEDIOS_TOTAL": 121,
-        "MEDIOS_URBANOS": 114,
-        "MEDIOS_RURALES": 38,
-        "MEDIOS_PLURALES_1FUENTE": 61,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 16,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 7,
           "Semidesierto": 6
@@ -3091,7 +3091,7 @@
           "Desierto": 0.538,
           "Semidesierto": 0.462
         },
-        "RATIO_POP_MEDIOS": 7695.1
+        "RATIO_POP_MEDIOS": 58194.4
       },
       "ANSWERS": {
         "totales": {
@@ -3258,11 +3258,11 @@
         "MATCHED_CHILDREN_COUNT": 11,
         "HAS_DATA": true,
         "POPULATION": 570912,
-        "MEDIOS_TOTAL": 131,
-        "MEDIOS_URBANOS": 122,
-        "MEDIOS_RURALES": 70,
-        "MEDIOS_PLURALES_1FUENTE": 58,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 21,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 7,
           "Desierto": 4
@@ -3271,7 +3271,7 @@
           "Semidesierto": 0.636,
           "Desierto": 0.364
         },
-        "RATIO_POP_MEDIOS": 4358.1
+        "RATIO_POP_MEDIOS": 27186.3
       },
       "ANSWERS": {
         "totales": {
@@ -3438,18 +3438,18 @@
         "MATCHED_CHILDREN_COUNT": 14,
         "HAS_DATA": true,
         "POPULATION": 930247,
-        "MEDIOS_TOTAL": 204,
-        "MEDIOS_URBANOS": 183,
-        "MEDIOS_RURALES": 144,
-        "MEDIOS_PLURALES_1FUENTE": 142,
-        "MEDIOS_PLURALES_2FUENTE": 23,
+        "MEDIOS_TOTAL": 22,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semibosque": 14
         },
         "CLASSIFICATION_PCT": {
           "Semibosque": 1.0
         },
-        "RATIO_POP_MEDIOS": 4560.0
+        "RATIO_POP_MEDIOS": 42284.0
       },
       "ANSWERS": {
         "totales": {
@@ -3616,11 +3616,11 @@
         "MATCHED_CHILDREN_COUNT": 15,
         "HAS_DATA": true,
         "POPULATION": 987143,
-        "MEDIOS_TOTAL": 74,
-        "MEDIOS_URBANOS": 69,
-        "MEDIOS_RURALES": 48,
-        "MEDIOS_PLURALES_1FUENTE": 57,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 12,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Desierto": 10,
           "Semidesierto": 5
@@ -3629,7 +3629,7 @@
           "Desierto": 0.667,
           "Semidesierto": 0.333
         },
-        "RATIO_POP_MEDIOS": 13339.8
+        "RATIO_POP_MEDIOS": 82261.9
       },
       "ANSWERS": {
         "totales": {
@@ -3796,11 +3796,11 @@
         "MATCHED_CHILDREN_COUNT": 29,
         "HAS_DATA": true,
         "POPULATION": 1026860,
-        "MEDIOS_TOTAL": 380,
-        "MEDIOS_URBANOS": 365,
-        "MEDIOS_RURALES": 255,
-        "MEDIOS_PLURALES_1FUENTE": 168,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 26,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 26,
           "Desierto": 3
@@ -3809,7 +3809,7 @@
           "Semidesierto": 0.897,
           "Desierto": 0.103
         },
-        "RATIO_POP_MEDIOS": 2702.3
+        "RATIO_POP_MEDIOS": 39494.6
       },
       "ANSWERS": {
         "totales": {
@@ -3976,11 +3976,11 @@
         "MATCHED_CHILDREN_COUNT": 20,
         "HAS_DATA": true,
         "POPULATION": 767289,
-        "MEDIOS_TOTAL": 295,
-        "MEDIOS_URBANOS": 289,
-        "MEDIOS_RURALES": 263,
-        "MEDIOS_PLURALES_1FUENTE": 97,
-        "MEDIOS_PLURALES_2FUENTE": 6,
+        "MEDIOS_TOTAL": 34,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 14,
           "Desierto": 6
@@ -3989,7 +3989,7 @@
           "Semidesierto": 0.7,
           "Desierto": 0.3
         },
-        "RATIO_POP_MEDIOS": 2601.0
+        "RATIO_POP_MEDIOS": 22567.3
       },
       "ANSWERS": {
         "totales": {
@@ -4156,11 +4156,11 @@
         "MATCHED_CHILDREN_COUNT": 14,
         "HAS_DATA": true,
         "POPULATION": 666990,
-        "MEDIOS_TOTAL": 279,
-        "MEDIOS_URBANOS": 259,
-        "MEDIOS_RURALES": 111,
-        "MEDIOS_PLURALES_1FUENTE": 97,
-        "MEDIOS_PLURALES_2FUENTE": 0,
+        "MEDIOS_TOTAL": 32,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semidesierto": 13,
           "Desierto": 1
@@ -4169,7 +4169,7 @@
           "Semidesierto": 0.929,
           "Desierto": 0.071
         },
-        "RATIO_POP_MEDIOS": 2390.6
+        "RATIO_POP_MEDIOS": 20843.4
       },
       "ANSWERS": {
         "totales": {
@@ -4336,11 +4336,11 @@
         "MATCHED_CHILDREN_COUNT": 21,
         "HAS_DATA": true,
         "POPULATION": 3833935,
-        "MEDIOS_TOTAL": 455,
-        "MEDIOS_URBANOS": 432,
-        "MEDIOS_RURALES": 259,
-        "MEDIOS_PLURALES_1FUENTE": 261,
-        "MEDIOS_PLURALES_2FUENTE": 85,
+        "MEDIOS_TOTAL": 61,
+        "MEDIOS_URBANOS": null,
+        "MEDIOS_RURALES": null,
+        "MEDIOS_PLURALES_1FUENTE": null,
+        "MEDIOS_PLURALES_2FUENTE": null,
         "CLASSIFICATION_COUNTS": {
           "Semibosque": 12,
           "Desierto": 5,
@@ -4353,7 +4353,7 @@
           "Bosque": 0.095,
           "Semidesierto": 0.095
         },
-        "RATIO_POP_MEDIOS": 8426.2
+        "RATIO_POP_MEDIOS": 62851.4
       },
       "ANSWERS": {
         "totales": {
