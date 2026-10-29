@@ -1195,6 +1195,16 @@ body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
         justify-content: center;
     }
 
+    button.close-modal {
+
+        width: 2rem;
+        height: 2rem;
+        font-size: 2rem;
+        top: .5rem;
+        right: .5rem;
+
+    }
+
     /* button */
     .expand-card-mobile {
 
