@@ -1,5 +1,6 @@
 // tileset: tiagombp.rzef2q0scjuf
 
+const mobile = window.innerWidth < 600;
 
 mapboxgl.accessToken = 'pk.eyJ1IjoidGlhZ29tYnAiLCJhIjoiY2thdjJmajYzMHR1YzJ5b2huM2pscjdreCJ9.oT7nAiasQnIMjhUB-VFvmw';
 
@@ -7,7 +8,10 @@ map = new mapboxgl.Map({
     container: 'map',
     // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
     style: 'mapbox://styles/tiagombp/cmt7q62ag00kd01s41rpf5ogn',
-    center: [-64.93648, 6.176132],
+    center: [
+      -64.93648, 
+      6.176132
+    ],
     //bounds: [-73.3911486, 0.6493155, -56.4818190, 15.7029483]   
     zoom: 4
 });
@@ -49,8 +53,8 @@ let flag_monitorando_small_units = false;
 let filtro_classificacao = "";
 
 let padding = {
-  top: 20,
-  bottom: 20,
+  top: mobile ? 10 : 20,
+  bottom: mobile ? 200 : 20,
   left: 20,
   right: 20
 }
@@ -767,6 +771,12 @@ const btn_close_modal = document.querySelector("button.close-modal");
 const container_principal = document.querySelector(".container-principal");
 const barra_classificacao = document.querySelector(".barra-classificacao");
 const wrapper_dashboard = document.querySelector(".wrapper-dash");
+const btn_expand_mobile = document.querySelector("button.expand-card-mobile");
+const container_card = document.querySelector(".container-card");
+
+btn_expand_mobile.addEventListener("click", e => {
+  container_card.classList.toggle("mobile-show");
+})
 
 function filter_tipo_classificacao(tipo) {
 
