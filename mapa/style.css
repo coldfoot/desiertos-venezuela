@@ -994,7 +994,7 @@ path.map-escuro {
     height: 100vh;
     width: 100%;
     /*border: 2px solid hotpink;*/
-    border-top: 1px dotted currentColor;
+    /*border-top: 1px dotted currentColor;*/
 
 }
 
@@ -1017,6 +1017,7 @@ p.texto-step {
     margin-bottom: 4rem;
     margin-left: 3rem;
     font-size: 1.5rem;
+    background-color: #f4f4f4dd;
 }
 
 .tag-paysaje {
@@ -1182,6 +1183,18 @@ body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
         transform: translate(0,0);
     }
 
+    .container-viz {
+        padding: 1rem;
+        top: 1rem;
+        bottom: 1rem;
+        left: 1rem;
+        right: 1rem;
+    }
+
+    .minicharts-global-container {
+        justify-content: center;
+    }
+
     /* button */
     .expand-card-mobile {
 
@@ -1220,6 +1233,10 @@ body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
 
     body.pagina-hallazgos {
         margin: 5px;
+    }
+
+    div.opening h1 {
+        font-size: 3rem;
     }
     
 }
