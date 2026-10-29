@@ -577,6 +577,8 @@ function init_map() {
 
   }
 
+  const container_definicao_paisagem = document.querySelector(".container-definicao-paisagem");
+
   function render_small_unit(place_id) {
 
     nivel = "small_unit";
@@ -584,6 +586,8 @@ function init_map() {
     current_place_data = data.small_units.filter(d => d.BASIC_INFO.LEVEL_2_CODE == place_id)[0];
 
     const place_name = current_place_data.BASIC_INFO.NAME;
+
+    container_definicao_paisagem.dataset.tipoPaisagem = current_place_data.BASIC_INFO.CLASSIFICATION.toLowerCase();
     
     // o "PARENT" vem em minúscula e sem acentos
     const identificador_provincia = current_place_data.BASIC_INFO.PARENT;

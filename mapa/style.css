@@ -415,8 +415,32 @@ div.classificacao-ativa::after {
     /* tirar depois, vou usar o gap do flex */
 }
 
+.container-definicao-paisagem {
+    display: none;
+}
+
+[data-nivel="small_unit"] .container-definicao-paisagem {
+    display: block;
+}
+
 [data-nivel="small_unit"] .container-boxes {
     display: none;
+}
+
+.definicao-paisagem {
+    display: none;
+}
+
+.definicao-paisagem span {
+    color: var(--cor);
+    background-color: var(--cor-fundo);
+}
+
+.container-definicao-paisagem[data-tipo-paisagem="desierto"] [data-tipo-paisagem="desierto"],
+.container-definicao-paisagem[data-tipo-paisagem="semidesierto"] [data-tipo-paisagem="semidesierto"],
+.container-definicao-paisagem[data-tipo-paisagem="semibosque"] [data-tipo-paisagem="semibosque"],
+.container-definicao-paisagem[data-tipo-paisagem="bosque"] [data-tipo-paisagem="bosque"] {
+    display: block;
 }
 
 .container-boxes button {
@@ -1181,6 +1205,18 @@ body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
 
     .container-card.mobile-show {
         transform: translate(0,0);
+    }
+
+    .barra-topo-container {
+        margin: 0;
+    }
+
+    .wrapper-breadcrumb > button {
+        font-size: .8rem;
+    }
+
+    #card h2 {
+        font-size: 1.6rem;
     }
 
     .container-viz {
