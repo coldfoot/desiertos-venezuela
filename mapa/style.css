@@ -254,6 +254,7 @@ div.classificacao-ativa::after {
 .barra-topo-container {
 
     display: flex;
+    flex-wrap: wrap;
     height: 2rem;
     margin: .5rem;
     margin-top: 0;
@@ -323,12 +324,17 @@ div.classificacao-ativa::after {
     margin: 0;
     padding: 0;
     border: 0;
-    height: 100%;
+    /*height: 100%;*/
     text-transform: uppercase;
     font-size: 1rem;
     background-color: transparent;
 
 }
+
+/*
+.btn-breadcrumb-large-unit::before {
+    content: "/";
+}*/
 
 .wrapper-breadcrumb > button:hover {
     background-color: #AF967E20;
