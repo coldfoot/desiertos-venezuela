@@ -8,7 +8,7 @@
         "SMALL_UNIT_COUNT": 366,
         "MATCHED_SMALL_UNIT_COUNT": 366,
         "POPULATION": 28704953,
-        "MEDIOS_TOTAL": 651,
+        "MEDIOS_TOTAL": 549,
         "MEDIOS_URBANOS": null,
         "MEDIOS_RURALES": null,
         "MEDIOS_PLURALES_1FUENTE": null,
@@ -25,7 +25,7 @@
           "Semibosque": 0.128,
           "Bosque": 0.041
         },
-        "RATIO_POP_MEDIOS": 44093.6
+        "RATIO_POP_MEDIOS": 52285.9
       },
       "ANSWERS": {
         "totales": {

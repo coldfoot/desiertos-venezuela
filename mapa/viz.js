@@ -2,41 +2,41 @@ const topics = {
 
     "formato" : {
 
-        title : '¿En qué plataformas publican?',
+        title : '¿En qué plataformas publican los medios?',
 
         //subtitle : "<span data-viz-subtitle-field='highest-pct'></span> de los <span data-viz-subtitle-field='higher-pct'></span> medios de <span data-viz-subtitle-field='unit name'></span> contratan periodistas por meio de <span data-viz-subtitle-field='highest-pct-category'></span>, enquanto en <span data-viz-subtitle-field='upper unit name'> esta porcentaje es de <span data-viz-subtitle-field='upper unit value'>",
-        subtitle: ""
+        subtitle: "Los gráficos muestran el porcentaje de medios que publican en cada plataforma."
     },
 
     'naturaleza_legal' : {
 
-        title : '¿Qué tipo de medio es?',
+        title : '¿Cuál es la naturaleza legal de los medios?',
 
-        subtitle : ""
+        subtitle : "Los gráficos muestran el porcentaje de cada tipo de naturaleza legal en el total de medios."
 
     },
 
     "tematicas" : {
 
-        title : '¿Qué temas cubren?',
+        title : '¿Cuáles son las temáticas de su agenda informativa?',
 
-        subtitle : ''
+        subtitle : 'Los gráficos muestran el porcentaje de medios que publican sobre cada tema.'
 
     },
 
     "ingresos" : {
 
-        title : '¿Cómo se financian?',
+        title : '¿De dónde provienen sus ingresos?',
 
-        subtitle : ''
+        subtitle : 'Los gráficos muestran el porcentaje de medios que desarrollan cada tipo de fuente de ingresos.'
 
     },
 
     "censura" : {
 
-        title : '¿Han enfrentado censura o presiones?',
+        title : '¿Experimentaron situaciones relacionadas con limitaciones para difundir información entre el segundo semestre de 2025 y el primer semestre de 2026?',
 
-        subtitle : ''
+        subtitle : 'Los gráficos muestran el porcentaje de medios que experimentaron cada tipo de limitación para difundir información'
 
     }
 
@@ -116,14 +116,28 @@ let selected_unit;
 
 function visualize_topic(country, topic, level, provincia = undefined, localidad = undefined) {
 
-    // level: country / provincia / localidad
+    console.log(level);
+
+    // level: pais / large_unit / localidad
+
+    let explainerTextContent;
+
+    if (level == 'pais') {
+        explainerTextContent = "La línea representa el porcentaje de medios de todo el país."
+    }
+
+    else if (level == 'large_unit') {
+        explainerTextContent = `La línea más fuerte representa a ${provincia}, en comparación con las líneas más claras, que a su vez representan a otros estados.`
+    }
 
     const title = document.querySelector(".viz-main-title");
     const subtitle = document.querySelector(".viz-subtitle");
+    const explainerText = document.querySelector(".viz-explainer-text");
     const global_container = document.querySelector(".minicharts-global-container");
 
     title.innerHTML = topics[topic].title;
     subtitle.innerHTML = topics[topic].subtitle;
+    explainerText.innerHTML = explainerTextContent;
     global_container.innerHTML = "";
 
     const summary = prepare_data(country, topic, level, provincia, localidad);

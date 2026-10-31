@@ -33,18 +33,38 @@
                 </button>
             </div>
 
-            <div class="btn-menu-content">
-                <ul>
-                    <li><a href="../">Início</a></li>
-                    <li><a href="../mapa/index.html">⁠Mapa interactivo</a></li>
-                    <li class="menu-topico">Principales Hallazgos
-                        <a class="menu-subitem" href="../hallazgos/index.html">Hallazgos</a>
-                        <a class="menu-subitem" href="../analisis/index.html">⁠Análisis</a>
-                    </li>
-                    <li><a href="../metodologia/index.html">⁠Metodología</a></li>
-                    <li><a href="../creditos/index.html">⁠Créditos</a></li>
-                </ul>
-            </div>
+        <div class="btn-menu-content">
+            <ul>
+                <!-- Links simples -->
+                <li><a href="../">Início</a></li>
+                <li><a href="./index.html">Mapa interactivo</a></li>
+
+                <!-- Tópico: Hallazgos y Análisis -->
+                <li class="menu-topico">Hallazgos y Análisis
+                    <a class="menu-subitem" href="../hallazgos/index.html">Contar con lo mínimo</a>
+                    <a class="menu-subitem" href="../analisis/index.html">Emergencia sísmica</a>
+                </li>
+
+                <!-- Tópico: Editoriales -->
+                <li class="menu-topico">Editoriales
+                    <a class="menu-subitem" href="../editorial-01/index.html">Repoblar los desiertos de notícia</a>
+                    <a class="menu-subitem" href="../editorial-02/index.html">Periodismo local devastado</a>
+                </li>
+
+                <!-- Tópico: Historias, um subitem por estado -->
+                <li class="menu-topico">Historias
+                    <a class="menu-subitem" href="#">Apure</a>
+                    <a class="menu-subitem" href="#">Caracas</a>
+                    <a class="menu-subitem" href="#">Táchira</a>
+                    <a class="menu-subitem" href="#">Vargas</a>
+                    <a class="menu-subitem" href="#">Zulia</a>
+                </li>
+
+                <!-- Links simples no fim -->
+                <li><a href="../metodologia/index.html">Metodología</a></li>
+                <li><a href="../creditos/index.html">Créditos</a></li>
+            </ul>
+        </div>
 
         </header>
 
@@ -119,41 +139,48 @@
                     </div>
 
                     <div class="container-definicao-paisagem" data-tipo-paisagem="">
+                        <div class="btn-box-wrapper">
+                            <button data-btn-box="categorizacion" class="ativo">Categorización</button>
+                        </div>
 
-                        <p class="definicao-paisagem" data-tipo-paisagem="desierto">
-                            En el <span class="desierto">desierto</span> de noticias locales casi no hay periodismo profesional. Pocos proyectos con ingresos propios logran producir información regular, y lo poco que circula repite la versión oficial sin que nadie la contraste ni la verifique. Son lugares donde existen condiciones insuficientes para el ejercicio del oficio, aunque puede haber medios y periodistas.
-                        </p>
+                        <div class='box' data-modo-ativo='categorizacion'>
 
-                        <p class="definicao-paisagem" data-tipo-paisagem="semidesierto">
-                            El <span class="semidesierto">semidesierto</span> es un paso adelante, pero no mucho más. La oferta sigue siendo escasa y, aunque hay algo más de movimiento noticiosoinformativo, buena parte del contenido sigue siendo eco de lo que dicen las autoridades. Las condiciones para el ejercicio del periodismo profesional son débiles.
-                        </p>
+                            <p class="definicao-paisagem" data-tipo-paisagem="desierto">
+                                Estás en un <span class="desierto">desierto</span> de noticias locales, dónde casi no hay periodismo profesional. Pocos proyectos con ingresos propios logran producir información regular, y lo poco que circula repite la versión oficial sin que nadie la contraste ni la verifique. Son lugares donde existen condiciones insuficientes para el ejercicio del oficio, aunque puede haber medios y periodistas.
+                            </p>
 
-                        <p class="definicao-paisagem" data-tipo-paisagem="semibosque">
-                            En el <span class="semibosque">semibosque</span> el panorama empieza a cambiar de verdad. Varios medios con ingresos propios cubren lo local de forma constante, y ya se nota un periodismo que contrasta fuentes, verifica y le da seguimiento a los temas, aunque el entorno para ejercerlo siga siendo inestable o arriesgado.
-                        </p>
-                        
-                        <p class="definicao-paisagem" data-tipo-paisagem="bosque">
-                            El <span class="bosque">bosque</span> de noticias locales es la categoría que todo ecosistema mediático querría alcanzar. Reúne muchos proyectos de perfil diverso, con varias fuentes de ingreso cada uno, que informan con regularidad, autonomía editorial y verificación independiente, y que, además, disponen detienen perspectivas reales de sostenerse en el tiempo. En estas unidades territoriales, los peligros para el ejercicio del periodismo profesional consiguen ser sorteados.
-                        </p>    
+                            <p class="definicao-paisagem" data-tipo-paisagem="semidesierto">
+                                Estás en un <span class="semidesierto">semidesierto</span> de noticias locales. La oferta de información sigue siendo escasa y, aunque hay algo más de movimiento noticiosoinformativo, buena parte del contenido sigue siendo eco de lo que dicen las autoridades. Las condiciones para el ejercicio del periodismo profesional son débiles.
+                            </p>
+
+                            <p class="definicao-paisagem" data-tipo-paisagem="semibosque">
+                                Estás en un <span class="semibosque">semibosque</span> de noticias locales.  El panorama empieza a cambiar de verdad. Varios medios con ingresos propios cubren lo local de forma constante, y ya se nota un periodismo que contrasta fuentes, verifica y le da seguimiento a los temas, aunque el entorno para ejercerlo siga siendo inestable o arriesgado.
+                            </p>
+                            
+                            <p class="definicao-paisagem" data-tipo-paisagem="bosque">
+                                Estás en un <span class="bosque">bosque</span> de noticias locales, la categoría que todo ecosistema mediático querría alcanzar. Reúne muchos proyectos de perfil diverso, con varias fuentes de ingreso cada uno, que informan con regularidad, autonomía editorial y verificación independiente, y que, además, disponen detienen perspectivas reales de sostenerse en el tiempo. En estas unidades territoriales, los peligros para el ejercicio del periodismo profesional consiguen ser sorteados.
+                            </p>   
+
+                        </div> 
 
                     </div>
 
                     <div class="container-boxes">
                         <div class="btn-box-wrapper">
-                            <button data-btn-box="hallazgos" class="">Hallazgos</button>
-                            <button data-btn-box="preguntas" class="ativo">Preguntas</button>
+                            <button data-btn-box="hallazgos" class="ativo">Introducción</button>
+                            <button data-btn-box="preguntas" class="">Más datos</button>
                         </div>
-                        <div class="box" data-modo-ativo="preguntas">
+                        <div class="box" data-modo-ativo="hallazgos">
                             <div class="box-hallazgos">
                                 <p>¿Qué ocurre cuando el periodismo local apenas cuenta con recursos para sobrevivir? El estudio Desiertos de Noticias Locales 2026, de IPYS Venezuela, revela que el 83% de los territorios analizados presenta una oferta informativa insuficiente o frágil. A partir del análisis de 549 proyectos periodísticos, esta investigación examina las condiciones que limitan la producción de información independiente y sus consecuencias para el derecho de las comunidades a estar informadas.</p>
                             </div>
                             <div class="box-preguntas">
                                 <ul>
-                                    <li data-topic="formato">¿En qué plataformas publican?</li>
-                                    <li data-topic="naturaleza_legal">¿Qué tipo de medio es?</li>
-                                    <li data-topic="tematicas">¿Qué temas cubren?</li>
-                                    <li data-topic="ingresos">¿Cómo se financian?</li>
-                                    <li data-topic="censura">¿Han enfrentado censura o presiones?</li>
+                                    <li data-topic="formato">¿En qué plataformas publican los medios?</li>
+                                    <li data-topic="naturaleza_legal"> ¿Cuál es la naturaleza legal de los medios?</li>
+                                    <li data-topic="tematicas">¿Cuáles son las temáticas de su agenda informativa?</li>
+                                    <li data-topic="ingresos">¿De dónde provienen sus ingresos?</li>
+                                    <li data-topic="censura">¿Experimentaron slimitaciones para difundir información?</li>
                                 </ul>
                             </div>
                         </div>
@@ -170,16 +197,21 @@
         <div class="bg-modal-viz"></div>
         <div class="container-viz">
             <!--<p class="chapeu-viz-main-title"></p>-->
-            <h4 class="viz-main-title">¿En qué plataforma publican los medios?</h4>
+            <h4 class="viz-main-title">¿En qué plataformas publican los medios?</h4>
             <p class="viz-subtitle">
+                
+            </p>
+
+            <p class="viz-explainer-text">
+
             </p>
 
             <div class="minicharts-global-container"></div>
 
             <div class="footer-modal-viz">
-                <div class="logo-wrapper-modal">
+<!--                 <div class="logo-wrapper-modal">
                     <img src="IPYS_logo_black.png" alt="Logo de Ipys" class="logo">
-                </div>
+                </div> -->
 
                 <!--<a class="modal-viz-descargar-datos">
                     <img src="../img/download-botao.svg" alt="" class="btn-download-data"><span>Descargar Datos</span>

@@ -708,12 +708,12 @@ function preenche_dados_card() {
 function atualiza_bread_crumb() {
 
   btn_breadcrumb_large_unit.textContent = current_large_unit ?
-    (" / " + current_large_unit) :
+    (" | " + current_large_unit) :
     ""
   ;
 
   btn_breadcrumb_small_unit.textContent = current_small_unit ?
-    (" / " + current_small_unit) :
+    (" | " + current_small_unit) :
     ""
   ;
 

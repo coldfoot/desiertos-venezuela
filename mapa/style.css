@@ -196,7 +196,8 @@ div.barra-classificacao {
     background-color: var(--cor-fundo);
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
+    outline: 1px solid var(--black);
 }
 
 .barra-classificacao p {
@@ -449,7 +450,7 @@ div.classificacao-ativa::after {
     display: block;
 }
 
-.container-boxes button {
+.container-boxes button, .container-definicao-paisagem button {
 
     flex: 0 0 50%;
     margin: 0;
@@ -475,6 +476,19 @@ div.classificacao-ativa::after {
 }
 
 .container-boxes button[data-btn-box="preguntas"] {
+    border-radius: 5px 5px 0 0;
+}
+
+
+/* Specific rules for the fake button at the small unit level */
+.container-definicao-paisagem button.ativo {
+    border: 1px solid black;
+    border-bottom-color: var(--bg);
+    background-color: var(--bg);
+
+}
+
+.container-definicao-paisagem button[data-btn-box="categorizacion"] {
     border-radius: 5px 5px 0 0;
 }
 
@@ -811,6 +825,14 @@ body.pagina-hallazgos div.main-text h4.pregunta {
     font-weight: 300;
 }
 
+body.pagina-hallazgos div.main-text p.author {
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: smaller;
+    text-transform: uppercase;
+}
+
+
 body.pagina-hallazgos div.main-text h3 {
     margin-top: 2.5rem;
     margin-bottom: 2rem;
@@ -918,6 +940,7 @@ body.pagina-hallazgos table.capacidad tbody th {
 body.pagina-hallazgos table.capacidad tbody td {
     text-align: right;
 }
+
 
 /* STORY */
 
