@@ -132,7 +132,8 @@ button.btn-menu[data-state="close menu"] .line-mid {
 .btn-menu-content ul {
     padding: 25px;
     margin: 0;
-    padding-top: 10px
+    padding-top: 10px;
+    max-width: 400px;
 }
 
 .btn-menu-content li {
@@ -152,9 +153,9 @@ button.btn-menu[data-state="close menu"] .line-mid {
 .btn-menu-content li a {
     color: inherit;
     text-decoration: none;
-    padding: 8px 0px;
     display: inline-block;
     width: 100%;
+    padding: 8px 0;
 }
 
 .btn-menu-content li.menu-topico {
@@ -164,11 +165,12 @@ button.btn-menu[data-state="close menu"] .line-mid {
 .btn-menu-content li a.menu-subitem {
     font-size: .8em;
     font-weight: normal;
-    padding: 8px 0;
+    padding: 4px 0;
+    margin: 4px 0;
 }
 
 .btn-menu-content li a.menu-subitem + a.menu-subitem {
-    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .btn-menu-content li a:hover {
