@@ -1163,6 +1163,7 @@ a.call-to-action {
 
 /* PAGINA CREDITOS */
 
+/*
 body.pagina-creditos {
     background-color: var(--black);
     color: var(--bg);
@@ -1183,7 +1184,7 @@ body.pagina-creditos .btn-menu-content {
 
 body.pagina-creditos .btn-menu-content li {
     color: inherit;
-}
+}*/
 
 body.pagina-creditos .btn-menu-content li a:hover {
     background-color: var(--bg);
@@ -1201,28 +1202,33 @@ body.pagina-creditos .btn-menu-content li a:hover {
     max-width: 200px;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 1rem;
+    gap: .2rem;
 }
 
-.card-creditos img {
-    border-radius: 20px;
+body.pagina-creditos .card-creditos img {
+    border-radius: 10px;
     border: 3px solid var(--bg);
-    min-width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
-body.pagina-creditos .card-creditos .texto-card-creditos p {
+
+.wrapper-texto-card-creditos {
+    padding: 3px;
+    width: 200px;
+}
+
+body.pagina-hallazgos.pagina-creditos .wrapper-texto-card-creditos p {
     font-size: 1rem;
-}
-
-body.pagina-creditos .card-creditos .texto-card-creditos p.titulo-card-creditos {
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: .2em;
-}
-
-body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
     margin: 0;
+    line-height: 1.4;
+}
+
+body.pagina-creditos h4.titulo-card-creditos {
+    margin: 0;
+    line-height: 1.4;
+}
+
+body.pagina-creditos .card-creditos p.texto-card-creditos {
     font-size: .8em;
 }
 
