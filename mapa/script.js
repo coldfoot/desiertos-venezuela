@@ -762,8 +762,8 @@ function populate_datalist() {
 
 /* INTERACOES */
 
-const btns_boxes = document.querySelector(".btn-box-wrapper");
-const boxes = document.querySelector(".box");
+const btns_boxes = document.querySelector(".btn-box-wrapper-clicaveis");
+const boxes = document.querySelector(".box-clicaveis");
 const home_button = document.querySelector(".btn-breadcrumb-venezuela");
 const btn_breadcrumb_large_unit = document.querySelector(".btn-breadcrumb-large-unit");
 const btn_breadcrumb_small_unit = document.querySelector(".btn-breadcrumb-small-unit");
@@ -895,6 +895,8 @@ btns_boxes.addEventListener("click", e => {
   const box_selecionado = e.target.dataset.btnBox;
 
   boxes.dataset.modoAtivo = box_selecionado;
+
+  console.log(e.target);
 
   btns_boxes.querySelectorAll("button").forEach(btn => {
     btn.classList.remove("ativo");
