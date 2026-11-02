@@ -10,7 +10,7 @@
     --semidesierto: #d4ba99;
     --semibosque: #e0d579;
     --color-accent: var(--black);
-    --height-logo: 70px;
+    --height-logo: 50px;
 }
 
 body {
@@ -1188,7 +1188,7 @@ body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
 @media (max-width: 600px) {
 
     :root {
-        --height-logo: 40px;
+        --height-logo: 35px;
     }
 
     h1 {
