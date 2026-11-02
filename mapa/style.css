@@ -414,9 +414,15 @@ div.classificacao-ativa::after {
 
 }
 
+#card .wrapper-basic-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #card p {
 
     margin: 0;
+    flex: 1 1 50%;
 
 }
 
@@ -559,6 +565,10 @@ div.classificacao-ativa::after {
 [data-nivel="large_unit"] .container-boxes button[data-btn-box="hallazgos"] { display: none; }
 
 /* preguntas */
+
+.box-preguntas ul {
+    padding-left: 0;
+}
 
 .box-preguntas li {
 
@@ -1294,6 +1304,10 @@ body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
 
     #card h2 {
         font-size: 1.6rem;
+    }
+
+    #card p {
+        flex-basis: 100%;
     }
 
     .container-viz {
