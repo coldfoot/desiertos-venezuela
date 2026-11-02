@@ -943,6 +943,14 @@ body.pagina-hallazgos table.capacidad tbody td {
     text-align: right;
 }
 
+p.historia-poema {
+  font-size: 0.85em !important;        /* um pouco menor que o texto do corpo */
+  font-style: italic;       /* itálico, como é comum em epígrafes */
+  text-align: right;        /* alinha as linhas à direita */
+  margin-left: auto;        /* empurra o bloco para o lado direito */
+  margin-bottom: 2em;       /* espaço antes do texto que vem depois */
+}
+
 
 /* STORY */
 
