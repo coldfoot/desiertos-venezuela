@@ -1077,6 +1077,37 @@ div.opening h1 .bloco-vazio {
     height: 3rem;
 }
 
+div.opening .wrapper-seta {
+    width: 100%;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta line {
+    stroke-width: 10;
+    stroke-linecap: round;
+    
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+}
+
+
 svg.map-escuro {
     background-color: #333;
 }

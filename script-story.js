@@ -56,6 +56,7 @@ class Mapa {
             this.seta_triggers_buracos();
             this.seta_trigger_letras_titulo();
             this.seta_trigger_menu_burger();
+            this.seta_trigger_seta();
         }
 
 
@@ -275,6 +276,24 @@ class Mapa {
 
     }
 
+    seta_trigger_seta() {
+
+        gsap.to('.seta line', {
+
+            scrollTrigger: {
+                trigger: `[data-step="0"]`,
+                start: `top 75%`,
+                end: `bottom 75%`,
+                scrub: .5
+            },
+
+            stroke: "#333",
+            
+
+        })
+
+    }
+
     seta_trigger_menu_burger() {
 
         gsap.to('.btn-menu-img line', {
@@ -313,7 +332,7 @@ class Scroller {
 
         "Apertura" : () => {
 
-            gsap.to("h1", {
+            const tl = gsap.timeline({
 
                 scrollTrigger : {
                     trigger: '[data-step="Apertura"]',
@@ -325,6 +344,14 @@ class Scroller {
                     end: "top 25%"
 
                 },
+
+            });            
+
+            tl.to("h1", {
+
+                opacity: 0
+
+            }).to(".seta line", {
 
                 opacity: 0
 
