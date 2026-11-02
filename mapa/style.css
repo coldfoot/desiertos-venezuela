@@ -188,9 +188,32 @@ div.barra-classificacao {
 
 }
 
-.barra-classificacao img {
+.barra-classificacao span.img {
     height: 2rem;
+    width: 2rem;
+    background-size: contain;
+    margin-left: .5rem;
 }
+
+span.img-desierto,
+.barra-classificacao.classificacao-selecionada .classificacao-ativa span.img-desierto { background-image: url("desierto-clear.svg"); }
+
+span.img-semidesierto,
+.barra-classificacao.classificacao-selecionada .classificacao-ativa span.img-semidesierto
+ { background-image: url("semidesierto-clear.svg"); }
+
+span.img-semibosque,
+.barra-classificacao.classificacao-selecionada .classificacao-ativa span.img-semibosque
+ { background-image: url("semibosque-clear.svg"); }
+
+span.img-bosque,
+.barra-classificacao.classificacao-selecionada .classificacao-ativa span.img-bosque
+ { background-image: url("bosque-clear.svg"); }
+
+.barra-classificacao.classificacao-selecionada span.img-desierto { background-image: url("desierto.svg"); }
+.barra-classificacao.classificacao-selecionada span.img-semidesierto { background-image: url("semidesierto.svg"); }
+.barra-classificacao.classificacao-selecionada span.img-semibosque { background-image: url("semibosque.svg"); }
+.barra-classificacao.classificacao-selecionada span.img-bosque { background-image: url("bosque.svg"); }
 
 .barra-classificacao > div {
     position: relative;
@@ -210,6 +233,10 @@ div.barra-classificacao {
     font-weight: bold;
 }
 
+.barra-classificacao.classificacao-selecionada p { color: var(--black); }
+
+.barra-classificacao.classificacao-selecionada .classificacao-ativa p { color: var(--cor); }
+
 .desierto     { --cor-fundo: var(--desierto); --cor: var(--bg); }
 .semidesierto { --cor-fundo: var(--semidesierto); --cor: var(--black); }
 .semibosque   { --cor-fundo: var(--semibosque); --cor: var(--black); }
@@ -220,8 +247,13 @@ div.barra-classificacao {
 }
 
 .barra-classificacao.classificacao-selecionada > div {
-    filter: grayscale(1);
-    opacity: .5;
+    /*filter: grayscale(1);
+    opacity: .5;*/
+    background-color: var(--bg);
+}
+
+.barra-classificacao.classificacao-selecionada > div.classificacao-ativa {
+    background-color: var(--cor-fundo);
 }
 
 .barra-classificacao.classificacao-selecionada > div:hover {
@@ -1203,12 +1235,18 @@ body.pagina-creditos .card-creditos .texto-card-creditos p.texto-card-creditos {
         flex-basis: 1.5rem;
     }
 
-    .barra-classificacao img {
+    .barra-classificacao span.img {
         height: 1.2rem;
+        width: 1.2rem;
+        margin-left: 0;
     }
 
     .barra-classificacao p {
-        font-size: .7rem;
+        font-size: .6rem;
+    }
+
+    div.classificacao-ativa::after {
+        content: none;
     }
 
     .busca input {
