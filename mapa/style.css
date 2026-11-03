@@ -1175,6 +1175,13 @@ p.texto-step {
     margin-left: 3rem;
     font-size: 1.5rem;
     background-color: #f4f4f4dd;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+p.texto-step a {
+    color: #444;
+    font-weight: bolder;
 }
 
 .tag-paysaje {
@@ -1440,6 +1447,15 @@ body.pagina-creditos .card-creditos p.texto-card-creditos {
 
     div.opening h1 {
         font-size: 3rem;
+    }
+
+    .step-inner-wrapper {
+        align-items: center;
+    }
+
+    p.texto-step {
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
     
 }
