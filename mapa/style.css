@@ -185,6 +185,7 @@ div.barra-classificacao {
     display: flex;
     flex: 0 0 2.5rem;
     height: 2.5rem;
+    cursor: pointer;
 
 }
 
