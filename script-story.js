@@ -250,12 +250,13 @@ class Mapa {
 
             scrollTrigger: {
                 trigger: `[data-step="0"]`,
-                start: `top 50%`,
+                start: `top 60%`,
                 end: `+=${this.h/2}`,
                 scrub: .5
             },
 
             color: "#333",
+            webkitTextStrokeColor: "#f4f4f4",
 
         });
 
@@ -265,12 +266,13 @@ class Mapa {
 
             scrollTrigger: {
                 trigger: `[data-step="0"]`,
-                start: `top 50%`,
+                start: `top 60%`,
                 end: `+=${this.h/2}`,
                 scrub: .5
             },
 
             backgroundColor: "#333",
+            outlineColor: "#f4f4f4"
 
         })
 
