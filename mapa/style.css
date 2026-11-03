@@ -812,6 +812,10 @@ body.pagina-hallazgos main {
 
 }
 
+body.pagina-hallazgos main strong {
+    font-weight: bold;
+}
+
 
 body.pagina-hallazgos main .main-text {
     margin: 0 auto;
