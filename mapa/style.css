@@ -1190,7 +1190,7 @@ p.texto-step a {
     background-color: var(--cor-fundo);
 }
 
-a.call-to-action {
+p.texto-step a.call-to-action {
     padding: .5em 1em;
     display: block;
     width: fit-content;
