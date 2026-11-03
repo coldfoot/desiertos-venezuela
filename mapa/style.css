@@ -802,6 +802,7 @@ body.pagina-hallazgos header {
 body.pagina-hallazgos main {
 
     margin-top: 114px; /*magic number*/
+    margin-bottom: 150px;
 
 }
 
@@ -1048,11 +1049,13 @@ div.opening h1 {
     margin: 0;
     color: var(--bg);
     opacity: 1;
-    text-shadow: 
+    -webkit-text-stroke: 4px #333;
+    paint-order: stroke fill;
+    /*text-shadow: 
     -2px -2px 0 #333,  
      2px -2px 0 #333,
     -2px  2px 0 #333,
-     2px  2px 0 #333;
+     2px  2px 0 #333;*/
 }
 
 div.opening h1 .linha-titulo {
