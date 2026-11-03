@@ -74,7 +74,7 @@
 
             <div class="main-text">
                 <p>
-                    El derecho a saber lo que ocurre en la propia comunidad no está garantizado en buena parte del territorio venezolano, en pocas palabras porque la prensa cuenta con lo mínimo para seguir llamándose como tal. El estudio de <strong>Desiertos de Noticias Locales</strong>, que <strong>IPYS Venezuela</strong> realiza desde 2020, encontró en su edición 2026 que el <strong>83% de lo s 366 municipios y parroquias estudiados de todo el país tiene una oferta informativa local insuficiente o frágil</strong>: 104 de las unidades encuadran en la categoría de en desierto (condiciones insuficientes para el ejercicio del periodismo profesional) absoluto  y 200, en semidesierto (condiciones frágiles). Ponderado por población, esto significa que 17,7 de los 28,7 millones de habitantes de Venezuela —61,7%— viven hoy en  un lugaresterritorio donde acceder a información verificada, plural e independiente y sostenida en el tiempo  sobre la realidad más próxima es, en el mejor de los casos, un privilegio intermitente.
+                    El derecho a saber lo que ocurre en la propia comunidad no está garantizado en buena parte del territorio venezolano, en pocas palabras porque la prensa cuenta con lo mínimo para seguir llamándose como tal. El estudio de <strong>Desiertos de Noticias Locales</strong>, que <strong>IPYS Venezuela</strong> realiza desde 2020, encontró en su edición 2026 que el <strong>83% de los 366 municipios y parroquias estudiados de todo el país tiene una oferta informativa local insuficiente o frágil</strong>: 104 de las unidades encuadran en la categoría de en desierto (condiciones insuficientes para el ejercicio del periodismo profesional) absoluto  y 200, en semidesierto (condiciones frágiles). Ponderado por población, esto significa que 17,7 de los 28,7 millones de habitantes de Venezuela —61,7%— viven hoy en  un lugaresterritorio donde acceder a información verificada, plural e independiente y sostenida en el tiempo  sobre la realidad más próxima es, en el mejor de los casos, un privilegio intermitente.
                 </p> 
             </div>
 
@@ -128,7 +128,16 @@
                     Para conocer cómo se informa la población sobre lo que ocurre en su propio territorio, el estudio examinó 366 unidades territoriales: 335 municipios del país y, de manera excepcional, las parroquias del Distrito Capital y de La Guaira, donde este nivel de desagregación permite apreciar mejor las diferencias internas. Ante la ausencia de un censo oficial actualizado, se utilizaron los datos poblacionales de la Encuesta de Condiciones de Vida (Encovi) 2021, de la Universidad Católica Andrés Bello, por ser la fuente más reciente disponible que ofrece información desagregada a escala municipal y parroquial. Entre abril y julio de 2026, 11 periodistas investigadores realizaron el levantamiento de campo. La investigación se basó en el mapeo de medios y la aplicación de encuestas, y tomó como referencia las condiciones registradas por estos entre octubre de 2025 y marzo de 2026. Por lo tanto, mide el clima del periodismo local existente entre el final de la administración de Nicolás Maduro y el comienzo de la de Delcy Rodríguez.
                 </p>
 
-                <img src="graficorankingestados.png" alt="">
+                <div class="wrapper-button-chart-resultado">
+                    <button class="chart-resultado" data-tipo-btn="pop">Población</button>
+                    <button class="chart-resultado active" data-tipo-btn="qde">Cantidad de municipios</button>
+                </div>
+
+                <div class="wrapper-chart-resultados">
+                    <svg class="chart-resultados"></svg>
+                </div>
+
+                <!--<img src="graficorankingestados.png" alt="">-->
 
 
                 <p>
@@ -218,7 +227,7 @@
         </main>
     
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-    <script src="script.js"></script>
+    <script src="script-resultados.js"></script>
     <script src="../mapa/script-btn.js"></script>
     </body>
 </html>
