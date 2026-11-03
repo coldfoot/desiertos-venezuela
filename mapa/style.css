@@ -1423,7 +1423,11 @@ body.pagina-creditos .card-creditos p.texto-card-creditos {
     }
 
     body.pagina-hallazgos {
-        margin: 5px;
+        margin: 10px;
+    }
+
+    body.pagina-hallazgos table {
+        font-size: .7em;
     }
 
     div.opening h1 {
