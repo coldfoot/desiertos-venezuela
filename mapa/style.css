@@ -1361,6 +1361,7 @@ body.pagina-creditos .card-creditos p.texto-card-creditos {
 
     .container-card.mobile-show {
         transform: translate(0,0);
+        overflow: auto;
     }
 
     .barra-topo-container {
