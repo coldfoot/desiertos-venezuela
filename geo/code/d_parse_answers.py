@@ -8,6 +8,11 @@ import pandas as pd
 import json
 
 PATH = "../output/a_respuestas.csv"
+PATH_TOTALES_VENEZUELA = "../output/a_totales_venezuela.csv"
+PATH_TOTALES_ESTADO = "../output/a_totales_estado.csv"
+
+# Column in the a_totales_*.csv files used as the denominator for percentages
+TOTAL_COLUMN = "medios_total"
 
 COLS_CORRESP = {
     "formato": "Marque todas las plataformas",
@@ -99,6 +104,15 @@ def get_surveyable_states(path="../output/c_level_1.geojson"):
     with open(path) as f:
         features = json.load(f)["features"]
     return {f["properties"]["name"] for f in features}
+
+
+def load_totals(path, column=TOTAL_COLUMN):
+    """
+    Reads one of the a_totales_*.csv files and returns a dict of
+    {estado: total}, using `column` as the total (medios_total by default).
+    """
+    totals = pd.read_csv(path)
+    return dict(zip(totals["estado"], totals[column].astype(int)))
 
 
 def count_answers(responses, options):
@@ -194,8 +208,8 @@ def compute_percentages(final_count, total_responses):
     than 100%, since one person can pick more than one option.
 
     final_count: dict of {slug: {option: count}}, as produced by parse().
-    total_responses: total number of people who answered (the number of
-        rows in the dataframe that was passed into parse()).
+    total_responses: the denominator, i.e. the total number of media
+        (medios_total) for that area, taken from a_totales_*.csv.
 
     Returns a dict of {slug: {option: percentage}}, out of 100, rounded to
     one decimal place.
@@ -232,9 +246,16 @@ def main():
         f"unexpected states: {survey_states - surveyable_states}"
     )
 
+    # Denominators for the percentages, taken from the totals CSVs
+    total_venezuela = load_totals(PATH_TOTALES_VENEZUELA)["Venezuela"]
+    state_totals = load_totals(PATH_TOTALES_ESTADO)
+
+    missing_totals = survey_states - set(state_totals)
+    assert not missing_totals, f"states without a total in {PATH_TOTALES_ESTADO}: {missing_totals}"
+
     # --- Venezuela (whole country) ---
     national_counts = parse(df)
-    national_percentages = compute_percentages(national_counts, len(df))
+    national_percentages = compute_percentages(national_counts, total_venezuela)
 
     save_json(national_counts, "../output/d_answers/Venezuela_totales.json")
     save_json(national_percentages, "../output/d_answers/Venezuela_porcentajes.json")
@@ -244,7 +265,7 @@ def main():
         df_state = df[df.estado == state]
 
         state_counts = parse(df_state)
-        state_percentages = compute_percentages(state_counts, len(df_state))
+        state_percentages = compute_percentages(state_counts, state_totals[state])
 
         save_json(state_counts, f"../output/d_answers/{state}_totales.json")
         save_json(state_percentages, f"../output/d_answers/{state}_porcentajes.json")
