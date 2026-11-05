@@ -1012,6 +1012,56 @@ p.historia-poema {
   margin-bottom: 2em;       /* espaço antes do texto que vem depois */
 }
 
+/*podcast*/
+figure.podcast-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0;
+    background-color: #333;
+    color: var(--bg);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+figure.podcast-wrapper img.podcast-thumb {
+    width: 90px;
+}
+
+figure.podcast-wrapper figcaption {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+figure.podcast-wrapper figcaption span {
+    display: block;
+}
+
+figure.podcast-wrapper figcaption span.caption-title {
+    color: #aaa;
+    margin-top: 5px;
+}
+
+figure.podcast-wrapper a {
+    font-size: .8em;
+    color: inherit;
+}
+
+.wrapper-podcast-controle-texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+figure.podcast-wrapper audio {
+
+    max-width: 100%;
+    height: 40px;
+    margin-top: 10px;
+
+}
+
 /* d3 chart hallazgos */
 
 .chart-resultados {
